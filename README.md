@@ -14,4 +14,4 @@
 | [CMU 15-445 Introduction to Database Systems](https://archive.org/details/cmu-15-445-introduction-to-database-systems) |
 | [Caltech CS124 Operating Systems](https://archive.org/details/caltech-cs124-operating-systems) |
 
-If you like this work, please consider donating to [Internet Archive](https://archive.org/donate/).
+If you like this work, please consider donating to [Internet Archive](https://archive.org/donate).
