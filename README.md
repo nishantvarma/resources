@@ -1,6 +1,5 @@
 | Lectures |
 | --- |
-| [MIT 600 Introduction to Computer Science and Programming](https://archive.org/details/mit-600-introduction-to-computer-science-and-programming) |
 | [Stanford CS106A Programming Methodology](https://archive.org/details/stanford-cs106a-programming-methodology) |
 | [UC Berkeley CS61A Structure and Interpretation of Computer Programs](https://archive.org/details/uc-berkeley-cs61a-structure-and-interpretation-of-computer-programs) |
 | [Stanford CS106B Programming Abstractions (Book)](https://archive.org/details/stanford-cs106b-programming-abstractions) |
