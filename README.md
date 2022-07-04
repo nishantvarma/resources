@@ -3,6 +3,7 @@
 | [Stanford CS106A Programming Methodology](https://archive.org/details/stanford-cs106a-programming-methodology) |
 | [Stanford CS106B Programming Abstractions (Book)](https://archive.org/details/stanford-cs106b-programming-abstractions) |
 | [UC Berkeley CS61A Structure and Interpretation of Computer Programs](https://archive.org/details/uc-berkeley-cs61a-structure-and-interpretation-of-computer-programs) |
+| [Coursera Computer Science an Interdisciplinary Approach](https://archive.org/details/coursera-computer-science-an-interdisciplinary-approach) |
 | [CMU 15-213 Introduction to Computer Systems](https://archive.org/details/cmu-15-213-introduction-to-computer-systems) |
 | [Coursera Algorithms 1](https://archive.org/details/coursera-algorithms-1) |
 | [Coursera Algorithms 2](https://archive.org/details/coursera-algorithms-2) |
