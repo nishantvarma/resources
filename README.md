@@ -3,7 +3,6 @@
 | [Stanford CS106A Programming Methodology](https://archive.org/details/stanford-cs106a-programming-methodology) |
 | [UC Berkeley CS61A Structure and Interpretation of Computer Programs](https://archive.org/details/uc-berkeley-cs61a-structure-and-interpretation-of-computer-programs) |
 | [Stanford CS106B Programming Abstractions (Book)](https://archive.org/details/stanford-cs106b-programming-abstractions) |
-| [UC Berkeley CS61C Great Ideas in Computer Architecture](https://archive.org/details/uc-berkeley-cs61c-great-ideas-in-computer-architecture) |
 | [Stanford CS107 Programming Paradigms](https://archive.org/details/stanford-cs107-programming-paradigms) |
 | [Coursera Algorithms 1](https://archive.org/details/coursera-algorithms-1) |
 | [Coursera Algorithms 2](https://archive.org/details/coursera-algorithms-2) |
