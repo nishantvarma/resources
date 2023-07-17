@@ -1,4 +1,4 @@
-A curated list of study materials (video and book) for computer programmers.
+A curated list of study materials — video and book — for computer programmers.
 
 # Computer Science
 
