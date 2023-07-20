@@ -30,4 +30,4 @@ A carefully selected collection of learning resources for those who are interest
 
 If you like this work, please consider donating to [Internet Archive](https://archive.org/donate).
 
-Disclaimer: These contents are uploaded for educational purposes only. If you believe that any of these contents violate copyright, please contact me at `nishant[dot]varma@gmail[dot]com`.
+**Disclaimer**: These contents are uploaded for educational purposes only. If you believe that any of these contents violate copyright, please contact me at `nishant[dot]varma@gmail[dot]com`.
