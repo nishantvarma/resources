@@ -1,4 +1,4 @@
-A curated list of study materials for computer programmers.
+A carefully selected collection of learning resources for those who are interested in computer science and mathematics.
 
 # Computer Science
 
@@ -21,7 +21,7 @@ A curated list of study materials for computer programmers.
 
 | Subject | Video | Book | Level |
 | --- | --- | --- | --- |
-| Algebra | UMKC Math110: College Algebra | College Algebra (Michael Sullivan) | Undergraduate |
+| Algebra | [UMKC Math110: College Algebra](https://archive.org/details/umkc-math110-college-algebra) | College Algebra (Michael Sullivan) | Undergraduate |
 | Discrete Mathematics | ArsDigita: Discrete Mathematics | Discrete Mathematics and Its Applications (Kenneth Rosen) | Undergraduate |
 | Linear Algebra | | Linear Algebra (Jim Hefferon) | Undergraduate |
 | Calculus | | Calculus with Analytic Geometry (George Simmons) | Undergraduate |
