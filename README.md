@@ -15,7 +15,7 @@ A curated list of study materials for computer programmers.
 | Networking | [Stanford CS144: Introduction to Computer Networking](https://archive.org/details/stanford-cs144-introduction-to-computer-networking) | Computer Networks: A Systems Approach (Bruce Davie, & Larry Peterson) | Undergraduate |
 | Operating Systems | [Caltech CS124: Operating Systems](https://archive.org/details/caltech-cs124-operating-systems) | Operating Systems: Three Easy Pieces (Andrea Arpaci-Dusseau, & Remzi Arpaci-Dusseau) | Undergraduate |
 | Databases | [CMU 15-445: Introduction to Database Systems](https://archive.org/details/cmu-15-445-introduction-to-database-systems) | Database System Concepts (Henry Korth, Abraham Silerschatz, & S. Sudarshan) | Undergraduate |
-| Cryptography | | |
+| Cryptography | Introduction to Cryptography - Christof Paar | Understanding Cryptography (Christof Paar) | Undergraduate |
 
 # Math
 
