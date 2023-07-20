@@ -21,11 +21,11 @@ A curated list of study materials for computer programmers.
 
 | Subject | Video | Book | Level |
 | --- | --- | --- | --- |
-| Algebra | | | Undergraduate |
-| Discrete Mathematics | | | Undergraduate |
-| Linear Algebra | | | Undergraduate |
-| Calculus | | | Undergraduate |
-| Probability | | | Undergraduate |
-| Combinatorics | | | Undergraduate |
+| Algebra | UMKC Math110: College Algebra | College Algebra (Michael Sullivan) | Undergraduate |
+| Discrete Mathematics | ArsDigita: Discrete Mathematics | Discrete Mathematics and Its Applications (Kenneth Rosen) | Undergraduate |
+| Linear Algebra | | Linear Algebra (Jim Hefferon) | Undergraduate |
+| Calculus | | Calculus with Analytic Geometry (George Simmons) | Undergraduate |
+| Probability | | Introduction to Probability (Jessica Hwang, & Joseph Blitzstein) | Undergraduate |
+| Combinatorics | | Applied Combinatorics (Michael Keller, & William Trotter) | Undergraduate |
 
 If you like this work, please consider donating to [Internet Archive](https://archive.org/donate).
