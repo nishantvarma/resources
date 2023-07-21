@@ -22,7 +22,7 @@ A carefully selected collection of learning resources for those who are interest
 | Subject | Video | Book | Level |
 | --- | --- | --- | --- |
 | Algebra | [UMKC Math110: College Algebra](https://archive.org/details/umkc-math110-college-algebra) | College Algebra (Michael Sullivan) | Undergraduate |
-| Discrete Mathematics | ArsDigita: Discrete Mathematics | Discrete Mathematics and Its Applications (Kenneth Rosen) | Undergraduate |
+| Discrete Mathematics | [ArsDigita: Discrete Mathematics]() | Discrete Mathematics and Its Applications (Kenneth Rosen) | Undergraduate |
 | Linear Algebra | | Linear Algebra (Jim Hefferon) | Undergraduate |
 | Calculus | | Calculus with Analytic Geometry (George Simmons) | Undergraduate |
 | Probability | | Introduction to Probability (Joseph Blitzstein, & Jessica Hwang) | Undergraduate |
@@ -30,4 +30,6 @@ A carefully selected collection of learning resources for those who are interest
 
 If you like this work, please consider donating to [Internet Archive](https://archive.org/donate).
 
-**Disclaimer**: All these contents are uploaded for educational purposes only. If you have any concerns about copyright infringement, please get in touch with me at `nishant dot varma at gmail dot com`.
+# Disclaimer
+
+All these contents are uploaded for educational purposes only. If you have any concerns about copyright infringement, please get in touch with me at `nishant dot varma at gmail dot com`.
