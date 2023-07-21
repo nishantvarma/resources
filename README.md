@@ -25,8 +25,8 @@ A carefully selected collection of learning resources for those who are interest
 | Discrete Mathematics | [ArsDigita: Discrete Mathematics](https://archive.org/details/arsdigita-discrete-mathematics) | Discrete Mathematics and Its Applications (Kenneth Rosen) | Undergraduate |
 | Linear Algebra | Linear Algebra (Jim Hefferon) | Linear Algebra (Jim Hefferon) | Undergraduate |
 | Calculus | MIT 1801: Single Variable Calculus | Calculus with Analytic Geometry (George Simmons) | Undergraduate |
-| Probability | Harvard STAT110: Probability | Introduction to Probability (Joseph Blitzstein, & Jessica Hwang) | Undergraduate |
-| Combinatorics | Gatech MATH3012: Applied Combinatorics | Applied Combinatorics (Michael Keller, & William Trotter) | Undergraduate |
+| Probability | Harvard Stat110: Probability | Introduction to Probability (Joseph Blitzstein, & Jessica Hwang) | Undergraduate |
+| Combinatorics | Gatech Math3012: Applied Combinatorics | Applied Combinatorics (Michael Keller, & William Trotter) | Undergraduate |
 
 If you like this work, please consider donating to [Internet Archive](https://archive.org/donate).
 
