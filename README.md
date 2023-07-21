@@ -11,11 +11,13 @@ A carefully selected collection of learning resources for those who are interest
 | Programming Paradigms | [Stanford CS107: Programming Paradigms](https://archive.org/details/stanford-cs107-programming-paradigms) | Essential C++ (Stanley Lippman), STL Tutorial and Reference Guide: C++ Programming with the Standard Template Library (David Musser, Gillmer Derge, & Atul Saini), The Scheme Programming Language (Kent Dybvig) | Undergraduate |
 | Programming Langugages | [Stony Brook CSE307: Principles of Programming Languages](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages) | Programming Language Pragmatics (Michael Scott) | Undergraduate |
 | Theory of Computation | [MIT 18404J: Theory of Computation](https://archive.org/details/mit-18404j-theory-of-computation) | Introduction to the Theory of Computation (Michael Sipser) | Undergraduate |
+| Information Theory | [Information Theory, Pattern Recognition and Neural Networks (David Mасkау)](https://archive.org/details/information-theory-pattern-recognition-and-neural-networks-david-mackay) | Information Theory, Inference, and Learning Algorithms (David Mackay) | Undergraduate |
 | Compilers | [Coursera: Compilers](https://archive.org/details/coursera-compilers) | Compilers: Principles, Techniques, and Tools (Alfred Aho, Monica Lam, Ravi Sethi, & Jeffrey Ullman) | Undergraduate |
 | Networking | [Stanford CS144: Introduction to Computer Networking](https://archive.org/details/stanford-cs144-introduction-to-computer-networking) | Computer Networks: A Systems Approach (Bruce Davie, & Larry Peterson) | Undergraduate |
 | Operating Systems | [Caltech CS124: Operating Systems](https://archive.org/details/caltech-cs124-operating-systems) | Operating Systems: Three Easy Pieces (Andrea Arpaci-Dusseau, & Remzi Arpaci-Dusseau) | Undergraduate |
 | Databases | [CMU 15-445: Introduction to Database Systems](https://archive.org/details/cmu-15-445-introduction-to-database-systems) | Database System Concepts (Henry Korth, Abraham Silerschatz, & S. Sudarshan) | Undergraduate |
 | Cryptography | Introduction to Cryptography (Christof Paar) | Understanding Cryptography (Christof Paar) | Undergraduate |
+| Artificial Intelligence | UCB CS188: Introduction to Artificial Intelligence | Artificial Intelligence: A Modern Approach (Peter Norvig) | Undergraduate |
 
 # Math
 
