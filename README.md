@@ -15,7 +15,7 @@ A carefully selected collection of learning resources for those who are interest
 | Networking | [Stanford CS144: Introduction to Computer Networking](https://archive.org/details/stanford-cs144-introduction-to-computer-networking) | Computer Networks: A Systems Approach (Bruce Davie, & Larry Peterson) | Undergraduate |
 | Operating Systems | [Caltech CS124: Operating Systems](https://archive.org/details/caltech-cs124-operating-systems) | Operating Systems: Three Easy Pieces (Andrea Arpaci-Dusseau, & Remzi Arpaci-Dusseau) | Undergraduate |
 | Databases | [CMU 15-445: Introduction to Database Systems](https://archive.org/details/cmu-15-445-introduction-to-database-systems) | Database System Concepts (Henry Korth, Abraham Silerschatz, & S. Sudarshan) | Undergraduate |
-| Cryptography | Introduction to Cryptography - Christof Paar | Understanding Cryptography (Christof Paar) | Undergraduate |
+| Cryptography | Introduction to Cryptography (Christof Paar) | Understanding Cryptography (Christof Paar) | Undergraduate |
 
 # Math
 
@@ -23,10 +23,10 @@ A carefully selected collection of learning resources for those who are interest
 | --- | --- | --- | --- |
 | Algebra | [UMKC Math110: College Algebra](https://archive.org/details/umkc-math110-college-algebra) | College Algebra (Michael Sullivan) | Undergraduate |
 | Discrete Mathematics | [ArsDigita: Discrete Mathematics](https://archive.org/details/arsdigita-discrete-mathematics) | Discrete Mathematics and Its Applications (Kenneth Rosen) | Undergraduate |
-| Linear Algebra | | Linear Algebra (Jim Hefferon) | Undergraduate |
-| Calculus | | Calculus with Analytic Geometry (George Simmons) | Undergraduate |
-| Probability | | Introduction to Probability (Joseph Blitzstein, & Jessica Hwang) | Undergraduate |
-| Combinatorics | | Applied Combinatorics (Michael Keller, & William Trotter) | Undergraduate |
+| Linear Algebra | Linear Algebra (Jim Hefferon) | Linear Algebra (Jim Hefferon) | Undergraduate |
+| Calculus | MIT 1801: Single Variable Calculus | Calculus with Analytic Geometry (George Simmons) | Undergraduate |
+| Probability | Harvard STAT110: Probability | Introduction to Probability (Joseph Blitzstein, & Jessica Hwang) | Undergraduate |
+| Combinatorics | Gatech MATH3012: Applied Combinatorics | Applied Combinatorics (Michael Keller, & William Trotter) | Undergraduate |
 
 If you like this work, please consider donating to [Internet Archive](https://archive.org/donate).
 
