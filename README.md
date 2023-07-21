@@ -24,7 +24,7 @@ A carefully selected collection of learning resources for those who are interest
 | Algebra | [UMKC Math110: College Algebra](https://archive.org/details/umkc-math110-college-algebra) | College Algebra (Michael Sullivan) | Undergraduate |
 | Discrete Mathematics | [ArsDigita: Discrete Mathematics](https://archive.org/details/arsdigita-discrete-mathematics) | Discrete Mathematics and Its Applications (Kenneth Rosen) | Undergraduate |
 | Linear Algebra | Linear Algebra (Jim Hefferon) | Linear Algebra (Jim Hefferon) | Undergraduate |
-| Calculus | MIT 1801: Single Variable Calculus | Calculus with Analytic Geometry (George Simmons) | Undergraduate |
+| Single Variable Calculus | MIT 1801: Single Variable Calculus | Calculus with Analytic Geometry (George Simmons) | Undergraduate |
 | Probability | Harvard Stat110: Probability | Introduction to Probability (Joseph Blitzstein, & Jessica Hwang) | Undergraduate |
 | Combinatorics | Gatech Math3012: Applied Combinatorics | Applied Combinatorics (Michael Keller, & William Trotter) | Undergraduate |
 
