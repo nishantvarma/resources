@@ -1,6 +1,6 @@
 A carefully selected collection of learning resources for those who are interested in computer science and mathematics.
 
-# cs
+## cs
 
 * computer-science-an-interdisciplinary-approach-sedgewick-and-wayne
 * computer-systems-a-programmers-perspective-bryant-and-ohallaron [[video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)]
@@ -15,7 +15,7 @@ A carefully selected collection of learning resources for those who are interest
 * database-system-concepts-korth-silerschatz-and-sudarshan [[video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)]
 * artificial-intelligence-a-modern-approach-peter-norvig
 
-# math
+## math
 
 * college-algebra-michael-sullivan [[video](https://archive.org/details/umkc-math110-college-algebra)]
 * calculus-with-analytic-geometry-george-simmons [[video](https://archive.org/details/mit-1801-single-variable-calculus)]
@@ -25,6 +25,6 @@ A carefully selected collection of learning resources for those who are interest
 
 If you like this work, please consider donating to [Internet Archive](https://archive.org/donate).
 
-# disclaimer
+# Disclaimer
 
 All these contents are uploaded for educational purposes only. If you have any concerns about copyright infringement, please get in touch with me at `nishant dot varma at gmail dot com`.
