@@ -8,7 +8,7 @@ A carefully selected collection of learning resources for those who are interest
 - Introduction to Algorithms – Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein [[Video](https://archive.org/details/mit-6006-introduction-to-algorithms)]
 - Programming Language Pragmatics – Michael L. Scott [[Video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)]
 - Introduction to the Theory of Computation – Michael Sipser [[Video](https://archive.org/details/mit-18404j-theory-of-computation)]
-- Information Theory, Inference, and Learning Algorithms – David J.C. MacKay [[Video](https://archive.org/details/information-theory-pattern-recognition-and-neural-networks-david-mackay)]
+- Information Theory, Inference, and Learning Algorithms – David J.C. MacKay
 - Compilers: Principles, Techniques, and Tools – Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman [[Video](https://archive.org/details/coursera-compilers)]
 - Computer Networks: A Systems Approach – Larry L. Peterson, Bruce S. Davie [[Video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)]
 - Operating Systems: Three Easy Pieces – Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau [[Video](https://archive.org/details/caltech-cs124-operating-systems)]
