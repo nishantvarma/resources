@@ -11,8 +11,8 @@ A carefully selected collection of learning resources for those who are interest
 * information-theory-inference-and-learning-algorithms-david-mackay [[video](https://archive.org/details/information-theory-pattern-recognition-and-neural-networks-david-mackay)]
 * compilers-principles-techniques-and-tools-aho-lam-sethi-and-ullman [[video](https://archive.org/details/coursera-compilers)]
 * computer-networks-a-systems-approach-davie-and-peterson [[video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)]
-* operating-systems-three-easy-pieces-arpaci-dusseau-and-arpaci-dusseau [[video](https://archive.org/details/caltech-cs124-operating-systems)]
-* database-system-concepts-korth-and-silerschatz-and-sudarshan [[video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)]
+* operating-systems-three-easy-pieces-andrea-and-remzi [[video](https://archive.org/details/caltech-cs124-operating-systems)]
+* database-system-concepts-korth-silerschatz-and-sudarshan [[video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)]
 * artificial-intelligence-a-modern-approach-peter-norvig
 
 # math
