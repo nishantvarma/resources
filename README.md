@@ -1,27 +1,28 @@
 A carefully selected collection of learning resources for those who are interested in computer science and mathematics.
 
-## cs
+### Computer Science
 
-* computer-science-an-interdisciplinary-approach-sedgewick-and-wayne
-* computer-systems-a-programmers-perspective-bryant-and-ohallaron [[video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)]
-* structure-and-interpretation-of-computer-programs-abelson-and-sussman [[video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)]
-* introduction-to-algorithms-cormen-leiserson-rivest-and-stein [[video](https://archive.org/details/mit-6006-introduction-to-algorithms)]
-* programming-language-pragmatics-michael-scott [[video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)]
-* introduction-to-the-theory-of-computation-michael-sipser [[video](https://archive.org/details/mit-18404j-theory-of-computation)]
-* information-theory-inference-and-learning-algorithms-david-mackay [[video](https://archive.org/details/information-theory-pattern-recognition-and-neural-networks-david-mackay)]
-* compilers-principles-techniques-and-tools-aho-lam-sethi-and-ullman [[video](https://archive.org/details/coursera-compilers)]
-* computer-networks-a-systems-approach-davie-and-peterson [[video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)]
-* operating-systems-three-easy-pieces-andrea-and-remzi [[video](https://archive.org/details/caltech-cs124-operating-systems)]
-* database-system-concepts-korth-silerschatz-and-sudarshan [[video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)]
-* artificial-intelligence-a-modern-approach-peter-norvig
+- *Computer Science: An Interdisciplinary Approach* – Robert Sedgewick, Kevin Wayne
+- *Computer Systems: A Programmer’s Perspective* – Randal E. Bryant, David R. O’Hallaron [[Video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)]
+- *Structure and Interpretation of Computer Programs* – Harold Abelson, Gerald Jay Sussman [[Video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)]
+- *Introduction to Algorithms* – Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein [[Video](https://archive.org/details/mit-6006-introduction-to-algorithms)]
+- *Programming Language Pragmatics* – Michael L. Scott [[Video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)]
+- *Introduction to the Theory of Computation* – Michael Sipser [[Video](https://archive.org/details/mit-18404j-theory-of-computation)]
+- *Information Theory, Inference, and Learning Algorithms* – David J.C. MacKay [[Video](https://archive.org/details/information-theory-pattern-recognition-and-neural-networks-david-mackay)]
+- *Compilers: Principles, Techniques, and Tools* – Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman [[Video](https://archive.org/details/coursera-compilers)]
+- *Computer Networks: A Systems Approach* – Larry L. Peterson, Bruce S. Davie [[Video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)]
+- *Operating Systems: Three Easy Pieces* – Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau [[Video](https://archive.org/details/caltech-cs124-operating-systems)]
+- *Database System Concepts* – Abraham Silberschatz, Henry F. Korth, S. Sudarshan [[Video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)]
+- *Artificial Intelligence: A Modern Approach* – Stuart Russell, Peter Norvig
 
-## math
+### Mathematics
 
-* college-algebra-michael-sullivan [[video](https://archive.org/details/umkc-math110-college-algebra)]
-* calculus-with-analytic-geometry-george-simmons [[video](https://archive.org/details/mit-1801-single-variable-calculus)]
-* discrete-mathematics-and-its-applications-kenneth-rosen [[video](https://archive.org/details/arsdigita-discrete-mathematics)]
-* introduction-to-probability-blitzstein-and-hwang [[video](https://archive.org/details/harvard-stat110-probability)]
-* applied-combinatorics-keller-and-trotter [[video](https://archive.org/details/gatech-math3012-applied-combinatorics)]
+- *College Algebra* – Michael Sullivan [[Video](https://archive.org/details/umkc-math110-college-algebra)]
+- *Calculus with Analytic Geometry* – George F. Simmons [[Video](https://archive.org/details/mit-1801-single-variable-calculus)]
+- *Discrete Mathematics and Its Applications* – Kenneth H. Rosen [[Video](https://archive.org/details/arsdigita-discrete-mathematics)]
+- *Introduction to Probability* – Joseph K. Blitzstein, Jessica Hwang [[Video](https://archive.org/details/harvard-stat110-probability)]
+- *Applied Combinatorics* – Mitchel T. Keller, William T. Trotter [[Video](https://archive.org/details/gatech-math3012-applied-combinatorics)]
+
 
 If you like this work, please consider donating to [Internet Archive](https://archive.org/donate).
 
