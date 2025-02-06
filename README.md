@@ -1,4 +1,4 @@
-A carefully selected collection of learning resources for those who are interested in computer science and mathematics.
+A curated collection of resources for Computer Science and Mathematics enthusiasts.
 
 # General
 
