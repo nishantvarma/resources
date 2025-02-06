@@ -1,4 +1,4 @@
-A curated collection of resources for computer science and mathematics enthusiasts.
+A curated list of resources for computer science and mathematics enthusiasts.
 
 # General
 
