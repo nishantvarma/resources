@@ -1,5 +1,10 @@
 A carefully selected collection of learning resources for those who are interested in computer science and mathematics.
 
+# General
+
+- Art of Doing Science and Engineering: Learning to Learn – Richard Hamming, Bret Victor
+- How to Solve It – George Pólya
+
 # Computer Science
 
 - Computer Science: An Interdisciplinary Approach – Robert Sedgewick, Kevin Wayne
