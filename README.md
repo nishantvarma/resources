@@ -24,7 +24,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 
 - The Joy Of X: A Guided Tour of Math, from One to Infinity – Steven Strogatz
 - College Algebra – Michael Sullivan [[Video](https://archive.org/details/umkc-math110-college-algebra)]
-- Infinite Powers The Story of Calculus - The Language of the Universe – Steven Strogatz
+- Infinite Powers: How Calculus Reveals the Secrets of the Universe – Steven Strogatz
 - Calculus with Analytic Geometry – George F. Simmons [[Video](https://archive.org/details/mit-1801-single-variable-calculus)]
 - Discrete Mathematics and Its Applications – Kenneth H. Rosen [[Video](https://archive.org/details/arsdigita-discrete-mathematics)]
 - Introduction to Probability – Joseph K. Blitzstein, Jessica Hwang [[Video](https://archive.org/details/harvard-stat110-probability)]
