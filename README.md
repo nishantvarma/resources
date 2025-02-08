@@ -41,6 +41,6 @@ A curated list of resources for computer science and mathematics enthusiasts.
 
 # Note
 
-If you like this work, please consider donating to [Internet Archive](https://archive.org/donate).
+If you find this resource useful, consider supporting [Internet Archive](https://archive.org/donate).
 
-All these contents are uploaded for educational purposes only. If you have any concerns about copyright infringement, please get in touch with me at `nishant dot varma at gmail dot com`.
+All content is provided for educational purposes only. If you have any concerns about copyright infringement, please get in touch with me at `nishant dot varma at gmail dot com`.
