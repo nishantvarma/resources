@@ -8,7 +8,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 # Computer Science
 
 - Computer Science: An Interdisciplinary Approach – Robert Sedgewick, Kevin Wayne
-- Computer Systems: A Programmer’s Perspective – Randal E. Bryant, David R. O’Hallaron [[Video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)]
+- Computer Systems: A Programmer’s Perspective – Randal E. Bryant, David R. O’Hallaron [[Video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)]<a href="https://example.com" style="background-color: #007FFF; color: white; font-weight: bold; text-decoration: none; padding: 5px 10px; border-radius: 5px;">video</a>
 - Structure and Interpretation of Computer Programs – Harold Abelson, Gerald Jay Sussman [[Video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)]
 - Introduction to Algorithms – Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein [[Video](https://archive.org/details/mit-6006-introduction-to-algorithms)]
 - Programming Language Pragmatics – Michael L. Scott [[Video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)]
