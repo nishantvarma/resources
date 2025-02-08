@@ -23,6 +23,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 # Mathematics
 
 - The Joy Of X: A Guided Tour of Math, from One to Infinity – Steven Strogatz
+- Elements of Mathematics: From Euclid to Gödel – John Stillwell
 - College Algebra – Michael Sullivan [[Video](https://archive.org/details/umkc-math110-college-algebra)]
 - Infinite Powers: How Calculus Reveals the Secrets of the Universe – Steven Strogatz
 - Calculus with Analytic Geometry – George F. Simmons [[Video](https://archive.org/details/mit-1801-single-variable-calculus)]
