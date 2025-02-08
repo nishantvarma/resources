@@ -29,7 +29,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 - Calculus with Analytic Geometry – George F. Simmons [[Video](https://archive.org/details/mit-1801-single-variable-calculus)]
 - Discrete Mathematics and Its Applications – Kenneth H. Rosen [[Video](https://archive.org/details/arsdigita-discrete-mathematics)]
 - Introduction to Probability – Joseph K. Blitzstein, Jessica Hwang [[Video](https://archive.org/details/harvard-stat110-probability)]
-- Applied Combinatorics – Mitchel T. Keller, William T. Trotter [[Video](https://archive.org/details/gatech-math3012-applied-combinatorics)]
+- Principles and Techniques in Combinatorics – Chen Chuan-Chong, Koh Khee-Meng
 - Book of Proof – Richard Hammack
 
 # Quotes
