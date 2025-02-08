@@ -1,5 +1,10 @@
 A curated list of resources for computer science and mathematics enthusiasts.
 
+> “The best way to learn anything is to discover it by yourself.”
+> “The only way to learn mathematics is to do mathematics.” — Paul Halmos
+> “If you can’t solve a problem, then there is an easier problem you can solve: find it.”
+> “A great discovery solves a great problem but there is a grain of discovery in the solution of any problem.”
+
 # General
 
 - Art of Doing Science and Engineering: Learning to Learn – Richard Hamming, Bret Victor
