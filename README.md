@@ -7,6 +7,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 
 # Computer Science
 
+- Code: The Hidden Language of Computer Hardware and Software – Charles Petzold
 - Computer Science: An Interdisciplinary Approach – Robert Sedgewick, Kevin Wayne
 - Computer Systems: A Programmer’s Perspective – Randal E. Bryant, David R. O’Hallaron [[Video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)]
 - Structure and Interpretation of Computer Programs – Harold Abelson, Gerald Jay Sussman [[Video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)]
@@ -19,6 +20,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 - Operating Systems: Three Easy Pieces – Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau [[Video](https://archive.org/details/caltech-cs124-operating-systems)]
 - Database System Concepts – Abraham Silberschatz, Henry F. Korth, S. Sudarshan [[Video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)]
 - Artificial Intelligence: A Modern Approach – Stuart Russell, Peter Norvig
+- Clean Code – Robert C. Martin
 
 # Mathematics
 
