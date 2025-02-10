@@ -36,6 +36,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 # Quotes
 
 - "The best way to learn anything is to discover it by yourself." – George Pólya
+- "The best way to learn is to teach." — Frank Oppenheimer
 - "The only way to learn mathematics is to do mathematics." – Paul Halmos
 - "If you can’t solve a problem, then there is an easier problem you can solve: find it." – George Pólya
 - "A great discovery solves a great problem but there is a grain of discovery in the solution of any problem." – George Pólya
