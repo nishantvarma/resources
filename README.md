@@ -30,7 +30,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 - Discrete Mathematics and Its Applications – Kenneth H. Rosen [[Video](https://archive.org/details/arsdigita-discrete-mathematics)]
 - Introduction to Probability – Joseph K. Blitzstein, Jessica Hwang [[Video](https://archive.org/details/harvard-stat110-probability)]
 - Principles and Techniques in Combinatorics – Chen Chuan-Chong, Koh Khee-Meng
-- Proofs from THE BOOK – Martin Aigner and Günter M. Ziegler
+- Proofs from THE BOOK – Martin Aigner, Günter M. Ziegler
 - Book of Proof – Richard Hammack
 
 # Quotes
