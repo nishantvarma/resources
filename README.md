@@ -29,7 +29,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 - College Algebra – Michael Sullivan [[Video](https://archive.org/details/umkc-math110-college-algebra)]
 - Infinite Powers: How Calculus Reveals the Secrets of the Universe – Steven Strogatz
 - Calculus with Analytic Geometry – George F. Simmons [[Video](https://archive.org/details/mit-1801-single-variable-calculus)]
-- Discrete Mathematics and Its Applications – Kenneth H. Rosen [[Video](https://archive.org/details/arsdigita-discrete-mathematics)]
+- Discrete Mathematics and Its Applications – Kenneth H. Rosen [[Video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)]
 - Introduction to Probability – Joseph K. Blitzstein, Jessica Hwang [[Video](https://archive.org/details/harvard-stat110-probability)]
 - Principles and Techniques in Combinatorics – Chen Chuan-Chong, Koh Khee-Meng
 - Proofs from THE BOOK – Martin Aigner, Günter M. Ziegler
