@@ -9,6 +9,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 
 - Code: The Hidden Language of Computer Hardware and Software — Charles Petzold
 - Computer Science: An Interdisciplinary Approach — Robert Sedgewick, Kevin Wayne
+- Elements of Modern Computer Systems — Noam Nisan, Shimon Schocken
 - Computer Systems: A Programmer’s Perspective — Randal E. Bryant, David R. O’Hallaron [[Video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)]
 - Structure and Interpretation of Computer Programs — Harold Abelson, Gerald Jay Sussman [[Video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)]
 - Introduction to Algorithms — Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein [[Video](https://archive.org/details/mit-6006-introduction-to-algorithms)]
