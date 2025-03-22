@@ -45,6 +45,10 @@ A curated list of resources for computer science and mathematics enthusiasts.
 - "If you can’t solve a problem, then there is an easier problem you can solve: find it." — George Pólya
 - "A great discovery solves a great problem but there is a grain of discovery in the solution of any problem." — George Pólya
 
+# Tips
+
+Read the works of pioneers like Brian Kernighan, Donald Knuth, Edward Dijkstra, Niklaus Wirth etc.
+
 # Note
 
 If you find this resource useful, consider supporting [Internet Archive](https://archive.org/donate).
