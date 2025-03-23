@@ -47,7 +47,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 
 # Tips
 
-Read the works of pioneers like Brian Kernighan, Donald Knuth, Edward Dijkstra, Niklaus Wirth etc.
+Read the works of pioneers like Brian Kernighan, Donald Knuth, Edward Dijkstra, Niklaus Wirth, Tony Hoare etc.
 
 # Note
 
