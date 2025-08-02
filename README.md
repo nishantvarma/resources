@@ -7,25 +7,50 @@ A curated list of resources for computer science and mathematics enthusiasts.
 
 # Computer Science
 
+## Foundations
+
 - Code: The Hidden Language of Computer Hardware and Software — Charles Petzold
 - Computer Science: An Interdisciplinary Approach — Robert Sedgewick, Kevin Wayne
 - Elements of Modern Computer Systems — Noam Nisan, Shimon Schocken
-- Computer Systems: A Programmer’s Perspective — Randal E. Bryant, David R. O’Hallaron [[Video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)]
-- Structure and Interpretation of Computer Programs — Harold Abelson, Gerald Jay Sussman [[Video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)]
+- Structure and Interpretation of Computer Programs — Harold Abelson, Gerald Jay Sussman [Video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)
+
+## Theoretical Computer Science
+
 - Algorithms and Data Structures — Niklaus Wirth
-- Introduction to Algorithms — Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein [[Video](https://archive.org/details/mit-6006-introduction-to-algorithms)]
-- Programming Language Pragmatics — Michael L. Scott [[Video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)]
-- Introduction to the Theory of Computation — Michael Sipser [[Video](https://archive.org/details/mit-18404j-theory-of-computation)]
-- Information Theory, Inference, and Learning Algorithms — David J.C. MacKay
-- Compilers: Principles, Techniques, and Tools — Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman [[Video](https://archive.org/details/coursera-compilers)]
-- Computer Networks: A Systems Approach — Larry L. Peterson, Bruce S. Davie [[Video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)]
-- Operating Systems: Three Easy Pieces — Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau [[Video](https://archive.org/details/caltech-cs124-operating-systems)]
+- Introduction to Algorithms — Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein [Video](https://archive.org/details/mit-6006-introduction-to-algorithms)
+- Introduction to Theoretical Computer Science — Boaz Barak
+- Introduction to the Theory of Computation — Michael Sipser [Video](https://archive.org/details/mit-18404j-theory-of-computation)
+
+## Systems Programming & Architecture
+
+- Computer Systems: A Programmer’s Perspective — Randal E. Bryant, David R. O’Hallaron [Video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)
+- Operating Systems: Three Easy Pieces — Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau [Video](https://archive.org/details/caltech-cs124-operating-systems)
+- Computer Networks: A Systems Approach — Larry L. Peterson, Bruce S. Davie [Video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)
+- Database System Concepts — Abraham Silberschatz, Henry F. Korth, S. Sudarshan [Video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)
 - Project Oberon — Niklaus Wirth
 - Plan 9 — Bell Labs
-- Database System Concepts — Abraham Silberschatz, Henry F. Korth, S. Sudarshan [[Video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)]
+
+## Programming Languages & Compilers
+
+- Programming Language Pragmatics — Michael L. Scott [Video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)
+- Compilers: Principles, Techniques, and Tools — Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman [Video](https://archive.org/details/coursera-compilers)
+
+## Distributed Systems & Scalability
+
+- Designing Data-Intensive Applications — Martin Kleppmann
+- Distributed Systems — Andrew S. Tanenbaum, Maarten Van Steen
+
+## Artificial Intelligence & Machine Learning
+
 - Artificial Intelligence: A Modern Approach — Stuart Russell, Peter Norvig
+- Information Theory, Inference, and Learning Algorithms — David J.C. MacKay
+- Deep Learning — Aaron Courville, Ian Goodfellow, Yoshua Bengio
+
+## Software Engineering & Career
+
 - Clean Code — Robert C. Martin
-- The PhD Grind — by Philip Guo
+- The Practice of Programming — Brian W. Kernighan, Rob Pike
+- The PhD Grind — Philip Guo
 
 # Mathematics
 
