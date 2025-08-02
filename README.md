@@ -12,6 +12,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 - Elements of Modern Computer Systems — Noam Nisan, Shimon Schocken
 - Computer Systems: A Programmer’s Perspective — Randal E. Bryant, David R. O’Hallaron [[Video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)]
 - Structure and Interpretation of Computer Programs — Harold Abelson, Gerald Jay Sussman [[Video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)]
+- Algorithms and Data Structures — Niklaus Wirth
 - Introduction to Algorithms — Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein [[Video](https://archive.org/details/mit-6006-introduction-to-algorithms)]
 - Programming Language Pragmatics — Michael L. Scott [[Video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)]
 - Introduction to the Theory of Computation — Michael Sipser [[Video](https://archive.org/details/mit-18404j-theory-of-computation)]
@@ -19,9 +20,12 @@ A curated list of resources for computer science and mathematics enthusiasts.
 - Compilers: Principles, Techniques, and Tools — Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman [[Video](https://archive.org/details/coursera-compilers)]
 - Computer Networks: A Systems Approach — Larry L. Peterson, Bruce S. Davie [[Video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)]
 - Operating Systems: Three Easy Pieces — Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau [[Video](https://archive.org/details/caltech-cs124-operating-systems)]
+- Project Oberon — Niklaus Wirth
+- Plan 9 — Bell Labs
 - Database System Concepts — Abraham Silberschatz, Henry F. Korth, S. Sudarshan [[Video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)]
 - Artificial Intelligence: A Modern Approach — Stuart Russell, Peter Norvig
 - Clean Code — Robert C. Martin
+- The PhD Grind — by Philip Guo
 
 # Mathematics
 
