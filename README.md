@@ -80,6 +80,6 @@ Read the works of pioneers like Alan Kay, Brian Kernighan, Donald Knuth, Edward 
 
 # Note
 
-If you find this resource useful, consider supporting [Internet Archive](https://archive.org/donate).
+If you find this resource useful, consider supporting [Internet Archive](https://archive.org/donate). This work is similar in spirit to [Teach Yourself CS](https://teachyourselfcs.com/).
 
 All content is provided for educational purposes only. If you have any concerns about copyright infringement, please get in touch with me at `nishant dot varma at gmail dot com`.
