@@ -51,8 +51,10 @@ A curated list of resources for computer science and mathematics enthusiasts.
 
 ## Software Engineering & Career
 
-- Clean Code — Robert C. Martin
+- Systematic Programming: An Introduction — Niklaus Wirth
 - The Practice of Programming — Brian W. Kernighan, Rob Pike
+- The Pragmatic Programmer — Andrew Hunt, David Thomas
+- Programming Pearls — Jon Bentley
 - The PhD Grind — Philip Guo
 
 # Mathematics
