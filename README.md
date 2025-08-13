@@ -14,10 +14,13 @@ A curated list of resources for computer science and mathematics enthusiasts.
 - Elements of Modern Computer Systems — Noam Nisan, Shimon Schocken
 - Structure and Interpretation of Computer Programs — Harold Abelson, Gerald Jay Sussman [Video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)
 
-## Theoretical Computer Science
+## Algorithms and Data Structures
 
 - Algorithms and Data Structures — Niklaus Wirth
 - Introduction to Algorithms — Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein [Video](https://archive.org/details/mit-6006-introduction-to-algorithms)
+
+## Theoretical Computer Science
+
 - Introduction to Theoretical Computer Science — Boaz Barak
 - Introduction to the Theory of Computation — Michael Sipser [Video](https://archive.org/details/mit-18404j-theory-of-computation)
 
