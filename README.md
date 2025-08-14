@@ -72,6 +72,6 @@ Read the works of Alan Kay, Brian Kernighan, Donald Knuth, Edward Dijkstra, Nikl
 
 ## Note
 
-If you find this resource useful, consider supporting [Internet Archive](https://archive.org/donate). This is similar to other collection like [Teach Yourself CS](https://teachyourselfcs.com/).
+If you find this resource useful, consider supporting [Internet Archive](https://archive.org/donate). This is similar to other collections like [Teach Yourself CS](https://teachyourselfcs.com/).
 
 All content is provided for educational purposes only. If you have any concerns about copyright infringement, please get in touch with me at `nishant dot varma at gmail dot com`.
