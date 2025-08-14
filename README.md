@@ -3,6 +3,8 @@ A curated list of resources for computer science and mathematics enthusiasts.
 <details>
 <summary>General</summary>
 
+# All
+
 - Art of Doing Science and Engineering: Learning to Learn — Richard Hamming, Bret Victor
 - How to Solve It — George Pólya
 
@@ -65,6 +67,8 @@ A curated list of resources for computer science and mathematics enthusiasts.
 
 <details>
 <summary>Mathematics</summary>
+
+### All
 
 - The Joy Of X: A Guided Tour of Math, from One to Infinity — Steven Strogatz
 - Elements of Mathematics: From Euclid to Gödel — John Stillwell
