@@ -31,6 +31,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 | <sub>Distributed Systems & Scalability</sub> | <sub>Designing Data-Intensive Applications</sub> | <sub>Martin Kleppmann</sub> |  |
 |  | <sub>Distributed Systems</sub> | <sub>Andrew S. Tanenbaum, Maarten Van Steen</sub> |  |
 | <sub>AI & ML</sub> | <sub>Artificial Intelligence: A Modern Approach</sub> | <sub>Stuart Russell, Peter Norvig</sub> |  |
+|  | <sub>Artificial Intelligence: A Guide for Thinking Humans</sub> | <sub>Melanie Mitchell</sub> |  |
 |  | <sub>Information Theory, Inference, and Learning Algorithms</sub> | <sub>David J.C. MacKay</sub> |  |
 |  | <sub>Deep Learning</sub> | <sub>Aaron Courville, Ian Goodfellow, Yoshua Bengio</sub> |  |
 | <sub>Software Engineering & Career</sub> | <sub>Systematic Programming: An Introduction</sub> | <sub>Niklaus Wirth</sub> |  |
