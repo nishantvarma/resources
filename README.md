@@ -56,11 +56,15 @@ A curated list of resources for computer science and mathematics enthusiasts.
 
 ### Quotes
 
+<sub>
+
 - "The best way to learn anything is to discover it by yourself." — George Pólya
 - "The best way to learn is to teach." — Frank Oppenheimer
 - "The only way to learn mathematics is to do mathematics." — Paul Halmos
 - "If you can’t solve a problem, then there is an easier problem you can solve: find it." — George Pólya
 - "A great discovery solves a great problem but there is a grain of discovery in the solution of any problem." — George Pólya
+
+</sub>
 
 ## Tips
 
@@ -68,6 +72,6 @@ Read the works of Alan Kay, Brian Kernighan, Donald Knuth, Edward Dijkstra, Nikl
 
 ## Note
 
-If you find this resource useful, consider supporting [Internet Archive](https://archive.org/donate). This collection is similar to others like [Teach Yourself CS](https://teachyourselfcs.com/).
+If you find this resource useful, consider supporting [Internet Archive](https://archive.org/donate). This is similar to other collection like [Teach Yourself CS](https://teachyourselfcs.com/).
 
 All content is provided for educational purposes only. If you have any concerns about copyright infringement, please get in touch with me at `nishant dot varma at gmail dot com`.
