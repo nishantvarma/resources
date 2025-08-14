@@ -30,10 +30,10 @@ A curated list of resources for computer science and mathematics enthusiasts.
 |  | <sub>Compilers: Principles, Techniques, and Tools</sub> | <sub>Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman</sub> | <sub>[video](https://archive.org/details/coursera-compilers)</sub> |
 | <sub>Distributed Systems & Scalability</sub> | <sub>Designing Data-Intensive Applications</sub> | <sub>Martin Kleppmann</sub> |  |
 |  | <sub>Distributed Systems</sub> | <sub>Andrew S. Tanenbaum, Maarten Van Steen</sub> |  |
-| <sub>AI & ML</sub> | <sub>Artificial Intelligence: A Modern Approach</sub> | <sub>Stuart Russell, Peter Norvig</sub> |  |
-|  | <sub>Artificial Intelligence: A Guide for Thinking Humans</sub> | <sub>Melanie Mitchell</sub> |  |
-|  | <sub>Information Theory, Inference, and Learning Algorithms</sub> | <sub>David J.C. MacKay</sub> |  |
+| <sub>AI & ML</sub> | <sub>Artificial Intelligence: A Guide for Thinking Humans</sub> | <sub>Melanie Mitchell</sub> |  |
+|  | <sub>Artificial Intelligence: A Modern Approach</sub> | <sub>Stuart Russell, Peter Norvig</sub> |  |
 |  | <sub>Deep Learning</sub> | <sub>Aaron Courville, Ian Goodfellow, Yoshua Bengio</sub> |  |
+|  | <sub>Information Theory, Inference, and Learning Algorithms</sub> | <sub>David J.C. MacKay</sub> |  |
 | <sub>Software Engineering & Career</sub> | <sub>Systematic Programming: An Introduction</sub> | <sub>Niklaus Wirth</sub> |  |
 |  | <sub>The Practice of Programming</sub> | <sub>Brian W. Kernighan, Rob Pike</sub> |  |
 |  | <sub>The Pragmatic Programmer</sub> | <sub>Andrew Hunt, David Thomas</sub> |  |
