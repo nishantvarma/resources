@@ -1,99 +1,66 @@
 A curated list of resources for computer science and mathematics enthusiasts.
 
-<details>
-<summary>General</summary>
+### General
 
-<br>
+| <sub>Resource</sub> | <sub>Author(s)</sub> |
+|---|---|
+| <sub>Art of Doing Science and Engineering: Learning to Learn</sub> | <sub>Richard Hamming, Bret Victor</sub> |
+| <sub>How to Solve It</sub> | <sub>George Pólya</sub> |
 
-- Art of Doing Science and Engineering: Learning to Learn — Richard Hamming, Bret Victor
-- How to Solve It — George Pólya
+### Computer Science
 
-</details>
+| <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
+|---|---|---|---|
+| <sub>Foundations</sub> | <sub>Code: The Hidden Language of Computer Hardware and Software</sub> | <sub>Charles Petzold</sub> |  |
+|  | <sub>Computer Science: An Interdisciplinary Approach</sub> | <sub>Robert Sedgewick, Kevin Wayne</sub> |  |
+|  | <sub>Elements of Modern Computer Systems</sub> | <sub>Noam Nisan, Shimon Schocken</sub> |  |
+|  | <sub>Structure and Interpretation of Computer Programs</sub> | <sub>Harold Abelson, Gerald Jay Sussman</sub> | <sub>[video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)</sub> |
+| <sub>Algorithms & Data Structures</sub> | <sub>Algorithms and Data Structures</sub> | <sub>Niklaus Wirth</sub> |  |
+|  | <sub>Introduction to Algorithms</sub> | <sub>Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</sub> | <sub>[video](https://archive.org/details/mit-6006-introduction-to-algorithms)</sub> |
+| <sub>Theoretical CS</sub> | <sub>Introduction to Theoretical Computer Science</sub> | <sub>Boaz Barak</sub> |  |
+|  | <sub>Introduction to the Theory of Computation</sub> | <sub>Michael Sipser</sub> | <sub>[video](https://archive.org/details/mit-18404j-theory-of-computation)</sub> |
+| <sub>Systems Programming & Architecture</sub> | <sub>Computer Systems: A Programmer’s Perspective</sub> | <sub>Randal E. Bryant, David R. O’Hallaron</sub> | <sub>[video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)</sub> |
+|  | <sub>Operating Systems: Three Easy Pieces</sub> | <sub>Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau</sub> | <sub>[video](https://archive.org/details/caltech-cs124-operating-systems)</sub> |
+|  | <sub>Computer Networks: A Systems Approach</sub> | <sub>Larry L. Peterson, Bruce S. Davie</sub> | <sub>[video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)</sub> |
+|  | <sub>Database System Concepts</sub> | <sub>Abraham Silberschatz, Henry F. Korth, S. Sudarshan</sub> | <sub>[video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)</sub> |
+|  | <sub>Project Oberon</sub> | <sub>Niklaus Wirth</sub> |  |
+|  | <sub>Plan 9</sub> | <sub>Bell Labs</sub> |  |
+| <sub>Programming Languages & Compilers</sub> | <sub>Programming Language Pragmatics</sub> | <sub>Michael L. Scott</sub> | <sub>[video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)</sub> |
+|  | <sub>Compilers: Principles, Techniques, and Tools</sub> | <sub>Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman</sub> | <sub>[video](https://archive.org/details/coursera-compilers)</sub> |
+| <sub>Distributed Systems & Scalability</sub> | <sub>Designing Data-Intensive Applications</sub> | <sub>Martin Kleppmann</sub> |  |
+|  | <sub>Distributed Systems</sub> | <sub>Andrew S. Tanenbaum, Maarten Van Steen</sub> |  |
+| <sub>AI & ML</sub> | <sub>Artificial Intelligence: A Modern Approach</sub> | <sub>Stuart Russell, Peter Norvig</sub> |  |
+|  | <sub>Information Theory, Inference, and Learning Algorithms</sub> | <sub>David J.C. MacKay</sub> |  |
+|  | <sub>Deep Learning</sub> | <sub>Aaron Courville, Ian Goodfellow, Yoshua Bengio</sub> |  |
+| <sub>Software Engineering & Career</sub> | <sub>Systematic Programming: An Introduction</sub> | <sub>Niklaus Wirth</sub> |  |
+|  | <sub>The Practice of Programming</sub> | <sub>Brian W. Kernighan, Rob Pike</sub> |  |
+|  | <sub>The Pragmatic Programmer</sub> | <sub>Andrew Hunt, David Thomas</sub> |  |
+|  | <sub>Programming Pearls</sub> | <sub>Jon Bentley</sub> |  |
+|  | <sub>The PhD Grind</sub> | <sub>Philip Guo</sub> |  |
 
-<details>
-<summary>Computer Science</summary>
+### Mathematics
 
-### Foundations
+| <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
+|---|---|---|
+| <sub>The Joy Of X: A Guided Tour of Math, from One to Infinity</sub> | <sub>Steven Strogatz</sub> |  |
+| <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
+| <sub>College Algebra</sub> | <sub>Michael Sullivan</sub> | <sub>[video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
+| <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
+| <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
+| <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |
+| <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |
+| <sub>Principles and Techniques in Combinatorics</sub> | <sub>Chen Chuan-Chong, Koh Khee-Meng</sub> |  |
+| <sub>The Art and Craft of Problem Solving</sub> | <sub>Paul Zeitz</sub> |  |
+| <sub>Proofs from THE BOOK</sub> | <sub>Martin Aigner, Günter M. Ziegler</sub> |  |
+| <sub>Book of Proof</sub> | <sub>Richard Hammack</sub> |  |
 
-- Code: The Hidden Language of Computer Hardware and Software — Charles Petzold
-- Computer Science: An Interdisciplinary Approach — Robert Sedgewick, Kevin Wayne
-- Elements of Modern Computer Systems — Noam Nisan, Shimon Schocken
-- Structure and Interpretation of Computer Programs — Harold Abelson, Gerald Jay Sussman [Video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)
-
-### Algorithms and Data Structures
-
-- Algorithms and Data Structures — Niklaus Wirth
-- Introduction to Algorithms — Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein [Video](https://archive.org/details/mit-6006-introduction-to-algorithms)
-
-### Theoretical Computer Science
-
-- Introduction to Theoretical Computer Science — Boaz Barak
-- Introduction to the Theory of Computation — Michael Sipser [Video](https://archive.org/details/mit-18404j-theory-of-computation)
-
-### Systems Programming & Architecture
-
-- Computer Systems: A Programmer’s Perspective — Randal E. Bryant, David R. O’Hallaron [Video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)
-- Operating Systems: Three Easy Pieces — Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau [Video](https://archive.org/details/caltech-cs124-operating-systems)
-- Computer Networks: A Systems Approach — Larry L. Peterson, Bruce S. Davie [Video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)
-- Database System Concepts — Abraham Silberschatz, Henry F. Korth, S. Sudarshan [Video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)
-- Project Oberon — Niklaus Wirth
-- Plan 9 — Bell Labs
-
-### Programming Languages & Compilers
-
-- Programming Language Pragmatics — Michael L. Scott [Video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)
-- Compilers: Principles, Techniques, and Tools — Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman [Video](https://archive.org/details/coursera-compilers)
-
-### Distributed Systems & Scalability
-
-- Designing Data-Intensive Applications — Martin Kleppmann
-- Distributed Systems — Andrew S. Tanenbaum, Maarten Van Steen
-
-### Artificial Intelligence & Machine Learning
-
-- Artificial Intelligence: A Modern Approach — Stuart Russell, Peter Norvig
-- Information Theory, Inference, and Learning Algorithms — David J.C. MacKay
-- Deep Learning — Aaron Courville, Ian Goodfellow, Yoshua Bengio
-
-### Software Engineering & Career
-
-- Systematic Programming: An Introduction — Niklaus Wirth
-- The Practice of Programming — Brian W. Kernighan, Rob Pike
-- The Pragmatic Programmer — Andrew Hunt, David Thomas
-- Programming Pearls — Jon Bentley
-- The PhD Grind — Philip Guo
-
-</details>
-
-<details>
-<summary>Mathematics</summary>
-
-<br>
-
-- The Joy Of X: A Guided Tour of Math, from One to Infinity — Steven Strogatz
-- Elements of Mathematics: From Euclid to Gödel — John Stillwell
-- College Algebra — Michael Sullivan [Video](https://archive.org/details/umkc-math110-college-algebra)
-- Infinite Powers: How Calculus Reveals the Secrets of the Universe — Steven Strogatz
-- Calculus with Analytic Geometry — George F. Simmons [Video](https://archive.org/details/mit-1801-single-variable-calculus)
-- Discrete Mathematics and Its Applications — Kenneth H. Rosen [Video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)
-- Introduction to Probability — Joseph K. Blitzstein, Jessica Hwang [Video](https://archive.org/details/harvard-stat110-probability)
-- Principles and Techniques in Combinatorics — Chen Chuan-Chong, Koh Khee-Meng
-- The Art and Craft of Problem Solving — Paul Zeitz
-- Proofs from THE BOOK — Martin Aigner, Günter M. Ziegler
-- Book of Proof — Richard Hammack
-
-</details>
-
-<details>
-<summary>Quotes</summary>
+### Quotes
 
 - "The best way to learn anything is to discover it by yourself." — George Pólya
 - "The best way to learn is to teach." — Frank Oppenheimer
 - "The only way to learn mathematics is to do mathematics." — Paul Halmos
 - "If you can’t solve a problem, then there is an easier problem you can solve: find it." — George Pólya
 - "A great discovery solves a great problem but there is a grain of discovery in the solution of any problem." — George Pólya
-
-</details>
 
 ## Tips
 
