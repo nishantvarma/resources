@@ -26,6 +26,8 @@ A curated list of resources for computer science and mathematics enthusiasts.
 |  | <sub>Database System Concepts</sub> | <sub>Abraham Silberschatz, Henry F. Korth, S. Sudarshan</sub> | <sub>[video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)</sub> |
 |  | <sub>Project Oberon</sub> | <sub>Niklaus Wirth</sub> |  |
 |  | <sub>Plan 9</sub> | <sub>Bell Labs</sub> |  |
+| <sub>Information Theory</sub> | <sub>Information Theory: A Tutorial Introduction</sub> | <sub>James Stone</sub> | <sub></sub> |
+|  | <sub>Information Theory, Inference, and Learning Algorithms</sub> | <sub>David J.C. MacKay</sub> |  |
 | <sub>Programming Languages & Compilers</sub> | <sub>Programming Language Pragmatics</sub> | <sub>Michael L. Scott</sub> | <sub>[video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)</sub> |
 |  | <sub>Compilers: Principles, Techniques, and Tools</sub> | <sub>Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman</sub> | <sub>[video](https://archive.org/details/coursera-compilers)</sub> |
 | <sub>Distributed Systems & Scalability</sub> | <sub>Designing Data-Intensive Applications</sub> | <sub>Martin Kleppmann</sub> |  |
@@ -33,7 +35,6 @@ A curated list of resources for computer science and mathematics enthusiasts.
 | <sub>AI & ML</sub> | <sub>Artificial Intelligence: A Guide for Thinking Humans</sub> | <sub>Melanie Mitchell</sub> |  |
 |  | <sub>Artificial Intelligence: A Modern Approach</sub> | <sub>Stuart Russell, Peter Norvig</sub> |  |
 |  | <sub>Deep Learning</sub> | <sub>Aaron Courville, Ian Goodfellow, Yoshua Bengio</sub> |  |
-|  | <sub>Information Theory, Inference, and Learning Algorithms</sub> | <sub>David J.C. MacKay</sub> |  |
 | <sub>Software Engineering & Career</sub> | <sub>Systematic Programming: An Introduction</sub> | <sub>Niklaus Wirth</sub> |  |
 |  | <sub>The Practice of Programming</sub> | <sub>Brian W. Kernighan, Rob Pike</sub> |  |
 |  | <sub>The Pragmatic Programmer</sub> | <sub>Andrew Hunt, David Thomas</sub> |  |
@@ -49,6 +50,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 | <sub>College Algebra</sub> | <sub>Michael Sullivan</sub> | <sub>[video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
 | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
 | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
+| <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
 | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |
 | <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |
 | <sub>Principles and Techniques in Combinatorics</sub> | <sub>Chen Chuan-Chong, Koh Khee-Meng</sub> |  |
