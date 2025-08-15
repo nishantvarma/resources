@@ -49,7 +49,6 @@ A curated list of resources for computer science and mathematics enthusiasts.
 | <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
 | <sub>College Algebra</sub> | <sub>Michael Sullivan</sub> | <sub>[video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
 | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
-| <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
 | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
 | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |
 | <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |
@@ -57,6 +56,7 @@ A curated list of resources for computer science and mathematics enthusiasts.
 | <sub>The Art and Craft of Problem Solving</sub> | <sub>Paul Zeitz</sub> |  |
 | <sub>Proofs from THE BOOK</sub> | <sub>Martin Aigner, Günter M. Ziegler</sub> |  |
 | <sub>Book of Proof</sub> | <sub>Richard Hammack</sub> |  |
+| <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
 
 ### Quotes
 
