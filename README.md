@@ -1,4 +1,4 @@
-A curated list of resources for computer science and mathematics enthusiasts.
+A curated list of resources for computer science, mathematics, physics enthusiasts.
 
 ### General
 
@@ -57,6 +57,13 @@ A curated list of resources for computer science and mathematics enthusiasts.
 | <sub>Proofs from THE BOOK</sub> | <sub>Martin Aigner, Günter M. Ziegler</sub> |  |
 | <sub>Book of Proof</sub> | <sub>Richard Hammack</sub> |  |
 | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
+
+### Physics
+
+| <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
+| <sub>Teach Yourself Physics</sub> | <sub>Jakob Schwichtenberg</sub> |  |
+| <sub>Theoretical Minimum</sub> | <sub>Leonard Susskind</sub> |  |
+| <sub>The Feynman Lectures on Physics</sub> | <sub>Richard Feynman, Robert B. Leighton, Matthew Sands</sub> |  |
 
 ### Quotes
 
