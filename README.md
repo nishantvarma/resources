@@ -63,7 +63,7 @@ A curated list of resources for computer science, mathematics, physics enthusias
 | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
 |---|---|---|
 | <sub>Teach Yourself Physics</sub> | <sub>Jakob Schwichtenberg</sub> |  |
-| <sub>Theoretical Minimum</sub> | <sub>Leonard Susskind</sub> | [site](https://theoreticalminimum.com/) |
+| <sub>Theoretical Minimum</sub> | <sub>Leonard Susskind</sub> | <sub>[site](https://theoreticalminimum.com/)</sub> |
 | <sub>The Feynman Lectures on Physics</sub> | <sub>Richard Feynman, Robert B. Leighton, Matthew Sands</sub> |  |
 
 ### Quotes
