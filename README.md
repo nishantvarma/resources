@@ -87,7 +87,7 @@ If you find this resource useful, consider supporting [Internet Archive](https:/
 
 ## Similar Sites
 
-[Teach Yourself CS](https://teachyourselfcs.com/)
-[How to Learn Math and Physics](https://math.ucr.edu/home/baez/books.html) — John Baez
+- [Teach Yourself CS](https://teachyourselfcs.com/)
+- [How to Learn Math and Physics](https://math.ucr.edu/home/baez/books.html) — John Baez
 
 All content is provided for educational purposes only. If you have any concerns about copyright infringement, please get in touch with me at `nishant dot varma at gmail dot com`.
