@@ -82,8 +82,8 @@ Read the works of Alan Kay, Brian Kernighan, Donald Knuth, Edward Dijkstra, Nikl
 
 ## Similar Sites
 
-- [Teach Yourself CS](https://teachyourselfcs.com/)
 - [How to Learn Math and Physics](https://math.ucr.edu/home/baez/books.html) — John Baez
+- [Teach Yourself CS](https://teachyourselfcs.com/)
 
 ## Note
 
