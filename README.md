@@ -2,7 +2,7 @@ A curated list of resources for computer science, mathematics, physics enthusias
 
 ### General
 
-| <sub>Resource</sub> | <sub>Author(s)</sub> |
+| <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</subs> |
 |---|---|---|
 | <sub>Learning How to Learn: How to Succeed in School Without Spending All Your Time Studying</sub> | <sub>Alistair McConville, Barbara Oakley, Terrence Sejnowski</sub> |  |
 | <sub>Art of Doing Science and Engineering: Learning to Learn</sub> | <sub>Richard Hamming, Bret Victor</sub> |  |
