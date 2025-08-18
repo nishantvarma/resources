@@ -1,6 +1,6 @@
 A curated list of resources for computer science, mathematics, physics enthusiasts.
 
-### Learning Techniques
+### Learning Technique
 
 | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</subs> |
 |---|---|---|
