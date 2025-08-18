@@ -5,6 +5,7 @@ A curated list of resources for computer science, mathematics, physics enthusias
 | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</subs> |
 |---|---|---|
 | <sub>Learning How to Learn: How to Succeed in School Without Spending All Your Time Studying</sub> | <sub>Alistair McConville, Barbara Oakley, Terrence Sejnowski</sub> |  |
+| <sub>How to Study Math</sub>| <sub>Paul Dawkins</sub> | <sub>[site](https://tutorial.math.lamar.edu/Extras/StudyMath/HowToStudyMath.aspx)</sub>  |
 | <sub>Art of Doing Science and Engineering: Learning to Learn</sub> | <sub>Richard Hamming, Bret Victor</sub> |  |
 | <sub>How to Solve It</sub> | <sub>George Pólya</sub> |  |
 
