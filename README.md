@@ -45,6 +45,7 @@ A curated list of resources for computer science, mathematics, physics enthusias
 ### Mathematics
 
 | <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
+|---|---|---|---|
 | <sub>Foundations</sub> | <sub>The Joy Of X: A Guided Tour of Math, from One to Infinity</sub> | <sub>Steven Strogatz</sub> |  |
 |  | <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
 | <sub>Algebra</sub> | <sub>College Algebra</sub> | <sub>Michael Sullivan</sub> | <sub>[video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
