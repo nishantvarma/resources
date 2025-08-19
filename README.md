@@ -1,4 +1,4 @@
-A curated list of resources for computer science, mathematics, physics enthusiasts.
+A curated list of resources for computer science, mathematics, physics enthusiasts. See [tree](tree.txt) for a more comprehensive list.
 
 ### Learning Technique
 
