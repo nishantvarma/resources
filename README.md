@@ -76,6 +76,7 @@ A curated list of resources for computer science, mathematics, physics enthusias
 - <sub>"If you can’t solve a problem, then there is an easier problem you can solve: find it." — George Pólya</sub>
 - <sub>"A great discovery solves a great problem but there is a grain of discovery in the solution of any problem." — George Pólya</sub>
 - <sub>"It is better to solve one problem five different ways, than to solve five problems one way." — George Pólya</sub>
+- <sub>"If I have seen further than others, it is by standing on the shoulders of giants." — Isaac Newton</sub>
 
 ## Tips
 
