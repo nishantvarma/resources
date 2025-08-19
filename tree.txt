@@ -1,700 +1,699 @@
-Data/cs
-├── ai
-│   └── causal-inference-what-if-miguel-hernan.pdf
-├── aiml
-│   ├── ai.adoc
-│   ├── artificial-intelligence-a-guide-for-thinking-humans-melanie-mitchell.epub
-│   ├── artificial-intelligence-a-modern-approach-peter-norvig
-│   ├── deep-dive-into-llms-like-chatgpt-andrej-karpathy.mp4
-│   ├── deep-learning-andrew-ng
-│   ├── deep-learning-a-visual-approach-andrew-glassner.pdf
-│   ├── deep-learning-goodfellow-bengio-courville.pdf
-│   ├── deep-learning-grant-sanderson
-│   ├── hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow-aurelien-geron.pdf
-│   ├── how-neural-networks-learned-to-talk-art-of-the-problem.mp4
-│   ├── introduction-to-language-modeling-building-makemore-andrej-karpathy
-│   ├── introduction-to-large-language-models-andrej-karpathy.mp4
-│   ├── introduction-to-neural-networks-and-backpropagation-building-micrograd-andrej-karpathy.mp4
-│   ├── language-models-in-plain-english-danilevsky-and-eovito.pdf
-│   ├── latent-dirichlet-allocation-blei-jordan-and-ng.pdf
-│   ├── lets-build-llm-from-scratch-andrej-karpathy.mp4
-│   ├── machine-learning-andrew-ng
-│   ├── neural-networks-grant-sanderson
-│   ├── paradigms-of-artificial-intelligence-programming-case-studies-in-common-lisp-peter-norvig
-│   ├── programs-with-common-sense-john-mccarthy.pdf
-│   ├── sequence-to-sequence-learning-networks-google.pdf
-│   ├── statistical-language-models-based-on-neural-networks-tomas-mikolov.pdf
-│   ├── super-study-guide-transformers-and-large-language-models-afshine-and-shervine.pdf
-│   ├── the-annotated-transformer-alexander-rush.pdf
-│   ├── the-long-story-of-how-neural-nets-got-to-where-they-are-terry-sejnowski.webm
-│   ├── ucb-cs188-introduction-to-artificial-intelligence
-│   ├── what-is-chatgpt-doing-and-why-does-it-work-stephen-worlfram.mp4
-│   └── what-is-chatgpt-doing-and-why-does-it-work-stephen-worlfram.pdf
-├── algo
-│   ├── a-better-way-to-combine-efficient-string-length-encoding-and-zero-termination-bron-and-dijkstra.pdf
-│   ├── algorithm-and-data-structures-niklaus-wirth.pdf
-│   ├── division-and-modulus-for-computer-scientists-daan-leijen.pdf
-│   ├── introduction-to-algorithms-cormen-leiserson-rivest-and-stein
-│   ├── introduction-to-algorithms-udi-manber.pdf
-│   ├── mit-6006-introduction-to-algorithms
-│   ├── mit-6046j-design-and-analysis-of-algorithms
-│   ├── mit-6854j-advanced-algorithms
-│   ├── programming-algorithms-hard-problems-and-the-game-of-life-donald-knuth.webm
-│   ├── regular-expression-search-algorithm-ken-thompson.pdf
-│   ├── the-art-of-computer-programming-volume-1-fundamental-algorithms-donald-knuth.djvu
-│   └── the-art-of-computer-programming-volume-2-seminumerical-algorithms-donald-knuth.djvu
-├── arch
-│   ├── amd-2901
-│   ├── ben-eater-youtube
-│   └── digital-circuit-design-for-computer-science-students-an-introductory-textbook-niklaus-wirth.pdf
-├── comp
-│   ├── abstractions-their-algorithms-and-their-compilers-aho-and-ullman.mp4
-│   ├── a-history-of-compilers-peter-sestoft.pdf
-│   ├── an-incremental-approach-to-compiler-construction-abdulaziz-ghuloum.pdf
-│   ├── assemblers-compilers-and-program-translation-peter-calingaert.djvu
-│   ├── birth-of-the-compiler-arttu-kangas.pdf
-│   ├── chicken-chicken-chicken-chicken-chicken-doug-zongker.pdf
-│   ├── code-generation-on-the-fly-a-key-to-portable-software-michael-franz.pdf
-│   ├── coursera-compilers
-│   ├── crafting-interpreters-robert-nystrom.pdf
-│   ├── gems-of-corrado-bohm-henk-barendregt.pdf
-│   ├── how-to-build-a-virtual-machine-terence-parr.mp4
-│   ├── meta-ii-a-syntax-oriented-compiler-writing-language-dv-schorre.pdf
-│   ├── optimizing-compilers-for-structured-programming-languages-marc-brandis.pdf
-│   ├── reinventing-the-parser-generator-david-beazley.mp4
-│   ├── separate-compilation-and-module-extension-regis-crelier.pdf
-│   └── set-a-neglected-data-type-and-its-compilation-for-the-arm-niklaus-wirth.pdf
-├── crypto
-│   ├── understanding-cryptography-christof-paar
-│   └── understanding-cryptography-christof-paar.pdf
-├── db
-│   ├── cmu-15-445-introduction-to-database-systems
-│   ├── database-system-concepts-abraham-silberschatz
-│   ├── readings-in-database-systems-michael-stonebraker.pdf
-│   ├── sqlalchemy-2.0-the-one-point-four-ening-2021-mike-bayer.mp4
-│   ├── the-transaction-concept-virtues-and-limitations-jim-gray.pdf
-│   └── transaction-processing-concepts-and-techniques-gray-and-reuter.djvu
-├── dist
-│   ├── a-critique-of-the-remote-procedure-call-paradigm-andrew-tanenbaum.pdf
-│   ├── amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases-amazon.pdf
-│   ├── bitcoin-a-peer-to-peer-electronic-cash-system-satoshi-nakamoto-bitcoin.pdf
-│   ├── blockstack-a-new-internet-for-decentralized-applications-ali-freedman-nelson-and-shea.pdf
-│   ├── building-a-computing-system-for-worlds-information-jeff-dean.mp4
-│   ├── designing-data-intensive-applications-martin-kleppmann.epub
-│   ├── designing-data-intensive-applications-martin-kleppmann.pdf
-│   ├── distributed-algorithms-systems-and-programming-microsoft-research
-│   ├── distributed-systems-martin-kleppmann
-│   ├── distributed-systems-steen-and-tanenbaum.pdf
-│   ├── dont-settle-for-eventual-scalable-causal-consistency-for-wide-area-storage-with-cops-andersen-freedman-kaminsky-and-lloyd.pdf
-│   ├── flumejava-easy-efficient-data-parallel-pipelines-google.pdf
-│   ├── frangipani-a-scalable-distributed-file-system-lee-mann-and-thekkath.pdf
-│   ├── in-search-of-an-understandable-consensus-algorithm-ongaro-and-ousterhout.pdf
-│   ├── making-reliable-distributed-systems-in-the-presence-of-software-errors-joe-armstrong.pdf
-│   ├── map-reduce-simplified-data-processing-on-large-clusters-jeff-dean.pdf
-│   ├── mit-6824-distributed-systems
-│   ├── no-compromises-distributed-transactions-with-consistency-availability-and-performance-microsoft-research.pdf
-│   ├── object-storage-on-craq-high-throughput-chain-replication-for-read-mostly-workloads-freedman-and-terrace.pdf
-│   ├── resilient-distributed-datasets-a-fault-tolerant-abstraction-for-in-memory-cluster-computing-ucb.pdf
-│   ├── scaling-memcache-at-facebook-facebook.pdf
-│   ├── spanner-googles-globally-distributed-database-google.pdf
-│   ├── spark-cluster-computing-with-working-sets-ucb.pdf
-│   ├── the-byzantine-generals-problem-lamport-pease-and-shostak.pdf
-│   ├── the-dataflow-model-a-practical-approach-to-balancing-correctness-latency-and-cost-in-massive-scale-unbounded-out-of-order-data-processing-google.pdf
-│   ├── the-design-of-a-practical-system-for-fault-tolerant-virtual-machines-nelson-scales-and-venkitachalam.pdf
-│   ├── the-google-filesystem-sanjay-ghemawat.pdf
-│   ├── time-clocks-and-the-ordering-of-events-in-a-distributed-system-leslie-lamport.pdf
-│   └── zookeeper-wait-free-coordination-for-internet-scale-systems-yahoo.pdf
-├── dp
-│   ├── event-driven-architecture-martin-fowler.mp4
-│   └── head-first-design-patterns-eric-freeman.pdf
-├── elem
-│   ├── art-of-the-problem
-│   ├── code-the-hidden-language-of-computer-hardware-and-software-charles-petzold.pdf
-│   ├── computer-science-an-interdisciplinary-approach-robert-sedgewick.pdf
-│   ├── coursera-computer-science-an-interdisciplinary-approach
-│   ├── coursera-from-nand-to-tetris
-│   ├── mit-6001-structure-and-interpretation-of-computer-programs
-│   ├── structure-and-interpretation-of-computer-programs-abelson-and-sussman.pdf
-│   └── the-elements-of-computing-systems-nisan-and-schocken.pdf
-├── exc
-│   ├── bus-route
-│   ├── cellphone
-│   ├── flight-simulator
-│   ├── google-earth
-│   ├── google-map
-│   ├── image-stitching
-│   ├── lenskart
-│   ├── parse-boolean-expression-and-generalize
-│   ├── photo-scan
-│   ├── python-execution-tracing
-│   ├── satellite-simulator
-│   ├── task-decorator-like-celery
-│   ├── tic-tac-toe
-│   └── wifi
-├── gen
-│   ├── alan-kay-interview-joe-armstrong.mp4
-│   ├── alan-kay-quora
-│   ├── alan-kay-youtube
-│   ├── all-of-this-has-happened-before-and-it-will-all-happen-again-mark-allen.mp4
-│   ├── as-we-may-program-peter-norvig.mp4
-│   ├── bitwise-per-vognsen-youtube
-│   ├── concurrency-is-not-parallelism-rob-pike.mp4
-│   ├── data-communications-the-first-2500-years-gerard-holzmann.pdf
-│   ├── donald-knuth-youtube
-│   ├── inventing-on-principle-bret-victor.webm
-│   ├── is-it-really-complex-or-did-we-just-make-it-complicated-alan-kay.mp4
-│   ├── ken-thompson-interview-brian-kernighan.webm
-│   ├── learning-how-to-learn-barbara-oakley.epub
-│   ├── learning-how-to-learn-barbara-oakley.pdf
-│   ├── learning-to-learn-richard-hamming
-│   ├── notes.txt
-│   ├── power-of-simplicity-alan-kay.mp4
-│   ├── reasoning-about-programs-edsger-dijkstra.mp4
-│   ├── reflections-on-data-abstractions-barbara-liskov.mp4
-│   ├── simple-made-easy-rich-hickey.mp4
-│   ├── simplicity-aint-easy-stuart-halloway.mp4
-│   ├── the-art-of-doing-science-and-engineering-learning-to-learn-richard-hamming.epub
-│   ├── the-art-of-teaching-computer-science-niklaus-wirth.pdf
-│   ├── the-computer-revolution-hasnt-happened-yet-alan-kay.mp4
-│   ├── the-dream-machine-jcr-licklider-and-the-revolution-that-made-computing-personal-waldrop-mitchell.epub
-│   ├── the-future-of-computing-grace-hopper.mp4
-│   ├── the-future-of-programming-bret-victor.mp4
-│   ├── the-most-beautiful-program-ever-written-william-byrd.mp4
-│   ├── the-phd-grind-a-phd-student-memoir-philip-guo.pdf
-│   ├── the-phd-grind-candid-discussions-about-phd-life-philip-guo.mp4
-│   ├── the-power-of-abstraction-barbara-liskov.mp4
-│   ├── the-power-of-counting-arguments-edsger-dijkstra.mp4
-│   ├── unix-a-history-and-a-memoir-brian-kernighan.pdf
-│   └── why-do-computers-stop-and-what-can-be-done-about-it-jim-gray.pdf
-├── gfx
-│   ├── cmu-15-462-computer-graphics
-│   ├── computer-graphics-principles-and-practice-john-hughes.pdf
-│   ├── game-physics-engine-development-ian-millington.pdf
-│   ├── game-programming-patterns-robert-nystrom.pdf
-│   ├── mit-6837-introduction-to-computer-graphics
-│   ├── physically-based-rendering-from-theory-to-implementation-humphreys-jakobs-and-pharr.pdf
-│   └── real-time-collision-detection-christer-ericson.pdf
-├── hci
-│   ├── all-the-widgets-brad-myers.mp4
-│   ├── design-and-development-of-a-modular-widget-toolkit-stefan-kohl.pdf
-│   ├── sketchpad-a-man-machine-graphical-communication-system-ivan-sutherland.pdf
-│   ├── sketchpad-ivan-sutherland.mp4
-│   ├── the-mother-of-all-demos-douglas-engelbart.mp4
-│   ├── the-xerox-alto-a-personal-retrospective-computer-history-museum.mp4
-│   ├── the-x-window-system-gettys-and-scheifler.pdf
-│   └── x-windows-system-design-principles-james-gettys.mp4
-├── it
-│   ├── an-introduction-to-information-theory-symbols-signals-and-noise-john-pierce.pdf
-│   ├── a-symbolic-analysis-of-relay-and-claude-shannon.pdf
-│   ├── communication-theory-of-secrecy-systems-claude-shannon.pdf
-│   ├── elements-of-information-theory-cover-and-thomas.pdf
-│   ├── information-theory-and-network-coding-raymond-yeung.pdf
-│   ├── information-theory-a-tutorial-introduction-james-stone.pdf
-│   ├── information-theory-from-coding-to-learning-polyanskiy-and-wu
-│   ├── information-theory-inference-and-learning-algorithms-david-mасkау.djvu
-│   ├── information-theory-pattern-recognition-and-neural-networks-david-mасkау
-│   ├── information-theory-raymond-yeung
-│   ├── information-theory-thomas-cover
-│   ├── introduction-to-information-theory-ryan-adams.mp4
-│   ├── mathematical-theory-of-communication-claude-shannon.pdf
-│   ├── principles-of-communication-engineering-jacobs-and-wozencraft.pdf
-│   ├── principles-of-digital-communication-robert-gallager.pdf
-│   ├── silicon-dreams-information-man-and-machine-robert-lucky.pdf
-│   ├── the-essential-message-claude-shannon-and-the-making-of-information-theory-erico-guizzo.pdf
-│   ├── the-information-a-history-a-theory-a-flood-james-gleick.pdf
-│   └── the-science-of-information-from-language-to-black-holes-benjamin-schumacher.pdf
-├── lang
-│   ├── a-comparison-of-object-oriented-programming-in-four-modern-language-henderson-and-zorn.pdf
-│   ├── an-axiomatic-basis-for-computer-programming-car-hoare.pdf
-│   ├── an-introduction-to-structured-programming-karl-hunt.pdf
-│   ├── another-defence-of-enumerated-types-markku-sakkinen.pdf
-│   ├── apl
-│   ├── a-programming-language-for-vector-computers-robert-griesemer.pdf
-│   ├── are-we-there-yet-rich-hickey.mp4
-│   ├── awk
-│   ├── c
-│   ├── cmu-15-150-principles-of-functional-programming
-│   ├── concepts-techniques-and-models-of-computer-programming-haridi-and-van-roy.pdf
-│   ├── effective-programs-rich-hickey.mp4
-│   ├── erlang
-│   ├── forth
-│   ├── growing-a-language-guy-steele.mp4
-│   ├── haskell
-│   ├── hints-on-programming-language-design-car-hoare.pdf
-│   ├── how-to-succeed-in-language-design-without-really-trying-brian-kernighan.webm
-│   ├── import-is-not-inheritance-why-we-need-both-modules-and-classes-clemens-szyperski.pdf
-│   ├── lisp
-│   ├── loop-exits-and-structured-programming-reopening-the-debate-eric-roberts.pdf
-│   ├── lua
-│   ├── maybe-not-rich-hickey.mp4
-│   ├── notes-on-data-structuring-car-hoare.pdf
-│   ├── notes-on-structured-programming-edsger-dijkstra.pdf
-│   ├── object-oriented-programming-alan-kay.mp4
-│   ├── object-oriented-programming-daniel-ingalls.mp4
-│   ├── object-oriented-programming-hanspeter-mossenbock.pdf
-│   ├── object-oriented-programming-with-ansi-c-axel-schreiner.pdf
-│   ├── programming-language-pragmatics-michael-scott.pdf
-│   ├── prolog
-│   ├── propositions-as-types-philip-wadler.mp4
-│   ├── python
-│   ├── self
-│   ├── smalltalk
-│   ├── stanford-cs107-programming-paradigms
-│   ├── stonybrook-cse307-principles-of-programming-languages
-│   ├── strand-new-concepts-in-parallel-programming-foster-and-taylor.djvu
-│   ├── structured-programming-with-goto-statements-donald-knuth.pdf
-│   ├── tcltk
-│   ├── the-art-of-the-metaobject-protocol-kiczales-rivieres-bobrow
-│   ├── types-and-programming-languages-benjamin-pierce.pdf
-│   ├── why-objects-are-not-enough-pfister-and-szyperski.pdf
-│   └── zero-overhead-exception-handling-using-metaprogramming-hof-mossenbock-and-pirkelbauer.pdf
-├── nw
-│   ├── a-protocol-for-packet-network-intercommunication-cerf-and-kahn.pdf
-│   ├── computer-networks-a-systems-approach-larry-peterson.epub
-│   └── stanford-cs144-introduction-to-computer-networking
-├── os
-│   ├── caltech-cs124-operating-systems
-│   ├── combining-lock-free-programming-with-cooperative-multitasking-for-a-portable-multiprocessor-runtime-system-florian-negele.pdf
-│   ├── communicating-seqential-processes-car-hoare.pdf
-│   ├── cooperating-sequential-processes-edsger-dijkstra.pdf
-│   ├── how-linux-is-built-greg-hartman.mp4
-│   ├── insight-ethos-on-object-orientation-in-operating-systems-clemens-szyperski.pdf
-│   ├── little-book-of-semaphores-allen-downey.pdf
-│   ├── minos-the-design-and-implementation-of-an-embedded-real-time-operating-system-with-a-perspective-of-fault-tolerance-kaegi-trachsel-and-gutknecht.pdf
-│   ├── operating-systems-three-easy-pieces-andrea-and-rezmi.pdf
-│   ├── tasks-versus-threads-niklaus-wirth.pdf
-│   ├── the-active-object-system-design-and-multiprocessor-implementation-pieter-muller.pdf
-│   └── the-design-of-the-unix-operating-system-maurice-bach.pdf
-├── ques
-│   ├── bits-transfer-over-the-wire
-│   ├── doing-math-with-logic
-│   ├── embedding-lua
-│   ├── extract-background-from-a-music-file
-│   ├── fibonacci-numbers-in-o-log-n-using-matrices
-│   ├── games-programming-and-parallel-computation
-│   ├── hardware-software-equivalence
-│   ├── loop-issue-in-networks
-│   ├── paranthesis-matching-with-regex
-│   ├── plot-the-map-of-earth
-│   ├── signed-and-unsigned-numbers-handled-in-assembly
-│   ├── twos-complement-multiplication-and-division
-│   ├── two-word-search
-│   ├── universality-of-nor-gates
-│   └── what-are-the-big-ideas-in-ai
-├── scal
-│   ├── big-table-jeff-dean.pdf
-│   ├── building-software-systems-at-google-and-lessons-learned-jeff-dean.mp4
-│   ├── dynamo-amazons-highly-available-key-value-store-amazon.pdf
-│   ├── the-anatomy-of-a-large-scale-hypertextual-web-search-engine-brin-and-page.pdf
-│   └── underneath-the-covers-at-google-jeff-dean.mp4
-├── se
-│   ├── a-discipline-of-programming-edsger-dijkstra.djvu
-│   ├── a-philosophy-of-software-design-john-ousterhout.mp4
-│   ├── a-philosophy-of-software-design-john-ousterhout.pdf
-│   ├── a-plea-for-lean-software-niklaus-wirth.pdf
-│   ├── can-great-programmers-be-taught-john-ousterhout.mp4
-│   ├── elements-of-programming-style-brian-kernighan.mp4
-│   ├── elements-of-programming-style-brian-kernighan.pdf
-│   ├── good-ideas-through-the-looking-glass-niklaus-wirth.pdf
-│   ├── how-to-design-a-good-api-and-why-it-matters-joshua-bloch.mp4
-│   ├── literate-programming-donald-knuth.pdf
-│   ├── programming-pearls-jon-bentley.pdf
-│   ├── systematic-programming-an-introduction-niklaus-wirth.djvu
-│   ├── tdd-where-did-it-all-go-wrong-ian-cooper.webm
-│   ├── the-art-of-code-dylan-beattie.mp4
-│   ├── the-mythical-man-month-essays-on-software-engineering-frederick-brooks.djvu
-│   ├── the-practice-of-programming-kernighan-and-pike.epub
-│   ├── the-practice-of-programming-kernighan-and-pike.pdf
-│   ├── the-pragmatic-programmer-hunt-and-thomas.epub
-│   ├── the-pragmatic-programmer-hunt-and-thomas.pdf
-│   └── unit-testing-vladimir-khorikov.pdf
-├── sys
-│   ├── advanced-programming-in-the-unix-environment-richard-stephen-and-stevens.pdf
-│   ├── cmu-15-213-introduction-to-computer-systems
-│   ├── computer-structures-readings-and-examples-gorden-bell.pdf
-│   ├── computer-systems-a-programmers-perspective-bryant-ohallaron.pdf
-│   ├── inferno-bell-labs
-│   ├── introduction-to-mips-david-black-schaffer
-│   ├── operations
-│   ├── pi
-│   ├── plan9-bell-labs
-│   ├── project-oberon-eth-zurich
-│   ├── properties
-│   ├── systems-software-research-is-irrelevant-rob-pike.pdf
-│   ├── the-linux-programming-interface-michael-kerisk.pdf
-│   └── the-unix-programming-environment-kernighan-and-pike.djvu
-├── toc
-│   ├── alan-turing-a-tcs-role-model-avi-wigderson.mp4
-│   ├── algebra-logic-geometry-at-the-foundation-of-cs-car-hoare.mp4
-│   ├── algorithms-complexity-and-the-art-of-computer-programming-donald-knuth.webm
-│   ├── an-informal-arithmetical-approach-to-computability-and-computation
-│   ├── annotated-turing-charles-petzold.pdf
-│   ├── automata-computability-and-complexity-elaine-rich
-│   ├── a-variant-to-turings-theory-of-computing-machines-hao-wang.pdf
-│   ├── beyond-computation-the-p-vs-np-problem-michael-sipser.mp4
-│   ├── celebrating-emil-post-his-intractable-problem-of-tag-100-years-later-stephen-wolfram.mp4
-│   ├── churchs-coincidences-philip-wadler.mp4
-│   ├── cmu-15-251-great-theoretical-ideas-in-computer-science
-│   ├── cmu-15-751-cs-theory-toolkit
-│   ├── computable-real-numbers-and-why-they-are-still-important-today-edmund-clarke.mp4
-│   ├── computation-finite-and-infinite-machines-marvin-minsky.djvu
-│   ├── constructivity-and-computability-in-historical-and-philosophical-perspective-dubucs-and-bourdeau.pdf
-│   ├── digitial-computers-on-encoding-logical-mathematical-formulas-using-the-machine-itself-during-program-conception-corrado-bohm.pdf
-│   ├── feynman-and-computation-tony-hey.mp4
-│   ├── feynman-and-computation-tony-hey.pdf
-│   ├── feynman-lectures-on-computation-richard-feynman.pdf
-│   ├── finite-automata-and-their-decision-problems-rabin-and-scott.pdf
-│   ├── george-boole-madhu-sudhan.mp4
-│   ├── godel-escher-bach-an-eternal-golden-braid-douglas-hofstadter.pdf
-│   ├── great-ideas-in-computer-science-eric-roberts.pdf
-│   ├── hardware-software-and-heuristics-richard-feynman.mp4
-│   ├── ideas-that-created-the-future-classic-papers-of-computer-science-harry-r-lewis.epub
-│   ├── introduction-to-computation-theory-sfi
-│   ├── introduction-to-theoretical-computer-science-boaz-barak.pdf
-│   ├── introduction-to-the-theory-of-computation-michael-sipser.pdf
-│   ├── lambda-calculus-david-beazley.mp4
-│   ├── lambda-calculus-then-and-now-dana-scott.mp4
-│   ├── lambda-calculus-vs-turing-machines-advait-shinde.mp4
-│   ├── logic-for-computer-science-foundations-of-automatic-theorem-proving-jean-gallier.pdf
-│   ├── mathematics-and-computation-a-theory-revolutionizing-technology-and-science-avi-wigderson.pdf
-│   ├── mit-18404j-theory-of-computation
-│   ├── mit-godel-escher-bach
-│   ├── models-of-computation-john-savage.pdf
-│   ├── mov-is-turing-complete-stephan-dolan.pdf
-│   ├── notes.txt
-│   ├── on-computable-numbers-with-an-application-to-the-entscheidungsproblem-alan-turing.pdf
-│   ├── open-texture-computability-and-churchs-thesis-stewart-shapiro.mp4
-│   ├── programming-the-turing-machine-barbara-liskov.mp4
-│   ├── stanford-cs208-canon-of-computer-science-spring-2011
-│   ├── the-ada-lovelace-bicentenary-lectures-on-computability-iias
-│   ├── the-confluence-of-ideas-in-1936-robin-gandy.pdf
-│   ├── the-master-algorithm-pedro-domingos.mp4
-│   ├── the-nature-of-computation-christopher-moore-stephan-mertans.epub
-│   ├── theory-of-computation-christos-papadimitriou
-│   ├── the-turing-computational-model-acm.mp4
-│   ├── the-universal-computer-the-road-from-leibniz-to-turing-martin-davis.epub
-│   ├── turing-computability-theory-and-applications-robert-soare.pdf
-│   ├── turing-godel-and-church-at-princeton-in-the-1930s-andrew-appel.mp4
-│   ├── turing-pioneer-of-the-information-age-jack-copeland.mp4
-│   ├── turings-vision-the-birth-of-computer-science-chris-benhardt.epub
-│   ├── turing-the-man-acm.mp4
-│   ├── uva-3102-theory-of-computation
-│   ├── we-really-dont-know-how-to-compute-gerry-sussman.mp4
-│   ├── what-can-be-computed-john-maccormick.pdf
-│   ├── what-is-computability-joel-david-hamkins.mp4
-│   ├── what-is-computation-leslie-lamport.mp4
-│   └── who-is-the-human-computer-in-turings-analysis-of-computability-oron-shagrir.mp4
-└── tools
-    ├── abduco-dvtm-marc-andre-tanner.mkv
-    ├── abduco-dvtm-marc-andre-tanner.pdf
-    ├── abduco.tar
-    ├── bspwm.tar
-    ├── data-structures-for-text-sequences-charles-crowley.pdf
-    ├── dmenu.tar
-    ├── dvtm.tar
-    ├── dwm.tar
-    ├── es-shell.tar
-    ├── fzy.tar
-    ├── introduction-to-git-scott-chacon.mp4
-    ├── jj.tar
-    ├── ma.tar
-    ├── practical-vim-edit-at-the-speed-of-thought-drew-neil.epub
-    ├── quark.tar
-    ├── sim.tar
-    ├── slstatus.tar
-    ├── software-tools-in-pascal-kernighan-and-plaugher.pdf
-    ├── st.tar
-    ├── tabbed.tar
-    ├── vifm.tar
-    ├── vis.tar
-    └── web-browser-engineering-panchekha-chris-harrelson
-Data/math
-├── aiml
-│   ├── coding-the-matrix-linear-algebra-through-computer-science-applications-philip-klein.pdf
-│   ├── convex-optimization-boyd-and-vandenberghe.pdf
-│   ├── essentials-of-metaheuristics-sean-luke.pdf
-│   ├── mathematics-for-machine-learning-marc-deisenroth
-│   └── why-machines-learn-the-elegant-math-behind-modern-ai-anil-ananthaswamy.epub
-├── alg
-│   ├── a-book-of-abstract-algebra-charles-pinter.pdf
-│   ├── algebra-chapter-0-paolo-aluffi.pdf
-│   ├── algebra-notes-from-the-underground-paolo-aluffi.pdf
-│   ├── elements-of-algebra-leonhard-euler.pdf
-│   ├── eulers-formula-with-introductory-group-theory-grant-sanderson.mp4
-│   ├── fundamental-theorem-of-algebra-numberphile.mp4
-│   ├── office-hours-with-a-geometric-group-theorist-clay-and-margalit.pdf
-│   └── quadratic-equations-gilbert-strang.mp4
-├── anal
-│   ├── analysis-1-terrence-tao.pdf
-│   ├── analysis-2-terrence-tao.pdf
-│   ├── e-to-the-pi-i-a-nontraditional-take-grant-sanderson.mp4
-│   └── visual-complex-analysis-tristan-needham.pdf
-├── auth
-│   ├── allen-hatcher
-│   ├── andrey-kolmogorov
-│   ├── david-hilbert
-│   ├── elias-stein
-│   ├── george-polya
-│   ├── gh-hardy
-│   ├── gilbert-strang
-│   ├── herbert-enderton
-│   ├── james-munkres
-│   ├── jean-pierre-serre
-│   ├── john-baez
-│   ├── john-neuberger
-│   ├── john-stillwell
-│   ├── joseph-rotman
-│   ├── martin-gardner
-│   ├── michael-spivak
-│   ├── paul-halmos
-│   ├── rami-shakarchi
-│   ├── raoul-bott
-│   ├── richard-courant
-│   ├── saunders-mac-lane
-│   ├── sergei-formin
-│   ├── serge-lang
-│   ├── sheldon-axler
-│   ├── stephen-abbott
-│   ├── terrence-tao
-│   ├── tom-apostol
-│   ├── tristan-needham
-│   ├── tw-korner
-│   ├── walter-rudin
-│   ├── william-feller
-│   └── william-gothmann
-├── bio
-│   ├── a-beautiful-mind-sylvia-nasar.djvu
-│   ├── a-mathematicians-apology-gh-hardy.pdf
-│   ├── euler-the-master-of-us-all-william-dunham.pdf
-│   ├── fermats-last-theorem-simon-singh
-│   ├── hilbert-constance-reid.pdf
-│   ├── i-want-to-be-a-mathematician-an-automathography-paul-halmos.djvu
-│   ├── journey-through-genius-william-dunham.pdf
-│   ├── leonard-euler-life-work-and-legacy-robert-bradley.pdf
-│   ├── letters-to-a-young-mathematician-ian-stewart.djvu
-│   ├── mathematical-people-princeton-university.pdf
-│   ├── never-at-rest-a-biography-of-isaac-newton-richard-westfall.djvu
-│   ├── the-man-who-invented-calculus-the-life-and-work-of-madhava-pp-divakaran
-│   ├── the-man-who-knew-infinity-a-life-of-the-genius-ramanujan-robert-kanigel.pdf
-│   └── the-man-who-loved-only-numbers-the-story-of-paul-erdos-paul-hoffman.pdf
-├── calc
-│   ├── calculus-michael-spivak.djvu
-│   ├── calculus-the-foundation-of-modern-science-eugene-khutoryansky.mp4
-│   ├── calculus-with-analytic-geometry-george-simmons.pdf
-│   ├── combined-answer-book-for-calculus-michael-spivak.pdf
-│   ├── infinite-powers-steven-strogatz
-│   ├── intuitive-understanding-of-the-fourier-transform-and-ffts-william-cox.mp4
-│   ├── mit-1801-single-variable-calculus
-│   ├── the-calculus-gallery-masterpieces-from-newton-to-lebesgue-william-dunham.pdf
-│   ├── vector-calculus-linear-algebra-and-differential-forms-a-unified-approach-john-hubbard.pdf
-│   └── what-is-fourier-transform-grant-sanderson.mp4
-├── dm
-│   ├── arsdigita-discrete-mathematics
-│   ├── concrete-mathematics-donald-knuth.pdf
-│   ├── discrete-mathematics-and-its-applications-kenneth-rosen.pdf
-│   ├── generatingfunctionology-herbert-wilf.pdf
-│   ├── graph-theory-with-applications-to-engineering-and-computer-science-narsingh-deo
-│   ├── principles-and-techniques-in-combinatorics-chuan-chong-and-khee-meng.pdf
-│   └── ucb-cs70-discrete-mathematics-and-probability-theory
-├── elem
-│   ├── college-algebra-michael-sullivan.pdf
-│   ├── complex-numbers-gilbert-strang.mp4
-│   ├── effective-thinking-through-mathematics-michael-starbird
-│   ├── elements-of-mathematics-from-euclid-to-godel-john-stillwell.pdf
-│   ├── euclids-elements-redux-daniel-callahan.pdf
-│   ├── how-to-solve-it-george-polya.epub
-│   ├── joy-of-x-steven-strogatz
-│   ├── math-illuminated-annenberg-media
-│   ├── mit-highlights-of-calculus
-│   ├── queens-college-trigonometry
-│   ├── stanford-intro-to-mathematical-thinking
-│   ├── the-essence-of-calculus-grant-sanderson
-│   ├── the-essence-of-linear-algebra-grant-sanderson
-│   ├── the-first-six-books-of-the-elements-of-euclid-jemmy-button.pdf
-│   └── umkc-math110-college-algebra
-├── gen
-│   ├── an-infinitely-large-napkin-evan-chen.pdf
-│   ├── godel-escher-bach-an-eternal-golden-braid-douglas-hofstadter
-│   ├── hackenbush-a-window-to-a-new-world-of-math-owen-maitzen.mp4
-│   ├── measurement-paul-lockhart.pdf
-│   ├── numbers-and-geometry-john-stillwell.djvu
-│   ├── the-computational-beauty-of-nature-computer-explorations-of-fractals-chaos-complex-systems-and-adaptation-gary-flake
-│   ├── the-princeton-companion-to-applied-mathematics-nicholas-higham.pdf
-│   ├── the-princeton-companion-to-mathematics-timothy-gowers.pdf
-│   └── what-is-mathematics-richard-courant.djvu
-├── hist
-│   ├── history-of-mathematics-nj-wildberger
-│   └── mathematics-and-its-history-john-stillwell.pdf
-├── it
-│   └── communication-theory-goldie-and-pinch.pdf
-├── la
-│   ├── coursera-coding-the-matrix
-│   ├── eigenvectors-and-eigenvalues-eugene-khutoryansky.mp4
-│   ├── essential-linear-algebra-with-applications-a-problem-solving-approach-titu-andreescu
-│   ├── essential-linear-algebra-with-applications-a-problem-solving-approach-titu-andreescu.pdf
-│   ├── finite-dimensional-vector-spaces-paul-halmos.pdf
-│   ├── immersive-linear-algebra-strom-astrom-and-moller
-│   ├── interactive-linear-algebra-margalit-and-rabinoff
-│   ├── introduction-to-applied-linear-algebra-vectors-matrices-and-least-squares-boyd-lieven-vandenberghe
-│   ├── linear-algebra-done-right-sheldon-axler.pdf
-│   ├── linear-algebra-matrix-transformation-eugene-khutoryansky.mp4
-│   ├── matrix-analysis-horn-and-johnson.pdf
-│   ├── practical-linear-algebra-a-geometry-toolbox-farin-and-hansford.pdf
-│   └── uccs-cs2300-computational-linear-algebra
-├── logic
-│   ├── a-tour-through-mathematical-logic-robert-wolf.pdf
-│   ├── introduction-to-metamathematics-stephen-kleene.pdf
-│   └── naive-set-theory-paul-halmos.pdf
-├── nt
-│   ├── introduction-to-the-theory-of-numbers-niven-zuckerman-and-montgomery.pdf
-│   ├── numbers-heinz-dieter-ebbinghaus.pdf
-│   ├── ucb-math115-introduction-to-number-theory
-│   └── wallis-product-grant-sanderson.mp4
-├── prob
-│   ├── berkeley-problems-in-mathematics-paulo-and-silva.pdf
-│   ├── harvard-stat110-probability
-│   ├── introduction-to-probability-blitzstein-and-hwang.pdf
-│   ├── mathematical-circles-russian-experience-dmitri-fomin.pdf
-│   ├── mathematical-olympiad-challenges-titu-andreescu.pdf
-│   ├── problems-for-mathematicians-young-and-old-paul-r-halmos.djvu
-│   ├── problem-solving-through-problems-loren-larson.pdf
-│   ├── the-art-and-craft-of-problem-solving-paul-zeitz.pdf
-│   ├── the-colossal-book-of-mathematics-martin-gardner.pdf
-│   └── the-colossal-book-of-short-puzzles-and-problems-martin-gardner.djvu
-├── proof
-│   ├── book-of-proof-richard-hammack.pdf
-│   └── proofs-from-the-book-aigner-and-ziegler.pdf
-├── ques
-│   ├── cable-problem
-│   ├── calculate-value-of-pi
-│   ├── constraint-satisfaction-logic-equivalence
-│   ├── frequency-to-time-domain
-│   └── power-rule
-├── read
-│   ├── cambridge-university-reading-list.pdf
-│   ├── how-to-learn-math-and-physics-john-baez.txt
-│   ├── qiaochu-yuan-reading-list.txt
-│   └── the-mathematics-autodidacts-aid-kristine-fowler.pdf
-└── top
-Data/physics
-├── a-students-guide-to-waves-fleisch-and-kinnaman.pdf
-├── feynman-lectures.url
-├── fundamentals-of-physics-1-mechanics-relativity-and-thermodynamics-r-shankar.epub
-├── fundamentals-of-physics-2-electromagnetism-optics-and-quantum-mechanics-r-shankar.epub
-├── iit-madras-classical-physics
-│   ├── 01-introduction.mp4
-│   ├── 02-newtonian-mechanics.mp4
-│   ├── 03-dynamics-in-phase-space.mp4
-│   ├── 04-linear-dynamical-systems.mp4
-│   ├── 05-autonomous-dynamical-systems-1.mp4
-│   ├── 06-autonomous-dynamical-systems-2.mp4
-│   ├── 07-lagrangian-formalism.mp4
-│   ├── 08-summary-of-classical-electromagnetism.mp4
-│   ├── 09-charged-particle-in-an-electromagnetic-fi.mp4
-│   ├── 10-hamiltonian-dynamics-1.mp4
-│   ├── 11-hamiltonian-dynamics-2.mp4
-│   ├── 12-hamiltonian-dynamics-3.mp4
-│   ├── 13-dynamical-symmetry-1.mp4
-│   ├── 14-dynamical-symmetry-2.mp4
-│   ├── 15-randomness-in-phase-space-chaos.mp4
-│   ├── 16-discrete-time-dynamics-maps-1.mp4
-│   ├── 17-discrete-time-dynamics-maps-2.mp4
-│   ├── 18-problems-and-solutions-1.mp4
-│   ├── 19-problems-and-solutions-2.mp4
-│   ├── 20-classical-statistical-mechanics.mp4
-│   ├── 21-some-probability-distributions-isolated-system.mp4
-│   ├── 22-the-microcanonical-emsemble.mp4
-│   ├── 23-thermodynamics.mp4
-│   ├── 24-the-canonical-ensemble.mp4
-│   ├── 25-connection-between-statistical-mechanics-and-ther-modynamics.mp4
-│   ├── 26-probability-distributions.mp4
-│   ├── 27-phase-transitions-1.mp4
-│   ├── 28-phase-transitions-2.mp4
-│   ├── 29-phase-transitions-3.mp4
-│   ├── 30-phase-transitions-4.mp4
-│   ├── 31-problems-and-solutions-3.mp4
-│   ├── 32-continuous-groups-in-physics-1.mp4
-│   ├── 33-continuous-groups-in-physics-2.mp4
-│   ├── 34-continuous-groups-in-physics-3.mp4
-│   ├── 35-special-relativity-1.mp4
-│   ├── 36-special-relativity-2.mp4
-│   ├── 37-special-relativity-3.mp4
-│   └── 38-special-relativity-4.mp4
-├── my-view-of-the-world-erwin-schrodinger.pdf
-├── no-nonsense-classical-mechanics-jakob-schwichtenberg.pdf
-├── no-nonsense-electrodynamics-jakob-schwichtenberg.pdf
-├── no-nonsense-quantum-field-theory-jakob-schwichtenberg.pdf
-├── no-nonsense-quantum-mechanics-jakob-schwichtenberg.pdf
-├── raghu-mahajan
-│   ├── classical-mechanics.pdf
-│   ├── electromagnetism.pdf
-│   ├── general-relativity.pdf
-│   ├── quantum-field-theory.pdf
-│   ├── quantum-information-theory.pdf
-│   ├── quantum-mechanics.pdf
-│   ├── string-theory.pdf
-│   └── the-entropy-of-hawking-radiation.pdf
-├── six-easy-pieces-richard-feynman.pdf
-├── six-not-so-easy-pieces-richard-feynman.pdf
-├── teach-yourself-physics-jakob-schwichtenberg.pdf
-├── the-feynman-lectures-on-physics-vol-1-mechanics-radiation-and-heat-richard-feynman.pdf
-├── the-feynman-lectures-on-physics-vol-2-electromagnetism-and-matter-richard-feynman.pdf
-├── the-feynman-lectures-on-physics-vol-3-quantum-mechanics-richard-feynman.pdf
-├── the-theoretical-minimum-leonard-susskind
-│   ├── classical-mechanics
-│   ├── general-relativity.djvu
-│   ├── quantum-mechanics.pdf
-│   └── special-relativity-and-classical-field-theory.djvu
-├── yale-phys200-fundamentals-of-physics-1
-│   ├── 01-course-introduction-and-newtonian-mechanics.mp4
-│   ├── 02-vectors-in-multiple-dimensions.mp4
-│   ├── 03-newtons-laws-of-motion.mp4
-│   ├── 04-newtons-laws-of-motion-and-inclined-planes.mp4
-│   ├── 05-work-energy-theorem-and-law-of-conservation-of-energy.mp4
-│   ├── 06-law-of-conservation-of-energy-in-higher-dimensions.mp4
-│   ├── 07-keplers-laws.mp4
-│   ├── 08-dynamics-of-multiple-body-system.mp4
-│   ├── 09-rotations-part-1-dynamics-of-rigid-bodies.mp4
-│   ├── 10-rotations-part-2-parallel-axis-theorem.mp4
-│   ├── 11-torque.mp4
-│   ├── 12-introduction-to-relativity.mp4
-│   ├── 13-lorentz-transformation.mp4
-│   ├── 14-introduction-to-the-four-vector.mp4
-│   ├── 15-four-vector-in-relativity.mp4
-│   ├── 16-the-taylor-series-and-other-mathematical-concepts.mp4
-│   ├── 17-simple-harmonic-motion.mp4
-│   ├── 18-simple-harmonic-motion-and-introduction-to-waves.mp4
-│   ├── 19-waves.mp4
-│   ├── 20-fluid-dynamics-and-statics-and-bernoullis-equation.mp4
-│   ├── 21-thermodynamics.mp4
-│   ├── 22-the-boltzmann-constant-and-first-law-of-thermodynamics.mp4
-│   ├── 23-the-second-law-of-thermodynamics-and-carnots-engine.mp4
-│   └── 24-the-second-law-of-thermodynamics-and-entropy.mp4
-└── yale-phys200-fundamentals-of-physics-2
-    ├── 01-electrostatics.mp4
-    ├── 02-electric-fields.mp4
-    ├── 03-gausss-law.mp4
-    ├── 04-application-to-conductors-and-insulators.mp4
-    ├── 05-the-electric-potential-and-conservation-of-energy.mp4
-    ├── 06-capacitors.mp4
-    ├── 07-resistance.mp4
-    ├── 08-circuits.mp4
-    ├── 09-magnetism.mp4
-    ├── 10-amperes-law.mp4
-    ├── 11-lenzs-and-faradays-laws.mp4
-    ├── 12-lcr-circuits-dc-voltage.mp4
-    ├── 13-lcr-circuits-ac-voltage.mp4
-    ├── 14-maxwells-equations-and-electromagnetic-waves-1.mp4
-    ├── 15-maxwells-equations-and-electromagnetic-waves-2.mp4
-    ├── 16-ray-or-geometrical-optics-1.mp4
-    ├── 17-ray-or-geometrical-optics-2.mp4
-    ├── 18-wave-theory-of-light.mp4
-    ├── 19-quantum-mechanics-1-the-key-experiments-and-wave-particle-duality.mp4
-    ├── 20-quantum-mechanics-2.mp4
-    ├── 21-quantum-mechanics-3.mp4
-    ├── 22-quantum-mechanics-4-measurement-theory-states-of-definite-energy.mp4
-    ├── 23-quantum-mechanics-5-particle-in-a-box.mp4
-    ├── 24-quantum-mechanics-6-time-dependent-schrödinger-equation.mp4
-    └── 25-quantum-mechanics-7-summary-of-postulates-and-special-topics.mp4
-
-124 directories, 574 files
+Data
+├── cs
+│   ├── aiml
+│   │   ├── ai.adoc
+│   │   ├── artificial-intelligence-a-guide-for-thinking-humans-melanie-mitchell.epub
+│   │   ├── artificial-intelligence-a-modern-approach-peter-norvig
+│   │   ├── causal-inference-what-if-miguel-hernan.pdf
+│   │   ├── deep-dive-into-llms-like-chatgpt-andrej-karpathy.mp4
+│   │   ├── deep-learning-andrew-ng
+│   │   ├── deep-learning-a-visual-approach-andrew-glassner.pdf
+│   │   ├── deep-learning-goodfellow-bengio-courville.pdf
+│   │   ├── deep-learning-grant-sanderson
+│   │   ├── hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow-aurelien-geron.pdf
+│   │   ├── how-neural-networks-learned-to-talk-art-of-the-problem.mp4
+│   │   ├── introduction-to-language-modeling-building-makemore-andrej-karpathy
+│   │   ├── introduction-to-large-language-models-andrej-karpathy.mp4
+│   │   ├── introduction-to-neural-networks-and-backpropagation-building-micrograd-andrej-karpathy.mp4
+│   │   ├── language-models-in-plain-english-danilevsky-and-eovito.pdf
+│   │   ├── latent-dirichlet-allocation-blei-jordan-and-ng.pdf
+│   │   ├── lets-build-llm-from-scratch-andrej-karpathy.mp4
+│   │   ├── machine-learning-andrew-ng
+│   │   ├── neural-networks-grant-sanderson
+│   │   ├── paradigms-of-artificial-intelligence-programming-case-studies-in-common-lisp-peter-norvig
+│   │   ├── programs-with-common-sense-john-mccarthy.pdf
+│   │   ├── sequence-to-sequence-learning-networks-google.pdf
+│   │   ├── statistical-language-models-based-on-neural-networks-tomas-mikolov.pdf
+│   │   ├── super-study-guide-transformers-and-large-language-models-afshine-and-shervine.pdf
+│   │   ├── the-annotated-transformer-alexander-rush.pdf
+│   │   ├── the-long-story-of-how-neural-nets-got-to-where-they-are-terry-sejnowski.webm
+│   │   ├── ucb-cs188-introduction-to-artificial-intelligence
+│   │   ├── what-is-chatgpt-doing-and-why-does-it-work-stephen-worlfram.mp4
+│   │   └── what-is-chatgpt-doing-and-why-does-it-work-stephen-worlfram.pdf
+│   ├── algo
+│   │   ├── a-better-way-to-combine-efficient-string-length-encoding-and-zero-termination-bron-and-dijkstra.pdf
+│   │   ├── algorithm-and-data-structures-niklaus-wirth.pdf
+│   │   ├── division-and-modulus-for-computer-scientists-daan-leijen.pdf
+│   │   ├── introduction-to-algorithms-cormen-leiserson-rivest-and-stein
+│   │   ├── introduction-to-algorithms-udi-manber.pdf
+│   │   ├── mit-6006-introduction-to-algorithms
+│   │   ├── mit-6046j-design-and-analysis-of-algorithms
+│   │   ├── mit-6854j-advanced-algorithms
+│   │   ├── programming-algorithms-hard-problems-and-the-game-of-life-donald-knuth.webm
+│   │   ├── regular-expression-search-algorithm-ken-thompson.pdf
+│   │   ├── the-art-of-computer-programming-volume-1-fundamental-algorithms-donald-knuth.djvu
+│   │   └── the-art-of-computer-programming-volume-2-seminumerical-algorithms-donald-knuth.djvu
+│   ├── arch
+│   │   ├── amd-2901
+│   │   ├── ben-eater-youtube
+│   │   └── digital-circuit-design-for-computer-science-students-an-introductory-textbook-niklaus-wirth.pdf
+│   ├── comp
+│   │   ├── abstractions-their-algorithms-and-their-compilers-aho-and-ullman.mp4
+│   │   ├── a-history-of-compilers-peter-sestoft.pdf
+│   │   ├── an-incremental-approach-to-compiler-construction-abdulaziz-ghuloum.pdf
+│   │   ├── assemblers-compilers-and-program-translation-peter-calingaert.djvu
+│   │   ├── birth-of-the-compiler-arttu-kangas.pdf
+│   │   ├── chicken-chicken-chicken-chicken-chicken-doug-zongker.pdf
+│   │   ├── code-generation-on-the-fly-a-key-to-portable-software-michael-franz.pdf
+│   │   ├── coursera-compilers
+│   │   ├── crafting-interpreters-robert-nystrom.pdf
+│   │   ├── gems-of-corrado-bohm-henk-barendregt.pdf
+│   │   ├── how-to-build-a-virtual-machine-terence-parr.mp4
+│   │   ├── meta-ii-a-syntax-oriented-compiler-writing-language-dv-schorre.pdf
+│   │   ├── optimizing-compilers-for-structured-programming-languages-marc-brandis.pdf
+│   │   ├── reinventing-the-parser-generator-david-beazley.mp4
+│   │   ├── separate-compilation-and-module-extension-regis-crelier.pdf
+│   │   └── set-a-neglected-data-type-and-its-compilation-for-the-arm-niklaus-wirth.pdf
+│   ├── crypto
+│   │   ├── understanding-cryptography-christof-paar
+│   │   └── understanding-cryptography-christof-paar.pdf
+│   ├── db
+│   │   ├── cmu-15-445-introduction-to-database-systems
+│   │   ├── database-system-concepts-abraham-silberschatz
+│   │   ├── readings-in-database-systems-michael-stonebraker.pdf
+│   │   ├── sqlalchemy-2.0-the-one-point-four-ening-2021-mike-bayer.mp4
+│   │   ├── the-transaction-concept-virtues-and-limitations-jim-gray.pdf
+│   │   └── transaction-processing-concepts-and-techniques-gray-and-reuter.djvu
+│   ├── dist
+│   │   ├── a-critique-of-the-remote-procedure-call-paradigm-andrew-tanenbaum.pdf
+│   │   ├── amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases-amazon.pdf
+│   │   ├── bitcoin-a-peer-to-peer-electronic-cash-system-satoshi-nakamoto-bitcoin.pdf
+│   │   ├── blockstack-a-new-internet-for-decentralized-applications-ali-freedman-nelson-and-shea.pdf
+│   │   ├── building-a-computing-system-for-worlds-information-jeff-dean.mp4
+│   │   ├── designing-data-intensive-applications-martin-kleppmann.epub
+│   │   ├── designing-data-intensive-applications-martin-kleppmann.pdf
+│   │   ├── distributed-algorithms-systems-and-programming-microsoft-research
+│   │   ├── distributed-systems-martin-kleppmann
+│   │   ├── distributed-systems-steen-and-tanenbaum.pdf
+│   │   ├── dont-settle-for-eventual-scalable-causal-consistency-for-wide-area-storage-with-cops-andersen-freedman-kaminsky-and-lloyd.pdf
+│   │   ├── flumejava-easy-efficient-data-parallel-pipelines-google.pdf
+│   │   ├── frangipani-a-scalable-distributed-file-system-lee-mann-and-thekkath.pdf
+│   │   ├── in-search-of-an-understandable-consensus-algorithm-ongaro-and-ousterhout.pdf
+│   │   ├── making-reliable-distributed-systems-in-the-presence-of-software-errors-joe-armstrong.pdf
+│   │   ├── map-reduce-simplified-data-processing-on-large-clusters-jeff-dean.pdf
+│   │   ├── mit-6824-distributed-systems
+│   │   ├── no-compromises-distributed-transactions-with-consistency-availability-and-performance-microsoft-research.pdf
+│   │   ├── object-storage-on-craq-high-throughput-chain-replication-for-read-mostly-workloads-freedman-and-terrace.pdf
+│   │   ├── resilient-distributed-datasets-a-fault-tolerant-abstraction-for-in-memory-cluster-computing-ucb.pdf
+│   │   ├── scaling-memcache-at-facebook-facebook.pdf
+│   │   ├── spanner-googles-globally-distributed-database-google.pdf
+│   │   ├── spark-cluster-computing-with-working-sets-ucb.pdf
+│   │   ├── the-byzantine-generals-problem-lamport-pease-and-shostak.pdf
+│   │   ├── the-dataflow-model-a-practical-approach-to-balancing-correctness-latency-and-cost-in-massive-scale-unbounded-out-of-order-data-processing-google.pdf
+│   │   ├── the-design-of-a-practical-system-for-fault-tolerant-virtual-machines-nelson-scales-and-venkitachalam.pdf
+│   │   ├── the-google-filesystem-sanjay-ghemawat.pdf
+│   │   ├── time-clocks-and-the-ordering-of-events-in-a-distributed-system-leslie-lamport.pdf
+│   │   └── zookeeper-wait-free-coordination-for-internet-scale-systems-yahoo.pdf
+│   ├── dp
+│   │   ├── event-driven-architecture-martin-fowler.mp4
+│   │   └── head-first-design-patterns-eric-freeman.pdf
+│   ├── elem
+│   │   ├── art-of-the-problem
+│   │   ├── code-the-hidden-language-of-computer-hardware-and-software-charles-petzold.pdf
+│   │   ├── computer-science-an-interdisciplinary-approach-robert-sedgewick.pdf
+│   │   ├── coursera-computer-science-an-interdisciplinary-approach
+│   │   ├── coursera-from-nand-to-tetris
+│   │   ├── mit-6001-structure-and-interpretation-of-computer-programs
+│   │   ├── structure-and-interpretation-of-computer-programs-abelson-and-sussman.pdf
+│   │   └── the-elements-of-computing-systems-nisan-and-schocken.pdf
+│   ├── exc
+│   │   ├── bus-route
+│   │   ├── cellphone
+│   │   ├── flight-simulator
+│   │   ├── google-earth
+│   │   ├── google-map
+│   │   ├── image-stitching
+│   │   ├── lenskart
+│   │   ├── parse-boolean-expression-and-generalize
+│   │   ├── photo-scan
+│   │   ├── python-execution-tracing
+│   │   ├── satellite-simulator
+│   │   ├── task-decorator-like-celery
+│   │   ├── tic-tac-toe
+│   │   └── wifi
+│   ├── gen
+│   │   ├── alan-kay-interview-joe-armstrong.mp4
+│   │   ├── alan-kay-quora
+│   │   ├── alan-kay-youtube
+│   │   ├── all-of-this-has-happened-before-and-it-will-all-happen-again-mark-allen.mp4
+│   │   ├── as-we-may-program-peter-norvig.mp4
+│   │   ├── bitwise-per-vognsen-youtube
+│   │   ├── concurrency-is-not-parallelism-rob-pike.mp4
+│   │   ├── data-communications-the-first-2500-years-gerard-holzmann.pdf
+│   │   ├── donald-knuth-youtube
+│   │   ├── inventing-on-principle-bret-victor.webm
+│   │   ├── is-it-really-complex-or-did-we-just-make-it-complicated-alan-kay.mp4
+│   │   ├── ken-thompson-interview-brian-kernighan.webm
+│   │   ├── learning-how-to-learn-barbara-oakley.epub
+│   │   ├── learning-how-to-learn-barbara-oakley.pdf
+│   │   ├── learning-to-learn-richard-hamming
+│   │   ├── notes.txt
+│   │   ├── power-of-simplicity-alan-kay.mp4
+│   │   ├── reasoning-about-programs-edsger-dijkstra.mp4
+│   │   ├── reflections-on-data-abstractions-barbara-liskov.mp4
+│   │   ├── simple-made-easy-rich-hickey.mp4
+│   │   ├── simplicity-aint-easy-stuart-halloway.mp4
+│   │   ├── the-art-of-doing-science-and-engineering-learning-to-learn-richard-hamming.epub
+│   │   ├── the-art-of-teaching-computer-science-niklaus-wirth.pdf
+│   │   ├── the-computer-revolution-hasnt-happened-yet-alan-kay.mp4
+│   │   ├── the-dream-machine-jcr-licklider-and-the-revolution-that-made-computing-personal-waldrop-mitchell.epub
+│   │   ├── the-future-of-computing-grace-hopper.mp4
+│   │   ├── the-future-of-programming-bret-victor.mp4
+│   │   ├── the-most-beautiful-program-ever-written-william-byrd.mp4
+│   │   ├── the-phd-grind-a-phd-student-memoir-philip-guo.pdf
+│   │   ├── the-phd-grind-candid-discussions-about-phd-life-philip-guo.mp4
+│   │   ├── the-power-of-abstraction-barbara-liskov.mp4
+│   │   ├── the-power-of-counting-arguments-edsger-dijkstra.mp4
+│   │   ├── unix-a-history-and-a-memoir-brian-kernighan.pdf
+│   │   └── why-do-computers-stop-and-what-can-be-done-about-it-jim-gray.pdf
+│   ├── gfx
+│   │   ├── cmu-15-462-computer-graphics
+│   │   ├── computer-graphics-principles-and-practice-john-hughes.pdf
+│   │   ├── game-physics-engine-development-ian-millington.pdf
+│   │   ├── game-programming-patterns-robert-nystrom.pdf
+│   │   ├── mit-6837-introduction-to-computer-graphics
+│   │   ├── physically-based-rendering-from-theory-to-implementation-humphreys-jakobs-and-pharr.pdf
+│   │   └── real-time-collision-detection-christer-ericson.pdf
+│   ├── hci
+│   │   ├── all-the-widgets-brad-myers.mp4
+│   │   ├── design-and-development-of-a-modular-widget-toolkit-stefan-kohl.pdf
+│   │   ├── sketchpad-a-man-machine-graphical-communication-system-ivan-sutherland.pdf
+│   │   ├── sketchpad-ivan-sutherland.mp4
+│   │   ├── the-mother-of-all-demos-douglas-engelbart.mp4
+│   │   ├── the-xerox-alto-a-personal-retrospective-computer-history-museum.mp4
+│   │   ├── the-x-window-system-gettys-and-scheifler.pdf
+│   │   └── x-windows-system-design-principles-james-gettys.mp4
+│   ├── it
+│   │   ├── an-introduction-to-information-theory-symbols-signals-and-noise-john-pierce.pdf
+│   │   ├── a-symbolic-analysis-of-relay-and-claude-shannon.pdf
+│   │   ├── communication-theory-of-secrecy-systems-claude-shannon.pdf
+│   │   ├── elements-of-information-theory-cover-and-thomas.pdf
+│   │   ├── information-theory-and-network-coding-raymond-yeung.pdf
+│   │   ├── information-theory-a-tutorial-introduction-james-stone.pdf
+│   │   ├── information-theory-from-coding-to-learning-polyanskiy-and-wu
+│   │   ├── information-theory-inference-and-learning-algorithms-david-mасkау.djvu
+│   │   ├── information-theory-pattern-recognition-and-neural-networks-david-mасkау
+│   │   ├── information-theory-raymond-yeung
+│   │   ├── information-theory-thomas-cover
+│   │   ├── introduction-to-information-theory-ryan-adams.mp4
+│   │   ├── mathematical-theory-of-communication-claude-shannon.pdf
+│   │   ├── principles-of-communication-engineering-jacobs-and-wozencraft.pdf
+│   │   ├── principles-of-digital-communication-robert-gallager.pdf
+│   │   ├── silicon-dreams-information-man-and-machine-robert-lucky.pdf
+│   │   ├── the-essential-message-claude-shannon-and-the-making-of-information-theory-erico-guizzo.pdf
+│   │   ├── the-information-a-history-a-theory-a-flood-james-gleick.pdf
+│   │   └── the-science-of-information-from-language-to-black-holes-benjamin-schumacher.pdf
+│   ├── lang
+│   │   ├── a-comparison-of-object-oriented-programming-in-four-modern-language-henderson-and-zorn.pdf
+│   │   ├── an-axiomatic-basis-for-computer-programming-car-hoare.pdf
+│   │   ├── an-introduction-to-structured-programming-karl-hunt.pdf
+│   │   ├── another-defence-of-enumerated-types-markku-sakkinen.pdf
+│   │   ├── apl
+│   │   ├── a-programming-language-for-vector-computers-robert-griesemer.pdf
+│   │   ├── are-we-there-yet-rich-hickey.mp4
+│   │   ├── awk
+│   │   ├── c
+│   │   ├── cmu-15-150-principles-of-functional-programming
+│   │   ├── concepts-techniques-and-models-of-computer-programming-haridi-and-van-roy.pdf
+│   │   ├── effective-programs-rich-hickey.mp4
+│   │   ├── erlang
+│   │   ├── forth
+│   │   ├── growing-a-language-guy-steele.mp4
+│   │   ├── haskell
+│   │   ├── hints-on-programming-language-design-car-hoare.pdf
+│   │   ├── how-to-succeed-in-language-design-without-really-trying-brian-kernighan.webm
+│   │   ├── import-is-not-inheritance-why-we-need-both-modules-and-classes-clemens-szyperski.pdf
+│   │   ├── lisp
+│   │   ├── loop-exits-and-structured-programming-reopening-the-debate-eric-roberts.pdf
+│   │   ├── lua
+│   │   ├── maybe-not-rich-hickey.mp4
+│   │   ├── notes-on-data-structuring-car-hoare.pdf
+│   │   ├── notes-on-structured-programming-edsger-dijkstra.pdf
+│   │   ├── object-oriented-programming-alan-kay.mp4
+│   │   ├── object-oriented-programming-daniel-ingalls.mp4
+│   │   ├── object-oriented-programming-hanspeter-mossenbock.pdf
+│   │   ├── object-oriented-programming-with-ansi-c-axel-schreiner.pdf
+│   │   ├── programming-language-pragmatics-michael-scott.pdf
+│   │   ├── prolog
+│   │   ├── propositions-as-types-philip-wadler.mp4
+│   │   ├── python
+│   │   ├── self
+│   │   ├── smalltalk
+│   │   ├── stanford-cs107-programming-paradigms
+│   │   ├── stonybrook-cse307-principles-of-programming-languages
+│   │   ├── strand-new-concepts-in-parallel-programming-foster-and-taylor.djvu
+│   │   ├── structured-programming-with-goto-statements-donald-knuth.pdf
+│   │   ├── tcltk
+│   │   ├── the-art-of-the-metaobject-protocol-kiczales-rivieres-bobrow
+│   │   ├── types-and-programming-languages-benjamin-pierce.pdf
+│   │   ├── why-objects-are-not-enough-pfister-and-szyperski.pdf
+│   │   └── zero-overhead-exception-handling-using-metaprogramming-hof-mossenbock-and-pirkelbauer.pdf
+│   ├── nw
+│   │   ├── a-protocol-for-packet-network-intercommunication-cerf-and-kahn.pdf
+│   │   ├── computer-networks-a-systems-approach-larry-peterson.epub
+│   │   └── stanford-cs144-introduction-to-computer-networking
+│   ├── os
+│   │   ├── caltech-cs124-operating-systems
+│   │   ├── combining-lock-free-programming-with-cooperative-multitasking-for-a-portable-multiprocessor-runtime-system-florian-negele.pdf
+│   │   ├── communicating-seqential-processes-car-hoare.pdf
+│   │   ├── cooperating-sequential-processes-edsger-dijkstra.pdf
+│   │   ├── how-linux-is-built-greg-hartman.mp4
+│   │   ├── insight-ethos-on-object-orientation-in-operating-systems-clemens-szyperski.pdf
+│   │   ├── little-book-of-semaphores-allen-downey.pdf
+│   │   ├── minos-the-design-and-implementation-of-an-embedded-real-time-operating-system-with-a-perspective-of-fault-tolerance-kaegi-trachsel-and-gutknecht.pdf
+│   │   ├── operating-systems-three-easy-pieces-andrea-and-rezmi.pdf
+│   │   ├── tasks-versus-threads-niklaus-wirth.pdf
+│   │   ├── the-active-object-system-design-and-multiprocessor-implementation-pieter-muller.pdf
+│   │   └── the-design-of-the-unix-operating-system-maurice-bach.pdf
+│   ├── ques
+│   │   ├── bits-transfer-over-the-wire
+│   │   ├── doing-math-with-logic
+│   │   ├── embedding-lua
+│   │   ├── extract-background-from-a-music-file
+│   │   ├── fibonacci-numbers-in-o-log-n-using-matrices
+│   │   ├── games-programming-and-parallel-computation
+│   │   ├── hardware-software-equivalence
+│   │   ├── loop-issue-in-networks
+│   │   ├── paranthesis-matching-with-regex
+│   │   ├── plot-the-map-of-earth
+│   │   ├── signed-and-unsigned-numbers-handled-in-assembly
+│   │   ├── twos-complement-multiplication-and-division
+│   │   ├── two-word-search
+│   │   ├── universality-of-nor-gates
+│   │   └── what-are-the-big-ideas-in-ai
+│   ├── scal
+│   │   ├── big-table-jeff-dean.pdf
+│   │   ├── building-software-systems-at-google-and-lessons-learned-jeff-dean.mp4
+│   │   ├── dynamo-amazons-highly-available-key-value-store-amazon.pdf
+│   │   ├── the-anatomy-of-a-large-scale-hypertextual-web-search-engine-brin-and-page.pdf
+│   │   └── underneath-the-covers-at-google-jeff-dean.mp4
+│   ├── se
+│   │   ├── a-discipline-of-programming-edsger-dijkstra.djvu
+│   │   ├── a-philosophy-of-software-design-john-ousterhout.mp4
+│   │   ├── a-philosophy-of-software-design-john-ousterhout.pdf
+│   │   ├── a-plea-for-lean-software-niklaus-wirth.pdf
+│   │   ├── can-great-programmers-be-taught-john-ousterhout.mp4
+│   │   ├── elements-of-programming-style-brian-kernighan.mp4
+│   │   ├── elements-of-programming-style-brian-kernighan.pdf
+│   │   ├── good-ideas-through-the-looking-glass-niklaus-wirth.pdf
+│   │   ├── how-to-design-a-good-api-and-why-it-matters-joshua-bloch.mp4
+│   │   ├── literate-programming-donald-knuth.pdf
+│   │   ├── programming-pearls-jon-bentley.pdf
+│   │   ├── systematic-programming-an-introduction-niklaus-wirth.djvu
+│   │   ├── tdd-where-did-it-all-go-wrong-ian-cooper.webm
+│   │   ├── the-art-of-code-dylan-beattie.mp4
+│   │   ├── the-mythical-man-month-essays-on-software-engineering-frederick-brooks.djvu
+│   │   ├── the-practice-of-programming-kernighan-and-pike.epub
+│   │   ├── the-practice-of-programming-kernighan-and-pike.pdf
+│   │   ├── the-pragmatic-programmer-hunt-and-thomas.epub
+│   │   ├── the-pragmatic-programmer-hunt-and-thomas.pdf
+│   │   └── unit-testing-vladimir-khorikov.pdf
+│   ├── sys
+│   │   ├── advanced-programming-in-the-unix-environment-richard-stephen-and-stevens.pdf
+│   │   ├── cmu-15-213-introduction-to-computer-systems
+│   │   ├── computer-structures-readings-and-examples-gorden-bell.pdf
+│   │   ├── computer-systems-a-programmers-perspective-bryant-ohallaron.pdf
+│   │   ├── inferno-bell-labs
+│   │   ├── introduction-to-mips-david-black-schaffer
+│   │   ├── operations
+│   │   ├── pi
+│   │   ├── plan9-bell-labs
+│   │   ├── project-oberon-eth-zurich
+│   │   ├── properties
+│   │   ├── systems-software-research-is-irrelevant-rob-pike.pdf
+│   │   ├── the-linux-programming-interface-michael-kerisk.pdf
+│   │   └── the-unix-programming-environment-kernighan-and-pike.djvu
+│   ├── toc
+│   │   ├── alan-turing-a-tcs-role-model-avi-wigderson.mp4
+│   │   ├── algebra-logic-geometry-at-the-foundation-of-cs-car-hoare.mp4
+│   │   ├── algorithms-complexity-and-the-art-of-computer-programming-donald-knuth.webm
+│   │   ├── an-informal-arithmetical-approach-to-computability-and-computation
+│   │   ├── annotated-turing-charles-petzold.pdf
+│   │   ├── automata-computability-and-complexity-elaine-rich
+│   │   ├── a-variant-to-turings-theory-of-computing-machines-hao-wang.pdf
+│   │   ├── beyond-computation-the-p-vs-np-problem-michael-sipser.mp4
+│   │   ├── celebrating-emil-post-his-intractable-problem-of-tag-100-years-later-stephen-wolfram.mp4
+│   │   ├── churchs-coincidences-philip-wadler.mp4
+│   │   ├── cmu-15-251-great-theoretical-ideas-in-computer-science
+│   │   ├── cmu-15-751-cs-theory-toolkit
+│   │   ├── computable-real-numbers-and-why-they-are-still-important-today-edmund-clarke.mp4
+│   │   ├── computation-finite-and-infinite-machines-marvin-minsky.djvu
+│   │   ├── constructivity-and-computability-in-historical-and-philosophical-perspective-dubucs-and-bourdeau.pdf
+│   │   ├── digitial-computers-on-encoding-logical-mathematical-formulas-using-the-machine-itself-during-program-conception-corrado-bohm.pdf
+│   │   ├── feynman-and-computation-tony-hey.mp4
+│   │   ├── feynman-and-computation-tony-hey.pdf
+│   │   ├── feynman-lectures-on-computation-richard-feynman.pdf
+│   │   ├── finite-automata-and-their-decision-problems-rabin-and-scott.pdf
+│   │   ├── george-boole-madhu-sudhan.mp4
+│   │   ├── godel-escher-bach-an-eternal-golden-braid-douglas-hofstadter.pdf
+│   │   ├── great-ideas-in-computer-science-eric-roberts.pdf
+│   │   ├── hardware-software-and-heuristics-richard-feynman.mp4
+│   │   ├── ideas-that-created-the-future-classic-papers-of-computer-science-harry-r-lewis.epub
+│   │   ├── introduction-to-computation-theory-sfi
+│   │   ├── introduction-to-theoretical-computer-science-boaz-barak.pdf
+│   │   ├── introduction-to-the-theory-of-computation-michael-sipser.pdf
+│   │   ├── lambda-calculus-david-beazley.mp4
+│   │   ├── lambda-calculus-then-and-now-dana-scott.mp4
+│   │   ├── lambda-calculus-vs-turing-machines-advait-shinde.mp4
+│   │   ├── logic-for-computer-science-foundations-of-automatic-theorem-proving-jean-gallier.pdf
+│   │   ├── mathematics-and-computation-a-theory-revolutionizing-technology-and-science-avi-wigderson.pdf
+│   │   ├── mit-18404j-theory-of-computation
+│   │   ├── mit-godel-escher-bach
+│   │   ├── models-of-computation-john-savage.pdf
+│   │   ├── mov-is-turing-complete-stephan-dolan.pdf
+│   │   ├── notes.txt
+│   │   ├── on-computable-numbers-with-an-application-to-the-entscheidungsproblem-alan-turing.pdf
+│   │   ├── open-texture-computability-and-churchs-thesis-stewart-shapiro.mp4
+│   │   ├── programming-the-turing-machine-barbara-liskov.mp4
+│   │   ├── stanford-cs208-canon-of-computer-science-spring-2011
+│   │   ├── the-ada-lovelace-bicentenary-lectures-on-computability-iias
+│   │   ├── the-confluence-of-ideas-in-1936-robin-gandy.pdf
+│   │   ├── the-master-algorithm-pedro-domingos.mp4
+│   │   ├── the-nature-of-computation-christopher-moore-stephan-mertans.epub
+│   │   ├── theory-of-computation-christos-papadimitriou
+│   │   ├── the-turing-computational-model-acm.mp4
+│   │   ├── the-universal-computer-the-road-from-leibniz-to-turing-martin-davis.epub
+│   │   ├── turing-computability-theory-and-applications-robert-soare.pdf
+│   │   ├── turing-godel-and-church-at-princeton-in-the-1930s-andrew-appel.mp4
+│   │   ├── turing-pioneer-of-the-information-age-jack-copeland.mp4
+│   │   ├── turings-vision-the-birth-of-computer-science-chris-benhardt.epub
+│   │   ├── turing-the-man-acm.mp4
+│   │   ├── uva-3102-theory-of-computation
+│   │   ├── we-really-dont-know-how-to-compute-gerry-sussman.mp4
+│   │   ├── what-can-be-computed-john-maccormick.pdf
+│   │   ├── what-is-computability-joel-david-hamkins.mp4
+│   │   ├── what-is-computation-leslie-lamport.mp4
+│   │   └── who-is-the-human-computer-in-turings-analysis-of-computability-oron-shagrir.mp4
+│   └── tools
+│       ├── abduco-dvtm-marc-andre-tanner.mkv
+│       ├── abduco-dvtm-marc-andre-tanner.pdf
+│       ├── abduco.tar
+│       ├── bspwm.tar
+│       ├── data-structures-for-text-sequences-charles-crowley.pdf
+│       ├── dmenu.tar
+│       ├── dvtm.tar
+│       ├── dwm.tar
+│       ├── es-shell.tar
+│       ├── fzy.tar
+│       ├── introduction-to-git-scott-chacon.mp4
+│       ├── jj.tar
+│       ├── ma.tar
+│       ├── practical-vim-edit-at-the-speed-of-thought-drew-neil.epub
+│       ├── quark.tar
+│       ├── sim.tar
+│       ├── slstatus.tar
+│       ├── software-tools-in-pascal-kernighan-and-plaugher.pdf
+│       ├── st.tar
+│       ├── tabbed.tar
+│       ├── vifm.tar
+│       ├── vis.tar
+│       └── web-browser-engineering-panchekha-chris-harrelson
+├── math
+│   ├── aiml
+│   │   ├── coding-the-matrix-linear-algebra-through-computer-science-applications-philip-klein.pdf
+│   │   ├── convex-optimization-boyd-and-vandenberghe.pdf
+│   │   ├── essentials-of-metaheuristics-sean-luke.pdf
+│   │   ├── mathematics-for-machine-learning-marc-deisenroth
+│   │   └── why-machines-learn-the-elegant-math-behind-modern-ai-anil-ananthaswamy.epub
+│   ├── alg
+│   │   ├── a-book-of-abstract-algebra-charles-pinter.pdf
+│   │   ├── algebra-chapter-0-paolo-aluffi.pdf
+│   │   ├── algebra-notes-from-the-underground-paolo-aluffi.pdf
+│   │   ├── elements-of-algebra-leonhard-euler.pdf
+│   │   ├── eulers-formula-with-introductory-group-theory-grant-sanderson.mp4
+│   │   ├── fundamental-theorem-of-algebra-numberphile.mp4
+│   │   ├── office-hours-with-a-geometric-group-theorist-clay-and-margalit.pdf
+│   │   └── quadratic-equations-gilbert-strang.mp4
+│   ├── anal
+│   │   ├── analysis-1-terrence-tao.pdf
+│   │   ├── analysis-2-terrence-tao.pdf
+│   │   ├── e-to-the-pi-i-a-nontraditional-take-grant-sanderson.mp4
+│   │   └── visual-complex-analysis-tristan-needham.pdf
+│   ├── auth
+│   │   ├── allen-hatcher
+│   │   ├── andrey-kolmogorov
+│   │   ├── david-hilbert
+│   │   ├── elias-stein
+│   │   ├── george-polya
+│   │   ├── gh-hardy
+│   │   ├── gilbert-strang
+│   │   ├── herbert-enderton
+│   │   ├── james-munkres
+│   │   ├── jean-pierre-serre
+│   │   ├── john-baez
+│   │   ├── john-neuberger
+│   │   ├── john-stillwell
+│   │   ├── joseph-rotman
+│   │   ├── martin-gardner
+│   │   ├── michael-spivak
+│   │   ├── paul-halmos
+│   │   ├── rami-shakarchi
+│   │   ├── raoul-bott
+│   │   ├── richard-courant
+│   │   ├── saunders-mac-lane
+│   │   ├── sergei-formin
+│   │   ├── serge-lang
+│   │   ├── sheldon-axler
+│   │   ├── stephen-abbott
+│   │   ├── terrence-tao
+│   │   ├── tom-apostol
+│   │   ├── tristan-needham
+│   │   ├── tw-korner
+│   │   ├── walter-rudin
+│   │   ├── william-feller
+│   │   └── william-gothmann
+│   ├── bio
+│   │   ├── a-beautiful-mind-sylvia-nasar.djvu
+│   │   ├── a-mathematicians-apology-gh-hardy.pdf
+│   │   ├── euler-the-master-of-us-all-william-dunham.pdf
+│   │   ├── fermats-last-theorem-simon-singh
+│   │   ├── hilbert-constance-reid.pdf
+│   │   ├── i-want-to-be-a-mathematician-an-automathography-paul-halmos.djvu
+│   │   ├── journey-through-genius-william-dunham.pdf
+│   │   ├── leonard-euler-life-work-and-legacy-robert-bradley.pdf
+│   │   ├── letters-to-a-young-mathematician-ian-stewart.djvu
+│   │   ├── mathematical-people-princeton-university.pdf
+│   │   ├── never-at-rest-a-biography-of-isaac-newton-richard-westfall.djvu
+│   │   ├── the-man-who-invented-calculus-the-life-and-work-of-madhava-pp-divakaran
+│   │   ├── the-man-who-knew-infinity-a-life-of-the-genius-ramanujan-robert-kanigel.pdf
+│   │   └── the-man-who-loved-only-numbers-the-story-of-paul-erdos-paul-hoffman.pdf
+│   ├── calc
+│   │   ├── calculus-michael-spivak.djvu
+│   │   ├── calculus-the-foundation-of-modern-science-eugene-khutoryansky.mp4
+│   │   ├── calculus-with-analytic-geometry-george-simmons.pdf
+│   │   ├── combined-answer-book-for-calculus-michael-spivak.pdf
+│   │   ├── infinite-powers-steven-strogatz
+│   │   ├── intuitive-understanding-of-the-fourier-transform-and-ffts-william-cox.mp4
+│   │   ├── mit-1801-single-variable-calculus
+│   │   ├── the-calculus-gallery-masterpieces-from-newton-to-lebesgue-william-dunham.pdf
+│   │   ├── vector-calculus-linear-algebra-and-differential-forms-a-unified-approach-john-hubbard.pdf
+│   │   └── what-is-fourier-transform-grant-sanderson.mp4
+│   ├── dm
+│   │   ├── arsdigita-discrete-mathematics
+│   │   ├── concrete-mathematics-donald-knuth.pdf
+│   │   ├── discrete-mathematics-and-its-applications-kenneth-rosen.pdf
+│   │   ├── generatingfunctionology-herbert-wilf.pdf
+│   │   ├── graph-theory-with-applications-to-engineering-and-computer-science-narsingh-deo
+│   │   ├── principles-and-techniques-in-combinatorics-chuan-chong-and-khee-meng.pdf
+│   │   └── ucb-cs70-discrete-mathematics-and-probability-theory
+│   ├── elem
+│   │   ├── college-algebra-michael-sullivan.pdf
+│   │   ├── complex-numbers-gilbert-strang.mp4
+│   │   ├── effective-thinking-through-mathematics-michael-starbird
+│   │   ├── elements-of-mathematics-from-euclid-to-godel-john-stillwell.pdf
+│   │   ├── euclids-elements-redux-daniel-callahan.pdf
+│   │   ├── how-to-solve-it-george-polya.epub
+│   │   ├── joy-of-x-steven-strogatz
+│   │   ├── math-illuminated-annenberg-media
+│   │   ├── mit-highlights-of-calculus
+│   │   ├── queens-college-trigonometry
+│   │   ├── stanford-intro-to-mathematical-thinking
+│   │   ├── the-essence-of-calculus-grant-sanderson
+│   │   ├── the-essence-of-linear-algebra-grant-sanderson
+│   │   ├── the-first-six-books-of-the-elements-of-euclid-jemmy-button.pdf
+│   │   └── umkc-math110-college-algebra
+│   ├── gen
+│   │   ├── an-infinitely-large-napkin-evan-chen.pdf
+│   │   ├── geometry-and-the-imagination-cohn-vossen-and-hilbert.pdf
+│   │   ├── godel-escher-bach-an-eternal-golden-braid-douglas-hofstadter
+│   │   ├── hackenbush-a-window-to-a-new-world-of-math-owen-maitzen.mp4
+│   │   ├── measurement-paul-lockhart.pdf
+│   │   ├── numbers-and-geometry-john-stillwell.djvu
+│   │   ├── the-computational-beauty-of-nature-computer-explorations-of-fractals-chaos-complex-systems-and-adaptation-gary-flake
+│   │   ├── the-princeton-companion-to-applied-mathematics-nicholas-higham.pdf
+│   │   ├── the-princeton-companion-to-mathematics-timothy-gowers.pdf
+│   │   └── what-is-mathematics-richard-courant.djvu
+│   ├── hist
+│   │   ├── history-of-mathematics-nj-wildberger
+│   │   └── mathematics-and-its-history-john-stillwell.pdf
+│   ├── it
+│   │   └── communication-theory-goldie-and-pinch.pdf
+│   ├── la
+│   │   ├── coursera-coding-the-matrix
+│   │   ├── eigenvectors-and-eigenvalues-eugene-khutoryansky.mp4
+│   │   ├── essential-linear-algebra-with-applications-a-problem-solving-approach-titu-andreescu
+│   │   ├── essential-linear-algebra-with-applications-a-problem-solving-approach-titu-andreescu.pdf
+│   │   ├── finite-dimensional-vector-spaces-paul-halmos.pdf
+│   │   ├── immersive-linear-algebra-strom-astrom-and-moller
+│   │   ├── interactive-linear-algebra-margalit-and-rabinoff
+│   │   ├── introduction-to-applied-linear-algebra-vectors-matrices-and-least-squares-boyd-lieven-vandenberghe
+│   │   ├── linear-algebra-done-right-sheldon-axler.pdf
+│   │   ├── linear-algebra-matrix-transformation-eugene-khutoryansky.mp4
+│   │   ├── matrix-analysis-horn-and-johnson.pdf
+│   │   ├── practical-linear-algebra-a-geometry-toolbox-farin-and-hansford.pdf
+│   │   └── uccs-cs2300-computational-linear-algebra
+│   ├── logic
+│   │   ├── a-tour-through-mathematical-logic-robert-wolf.pdf
+│   │   ├── introduction-to-metamathematics-stephen-kleene.pdf
+│   │   └── naive-set-theory-paul-halmos.pdf
+│   ├── nt
+│   │   ├── introduction-to-the-theory-of-numbers-niven-zuckerman-and-montgomery.pdf
+│   │   ├── numbers-heinz-dieter-ebbinghaus.pdf
+│   │   ├── ucb-math115-introduction-to-number-theory
+│   │   └── wallis-product-grant-sanderson.mp4
+│   ├── prob
+│   │   ├── berkeley-problems-in-mathematics-paulo-and-silva.pdf
+│   │   ├── harvard-stat110-probability
+│   │   ├── introduction-to-probability-blitzstein-and-hwang.pdf
+│   │   ├── mathematical-circles-russian-experience-dmitri-fomin.pdf
+│   │   ├── mathematical-olympiad-challenges-titu-andreescu.pdf
+│   │   ├── problems-for-mathematicians-young-and-old-paul-r-halmos.djvu
+│   │   ├── problem-solving-through-problems-loren-larson.pdf
+│   │   ├── the-art-and-craft-of-problem-solving-paul-zeitz.pdf
+│   │   ├── the-colossal-book-of-mathematics-martin-gardner.pdf
+│   │   └── the-colossal-book-of-short-puzzles-and-problems-martin-gardner.djvu
+│   ├── proof
+│   │   ├── book-of-proof-richard-hammack.pdf
+│   │   └── proofs-from-the-book-aigner-and-ziegler.pdf
+│   ├── ques
+│   │   ├── cable-problem
+│   │   ├── calculate-value-of-pi
+│   │   ├── constraint-satisfaction-logic-equivalence
+│   │   ├── frequency-to-time-domain
+│   │   └── power-rule
+│   ├── read
+│   │   ├── cambridge-university-reading-list.pdf
+│   │   ├── how-to-learn-math-and-physics-john-baez.txt
+│   │   ├── qiaochu-yuan-reading-list.txt
+│   │   └── the-mathematics-autodidacts-aid-kristine-fowler.pdf
+│   └── top
+├── physics
+│   ├── a-students-guide-to-waves-fleisch-and-kinnaman.pdf
+│   ├── feynman-lectures.url
+│   ├── fundamentals-of-physics-1-mechanics-relativity-and-thermodynamics-r-shankar.epub
+│   ├── fundamentals-of-physics-2-electromagnetism-optics-and-quantum-mechanics-r-shankar.epub
+│   ├── iit-madras-classical-physics
+│   │   ├── 01-introduction.mp4
+│   │   ├── 02-newtonian-mechanics.mp4
+│   │   ├── 03-dynamics-in-phase-space.mp4
+│   │   ├── 04-linear-dynamical-systems.mp4
+│   │   ├── 05-autonomous-dynamical-systems-1.mp4
+│   │   ├── 06-autonomous-dynamical-systems-2.mp4
+│   │   ├── 07-lagrangian-formalism.mp4
+│   │   ├── 08-summary-of-classical-electromagnetism.mp4
+│   │   ├── 09-charged-particle-in-an-electromagnetic-fi.mp4
+│   │   ├── 10-hamiltonian-dynamics-1.mp4
+│   │   ├── 11-hamiltonian-dynamics-2.mp4
+│   │   ├── 12-hamiltonian-dynamics-3.mp4
+│   │   ├── 13-dynamical-symmetry-1.mp4
+│   │   ├── 14-dynamical-symmetry-2.mp4
+│   │   ├── 15-randomness-in-phase-space-chaos.mp4
+│   │   ├── 16-discrete-time-dynamics-maps-1.mp4
+│   │   ├── 17-discrete-time-dynamics-maps-2.mp4
+│   │   ├── 18-problems-and-solutions-1.mp4
+│   │   ├── 19-problems-and-solutions-2.mp4
+│   │   ├── 20-classical-statistical-mechanics.mp4
+│   │   ├── 21-some-probability-distributions-isolated-system.mp4
+│   │   ├── 22-the-microcanonical-emsemble.mp4
+│   │   ├── 23-thermodynamics.mp4
+│   │   ├── 24-the-canonical-ensemble.mp4
+│   │   ├── 25-connection-between-statistical-mechanics-and-ther-modynamics.mp4
+│   │   ├── 26-probability-distributions.mp4
+│   │   ├── 27-phase-transitions-1.mp4
+│   │   ├── 28-phase-transitions-2.mp4
+│   │   ├── 29-phase-transitions-3.mp4
+│   │   ├── 30-phase-transitions-4.mp4
+│   │   ├── 31-problems-and-solutions-3.mp4
+│   │   ├── 32-continuous-groups-in-physics-1.mp4
+│   │   ├── 33-continuous-groups-in-physics-2.mp4
+│   │   ├── 34-continuous-groups-in-physics-3.mp4
+│   │   ├── 35-special-relativity-1.mp4
+│   │   ├── 36-special-relativity-2.mp4
+│   │   ├── 37-special-relativity-3.mp4
+│   │   └── 38-special-relativity-4.mp4
+│   ├── my-view-of-the-world-erwin-schrodinger.pdf
+│   ├── no-nonsense-classical-mechanics-jakob-schwichtenberg.pdf
+│   ├── no-nonsense-electrodynamics-jakob-schwichtenberg.pdf
+│   ├── no-nonsense-quantum-field-theory-jakob-schwichtenberg.pdf
+│   ├── no-nonsense-quantum-mechanics-jakob-schwichtenberg.pdf
+│   ├── raghu-mahajan
+│   │   ├── classical-mechanics.pdf
+│   │   ├── electromagnetism.pdf
+│   │   ├── general-relativity.pdf
+│   │   ├── quantum-field-theory.pdf
+│   │   ├── quantum-information-theory.pdf
+│   │   ├── quantum-mechanics.pdf
+│   │   ├── string-theory.pdf
+│   │   └── the-entropy-of-hawking-radiation.pdf
+│   ├── six-easy-pieces-richard-feynman.pdf
+│   ├── six-not-so-easy-pieces-richard-feynman.pdf
+│   ├── teach-yourself-physics-jakob-schwichtenberg.pdf
+│   ├── the-feynman-lectures-on-physics-vol-1-mechanics-radiation-and-heat-richard-feynman.pdf
+│   ├── the-feynman-lectures-on-physics-vol-2-electromagnetism-and-matter-richard-feynman.pdf
+│   ├── the-feynman-lectures-on-physics-vol-3-quantum-mechanics-richard-feynman.pdf
+│   ├── the-theoretical-minimum-leonard-susskind
+│   │   ├── classical-mechanics
+│   │   ├── general-relativity.djvu
+│   │   ├── quantum-mechanics.pdf
+│   │   └── special-relativity-and-classical-field-theory.djvu
+│   ├── yale-phys200-fundamentals-of-physics-1
+│   │   ├── 01-course-introduction-and-newtonian-mechanics.mp4
+│   │   ├── 02-vectors-in-multiple-dimensions.mp4
+│   │   ├── 03-newtons-laws-of-motion.mp4
+│   │   ├── 04-newtons-laws-of-motion-and-inclined-planes.mp4
+│   │   ├── 05-work-energy-theorem-and-law-of-conservation-of-energy.mp4
+│   │   ├── 06-law-of-conservation-of-energy-in-higher-dimensions.mp4
+│   │   ├── 07-keplers-laws.mp4
+│   │   ├── 08-dynamics-of-multiple-body-system.mp4
+│   │   ├── 09-rotations-part-1-dynamics-of-rigid-bodies.mp4
+│   │   ├── 10-rotations-part-2-parallel-axis-theorem.mp4
+│   │   ├── 11-torque.mp4
+│   │   ├── 12-introduction-to-relativity.mp4
+│   │   ├── 13-lorentz-transformation.mp4
+│   │   ├── 14-introduction-to-the-four-vector.mp4
+│   │   ├── 15-four-vector-in-relativity.mp4
+│   │   ├── 16-the-taylor-series-and-other-mathematical-concepts.mp4
+│   │   ├── 17-simple-harmonic-motion.mp4
+│   │   ├── 18-simple-harmonic-motion-and-introduction-to-waves.mp4
+│   │   ├── 19-waves.mp4
+│   │   ├── 20-fluid-dynamics-and-statics-and-bernoullis-equation.mp4
+│   │   ├── 21-thermodynamics.mp4
+│   │   ├── 22-the-boltzmann-constant-and-first-law-of-thermodynamics.mp4
+│   │   ├── 23-the-second-law-of-thermodynamics-and-carnots-engine.mp4
+│   │   └── 24-the-second-law-of-thermodynamics-and-entropy.mp4
+│   └── yale-phys200-fundamentals-of-physics-2
+│       ├── 01-electrostatics.mp4
+│       ├── 02-electric-fields.mp4
+│       ├── 03-gausss-law.mp4
+│       ├── 04-application-to-conductors-and-insulators.mp4
+│       ├── 05-the-electric-potential-and-conservation-of-energy.mp4
+│       ├── 06-capacitors.mp4
+│       ├── 07-resistance.mp4
+│       ├── 08-circuits.mp4
+│       ├── 09-magnetism.mp4
+│       ├── 10-amperes-law.mp4
+│       ├── 11-lenzs-and-faradays-laws.mp4
+│       ├── 12-lcr-circuits-dc-voltage.mp4
+│       ├── 13-lcr-circuits-ac-voltage.mp4
+│       ├── 14-maxwells-equations-and-electromagnetic-waves-1.mp4
+│       ├── 15-maxwells-equations-and-electromagnetic-waves-2.mp4
+│       ├── 16-ray-or-geometrical-optics-1.mp4
+│       ├── 17-ray-or-geometrical-optics-2.mp4
+│       ├── 18-wave-theory-of-light.mp4
+│       ├── 19-quantum-mechanics-1-the-key-experiments-and-wave-particle-duality.mp4
+│       ├── 20-quantum-mechanics-2.mp4
+│       ├── 21-quantum-mechanics-3.mp4
+│       ├── 22-quantum-mechanics-4-measurement-theory-states-of-definite-energy.mp4
+│       ├── 23-quantum-mechanics-5-particle-in-a-box.mp4
+│       ├── 24-quantum-mechanics-6-time-dependent-schrödinger-equation.mp4
+│       └── 25-quantum-mechanics-7-summary-of-postulates-and-special-topics.mp4
