@@ -24,13 +24,13 @@ A curated list of resources for computer science, mathematics, physics enthusias
 | <sub>Systems Programming & Architecture</sub> | <sub>Computer Systems: A Programmer’s Perspective</sub> | <sub>Randal E. Bryant, David R. O’Hallaron</sub> | <sub>[video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)</sub> |
 |  | <sub>Operating Systems: Three Easy Pieces</sub> | <sub>Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau</sub> | <sub>[video](https://archive.org/details/caltech-cs124-operating-systems)</sub> |
 |  | <sub>Computer Networks: A Systems Approach</sub> | <sub>Bruce S. David, Larry L. Peterson</sub> | <sub>[video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)</sub> |
-|  | <sub>Database System Concepts</sub> | <sub>Henry F. Korth, Abraham Silberschatz S. Sudarshan</sub> | <sub>[video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)</sub> |
 |  | <sub>Project Oberon</sub> | <sub>Niklaus Wirth</sub> |  |
 |  | <sub>Plan 9</sub> | <sub>Bell Labs</sub> |  |
 | <sub>Information Theory</sub> | <sub>Information Theory: A Tutorial Introduction</sub> | <sub>James Stone</sub> | <sub></sub> |
 |  | <sub>Information Theory, Inference, and Learning Algorithms</sub> | <sub>David J.C. MacKay</sub> |  |
 | <sub>Programming Languages & Compilers</sub> | <sub>Programming Language Pragmatics</sub> | <sub>Michael L. Scott</sub> | <sub>[video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)</sub> |
 |  | <sub>Compilers: Principles, Techniques, and Tools</sub> | <sub>Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman</sub> | <sub>[video](https://archive.org/details/coursera-compilers)</sub> |
+| <sub>Database</sub> | <sub>Database System Concepts</sub> | <sub>Henry F. Korth, Abraham Silberschatz S. Sudarshan</sub> | <sub>[video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)</sub> |
 | <sub>Distributed Systems & Scalability</sub> | <sub>Designing Data-Intensive Applications</sub> | <sub>Martin Kleppmann</sub> |  |
 |  | <sub>Distributed Systems</sub> | <sub>Maarten Van Steen, Andrew S. Tanenbaum</sub> |  |
 | <sub>AI & ML</sub> | <sub>Artificial Intelligence: A Guide for Thinking Humans</sub> | <sub>Melanie Mitchell</sub> |  |
