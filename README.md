@@ -47,8 +47,8 @@ A curated list of resources for computer science, mathematics, physics enthusias
 | <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
 |---|---|---|---|
 | <sub>Foundations</sub> | <sub>The Joy Of X: A Guided Tour of Math, from One to Infinity</sub> | <sub>Steven Strogatz</sub> |  |
+|  | <sub>College Algebra</sub> | <sub>Michael Sullivan</sub> | <sub>[video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
 |  | <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
-| <sub>Algebra</sub> | <sub>College Algebra</sub> | <sub>Michael Sullivan</sub> | <sub>[video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
 | <sub>Calculus</sub> | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
 |  | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
 | <sub>Discrete Math & Probability</sub> | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |
