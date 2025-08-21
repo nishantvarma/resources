@@ -47,7 +47,7 @@ A curated list of resources for computer science, mathematics, physics enthusias
 | <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
 |---|---|---|---|
 | <sub>Foundations</sub> | <sub>The Joy Of X: A Guided Tour of Math, from One to Infinity</sub> | <sub>Steven Strogatz</sub> |  |
-|  | <sub>College Algebra</sub> | <sub>Michael Sullivan</sub> | <sub>[video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
+|  | <sub>College Algebra</sub> | <sub>Michael Sullivan</sub> | <sub>[book](https://archive.org/details/precalculus-israel-gelfand),[video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
 |  | <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
 | <sub>Calculus</sub> | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
 |  | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
