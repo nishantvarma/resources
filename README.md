@@ -82,7 +82,7 @@ A curated list of resources for computer science, mathematics, physics enthusias
 
 Read the works of Alan Kay, Brian Kernighan, Donald Knuth, Edward Dijkstra, Niklaus Wirth, Tony Hoare etc.
 
-## Similar Sites
+## Others
 
 - [How to Learn Math and Physics](https://math.ucr.edu/home/baez/books.html) — John Baez
 - [So You Want to Study Mathematics](https://www.susanrigetti.com/math) — Susan Rigetti
