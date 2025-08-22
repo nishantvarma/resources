@@ -2,6 +2,7 @@
 
 - [CS Books](https://teachyourselfcs.com/) — Teach Yourself CS
 - [Math Books](https://www.3blue1brown.com/blog/book-recommendations) — 3Blue1Brown
+- [Math Books)() — Akhil Mathew
 - [Math Books](https://web.evanchen.cc/recommend.html) — Evan Chen
 - [Math Books](https://www.susanrigetti.com/math) — Susan Rigetti
 - [Math Books](https://qchu.wordpress.com/reading-recommendations/) — Qiaochu Yuan
