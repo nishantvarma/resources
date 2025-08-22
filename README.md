@@ -1,4 +1,7 @@
-A curated list of resources for computer science, mathematics, physics enthusiasts. See Goodreads [shelf](https://www.goodreads.com/review/list/72807383-nishant-varma). See [tree](tree.txt) for a more comprehensive list.
+A curated list of resources for computer science, mathematics, physics enthusiasts.
+
+- See Goodreads [shelf](https://www.goodreads.com/review/list/72807383-nishant-varma).
+- See [tree](tree.txt) for a more comprehensive list.
 
 ### Learning Technique
 
