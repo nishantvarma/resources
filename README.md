@@ -1,4 +1,5 @@
-A curated list of resources for computer science, mathematics, physics enthusiasts. See Goodreads [shelf](https://www.goodreads.com/review/list/72807383-nishant-varma) and filesystem [tree](tree.txt).
+A curated list of resources for computer science, mathematics, physics enthusiasts. See Goodreads [shelf](https://www.goodreads.com/review/list/72807383-nishant-varma) and
+filesystem [tree](tree.txt). Also, see some [related](related.md) sites.
 
 ### Learning Technique
 
@@ -81,14 +82,6 @@ A curated list of resources for computer science, mathematics, physics enthusias
 ## Tips
 
 Read the works of Alan Kay, Brian Kernighan, Donald Knuth, Edward Dijkstra, Niklaus Wirth, Tony Hoare etc.
-
-## Related
-
-- [How to Learn Math and Physics](https://math.ucr.edu/home/baez/books.html) — John Baez
-- [So You Want to Study Mathematics](https://www.susanrigetti.com/math) — Susan Rigetti
-- [So You Want to Learn Physics](https://www.susanrigetti.com/physics) — Susan Rigetti
-- [Teach Yourself CS](https://teachyourselfcs.com/)
-- [University of Cambridge: Mathematical Reading List](https://www.maths.cam.ac.uk/undergrad/admissions/files/admissions/reading-list.pdf)
 
 ## Note
 
