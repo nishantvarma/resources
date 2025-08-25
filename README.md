@@ -61,7 +61,9 @@ A curated list of resources for computer science, mathematics, physics enthusias
 |  | <sub>Book of Proof</sub> | <sub>Richard Hammack</sub> |  |
 |  <sub>Problem Solving</sub> | <sub>Mathematical Circles: Russian Experience</sub> | <sub>Dmitri Fomin, Sergey Genkin, Ilia Itenberg</sub> |  |
 |  | <sub>The Art and Craft of Problem Solving</sub> | <sub>Paul Zeitz</sub> |  |
-| <sub>General | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
+| <sub>General</sub> | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
+| <sub>General</sub> | <sub>The Princeton Companion to Mathematics</sub> | <sub>Timothy Gowers</sub> |  |
+| <sub>General</sub> | <sub>The Princeton Companion to Applied Mathematics</sub> | <sub>Nicholas J. Higham</sub> |  |
 
 ### Physics
 
