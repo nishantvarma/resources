@@ -21,6 +21,8 @@ A curated list of resources for computer science, mathematics, physics enthusias
 |  | <sub>Introduction to Algorithms</sub> | <sub>Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</sub> | <sub>[video](https://archive.org/details/mit-6006-introduction-to-algorithms)</sub> |
 | <sub>Theoretical CS</sub> | <sub>Introduction to Theoretical Computer Science</sub> | <sub>Boaz Barak</sub> |  |
 |  | <sub>Introduction to the Theory of Computation</sub> | <sub>Michael Sipser</sub> | <sub>[video](https://archive.org/details/mit-18404j-theory-of-computation)</sub> |
+|  | <sub>Computation: Finite and Infinite Machines</sub> | <sub>Marvin Minsky</sub> |  |
+|  | <sub>Feynman Lectures on Computation</sub> | <sub>Richard P. Feynman</sub> |  |
 | <sub>Information Theory</sub> | <sub>Information Theory: A Tutorial Introduction</sub> | <sub>James Stone</sub> | <sub></sub> |
 |  | <sub>Information Theory, Inference, and Learning Algorithms</sub> | <sub>David J.C. MacKay</sub> |  |
 | <sub>Programming Languages & Compilers</sub> | <sub>Programming Language Pragmatics</sub> | <sub>Michael L. Scott</sub> | <sub>[video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)</sub> |
@@ -54,6 +56,7 @@ A curated list of resources for computer science, mathematics, physics enthusias
 |  | <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
 | <sub>Calculus</sub> | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
 |  | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
+|  | <sub>Calculus: An Intuitive and Physical Approach</sub> | <sub>Morris Kline</sub> |  |
 | <sub>Discrete Math & Probability</sub> | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |
 |  | <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |
 |  | <sub>Principles and Techniques in Combinatorics</sub> | <sub>Chen Chuan-Chong, Koh Khee-Meng</sub> |  |
