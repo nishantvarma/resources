@@ -1,4 +1,4 @@
-Here are some inspiring tips from a user called `nicklaf` on YCombinator:
+Source: `nicklaf` at YCombinator
 
 # How or where to begin learning mathematics from first principles?
 
