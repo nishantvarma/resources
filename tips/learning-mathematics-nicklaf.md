@@ -2,7 +2,7 @@ Source: `nicklaf` at Hacker News
 
 # How or where to begin learning mathematics from first principles?
 
-[Books like Calculus by Michael Spivak and Real Mathematical Analysis by Charles Pugh were mentioned in the previous comment.]
+[Previous comment mentioned books like Calculus by Michael Spivak and Real Mathematical Analysis by Charles.]
 
 I absolutely, positively second the recommendation of "Real Mathematical Analysis" by Charles Pugh (don't miss the advice he relates from his colleague, on pages 9&10, with the heading "Metaphor and Analogy", which could easily form the basis for a dissertation on the psychology of mathematical intuition and inspiration). Pugh does an exquisite, uncommonly good job of avoiding a pitfall that >99.9% of mathematics authors fall into, making it more or less impossible for one to genuinely understand mathematics outside of a university. What pedagogy is it that Pugh (and Spivak) care enough to get right, where nearly all others fail? It is this: Pugh has carefully crafted his book into what I'd call a 'mind expansion tool': almost everything there is crafted to be read, internalized, and meditated on. By contrast, almost all other mathematics books read like a laundry list of theorems and proofs, with some discussion inserted as an afterthought.
 
