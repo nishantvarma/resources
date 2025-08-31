@@ -1,4 +1,4 @@
-Curated resources for computer science, mathematics, physics enthusiasts. See Goodreads [shelf](https://www.goodreads.com/review/list/72807383-nishant-varma), filesystem [tree](tree.txt), [tips](tips.md) and some [related](related.md) sites.
+Curated resources for mathematics, physics, computer science enthusiasts. See Goodreads [shelf](https://www.goodreads.com/review/list/72807383-nishant-varma), filesystem [tree](tree.txt), [tips](tips.md) and some [related](related.md) sites.
 
 ### Learning Technique
 
@@ -8,6 +8,38 @@ Curated resources for computer science, mathematics, physics enthusiasts. See Go
 | <sub>How to Study Math</sub>| <sub>Paul Dawkins</sub> | <sub>[site](https://tutorial.math.lamar.edu/Extras/StudyMath/HowToStudyMath.aspx)</sub>  |
 | <sub>How to Solve It</sub> | <sub>George Pólya</sub> |  |
 | <sub>Art of Doing Science and Engineering: Learning to Learn</sub> | <sub>Richard Hamming, Bret Victor</sub> |  |
+
+### Mathematics
+
+| <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
+|---|---|---|---|
+| <sub>Foundations</sub> | <sub>The Joy Of X: A Guided Tour of Math, from One to Infinity</sub> | <sub>Steven Strogatz</sub> |  |
+|  | <sub>Precalculus</sub> | <sub>Israel Gelfand</sub> | <sub>[book](https://archive.org/details/precalculus-israel-gelfand) [video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
+|  | <sub>Introduction to Mathematical Thinking</sub> | <sub>Keith Devlin</sub> |  |
+|  | <sub>How to Think Like a Mathematician: A Companion to Undergraduate Mathematics</sub> | <sub>Kevin Houston</sub> |  |
+|  | <sub>Letters to a Young Mathematician</sub> | <sub>Ian Stewart</sub> |  |
+|  | <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
+| <sub>Calculus</sub> | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
+|  | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
+|  | <sub>Calculus: An Intuitive and Physical Approach</sub> | <sub>Morris Kline</sub> |  |
+| <sub>Discrete Math & Probability</sub> | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |
+|  | <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |
+|  | <sub>Principles and Techniques in Combinatorics</sub> | <sub>Chen Chuan-Chong, Koh Khee-Meng</sub> |  |
+| <sub>Proofs</sub> | <sub>Proofs from THE BOOK</sub> | <sub>Martin Aigner, Günter M. Ziegler</sub> |  |
+|  | <sub>Book of Proof</sub> | <sub>Richard Hammack</sub> |  |
+|  <sub>Problem Solving</sub> | <sub>Mathematical Circles: Russian Experience</sub> | <sub>Dmitri Fomin, Sergey Genkin, Ilia Itenberg</sub> |  |
+|  | <sub>The Art and Craft of Problem Solving</sub> | <sub>Paul Zeitz</sub> |  |
+| <sub>General</sub> | <sub>The Princeton Companion to Mathematics</sub> | <sub>Timothy Gowers</sub> |  |
+|  | <sub>The Princeton Companion to Applied Mathematics</sub> | <sub>Nicholas J. Higham</sub> |  |
+|  | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
+
+### Physics
+
+| <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
+|---|---|---|
+| <sub>Teach Yourself Physics</sub> | <sub>Jakob Schwichtenberg</sub> |  |
+| <sub>Theoretical Minimum</sub> | <sub>Leonard Susskind</sub> | <sub>[site](https://theoreticalminimum.com/)</sub> |
+| <sub>The Feynman Lectures on Physics</sub> | <sub>Richard Feynman, Robert B. Leighton, Matthew Sands</sub> |  |
 
 ### Computer Science
 
@@ -43,38 +75,6 @@ Curated resources for computer science, mathematics, physics enthusiasts. See Go
 |  | <sub>The Pragmatic Programmer</sub> | <sub>Andrew Hunt, David Thomas</sub> |  |
 |  | <sub>Programming Pearls</sub> | <sub>Jon Bentley</sub> |  |
 |  | <sub>The PhD Grind</sub> | <sub>Philip Guo</sub> |  |
-
-### Mathematics
-
-| <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
-|---|---|---|---|
-| <sub>Foundations</sub> | <sub>The Joy Of X: A Guided Tour of Math, from One to Infinity</sub> | <sub>Steven Strogatz</sub> |  |
-|  | <sub>Precalculus</sub> | <sub>Israel Gelfand</sub> | <sub>[book](https://archive.org/details/precalculus-israel-gelfand) [video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
-|  | <sub>Introduction to Mathematical Thinking</sub> | <sub>Keith Devlin</sub> |  |
-|  | <sub>How to Think Like a Mathematician: A Companion to Undergraduate Mathematics</sub> | <sub>Kevin Houston</sub> |  |
-|  | <sub>Letters to a Young Mathematician</sub> | <sub>Ian Stewart</sub> |  |
-|  | <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
-| <sub>Calculus</sub> | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
-|  | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
-|  | <sub>Calculus: An Intuitive and Physical Approach</sub> | <sub>Morris Kline</sub> |  |
-| <sub>Discrete Math & Probability</sub> | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |
-|  | <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |
-|  | <sub>Principles and Techniques in Combinatorics</sub> | <sub>Chen Chuan-Chong, Koh Khee-Meng</sub> |  |
-| <sub>Proofs</sub> | <sub>Proofs from THE BOOK</sub> | <sub>Martin Aigner, Günter M. Ziegler</sub> |  |
-|  | <sub>Book of Proof</sub> | <sub>Richard Hammack</sub> |  |
-|  <sub>Problem Solving</sub> | <sub>Mathematical Circles: Russian Experience</sub> | <sub>Dmitri Fomin, Sergey Genkin, Ilia Itenberg</sub> |  |
-|  | <sub>The Art and Craft of Problem Solving</sub> | <sub>Paul Zeitz</sub> |  |
-| <sub>General</sub> | <sub>The Princeton Companion to Mathematics</sub> | <sub>Timothy Gowers</sub> |  |
-|  | <sub>The Princeton Companion to Applied Mathematics</sub> | <sub>Nicholas J. Higham</sub> |  |
-|  | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
-
-### Physics
-
-| <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
-|---|---|---|
-| <sub>Teach Yourself Physics</sub> | <sub>Jakob Schwichtenberg</sub> |  |
-| <sub>Theoretical Minimum</sub> | <sub>Leonard Susskind</sub> | <sub>[site](https://theoreticalminimum.com/)</sub> |
-| <sub>The Feynman Lectures on Physics</sub> | <sub>Richard Feynman, Robert B. Leighton, Matthew Sands</sub> |  |
 
 ### Quotes
 
