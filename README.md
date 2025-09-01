@@ -19,7 +19,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>How to Think Like a Mathematician: A Companion to Undergraduate Mathematics</sub> | <sub>Kevin Houston</sub> |  |
 |  | <sub>Precalculus</sub> | <sub>Israel Gelfand</sub> | <sub>[book](https://archive.org/details/precalculus-israel-gelfand) [video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
 |  | <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
-|  <sub>Calculus</sub> | <sub>Calculus Made Easy</sub> | <sub>Silvanus P. Thompson</sub> |  |
+|  <sub>Calculus</sub> | <sub>Calculus Made Easy</sub> | <sub>Martin Gardner, Silvanus P. Thompson</sub> |  |
 |  | <sub>Calculus: An Intuitive and Physical Approach</sub> | <sub>Morris Kline</sub> |  |
 |  | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
 |  | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
