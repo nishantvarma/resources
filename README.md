@@ -14,10 +14,10 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 | <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
 |---|---|---|---|
 | <sub>Foundations</sub> | <sub>The Joy Of X: A Guided Tour of Math, from One to Infinity</sub> | <sub>Steven Strogatz</sub> |  |
-|  | <sub>Precalculus</sub> | <sub>Israel Gelfand</sub> | <sub>[book](https://archive.org/details/precalculus-israel-gelfand) [video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
+|  | <sub>Letters to a Young Mathematician</sub> | <sub>Ian Stewart</sub> |  |
 |  | <sub>Introduction to Mathematical Thinking</sub> | <sub>Keith Devlin</sub> |  |
 |  | <sub>How to Think Like a Mathematician: A Companion to Undergraduate Mathematics</sub> | <sub>Kevin Houston</sub> |  |
-|  | <sub>Letters to a Young Mathematician</sub> | <sub>Ian Stewart</sub> |  |
+|  | <sub>Precalculus</sub> | <sub>Israel Gelfand</sub> | <sub>[book](https://archive.org/details/precalculus-israel-gelfand) [video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
 |  | <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
 |  <sub>Calculus</sub> | <sub>Calculus Made Easy</sub> | <sub>Silvanus P. Thompson</sub> |  |
 |  | <sub>Calculus: An Intuitive and Physical Approach</sub> | <sub>Morris Kline</sub> |  |
