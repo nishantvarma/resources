@@ -19,9 +19,11 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>How to Think Like a Mathematician: A Companion to Undergraduate Mathematics</sub> | <sub>Kevin Houston</sub> |  |
 |  | <sub>Letters to a Young Mathematician</sub> | <sub>Ian Stewart</sub> |  |
 |  | <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
-| <sub>Calculus</sub> | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
-|  | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
+|  <sub>Calculus</sub> | <sub>Calculus Made Easy</sub> | <sub>Silvanus P. Thompson</sub> |  |
 |  | <sub>Calculus: An Intuitive and Physical Approach</sub> | <sub>Morris Kline</sub> |  |
+|  | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
+|  | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
+|  | <sub>Calculus</sub> | <sub>Michael Spivak</sub> |  |
 | <sub>Discrete Math & Probability</sub> | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |
 |  | <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |
 |  | <sub>Principles and Techniques in Combinatorics</sub> | <sub>Chen Chuan-Chong, Koh Khee-Meng</sub> |  |
