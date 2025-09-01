@@ -42,6 +42,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 | <sub>Teach Yourself Physics</sub> | <sub>Jakob Schwichtenberg</sub> |  |
 | <sub>Theoretical Minimum</sub> | <sub>Leonard Susskind</sub> | <sub>[site](https://theoreticalminimum.com/)</sub> |
 | <sub>The Feynman Lectures on Physics</sub> | <sub>Richard Feynman, Robert B. Leighton, Matthew Sands</sub> |  |
+| <sub>The Road to Reality: A Complete Guide to the Laws of the Universe</sub>| Roger Penrose |
 
 ### Computer Science
 
