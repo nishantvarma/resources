@@ -82,6 +82,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 
 ### Quotes
 
+- <sub>"Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding." — William Paul Thurston
 - <sub>"An equation for me has no meaning, unless it expresses a thought of God." — Srinivasa Ramanujan</sub>
 - <sub>"What is mathematics? It is only a systematic effort of solving puzzles posed by nature." — Shakuntala Devi</sub>
 - <sub>"The best way to learn anything is to discover it by yourself." — George Pólya</sub>
