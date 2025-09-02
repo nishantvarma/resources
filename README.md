@@ -83,16 +83,16 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 ### Quotes
 
 - <sub>"Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding." — William Paul Thurston
-- <sub>"An equation for me has no meaning, unless it expresses a thought of God." — Srinivasa Ramanujan</sub>
 - <sub>"What is mathematics? It is only a systematic effort of solving puzzles posed by nature." — Shakuntala Devi</sub>
 - <sub>"The best way to learn anything is to discover it by yourself." — George Pólya</sub>
 - <sub>"The only way to learn mathematics is to do mathematics." — Paul Halmos</sub>
 - <sub>"If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions." ― Albert Einstein</sub>
-- <sub>"If you can’t solve a problem, then there is an easier problem you can solve: find it." — George Pólya</sub>
+- <sub>"If you can't solve a problem, then there is an easier problem you can solve: find it." — George Pólya</sub>
 - <sub>"A great discovery solves a great problem but there is a grain of discovery in the solution of any problem." — George Pólya</sub>
 - <sub>"It is better to solve one problem five different ways, than to solve five problems one way." — George Pólya</sub>
 - <sub>"The best way to learn is to teach." — Frank Oppenheimer</sub>
 - <sub>"If I have seen further than others, it is by standing on the shoulders of giants." — Isaac Newton</sub>
+- <sub>"An equation for me has no meaning, unless it expresses a thought of God." — Srinivasa Ramanujan</sub>
 
 ## Tips
 
