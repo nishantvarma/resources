@@ -39,6 +39,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 
 | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
 |---|---|---|
+| <sub>For the Love of Physics: From the End of the Rainbow to the Edge of Time - A Journey Through the Wonders of Physics</sub> | Walter Lewin |
 | <sub>Teach Yourself Physics</sub> | <sub>Jakob Schwichtenberg</sub> |  |
 | <sub>Theoretical Minimum</sub> | <sub>Leonard Susskind</sub> | <sub>[site](https://theoreticalminimum.com/)</sub> |
 | <sub>The Feynman Lectures on Physics</sub> | <sub>Richard Feynman, Robert B. Leighton, Matthew Sands</sub> |  |
