@@ -13,7 +13,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 
 | <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
 |---|---|---|---|
-| <sub>Foundations</sub> | <sub>Classic Arithmetic</sub> | <sub>Herb Gross</sub> |  |
+| <sub>Foundations</sub> | <sub>Classic Arithmetic</sub> | <sub>Herbert Gross</sub> |  |
 |  | <sub>The Joy Of X: A Guided Tour of Math, from One to Infinity</sub> | <sub>Steven Strogatz</sub> |  |
 |  | <sub>Letters to a Young Mathematician</sub> | <sub>Ian Stewart</sub> |  |
 |  | <sub>Introduction to Mathematical Thinking</sub> | <sub>Keith Devlin</sub> |  |
