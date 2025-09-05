@@ -38,8 +38,8 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>The Art and Craft of Problem Solving</sub> | <sub>Paul Zeitz</sub> |  |
 | <sub>General</sub> | <sub>The Princeton Companion to Mathematics</sub> | <sub>Timothy Gowers</sub> |  |
 |  | <sub>The Princeton Companion to Applied Mathematics</sub> | <sub>Nicholas J. Higham</sub> |  |
-   | <sub>Mathematics: Its Content, Methods and Meaning</sub> | <sub>Andrey N. Kolmogorov </sub> |
-   | <sub>What Is Mathematics? An Elementary Approach to Ideas and Methods</sub> | <sub>Richard Courant</sub> |
+|  | <sub>Mathematics: Its Content, Methods and Meaning</sub> | <sub>Andrey N. Kolmogorov </sub> |
+|  | <sub>What Is Mathematics? An Elementary Approach to Ideas and Methods</sub> | <sub>Richard Courant</sub> |
 |  | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
 | <sub>History</sub> | <sub>Mathematics and its History</sub> | <sub>John Stillwell</sub> |  |
 |  | <sub>Mathematical Thought from Ancient to Modern Times</sub> | <sub>Morris Kline</sub> |  |
