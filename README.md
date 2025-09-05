@@ -25,6 +25,10 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
 |  | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
 |  | <sub>Calculus</sub> | <sub>Michael Spivak</sub> |  |
+|  <sub>Linear Algebra</sub> | <sub>Linear Algebra: Step by Step</sub> | <sub>Kuldeep Singh</sub> |  |
+|  | <sub>Linear Algebra Done Right</sub> | <sub>Sheldon Axler</sub> |  |
+|  | <sub>Linear Algebra Problem Book</sub> | <sub>Paul Halmos</sub> |  |
+|  | <sub>Finite-Dimensional Vector Spaces</sub> | <sub>Paul Halmos</sub> |  |
 | <sub>Discrete Math & Probability</sub> | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |
 |  | <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |
 |  | <sub>Principles and Techniques in Combinatorics</sub> | <sub>Chen Chuan-Chong, Koh Khee-Meng</sub> |  |
@@ -34,7 +38,11 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>The Art and Craft of Problem Solving</sub> | <sub>Paul Zeitz</sub> |  |
 | <sub>General</sub> | <sub>The Princeton Companion to Mathematics</sub> | <sub>Timothy Gowers</sub> |  |
 |  | <sub>The Princeton Companion to Applied Mathematics</sub> | <sub>Nicholas J. Higham</sub> |  |
+   | <sub>Mathematics: Its Content, Methods and Meaning</sub> | <sub>Andrey N. Kolmogorov </sub> |
+   | <sub>What Is Mathematics? An Elementary Approach to Ideas and Methods</sub> | <sub>Richard Courant</sub> |
 |  | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
+| <sub>History</sub> | <sub>Mathematics and its History</sub> | <sub>John Stillwell</sub> |  |
+|  | <sub>Mathematical Thought from Ancient to Modern Times</sub> | <sub>Morris Kline</sub> |  |
 
 ### Physics
 
