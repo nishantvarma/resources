@@ -52,6 +52,8 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 
 | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
 |---|---|---|
+| <sub>Why is it so?</sub> | <sub>Julius Sumner Miller</sub> |
+| <sub>The Mechanical Universe</sub> | <sub>David Goodstein</sub> |
 | <sub>For the Love of Physics: From the End of the Rainbow to the Edge of Time - A Journey Through the Wonders of Physics</sub> | <sub>Walter Lewin</sub> |
 | <sub>Teach Yourself Physics</sub> | <sub>Jakob Schwichtenberg</sub> |  |
 | <sub>Theoretical Minimum</sub> | <sub>Leonard Susskind</sub> | <sub>[site](https://theoreticalminimum.com/)</sub> |
