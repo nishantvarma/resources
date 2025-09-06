@@ -14,7 +14,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 | <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
 |---|---|---|---|
 | <sub>Foundations</sub> | <sub>Gateways to Mathematics</sub> | <sub>Herbert Gross</sub> |  |
-|  | <sub>{background:#fd0800}(The Joy Of X: A Guided Tour of Math, from One to Infinity)</sub> | <sub>Steven Strogatz</sub> |  |
+|  | <sub>The Joy Of X: A Guided Tour of Math, from One to Infinity</sub> | <sub>Steven Strogatz</sub> |  |
 |  | <sub>Letters to a Young Mathematician</sub> | <sub>Ian Stewart</sub> |  |
 |  | <sub>Introduction to Mathematical Thinking</sub> | <sub>Keith Devlin</sub> |  |
 |  | <sub>How to Think Like a Mathematician: A Companion to Undergraduate Mathematics</sub> | <sub>Kevin Houston</sub> |  |
