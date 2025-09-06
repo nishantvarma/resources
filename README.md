@@ -5,7 +5,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</subs> |
 |---|---|---|
 | <sub>Learning How to Learn: How to Succeed in School Without Spending All Your Time Studying</sub> | <sub>Alistair McConville, Barbara Oakley, Terrence Sejnowski</sub> |  |
-| <sub>How to Study Math</sub>| <sub>Paul Dawkins</sub> | <sub>[site](https://tutorial.math.lamar.edu/Extras/StudyMath/HowToStudyMath.aspx)</sub>  |
+| <sub>How to Study Math</sub>| <sub>Paul Dawkins</sub> | <sub>[site](https://tutorial.math.lamar.edu/Extras/StudyMath/HowToStudyMath.aspx)</sub>  |  |
 | <sub>How to Solve It</sub> | <sub>George Pólya</sub> |  |
 | <sub>Art of Doing Science and Engineering: Learning to Learn</sub> | <sub>Richard Hamming, Bret Victor</sub> |  |
 
@@ -18,35 +18,35 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>Letters to a Young Mathematician</sub> | <sub>Ian Stewart</sub> |  |
 |  | <sub>Introduction to Mathematical Thinking</sub> | <sub>Keith Devlin</sub> |  |
 |  | <sub>How to Think Like a Mathematician: A Companion to Undergraduate Mathematics</sub> | <sub>Kevin Houston</sub> |  |
-|  | <sub>Precalculus</sub> | <sub>Israel Gelfand</sub> | <sub>[book](https://archive.org/details/precalculus-israel-gelfand) [video](https://archive.org/details/umkc-math110-college-algebra)</sub> |
+|  | <sub>Precalculus</sub> | <sub>Israel Gelfand</sub> | <sub>[book](https://archive.org/details/precalculus-israel-gelfand) [video](https://archive.org/details/umkc-math110-college-algebra)</sub> |  |
 |  | <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
 |  <sub>Calculus</sub> | <sub>Calculus Made Easy</sub> | <sub>Martin Gardner, Silvanus P. Thompson</sub> |  |
 |  | <sub>Calculus: An Intuitive and Physical Approach</sub> | <sub>Morris Kline</sub> |  |
 |  | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
-|  | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |
+|  | <sub>Calculus with Analytic Geometry</sub> | <sub>George F. Simmons</sub> | <sub>[video](https://archive.org/details/mit-1801-single-variable-calculus)</sub> |  |
 |  | <sub>Calculus</sub> | <sub>Michael Spivak</sub> |  |
 |  <sub>Linear Algebra</sub> | <sub>Linear Algebra: Step by Step</sub> | <sub>Kuldeep Singh</sub> |  |
 |  | <sub>Linear Algebra Done Right</sub> | <sub>Sheldon Axler</sub> |  |
 |  | <sub>Linear Algebra Problem Book</sub> | <sub>Paul Halmos</sub> |  |
 |  | <sub>Finite-Dimensional Vector Spaces</sub> | <sub>Paul Halmos</sub> |  |
-| <sub>Discrete Math & Probability</sub> | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |
-|  | <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |
+| <sub>Discrete Math & Probability</sub> | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |  |
+|  | <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |  |
 |  | <sub>Principles and Techniques in Combinatorics</sub> | <sub>Chen Chuan-Chong, Koh Khee-Meng</sub> |  |
-|  | <sub>Concrete Mathematics</sub> | <sub>Ronald Graham, Donald Knuth, Oren Patashnik</sub> |
+|  | <sub>Concrete Mathematics</sub> | <sub>Ronald Graham, Donald Knuth, Oren Patashnik</sub> |  |
 |  <sub>Proofs</sub> | <sub>Book of Proof</sub> | <sub>Richard Hammack</sub> |  |
 |  | <sub>Proofs from THE BOOK</sub> | <sub>Martin Aigner, Günter M. Ziegler</sub> |  |
 |  <sub>Problem Solving</sub> | <sub>Mathematical Circles: Russian Experience</sub> | <sub>Dmitri Fomin, Sergey Genkin, Ilia Itenberg</sub> |  |
 |  | <sub>The Art and Craft of Problem Solving</sub> | <sub>Paul Zeitz</sub> |  |
 | <sub>General</sub> | <sub>The Princeton Companion to Mathematics</sub> | <sub>Timothy Gowers</sub> |  |
 |  | <sub>The Princeton Companion to Applied Mathematics</sub> | <sub>Nicholas J. Higham</sub> |  |
-|  | <sub>Mathematics: Its Content, Methods and Meaning</sub> | <sub>Andrey N. Kolmogorov </sub> |
-|  | <sub>What Is Mathematics? An Elementary Approach to Ideas and Methods</sub> | <sub>Richard Courant</sub> |
-|  | <sub>Vector Calculus, Linear Algebra, and Differential Forms: A Unified Approach></sub> | <sub>Barbara Burke Hubbard, John H. Hubbard</sub> |
-|  | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
+|  | <sub>Mathematics: Its Content, Methods and Meaning</sub> | <sub>Andrey N. Kolmogorov </sub> |  |
+|  | <sub>What Is Mathematics? An Elementary Approach to Ideas and Methods</sub> | <sub>Richard Courant</sub> |  |
+|  | <sub>Vector Calculus, Linear Algebra, and Differential Forms: A Unified Approach></sub> | <sub>Barbara Burke Hubbard, John H. Hubbard</sub> |  |
+|  | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |  |
 | <sub>History</sub> | <sub>Mathematics and its History</sub> | <sub>John Stillwell</sub> |  |
 |  | <sub>Mathematical Thought from Ancient to Modern Times</sub> | <sub>Morris Kline</sub> |  |
 |  | <sub>The Story of Proof: Logic and the History of Mathematics</sub> | <sub>John Stillwell</sub> |  |
-|  | <sub>Non-Euclidean Geometry: A Critical and Historical Study of Its Development</sub> | <sub>Roberto Bonala</sub>|
+|  | <sub>Non-Euclidean Geometry: A Critical and Historical Study of Its Development</sub> | <sub>Roberto Bonala</sub> |  |
 
 ### Physics
 
