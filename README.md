@@ -52,9 +52,9 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 
 | <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
 |---|---|---|---|
-| <sub>Foundations</sub> | <sub>Why Is It So? and Demonstrations in Physics</sub> | <sub>Julius Sumner Miller</sub> | <sub>YouTube</sub> |
-|  | <sub>The Mechanical Universe</sub> | <sub>David Goodstein</sub> | <sub>YouTube</sub> |
-|  | <sub>Hewitt Drew It</sub> | <sub>Paul G. Hewitt</sub> | <sub>YouTube</sub> |
+| <sub>Foundations</sub> | <sub>Why Is It So? and Demonstrations in Physics</sub> | <sub>Julius Sumner Miller</sub> | <sub>youtube</sub> |
+|  | <sub>The Mechanical Universe</sub> | <sub>David Goodstein</sub> | <sub>youtube</sub> |
+|  | <sub>Hewitt Drew It</sub> | <sub>Paul G. Hewitt</sub> | <sub>youtube</sub> |
 |  | <sub>For the Love of Physics: From the End of the Rainbow to the Edge of Time - A Journey Through the Wonders of Physics</sub> | <sub>Walter Lewin</sub> |  |
 |  | <sub>Teach Yourself Physics</sub> | <sub>Jakob Schwichtenberg</sub> |  |
 | <sub>Advanced</sub> | <sub>Theoretical Minimum</sub> | <sub>Leonard Susskind</sub> | <sub>[site](https://theoreticalminimum.com/)</sub> |
