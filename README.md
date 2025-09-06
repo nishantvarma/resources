@@ -8,7 +8,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f2f2f2;">
+    <tr style="background-color: #ff0000;">
       <td>Row 1, Cell 1</td>
       <td>Row 1, Cell 2</td>
     </tr>
