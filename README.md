@@ -52,7 +52,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 
 | <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
 |---|---|---|---|
-| <sub>Foundations</sub> | <sub>Why Is It So? and Demonstrations in Physics</sub> | <sub>Julius Sumner Miller</sub> | <sub>youtube</sub> |
+| <sub>Foundations</sub> | <sub>Why Is It So?</sub> | <sub>Julius Sumner Miller</sub> | <sub>youtube</sub> |
 |  | <sub>Demonstrations in Physics</sub> | <sub>Julius Sumner Miller</sub> | <sub>youtube</sub> |
 |  | <sub>The Mechanical Universe</sub> | <sub>David Goodstein</sub> | <sub>youtube</sub> |
 |  | <sub>Hewitt Drew It</sub> | <sub>Paul G. Hewitt</sub> | <sub>youtube</sub> |
