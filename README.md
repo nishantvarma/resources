@@ -13,7 +13,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 
 | <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
 |---|---|---|---|
-| <sub>Foundations</sub> | <sub>Gateways to Mathematics</sub> | <sub>Herbert Gross</sub> |  |
+| <sub>Foundations</sub> | <sub>Gateways to Mathematics</sub> | <sub>Herbert Gross</sub> | <sub>youtube</sub> |
 |  | <sub>The Joy Of X: A Guided Tour of Math, from One to Infinity</sub> | <sub>Steven Strogatz</sub> |  |
 |  | <sub>Letters to a Young Mathematician</sub> | <sub>Ian Stewart</sub> |  |
 |  | <sub>Introduction to Mathematical Thinking</sub> | <sub>Keith Devlin</sub> |  |
@@ -41,7 +41,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>The Princeton Companion to Applied Mathematics</sub> | <sub>Nicholas J. Higham</sub> |  |
 |  | <sub>Mathematics: Its Content, Methods and Meaning</sub> | <sub>Andrey N. Kolmogorov </sub> |  |
 |  | <sub>What Is Mathematics? An Elementary Approach to Ideas and Methods</sub> | <sub>Richard Courant</sub> |  |
-|  | <sub>Vector Calculus, Linear Algebra, and Differential Forms: A Unified Approach></sub> | <sub>Barbara Burke Hubbard, John H. Hubbard</sub> |  |
+|  | <sub>Vector Calculus, Linear Algebra, and Differential Forms: A Unified Approach</sub> | <sub>Barbara Burke Hubbard, John H. Hubbard</sub> |  |
 |  | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |  |
 | <sub>History</sub> | <sub>Mathematics and its History</sub> | <sub>John Stillwell</sub> |  |
 |  | <sub>Mathematical Thought from Ancient to Modern Times</sub> | <sub>Morris Kline</sub> |  |
@@ -53,6 +53,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 | <sub>Category</sub> | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</sub> |
 |---|---|---|---|
 | <sub>Foundations</sub> | <sub>Why Is It So? and Demonstrations in Physics</sub> | <sub>Julius Sumner Miller</sub> | <sub>youtube</sub> |
+|  | <sub>Demonstrations in Physics</sub> | <sub>Julius Sumner Miller</sub> | <sub>youtube</sub> |
 |  | <sub>The Mechanical Universe</sub> | <sub>David Goodstein</sub> | <sub>youtube</sub> |
 |  | <sub>Hewitt Drew It</sub> | <sub>Paul G. Hewitt</sub> | <sub>youtube</sub> |
 |  | <sub>For the Love of Physics: From the End of the Rainbow to the Edge of Time - A Journey Through the Wonders of Physics</sub> | <sub>Walter Lewin</sub> |  |
