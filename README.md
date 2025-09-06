@@ -1,24 +1,5 @@
 Curated resources for mathematics, physics, computer science enthusiasts. See Goodreads [shelf](https://www.goodreads.com/review/list/72807383-nishant-varma), filesystem [tree](tree.txt), [tips](tips.md) and some [related](related.md) sites.
 
-<table>
-  <thead>
-    <tr>
-      <th>Header 1</th>
-      <th>Header 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background-color: #ff0000;">
-      <td>Row 1, Cell 1</td>
-      <td>Row 1, Cell 2</td>
-    </tr>
-    <tr>
-      <td>Row 2, Cell 1</td>
-      <td>Row 2, Cell 2</td>
-    </tr>
-  </tbody>
-</table>
-
 ### Learning Technique
 
 | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</subs> |
