@@ -44,7 +44,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
 | <sub>History</sub> | <sub>Mathematics and its History</sub> | <sub>John Stillwell</sub> |  |
 |  | <sub>Mathematical Thought from Ancient to Modern Times</sub> | <sub>Morris Kline</sub> |  |
-|  | <sub>The Story of Proof</sub> | <sub>John Stillwell</sub> |  |
+|  | <sub>The Story of Proof: Logic and the History of Mathematics</sub> | <sub>John Stillwell</sub> |  |
 |  | <sub>Non-Euclidean Geometry: A Critical and Historical Study of Its Development</sub> | <sub>Roberto Bonala</sub>|
 
 ### Physics
