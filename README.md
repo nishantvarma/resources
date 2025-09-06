@@ -32,8 +32,9 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 | <sub>Discrete Math & Probability</sub> | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |
 |  | <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |
 |  | <sub>Principles and Techniques in Combinatorics</sub> | <sub>Chen Chuan-Chong, Koh Khee-Meng</sub> |  |
-| <sub>Proofs</sub> | <sub>Proofs from THE BOOK</sub> | <sub>Martin Aigner, Günter M. Ziegler</sub> |  |
-|  | <sub>Book of Proof</sub> | <sub>Richard Hammack</sub> |  |
+|  | <sub>Concrete Mathematics</sub> | <sub>Ronald Graham, Donald Knuth, Oren Patashnik</sub> |
+|  <sub>Proofs</sub> | <sub>Book of Proof</sub> | <sub>Richard Hammack</sub> |  |
+|  | <sub>Proofs from THE BOOK</sub> | <sub>Martin Aigner, Günter M. Ziegler</sub> |  |
 |  <sub>Problem Solving</sub> | <sub>Mathematical Circles: Russian Experience</sub> | <sub>Dmitri Fomin, Sergey Genkin, Ilia Itenberg</sub> |  |
 |  | <sub>The Art and Craft of Problem Solving</sub> | <sub>Paul Zeitz</sub> |  |
 | <sub>General</sub> | <sub>The Princeton Companion to Mathematics</sub> | <sub>Timothy Gowers</sub> |  |
@@ -43,6 +44,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |
 | <sub>History</sub> | <sub>Mathematics and its History</sub> | <sub>John Stillwell</sub> |  |
 |  | <sub>Mathematical Thought from Ancient to Modern Times</sub> | <sub>Morris Kline</sub> |  |
+|  | <sub>The Story of Proof</sub> | <sub>John Stillwell</sub> |  |
 
 ### Physics
 
