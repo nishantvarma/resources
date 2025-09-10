@@ -57,6 +57,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>The Mechanical Universe</sub> | <sub>David Goodstein</sub> | <sub>youtube</sub> |
 |  | <sub>Conceptual Physics</sub> | <sub>Paul G. Hewitt</sub> | <sub>[site](https://www.conceptualphysics.com/)</sub> |
 |  | <sub>Hewitt Drew It</sub> | <sub>Paul G. Hewitt</sub> | <sub>[site](https://www.conceptualphysics.com/)</sub> |
+|  | <sub>Understanding Physics</sub> | <sub>Isaac Asimov</sub> |  |
 |  | <sub>For the Love of Physics: From the End of the Rainbow to the Edge of Time - A Journey Through the Wonders of Physics</sub> | <sub>Walter Lewin</sub> |  |
 |  | <sub>Teach Yourself Physics</sub> | <sub>Jakob Schwichtenberg</sub> |  |
 | <sub>Advanced</sub> | <sub>Theoretical Minimum</sub> | <sub>Leonard Susskind</sub> | <sub>[site](https://theoreticalminimum.com/)</sub> |
