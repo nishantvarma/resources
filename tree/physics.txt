@@ -1,0 +1,135 @@
+Data/physics
+├── a-students-guide-to-waves-fleisch-and-kinnaman.pdf
+├── feynman-lectures.url
+├── fundamentals-of-physics-1-mechanics-relativity-and-thermodynamics-r-shankar.epub
+├── fundamentals-of-physics-2-electromagnetism-optics-and-quantum-mechanics-r-shankar.epub
+├── iit-madras-classical-physics
+│   ├── 01-introduction.mp4
+│   ├── 02-newtonian-mechanics.mp4
+│   ├── 03-dynamics-in-phase-space.mp4
+│   ├── 04-linear-dynamical-systems.mp4
+│   ├── 05-autonomous-dynamical-systems-1.mp4
+│   ├── 06-autonomous-dynamical-systems-2.mp4
+│   ├── 07-lagrangian-formalism.mp4
+│   ├── 08-summary-of-classical-electromagnetism.mp4
+│   ├── 09-charged-particle-in-an-electromagnetic-fi.mp4
+│   ├── 10-hamiltonian-dynamics-1.mp4
+│   ├── 11-hamiltonian-dynamics-2.mp4
+│   ├── 12-hamiltonian-dynamics-3.mp4
+│   ├── 13-dynamical-symmetry-1.mp4
+│   ├── 14-dynamical-symmetry-2.mp4
+│   ├── 15-randomness-in-phase-space-chaos.mp4
+│   ├── 16-discrete-time-dynamics-maps-1.mp4
+│   ├── 17-discrete-time-dynamics-maps-2.mp4
+│   ├── 18-problems-and-solutions-1.mp4
+│   ├── 19-problems-and-solutions-2.mp4
+│   ├── 20-classical-statistical-mechanics.mp4
+│   ├── 21-some-probability-distributions-isolated-system.mp4
+│   ├── 22-the-microcanonical-emsemble.mp4
+│   ├── 23-thermodynamics.mp4
+│   ├── 24-the-canonical-ensemble.mp4
+│   ├── 25-connection-between-statistical-mechanics-and-ther-modynamics.mp4
+│   ├── 26-probability-distributions.mp4
+│   ├── 27-phase-transitions-1.mp4
+│   ├── 28-phase-transitions-2.mp4
+│   ├── 29-phase-transitions-3.mp4
+│   ├── 30-phase-transitions-4.mp4
+│   ├── 31-problems-and-solutions-3.mp4
+│   ├── 32-continuous-groups-in-physics-1.mp4
+│   ├── 33-continuous-groups-in-physics-2.mp4
+│   ├── 34-continuous-groups-in-physics-3.mp4
+│   ├── 35-special-relativity-1.mp4
+│   ├── 36-special-relativity-2.mp4
+│   ├── 37-special-relativity-3.mp4
+│   └── 38-special-relativity-4.mp4
+├── my-view-of-the-world-erwin-schrodinger.pdf
+├── no-nonsense-classical-mechanics-jakob-schwichtenberg.pdf
+├── no-nonsense-electrodynamics-jakob-schwichtenberg.pdf
+├── no-nonsense-quantum-field-theory-jakob-schwichtenberg.pdf
+├── no-nonsense-quantum-mechanics-jakob-schwichtenberg.pdf
+├── raghu-mahajan
+│   ├── classical-mechanics.pdf
+│   ├── electromagnetism.pdf
+│   ├── general-relativity.pdf
+│   ├── quantum-field-theory.pdf
+│   ├── quantum-information-theory.pdf
+│   ├── quantum-mechanics.pdf
+│   ├── string-theory.pdf
+│   └── the-entropy-of-hawking-radiation.pdf
+├── six-easy-pieces-richard-feynman.pdf
+├── six-not-so-easy-pieces-richard-feynman.pdf
+├── teach-yourself-physics-jakob-schwichtenberg.pdf
+├── the-feynman-lectures-on-physics-vol-1-mechanics-radiation-and-heat-richard-feynman.pdf
+├── the-feynman-lectures-on-physics-vol-2-electromagnetism-and-matter-richard-feynman.pdf
+├── the-feynman-lectures-on-physics-vol-3-quantum-mechanics-richard-feynman.pdf
+├── the-theoretical-minimum-leonard-susskind
+│   ├── classical-mechanics
+│   │   ├── 01.mp4
+│   │   ├── 02.mp4
+│   │   ├── 03.mp4
+│   │   ├── 04.mp4
+│   │   ├── 05.mp4
+│   │   ├── 06.mp4
+│   │   ├── 07.mp4
+│   │   ├── 08.mp4
+│   │   ├── 09.mp4
+│   │   ├── 10.mp4
+│   │   ├── book.epub
+│   │   └── book.pdf
+│   ├── general-relativity.djvu
+│   ├── quantum-mechanics.pdf
+│   └── special-relativity-and-classical-field-theory.djvu
+├── the-variational-principles-of-mechanics-cornelius-lanczos.pdf
+├── yale-phys200-fundamentals-of-physics-1
+│   ├── 01-course-introduction-and-newtonian-mechanics.mp4
+│   ├── 02-vectors-in-multiple-dimensions.mp4
+│   ├── 03-newtons-laws-of-motion.mp4
+│   ├── 04-newtons-laws-of-motion-and-inclined-planes.mp4
+│   ├── 05-work-energy-theorem-and-law-of-conservation-of-energy.mp4
+│   ├── 06-law-of-conservation-of-energy-in-higher-dimensions.mp4
+│   ├── 07-keplers-laws.mp4
+│   ├── 08-dynamics-of-multiple-body-system.mp4
+│   ├── 09-rotations-part-1-dynamics-of-rigid-bodies.mp4
+│   ├── 10-rotations-part-2-parallel-axis-theorem.mp4
+│   ├── 11-torque.mp4
+│   ├── 12-introduction-to-relativity.mp4
+│   ├── 13-lorentz-transformation.mp4
+│   ├── 14-introduction-to-the-four-vector.mp4
+│   ├── 15-four-vector-in-relativity.mp4
+│   ├── 16-the-taylor-series-and-other-mathematical-concepts.mp4
+│   ├── 17-simple-harmonic-motion.mp4
+│   ├── 18-simple-harmonic-motion-and-introduction-to-waves.mp4
+│   ├── 19-waves.mp4
+│   ├── 20-fluid-dynamics-and-statics-and-bernoullis-equation.mp4
+│   ├── 21-thermodynamics.mp4
+│   ├── 22-the-boltzmann-constant-and-first-law-of-thermodynamics.mp4
+│   ├── 23-the-second-law-of-thermodynamics-and-carnots-engine.mp4
+│   └── 24-the-second-law-of-thermodynamics-and-entropy.mp4
+└── yale-phys200-fundamentals-of-physics-2
+    ├── 01-electrostatics.mp4
+    ├── 02-electric-fields.mp4
+    ├── 03-gausss-law.mp4
+    ├── 04-application-to-conductors-and-insulators.mp4
+    ├── 05-the-electric-potential-and-conservation-of-energy.mp4
+    ├── 06-capacitors.mp4
+    ├── 07-resistance.mp4
+    ├── 08-circuits.mp4
+    ├── 09-magnetism.mp4
+    ├── 10-amperes-law.mp4
+    ├── 11-lenzs-and-faradays-laws.mp4
+    ├── 12-lcr-circuits-dc-voltage.mp4
+    ├── 13-lcr-circuits-ac-voltage.mp4
+    ├── 14-maxwells-equations-and-electromagnetic-waves-1.mp4
+    ├── 15-maxwells-equations-and-electromagnetic-waves-2.mp4
+    ├── 16-ray-or-geometrical-optics-1.mp4
+    ├── 17-ray-or-geometrical-optics-2.mp4
+    ├── 18-wave-theory-of-light.mp4
+    ├── 19-quantum-mechanics-1-the-key-experiments-and-wave-particle-duality.mp4
+    ├── 20-quantum-mechanics-2.mp4
+    ├── 21-quantum-mechanics-3.mp4
+    ├── 22-quantum-mechanics-4-measurement-theory-states-of-definite-energy.mp4
+    ├── 23-quantum-mechanics-5-particle-in-a-box.mp4
+    ├── 24-quantum-mechanics-6-time-dependent-schrödinger-equation.mp4
+    └── 25-quantum-mechanics-7-summary-of-postulates-and-special-topics.mp4
+
+7 directories, 126 files

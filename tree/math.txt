@@ -1,0 +1,849 @@
+Data/math
+├── aiml
+│   ├── coding-the-matrix-linear-algebra-through-computer-science-applications-philip-klein.pdf
+│   ├── convex-optimization-boyd-and-vandenberghe.pdf
+│   ├── essentials-of-metaheuristics-sean-luke.pdf
+│   ├── mathematics-for-machine-learning-marc-deisenroth
+│   └── why-machines-learn-the-elegant-math-behind-modern-ai-anil-ananthaswamy.epub
+├── alg
+│   ├── a-book-of-abstract-algebra-charles-pinter.pdf
+│   ├── algebra-chapter-0-paolo-aluffi.pdf
+│   ├── algebra-notes-from-the-underground-paolo-aluffi.pdf
+│   ├── elements-of-algebra-leonhard-euler.pdf
+│   ├── eulers-formula-with-introductory-group-theory-grant-sanderson.mp4
+│   ├── fundamental-theorem-of-algebra-numberphile.mp4
+│   ├── office-hours-with-a-geometric-group-theorist-clay-and-margalit.pdf
+│   └── quadratic-equations-gilbert-strang.mp4
+├── anal
+│   ├── analysis-1-terrence-tao.pdf
+│   ├── analysis-2-terrence-tao.pdf
+│   ├── e-to-the-pi-i-a-nontraditional-take-grant-sanderson.mp4
+│   ├── generalized-functions-israel-gelfand
+│   │   ├── 1-properties-and-operations.pdf
+│   │   ├── 2-spaces-of-fundamental-and-generalized-functions.pdf
+│   │   ├── 3-theory-of-differential-equations.pdf
+│   │   ├── 4-applications-of-harmonic-analysis.pdf
+│   │   ├── 5-integral-geometry-and-representation-theory.pdf
+│   │   └── 6-representation-theory-and-automorphic-functions-6.pdf
+│   ├── how-to-think-about-analysis-lara-alcock.pdf
+│   ├── mathematical-analysis-1-vladimir-zorich.pdf
+│   ├── mathematical-analysis-2-vladimir-zorich.pdf
+│   ├── mathematical-analysis-a-straightforward-approach-kg-binmore.pdf
+│   ├── real-mathematical-analysis-charles-pugh.pdf
+│   ├── understanding-analysis-stephen-abbott.pdf
+│   └── visual-complex-analysis-tristan-needham.pdf
+├── auth
+│   ├── allen-hatcher
+│   ├── andrey-kolmogorov
+│   ├── david-hilbert
+│   ├── elias-stein
+│   ├── george-polya
+│   ├── gh-hardy
+│   ├── gilbert-strang
+│   ├── herbert-enderton
+│   ├── im-gelfand
+│   ├── james-munkres
+│   ├── jean-pierre-serre
+│   ├── john-baez
+│   ├── john-neuberger
+│   ├── john-stillwell
+│   ├── joseph-rotman
+│   ├── martin-gardner
+│   ├── michael-spivak
+│   ├── paul-halmos
+│   ├── rami-shakarchi
+│   ├── raoul-bott
+│   ├── richard-courant
+│   ├── saunders-mac-lane
+│   ├── sergei-formin
+│   ├── serge-lang
+│   ├── sheldon-axler
+│   ├── stephen-abbott
+│   ├── terrence-tao
+│   ├── tom-apostol
+│   ├── tristan-needham
+│   ├── tw-korner
+│   ├── walter-rudin
+│   ├── william-feller
+│   └── william-gothmann
+├── bio
+│   ├── a-beautiful-mind-sylvia-nasar.djvu
+│   ├── a-mathematicians-apology-gh-hardy.pdf
+│   ├── euler-the-master-of-us-all-william-dunham.pdf
+│   ├── fermats-last-theorem-simon-singh
+│   ├── hilbert-constance-reid.pdf
+│   ├── i-want-to-be-a-mathematician-an-automathography-paul-halmos.djvu
+│   ├── journey-through-genius-william-dunham.pdf
+│   ├── leonard-euler-life-work-and-legacy-robert-bradley.pdf
+│   ├── letters-to-a-young-mathematician-ian-stewart.djvu
+│   ├── mathematical-people-princeton-university.pdf
+│   ├── never-at-rest-a-biography-of-isaac-newton-richard-westfall.djvu
+│   ├── ramanujan-letters-and-commentary-berndt-and-rankin.pdf
+│   ├── srinivasa-ramanujan-life-and-work-of-a-natural-mathematical-genius-srinivasa-rao.pdf
+│   ├── the-man-who-invented-calculus-the-life-and-work-of-madhava-pp-divakaran
+│   │   ├── 1.mp4
+│   │   ├── 2.mp4
+│   │   └── 3.mp4
+│   ├── the-man-who-knew-infinity-a-life-of-the-genius-ramanujan-robert-kanigel.pdf
+│   └── the-man-who-loved-only-numbers-the-story-of-paul-erdos-paul-hoffman.pdf
+├── calc
+│   ├── calculus-an-intuitive-and-physical-approach-morris-kline.pdf
+│   ├── calculus-illustrated-peter-saveliev
+│   │   ├── 1-precalculus.pdf
+│   │   ├── 2-differential-calculus .pdf
+│   │   ├── 3-integral-calculus.pdf
+│   │   ├── 4-calculus-in-higher-dimensions.pdf
+│   │   └── 5-differential-equations.pdf
+│   ├── calculus-michael-spivak.djvu
+│   ├── calculus-the-foundation-of-modern-science-eugene-khutoryansky.mp4
+│   ├── calculus-with-analytic-geometry-george-simmons.pdf
+│   ├── combined-answer-book-for-calculus-michael-spivak.pdf
+│   ├── div-grad-curl-and-all-that-an-informal-text-on-vector-calculus-hm-schey.pdf
+│   ├── ideas-of-calculus-in-islam-and-india-victor-katz.pdf
+│   ├── infinite-powers-steven-strogatz
+│   ├── intuitive-understanding-of-the-fourier-transform-and-ffts-william-cox.mp4
+│   ├── mit-1801-single-variable-calculus
+│   │   ├── 01.mp4
+│   │   ├── 02.mp4
+│   │   ├── 03.mp4
+│   │   ├── 04.mp4
+│   │   ├── 05.mp4
+│   │   ├── 06.mp4
+│   │   ├── 07.mp4
+│   │   ├── 09.mp4
+│   │   ├── 10.mp4
+│   │   ├── 11.mp4
+│   │   ├── 12.mp4
+│   │   ├── 13.mp4
+│   │   ├── 14.mp4
+│   │   ├── 15.mp4
+│   │   ├── 16.mp4
+│   │   ├── 18.mp4
+│   │   ├── 19.mp4
+│   │   ├── 20.mp4
+│   │   ├── 21.mp4
+│   │   ├── 22.mp4
+│   │   ├── 23.mp4
+│   │   ├── 24.mp4
+│   │   ├── 25.mp4
+│   │   ├── 27.mp4
+│   │   ├── 28.mp4
+│   │   ├── 29.mp4
+│   │   ├── 30.mp4
+│   │   ├── 31.mp4
+│   │   ├── 32.mp4
+│   │   ├── 33.mp4
+│   │   ├── 35.mp4
+│   │   ├── 36.mp4
+│   │   ├── 37.mp4
+│   │   ├── 38.mp4
+│   │   └── 39.mp4
+│   ├── the-calculus-gallery-masterpieces-from-newton-to-lebesgue-william-dunham.pdf
+│   ├── the-first-textbook-of-calculus-yuktibhaṣa-pp-divakaran.pdf
+│   ├── vector-calculus-linear-algebra-and-differential-forms-a-unified-approach-john-hubbard.pdf
+│   └── what-is-fourier-transform-grant-sanderson.mp4
+├── dm
+│   ├── arsdigita-discrete-mathematics
+│   │   ├── 01-what-kind-of-problems-are-solved-in-discrete-math.mp4
+│   │   ├── 02-boolean-algebra-and-formal-logic.mp4
+│   │   ├── 03-quantifiers-and-predicates.mp4
+│   │   ├── 04-sets.mp4
+│   │   ├── 05-diagonalization-functions-and-sums-review.mp4
+│   │   ├── 06-basic-arithmetic-and-geometric-sums-closed-forms.mp4
+│   │   ├── 07-chinese-rings-puzzle.mp4
+│   │   ├── 08-solving-recurrence-equations-1.mp4
+│   │   ├── 09-solving-recurrence-equations-2.mp4
+│   │   ├── 10-mathematical-induction.mp4
+│   │   ├── 11-combinations-and-permutations.mp4
+│   │   ├── 12-counting-problems-1.mp4
+│   │   ├── 13-counting-problems-2.mp4
+│   │   ├── 14-counting-problems-3.mp4
+│   │   ├── 15-counting-problems-4.mp4
+│   │   ├── 16-the-pigeonhole-principle-and-examples.mp4
+│   │   ├── 17-equivalence-relations-and-partial-orders.mp4
+│   │   ├── 18-euclids-algorithm.mp4
+│   │   ├── 19-cryptography.mp4
+│   │   └── 20-a-combinatorial-card-trick.mp4
+│   ├── concrete-mathematics-donald-knuth.pdf
+│   ├── discrete-mathematics-and-its-applications-kenneth-rosen.pdf
+│   ├── generatingfunctionology-herbert-wilf.pdf
+│   ├── graph-theory-with-applications-to-engineering-and-computer-science-narsingh-deo
+│   ├── principles-and-techniques-in-combinatorics-chuan-chong-and-khee-meng.pdf
+│   └── ucb-cs70-discrete-mathematics-and-probability-theory
+│       ├── 01.mp4
+│       ├── 02.mp4
+│       ├── 03.mp4
+│       ├── 04.mp4
+│       ├── 05.mp4
+│       ├── 06.mp4
+│       ├── 07.mp4
+│       ├── 08.mp4
+│       ├── 09.mp4
+│       ├── 10.mp4
+│       ├── 11.mp4
+│       ├── 12.mp4
+│       ├── 13.mp4
+│       ├── 14.mp4
+│       ├── 15.mp4
+│       ├── 16.mp4
+│       ├── 17.mp4
+│       ├── 18.mp4
+│       ├── 19.mp4
+│       ├── 20.mp4
+│       ├── 21.mp4
+│       ├── 22.mp4
+│       ├── 23.mp4
+│       ├── 24.mp4
+│       ├── 25.mp4
+│       └── 26.mp4
+├── elem
+│   ├── a-mathematicians-lament-paul-lockhart.pdf
+│   ├── college-algebra-michael-sullivan.pdf
+│   ├── complex-numbers-gilbert-strang.mp4
+│   ├── effective-thinking-through-mathematics-michael-starbird
+│   │   ├── 0-introduction
+│   │   │   ├── 1-about-the-course.mp4
+│   │   │   ├── 2-course-strategy.mp4
+│   │   │   ├── 3-growing-up-with-math.mp4
+│   │   │   └── 4-first-taste-of-effective-thinking.mp4
+│   │   ├── 1-the-meanie-genie-puzzle
+│   │   │   ├── 10-puzzle-solution-that-is-a-meanie-genie.mp4
+│   │   │   ├── 11-a-tip-from-professor-starbird.mp4
+│   │   │   ├── 12-struggle-leads-to-new-ideas.mp4
+│   │   │   ├── 1-before-you-get-started.mp4
+│   │   │   ├── 2-understand-deeply.mp4
+│   │   │   ├── 3-intro.mp4
+│   │   │   ├── 4-the-story-of-the-meanie-genie.mp4
+│   │   │   ├── 5-make-mistakes.mp4
+│   │   │   ├── 6-working-through-meanie-genie.mp4
+│   │   │   ├── 7-discovering-the-answer.mp4
+│   │   │   ├── 8-post-puzzle-interview.mp4
+│   │   │   └── 9-different-strategies.mp4
+│   │   ├── 2-a-shaky-story
+│   │   │   ├── 1-a-shaky-story-animation.mp4
+│   │   │   └── 2-raise-questions.mp4
+│   │   ├── 3-the-puzzle-of-the-pirates-and-admirals
+│   │   │   ├── 1-an-introduction-to-the-pirates-and-admirals.mp4
+│   │   │   ├── 2-the-pirates-and-admirals.mp4
+│   │   │   ├── 3-scotts-first-step.mp4
+│   │   │   ├── 4-a-picture-is-worth-a-thousand-words.mp4
+│   │   │   ├── 5-considering-all-possibilities.mp4
+│   │   │   ├── 6-follow-the-flow-of-ideas.mp4
+│   │   │   ├── 7-solving-the-pirates-and-admirals-conundrum.mp4
+│   │   │   └── 8-scotts-reactions-to-the-pirates-and-admirals.mp4
+│   │   ├── 4-tower-of-hanoi
+│   │   │   ├── 1-getting-started.mp4
+│   │   │   ├── 2-first-representation.mp4
+│   │   │   ├── 3-improved-representation.mp4
+│   │   │   ├── 4-impasse.mp4
+│   │   │   ├── 5-simple-cases.mp4
+│   │   │   ├── 6-gaining-insight.mp4
+│   │   │   ├── 7-solving-the-puzzle.mp4
+│   │   │   └── 8-change.mp4
+│   │   ├── 5-extra-puzzles
+│   │   │   ├── 1-foundation-of-knowledge.mp4
+│   │   │   └── 2-good-bye-for-now.mp4
+│   │   ├── 6-infinity
+│   │   │   ├── 10-matching-rooms-to-natural-numbers.mp4
+│   │   │   ├── 11-how-big-are-integers-understanding-the-question.mp4
+│   │   │   ├── 12-what-information-do-you-need.mp4
+│   │   │   ├── 13-properties-of-cardinality.mp4
+│   │   │   ├── 14-retreating-to-move-forward.mp4
+│   │   │   ├── 15-coming-to-an-idea.mp4
+│   │   │   ├── 16-natural-numbers-vs-rational-numbers.mp4
+│   │   │   ├── 17-analyze-mistakes.mp4
+│   │   │   ├── 18-revisiting-previous-ideas.mp4
+│   │   │   ├── 19-use-old-methods-to-get-new-ideas.mp4
+│   │   │   ├── 1-a-quick-note-about-infinity.mp4
+│   │   │   ├── 20-including-all-rationals.mp4
+│   │   │   ├── 2-shaking-candy-before-you-can-count.mp4
+│   │   │   ├── 3-sizes.mp4
+│   │   │   ├── 4-a-thought-experiment.mp4
+│   │   │   ├── 5-infinity-minus-one.mp4
+│   │   │   ├── 6-the-same-size.mp4
+│   │   │   ├── 7-the-infinity-inn.mp4
+│   │   │   ├── 8-making-room-for-the-owner.mp4
+│   │   │   └── 9-a-method-of-occupancy.mp4
+│   │   ├── 7-dodgeball
+│   │   │   ├── 10-decimals-vs-natural-numbers.mp4
+│   │   │   ├── 11-applying-dodgeball-to-decimals.mp4
+│   │   │   ├── 12-to-infinity-and-beyond.mp4
+│   │   │   ├── 1-to-infinity-via-dodgeball.mp4
+│   │   │   ├── 2-playing-dodgeball.mp4
+│   │   │   ├── 3-the-winning-strategy.mp4
+│   │   │   ├── 4-bigger-boards.mp4
+│   │   │   ├── 5-buy-every-ticket.mp4
+│   │   │   ├── 6-buy-every-ticket-a-failed-attempt.mp4
+│   │   │   ├── 7-infinity-comes-in-different-sizes.mp4
+│   │   │   ├── 8-infinity-comes-in-different-sizes.mp4
+│   │   │   └── 9-infinity-comes-in-different-sizes.mp4
+│   │   ├── 8-euler-circuit
+│   │   │   ├── 1-the-seven-bridges-of-koenigsberg.mp4
+│   │   │   ├── 2-graphing-kevin-bacon.mp4
+│   │   │   ├── 3-exploring-koenigsberg.mp4
+│   │   │   ├── 4-overcoming-frustration.mp4
+│   │   │   ├── 5-euler-circuit.mp4
+│   │   │   ├── 6-getting-stuck.mp4
+│   │   │   ├── 7-partial-success.mp4
+│   │   │   ├── 8-building-on-partial-success.mp4
+│   │   │   └── 9-returning-to-koenigsberg.mp4
+│   │   └── 9-conclusion
+│   │       └── 1-goodbye-from-starbird.mp4
+│   ├── elements-of-mathematics-from-euclid-to-godel-john-stillwell.pdf
+│   ├── euclids-elements-redux-daniel-callahan.pdf
+│   ├── higher-math-for-beginners-yalgom-and-zeldovich.djvu
+│   ├── how-to-solve-it-george-polya.epub
+│   ├── how-to-think-like-a-mathematician-kevin-houston.pdf
+│   ├── joy-of-x-steven-strogatz
+│   ├── math-illuminated-annenberg-media
+│   │   ├── 01-primes.mp4
+│   │   ├── 01-primes.pdf
+│   │   ├── 02-combinatorics-counts.mp4
+│   │   ├── 02-combinatorics-counts.pdf
+│   │   ├── 03-how-big-is-infinity.mp4
+│   │   ├── 03-how-big-is-infinity.pdf
+│   │   ├── 04-topologys-twists-and-turns.mp4
+│   │   ├── 04-topologys-twists-and-turns.pdf
+│   │   ├── 05-other-dimensions.mp4
+│   │   ├── 05-other-dimensions.pdf
+│   │   ├── 06-the-beauty-of-symmetry.mp4
+│   │   ├── 06-the-beauty-of-symmetry.pdf
+│   │   ├── 07-making-sense-of-randomness.mp4
+│   │   ├── 07-making-sense-of-randomness.pdf
+│   │   ├── 08-geometries-beyond-euclid.mp4
+│   │   ├── 08-geometries-beyond-euclid.pdf
+│   │   ├── 09-game-theory.mp4
+│   │   ├── 09-game-theory.pdf
+│   │   ├── 10-harmonious-math.mp4
+│   │   ├── 10-harmonious-math.pdf
+│   │   ├── 11-connecting-with-networks.mp4
+│   │   ├── 11-connecting-with-networks.pdf
+│   │   ├── 12-in-sync.mp4
+│   │   ├── 12-in-sync.pdf
+│   │   ├── 13-the-concept-of-chaos.mp4
+│   │   └── 13-the-concept-of-chaos.pdf
+│   ├── mit-highlights-of-calculus
+│   │   ├── 00-intro.mp4
+│   │   ├── 01-big-picture-of-calculus.mp4
+│   │   ├── 02-big-picture-derivatives.mp4
+│   │   ├── 03-max-and-min-and-second-derivative.mp4
+│   │   ├── 04-the-exponential-function.mp4
+│   │   ├── 05-big-picture-integrals.mp4
+│   │   ├── 06-derivative-of-sinx-and-cosx.mp4
+│   │   ├── 07-product-rule-and-quotient-rule.mp4
+│   │   ├── 08-chains-f(g(x))-and-the-chain-rule.mp4
+│   │   ├── 09-limits-and-continuous-functions.mp4
+│   │   ├── 10-inverse-funtions-and-the-logarithm.mp4
+│   │   ├── 11-derivatives-of-log-and-sin-inverse.mp4
+│   │   ├── 12-growth-rates-and-log-graphs.mp4
+│   │   ├── 13-linear-approximation-netwons-method.mp4
+│   │   ├── 14-power-series-eulers-great-formula.mp4
+│   │   ├── 15-differential-equations-of-motion.mp4
+│   │   ├── 16-differential-equations-of-growth.mp4
+│   │   └── 17-six-functions-six-rules-and-six-theorems.mp4
+│   ├── precalculus-gelfand
+│   │   ├── 1-functions-and-graphs.djvu
+│   │   ├── 2-the-method-of-coordinates.djvu
+│   │   ├── 3-sequences-combinations-limits.pdf
+│   │   ├── 4-algebra.djvu
+│   │   ├── 5-trigonometry.pdf
+│   │   ├── 6-geometry.pdf
+│   │   └── 7-calculus-of-variations.pdf
+│   ├── queens-college-trigonometry
+│   │   ├── 1-angles-degrees-and-radians.mp4
+│   │   ├── 2-definitions-of-trigonometric-functions-and-some-identities.mp4
+│   │   ├── 3-more-trigonometric-identities.mp4
+│   │   ├── 4-double-angle-and-half-angle-formulas-and-proving-identities.mp4
+│   │   ├── 5-trigonometric-functions-of-some-basic-angles-graphs-of-the-sine-and-cosine-functions.mp4
+│   │   ├── 6-trigonometric-functions-of-2nd-3rd-and-4th-quadrant-angles.mp4
+│   │   ├── 7-solving-triangles-and-trigonometric-equations.mp4
+│   │   ├── 8-polar-coordinates-and-graphs-of-polar-equations.mp4
+│   │   └── 9-review.mp4
+│   ├── stanford-intro-to-mathematical-thinking
+│   │   ├── 00-1-welcome.mp4
+│   │   ├── 00-2-team.mp4
+│   │   ├── 00-3-discussion.mp4
+│   │   ├── 01-introductory-material.mp4
+│   │   ├── 02-logical-combinators.mp4
+│   │   ├── 03-implication.mp4
+│   │   ├── 04-equivalence.mp4
+│   │   ├── 05-quantifiers.mp4
+│   │   ├── 06-working-with-quantifiers.mp4
+│   │   ├── 07-proofs.mp4
+│   │   ├── 08-proofs-involving-quantifiers.mp4
+│   │   ├── 09-number-theory.mp4
+│   │   ├── 10-1-real-analysis-1.mp4
+│   │   ├── 10-2-real-analysis-2.mp4
+│   │   ├── assignments
+│   │   │   ├── 01.mp4
+│   │   │   ├── 01.pdf
+│   │   │   ├── 02.mp4
+│   │   │   ├── 02.pdf
+│   │   │   ├── 03.mp4
+│   │   │   ├── 03.pdf
+│   │   │   ├── 04.mp4
+│   │   │   ├── 04.pdf
+│   │   │   ├── 05.mp4
+│   │   │   ├── 05.pdf
+│   │   │   ├── 06.mp4
+│   │   │   ├── 06.pdf
+│   │   │   ├── 07.mp4
+│   │   │   ├── 07.pdf
+│   │   │   ├── 08.mp4
+│   │   │   ├── 08.pdf
+│   │   │   ├── 09-1.pdf
+│   │   │   ├── 09-2.pdf
+│   │   │   ├── 09.mp4
+│   │   │   ├── 10-1.pdf
+│   │   │   ├── 10-2.pdf
+│   │   │   ├── 10.mp4
+│   │   │   ├── background-reading.pdf
+│   │   │   ├── final-exam.pdf
+│   │   │   └── supplement.pdf
+│   │   ├── background-reading.pdf
+│   │   ├── introduction-to-mathematical-thinking-keith-devlin.pdf
+│   │   ├── problems
+│   │   │   ├── 1.mp4
+│   │   │   ├── 2.mp4
+│   │   │   ├── 3.mp4
+│   │   │   ├── 4.mp4
+│   │   │   └── 5.mp4
+│   │   └── README
+│   ├── the-essence-of-calculus-grant-sanderson
+│   │   ├── 00-what-they-dont-teach-you-in-calculus.mp4
+│   │   ├── 01-introduction.mp4
+│   │   ├── 02-the-paradox-of-the-derivative.mp4
+│   │   ├── 03-derivative-formulas-through-geometry.mp4
+│   │   ├── 04-visualizing-the-chain-rule-and-product-rule.mp4
+│   │   ├── 05-derivatives-of-exponentials.mp4
+│   │   ├── 06-implicit-differentiation.mp4
+│   │   ├── 07-limits.mp4
+│   │   ├── 08-integration-and-the-fundamental-theorem-of-calculus.mp4
+│   │   ├── 09-what-does-area-have-to-do-with-slope.mp4
+│   │   ├── 10-taylor-series.mp4
+│   │   └── 11-higher-order-derivatives.mp4
+│   ├── the-essence-of-linear-algebra-grant-sanderson
+│   │   ├── 00-preview.mp4
+│   │   ├── 01-what-is-vectors.mp4
+│   │   ├── 02-linear-combinations-span-and-basis-vectors.mp4
+│   │   ├── 03-linear-transformation-and-matrices.mp4
+│   │   ├── 04-matrix-multiplication-as-composition.mp4
+│   │   ├── 05-the-determinant.mp4
+│   │   ├── 06-inverse-matrices-column-space-and-null-space.mp4
+│   │   ├── 07-dot-products-and-duality.mp4
+│   │   ├── 08-1-cross-products.mp4
+│   │   ├── 08-2-cross-products-in-the-light-of-linear-transformations.mp4
+│   │   ├── 09-change-of-basis.mp4
+│   │   ├── 10-eigenvectors-and-eigenvalues.mp4
+│   │   ├── 11-abstract-vector-spaces.mp4
+│   │   ├── 12-three-dimensional-linear-transformations.mp4
+│   │   └── 13-nonsquare-matrices-as-transformations-between-dimensions.mp4
+│   ├── the-first-six-books-of-the-elements-of-euclid-jemmy-button.pdf
+│   └── umkc-math110-college-algebra
+│       ├── 01-numbers.mp4
+│       ├── 02-language-of-mathematics.mp4
+│       ├── 03-the-powers-that-be-exponents.mp4
+│       ├── 04-polynomial-expressions-1.mp4
+│       ├── 04-polynomial-expressions-2.mp4
+│       ├── 05-more-numbers-and-geometry.mp4
+│       ├── 06-graphs-1.mp4
+│       ├── 07-graphs-2.mp4
+│       ├── 08-graphs-3.mp4
+│       ├── 09-functions-and-their-graphs-1.mp4
+│       ├── 10-functions-and-their-graphs-2.mp4
+│       ├── 11-functions-and-their-graphs-3.mp4
+│       ├── 12-functions-and-their-graphs-4.mp4
+│       ├── 13-functions-and-their-graphs-5.mp4
+│       ├── 14-functions-and-their-graphs-6.mp4
+│       ├── 15-equations-in-one-variable-1.mp4
+│       ├── 16-equations-in-one-variable-2.mp4
+│       ├── 17-equations-in-one-variable-3.mp4
+│       ├── 18-equations-in-one-variable-4.mp4
+│       ├── 19-equations-in-one-variable-5.mp4
+│       ├── 20-inequalities-in-one-variable-1.mp4
+│       ├── 21-inequalities-in-one-variable-2.mp4
+│       ├── 22-inequalities-in-one-variable-3.mp4
+│       ├── 23-polynomial-and-rational-functions-1.mp4
+│       ├── 24-polynomial-and-rational-functions-2.mp4
+│       ├── 25-locating-the-zeroes-of-a-polynomial-function-1.mp4
+│       ├── 26-locating-the-zeroes-of-a-polynomial-function-2.mp4
+│       ├── 27-rational-functions.mp4
+│       ├── 28-exponential-functions-1.mp4
+│       ├── 29-logarithmic-functions-1.mp4
+│       ├── 30-logarithmic-functions-2.mp4
+│       ├── 31-exponential-functions-.mp4
+│       ├── 32-systems-of-linear-equations-1.mp4
+│       ├── 33-systems-of-linear-equations-2.mp4
+│       ├── 34-system-of-non-linear-equations.mp4
+│       ├── 35-sequences-1.mp4
+│       ├── 36-sequences-2.mp4
+│       ├── 37-series-and-induction.mp4
+│       ├── 38-the-binominal-theorem.mp4
+│       └── 39-the-x-y-files.mp4
+├── gen
+│   ├── an-infinitely-large-napkin-evan-chen.pdf
+│   ├── ganita-yukti-bhasa-venkateswara-sharma
+│   │   ├── 1-mathematics.pdf
+│   │   ├── 2-astronomy.pdf
+│   │   └── malayalam.pdf
+│   ├── geometry-and-the-imagination-cohn-vossen-and-hilbert.pdf
+│   ├── godel-escher-bach-an-eternal-golden-braid-douglas-hofstadter
+│   ├── hackenbush-a-window-to-a-new-world-of-math-owen-maitzen.mp4
+│   ├── mathematics-and-logic-kac-and-ulam.djvu
+│   ├── mathematics-form-and-function-maclane-saunders.pdf
+│   ├── measurement-paul-lockhart.pdf
+│   ├── numbers-and-geometry-john-stillwell.djvu
+│   ├── pi-a-source-book-berggren-and-borwein.pdf
+│   ├── principia-mathematica-russell-and-whitehead.pdf
+│   ├── the-art-of-insight-in-science-and-engineerine-mastering-complexity-sanjoy-mahajan.pdf
+│   ├── the-computational-beauty-of-nature-computer-explorations-of-fractals-chaos-complex-systems-and-adaptation-gary-flake
+│   ├── the-princeton-companion-to-applied-mathematics-nicholas-higham.pdf
+│   ├── the-princeton-companion-to-mathematics-timothy-gowers.pdf
+│   └── what-is-mathematics-richard-courant.djvu
+├── hist
+│   ├── a-passage-to-infinity-medieval-indian-mathematics-from-kerala-and-its-impact-george-joseph.pdf
+│   ├── crest-of-the-peacock-george-joseph.pdf
+│   ├── history-of-mathematics-nj-wildberger
+│   │   ├── 01-pythagoras-theorem-a.mp4
+│   │   ├── 02-pythagoras-theorem-b.mp4
+│   │   ├── 03-greek-geometry-a.mp4
+│   │   ├── 04-greek-geometry-b.mp4
+│   │   ├── 05-greek-number-theory-a.mp4
+│   │   ├── 06-greek-number-theory-b.mp4
+│   │   ├── 07-infinity-in-greek-mathematics.mp4
+│   │   ├── 08-number-theory-and-algebra-in-asia-a.mp4
+│   │   ├── 09-number-theory-and-algebra-in-asia-b.mp4
+│   │   ├── 10-polynomial-equations-a.mp4
+│   │   ├── 11-polynomial-equations-b.mp4
+│   │   ├── 12-analytic-geometry-and-the-continuum-a.mp4
+│   │   ├── 13-analytic-geometry-and-the-continuum-b.mp4
+│   │   ├── 14-projective-geometry.mp4
+│   │   ├── 15-calculus.mp4
+│   │   ├── 16-infinite-series.mp4
+│   │   ├── 17-mechanics-and-the-solar-system.mp4
+│   │   ├── 18-non-euclidean-geometry.mp4
+│   │   ├── 19-the-number-theory-revival.mp4
+│   │   ├── 20-mechanics-and-curves.mp4
+│   │   ├── 21-complex-numbers-and-algebra.mp4
+│   │   ├── 22-differential-geometry.mp4
+│   │   ├── 23-topology.mp4
+│   │   ├── 24-hypercomplex-numbers.mp4
+│   │   ├── 25-complex-numbers-and-curves.mp4
+│   │   ├── 26-group-theory.mp4
+│   │   ├── 27-galois-theory-a.mp4
+│   │   ├── 28-galois-theory-b.mp4
+│   │   ├── 29-algebraic-number-theory-and-rings-a.mp4
+│   │   ├── 30-algebraic-number-theory-and-rings-b.mp4
+│   │   ├── 31-simple-groups-lie-groups-and-the-search-for-symmetry-a.mp4
+│   │   ├── 32-simple-groups-lie-groups-and-the-search-for-symmetry-b.mp4
+│   │   ├── 33-number-systems-and-stevins-decimals.mp4
+│   │   ├── 34-problems-with-the-calculus.mp4
+│   │   ├── 35-matrices-determinants-and-the-birth-of-linear-algebra.mp4
+│   │   ├── 36-sets-logic-and-computability.mp4
+│   │   ├── 37-computability-and-problems-with-set-theory.mp4
+│   │   ├── 38-combinatorics.mp4
+│   │   ├── 39-astronomy-and-trigonometry-in-india.mp4
+│   │   ├── 40-ancient-astronomy-in-babylon-and-china.mp4
+│   │   ├── 41-mesopotamian-mathematics.mp4
+│   │   └── 42-plimpton-322-and-old-babylonian-trigonometry.mp4
+│   ├── indian-mathematics-engaging-with-the-world-from-ancient-to-modern-times-george-joseph.pdf
+│   ├── kerala-mathematics-history-and-its-possible-transmission-to-europe-george-joseph.djvu
+│   └── mathematics-and-its-history-john-stillwell.pdf
+├── it
+│   └── communication-theory-goldie-and-pinch.pdf
+├── la
+│   ├── coursera-coding-the-matrix
+│   │   ├── 1-the-function-and-the-field
+│   │   │   ├── 1-course-introduction-1.mp4
+│   │   │   ├── 2-course-introduction-2.mp4
+│   │   │   ├── 3-the-function-and-other-preliminaries.mp4
+│   │   │   ├── 4-the-field-introduction-to-complex-numbers.mp4
+│   │   │   ├── 5-the-field-playing-with-c.mp4
+│   │   │   └── 6-the-field-playing-with-gf.mp4
+│   │   ├── 2-the-vector
+│   │   │   ├── 1-what-is-a-vector.mp4
+│   │   │   ├── 2-vector-addition-and-scalar-vector-multiplication.mp4
+│   │   │   ├── 3-dictionary-based-representations-of-vectors.mp4
+│   │   │   ├── 4-vectors-over-gf.mp4
+│   │   │   ├── 5-dot-product.mp4
+│   │   │   ├── 6-dot-product-of-vectors-over-gf.mp4
+│   │   │   └── 7-solving-a-triangular-system-of-linear-equations.mp4
+│   │   ├── 3-the-vector-space
+│   │   │   ├── 1-linear-combinations.mp4
+│   │   │   ├── 2-span.mp4
+│   │   │   ├── 3-geometry-of-sets-of-vectors.mp4
+│   │   │   ├── 4-vector-spaces.mp4
+│   │   │   └── 5-checksum-function.mp4
+│   │   ├── 4-the-matrix
+│   │   │   ├── 01-what-is-a-matrix.mp4
+│   │   │   ├── 02-matrix-vector-and-vector-matrix-multiplication.mp4
+│   │   │   ├── 03-matrix-vector-multiplication-in-terms-of-dot-products.mp4
+│   │   │   ├── 04-null-space.mp4
+│   │   │   ├── 05-error-correcting-codes.mp4
+│   │   │   ├── 06-matrices-and-their-functions.mp4
+│   │   │   ├── 07-linear-functions.mp4
+│   │   │   ├── 08-matrix-multiplication.mp4
+│   │   │   ├── 09-matrix-multiplication-and-function-composition.mp4
+│   │   │   └── 10-matrix-inverse.mp4
+│   │   ├── 5-the-basis
+│   │   │   ├── 01-coordinate-systems.mp4
+│   │   │   ├── 02-lossy-compression.mp4
+│   │   │   ├── 03-algorithms-for-finding-a-set-of-generators.mp4
+│   │   │   ├── 04-minimum-spanning-forest.mp4
+│   │   │   ├── 05-linear-dependence.mp4
+│   │   │   ├── 06-basis.mp4
+│   │   │   ├── 07-unique-representation.mp4
+│   │   │   ├── 08-change-of-basis.mp4
+│   │   │   ├── 09-perspective-rendering.mp4
+│   │   │   ├── 10-perspective-rectification.mp4
+│   │   │   └── 11-the-exchange-lemma.mp4
+│   │   ├── 6-dimension
+│   │   │   ├── 1-the-size-of-a-basis.mp4
+│   │   │   ├── 2-dimension-and-rank-1.mp4
+│   │   │   ├── 3-dimension-and-rank-2.mp4
+│   │   │   ├── 4-direct-sum.mp4
+│   │   │   ├── 5-dimension-and-linear-functions-1.mp4
+│   │   │   ├── 6-dimension-and-linear-functions-2.mp4
+│   │   │   ├── 7-two-representations-of-vector-spaces.mp4
+│   │   │   └── 8-threshold-secret-sharing.mp4
+│   │   ├── 7-gaussian-elimination-and-the-inner-product
+│   │   │   ├── 1-echelon-form.mp4
+│   │   │   ├── 2-transforming-a-matrix-to-echelon-form.mp4
+│   │   │   ├── 3-using-gaussian-elimination-to-solve-a-system-of-equations.mp4
+│   │   │   ├── 4-factoring-integers.mp4
+│   │   │   ├── 5-the-inner-product.mp4
+│   │   │   └── 6-the-inner-product-orthogonality.mp4
+│   │   ├── 8-orthogonalization
+│   │   │   ├── 1-finding-the-closest-point-in-a-plane.mp4
+│   │   │   ├── 2-projection-orthogonal-to-multiple-vectors.mp4
+│   │   │   ├── 3-building-an-orthogonal-set-of-generators.mp4
+│   │   │   ├── 4-computing-a-basis.mp4
+│   │   │   ├── 5-orthogonal-complement.mp4
+│   │   │   ├── 6-two-ways-to-find-a-basis-for-the-null-space.mp4
+│   │   │   ├── 7-the-qr-factorization.mp4
+│   │   │   ├── 8-using-the-qr-factorization-to-solve-a-matrix-equation-ax=b.mp4
+│   │   │   └── 9-applications-of-least-squares.mp4
+│   │   ├── assignments
+│   │   │   ├── 1.pdf
+│   │   │   ├── 2.pdf
+│   │   │   ├── 3.pdf
+│   │   │   ├── 4.pdf
+│   │   │   ├── 5.pdf
+│   │   │   ├── 6.pdf
+│   │   │   ├── 7.pdf
+│   │   │   ├── 8.pdf
+│   │   │   └── 9.pdf
+│   │   └── README
+│   ├── eigenvectors-and-eigenvalues-eugene-khutoryansky.mp4
+│   ├── essential-linear-algebra-with-applications-a-problem-solving-approach-titu-andreescu
+│   ├── essential-linear-algebra-with-applications-a-problem-solving-approach-titu-andreescu.pdf
+│   ├── finite-dimensional-vector-spaces-paul-halmos.pdf
+│   ├── immersive-linear-algebra-strom-astrom-and-moller
+│   ├── interactive-linear-algebra-margalit-and-rabinoff
+│   ├── introduction-to-applied-linear-algebra-vectors-matrices-and-least-squares-boyd-lieven-vandenberghe
+│   ├── lectures-on-linear-algebra-israel-gelfand.pdf
+│   ├── linear-algebra-done-right-sheldon-axler.pdf
+│   ├── linear-algebra-illustrated-peter-saveliev.pdf
+│   ├── linear-algebra-matrix-transformation-eugene-khutoryansky.mp4
+│   ├── matrix-analysis-horn-and-johnson.pdf
+│   ├── practical-linear-algebra-a-geometry-toolbox-farin-and-hansford.pdf
+│   └── uccs-cs2300-computational-linear-algebra
+│       ├── 01-descartes-discovery.pdf
+│       ├── 01.mp4
+│       ├── 02-points-and-vectors-in-2d-1.mp4
+│       ├── 02-points-and-vectors-in-2d-2.mp4
+│       ├── 02-points-and-vectors-in-2d.pdf
+│       ├── 03-lines-in-2d.mp4
+│       ├── 03-lines-in-2d.pdf
+│       ├── 04-linear-maps-in-2d-1.mp4
+│       ├── 04-linear-maps-in-2d-2.mp4
+│       ├── 04-linear-maps-in-2d.pdf
+│       ├── 05-2x2-linear-systems-1.mp4
+│       ├── 05-2x2-linear-systems-2.mp4
+│       ├── 05-2x2-linear-systems.pdf
+│       ├── 06-affine-maps-in-3d.mp4
+│       ├── 06-affine-maps-in-3d.pdf
+│       ├── 07-eigenthings-1.mp4
+│       ├── 07-eigenthings-2.mp4
+│       ├── 07-eigenthings.pdf
+│       ├── 08-3d-geometry-1.mp4
+│       ├── 08-3d-geometry-2.mp4
+│       ├── 08-3d-geomtry.pdf
+│       ├── 09-linear-maps-in-3d.mp4
+│       ├── 09-linear-maps-in-3d.pdf
+│       ├── 10-affine-maps-in-3d-1.mp4
+│       ├── 10-affine-maps-in-3d-2.mp4
+│       ├── 10-affine-maps-in-3d.pdf
+│       ├── 11-interactions-in-3d.mp4
+│       ├── 11-interactions-in-3d.pdf
+│       ├── 12-gauss-for-linear-systems.pdf
+│       ├── 12-guass-for-linear-systems-1.mp4
+│       ├── 12-guass-for-linear-systems-2.mp4
+│       ├── 13-numeric-issues-1.mp4
+│       ├── 13-numeric-issues-2.mp4
+│       ├── 13-numeric-issues.pdf
+│       ├── 14-general-linear-spaces.mp4
+│       ├── 14-general-linear-spaces.pdf
+│       ├── 15-eigenthings-revisited-1-introduction.mp4
+│       ├── 15-eigenthings-revisited-2-pagerank-eigenfunctions.mp4
+│       ├── 15-eigenthings-revisited-3-eigenfaces-optional.mp4
+│       ├── 15-eigenthings-revisited.pdf
+│       ├── 16-svd-with-applications-1.mp4
+│       ├── 16-svd-with-applications-2.mp4
+│       ├── 16-svd-with-applications-3.mp4
+│       ├── 16-svd-with-applications.pdf
+│       ├── 17-triangles-1.mp4
+│       ├── 17-triangles-2.mp4
+│       ├── 17-triangles.pdf
+│       ├── 18-polylines-and-polygones.pdf
+│       ├── 19-conics.pdf
+│       ├── 20-curves.pdf
+│       ├── extra
+│       │   ├── 02.mp4
+│       │   ├── 03.mp4
+│       │   ├── 04.mp4
+│       │   ├── 05.mp4
+│       │   ├── 06.mp4
+│       │   ├── 07.mp4
+│       │   ├── 08.mp4
+│       │   ├── 09.mp4
+│       │   ├── 10.mp4
+│       │   ├── 11.mp4
+│       │   └── 12.mp4
+│       ├── kalman-filtering.mp4
+│       ├── numpy.mp4
+│       ├── octave-tutorial.mp4
+│       └── text-analysis-using-linear-algebra.mp4
+├── logic
+│   ├── a-tour-through-mathematical-logic-robert-wolf.pdf
+│   ├── introduction-to-metamathematics-stephen-kleene.pdf
+│   └── naive-set-theory-paul-halmos.pdf
+├── nt
+│   ├── introduction-to-the-theory-of-numbers-niven-zuckerman-and-montgomery.pdf
+│   ├── numbers-heinz-dieter-ebbinghaus.pdf
+│   ├── number-theory-in-the-spirit-of-ramanujan-bruce-berndt.pdf
+│   ├── ucb-math115-introduction-to-number-theory
+│   │   ├── 01-introduction.mp4
+│   │   ├── 02-survey.mp4
+│   │   ├── 03-divisibility-and-euclids-algorithms.mp4
+│   │   ├── 04-more-on-euclids-algorithm.mp4
+│   │   ├── 05-primes.mp4
+│   │   ├── 06-multiplicative-functions.mp4
+│   │   ├── 07-binomial-coefficients.mp4
+│   │   ├── 08-applications-of-binomial-coefficients.mp4
+│   │   ├── 09-congruences.mp4
+│   │   ├── 10-fermats-theorem.mp4
+│   │   ├── 11-eulers-theorem.mp4
+│   │   ├── 12-wilsons-theorem.mp4
+│   │   ├── 13-the-chinese-remainder-theorem.mp4
+│   │   ├── 14-eulers-totient-function.mp4
+│   │   ├── 15-numerical-calculation.mp4
+│   │   ├── 16-more-numerical-calculation.mp4
+│   │   ├── 17-factorization.mp4
+│   │   ├── 18-cryptography.mp4
+│   │   ├── 19-hensel-and-newtons-method.mp4
+│   │   ├── 20-p-adic-numbers.mp4
+│   │   ├── 21-congruences-modulo-a-prime.mp4
+│   │   ├── 22-chevalley-warning-theorem.mp4
+│   │   ├── 23-primitive-roots.mp4
+│   │   ├── 24-primitive-roots-for-prime-powers.mp4
+│   │   ├── 25-quadratic-equations-mod-p.mp4
+│   │   ├── 26-roots-of-polynomials-modulo-a-prime.mp4
+│   │   ├── 27-groups-and-number-theory.mp4
+│   │   ├── 28-products-of-groups.mp4
+│   │   ├── 29-rings-in-number-theory.mp4
+│   │   ├── 30-fields-in-number-theory.mp4
+│   │   ├── 31-quadratic-residues.mp4
+│   │   ├── 32-calculation-of-the-legendre-symbol.mp4
+│   │   ├── 33-quadratic-reciprocity.mp4
+│   │   ├── 34-gauss-sums.mp4
+│   │   ├── 35-jacobi-symbol.mp4
+│   │   ├── 36-kronecker-symbol.mp4
+│   │   ├── 37-continued-fractions.mp4
+│   │   ├── 38-binary-quadratic-forms.mp4
+│   │   ├── 39-equivalence-of-binary-quadratic-forms.mp4
+│   │   ├── 40-examples-of-positive-definite-forms.mp4
+│   │   ├── 41-more-examples-of-binary-quadratic-forms.mp4
+│   │   ├── 42-examples-of-indefinite-binary-quadratic-forms.mp4
+│   │   ├── 43-gaussian-integers.mp4
+│   │   ├── 44-pythagorean-triangles.mp4
+│   │   ├── 45-dirichlet-series.mp4
+│   │   ├── 46-products-of-dirichlet-series.mp4
+│   │   ├── 47-the-prime-number-theorem.mp4
+│   │   ├── 48-proof-of-the-prime-number-theorem.mp4
+│   │   ├── 49-dirichlets-theorem.mp4
+│   │   ├── 50-dirichlet-characters.mp4
+│   │   ├── 51-proof-of-dirichlets-theorem.mp4
+│   │   ├── 52-nonvanishing-of-l-series-at-s=1.mp4
+│   │   └── 53-three-calculators-for-number-theorists.mp4
+│   └── wallis-product-grant-sanderson.mp4
+├── prob
+│   ├── berkeley-problems-in-mathematics-paulo-and-silva.pdf
+│   ├── harvard-stat110-probability
+│   │   ├── 01-probability-and-counting.mp4
+│   │   ├── 02-story-proofs-axioms-of-probability.mp4
+│   │   ├── 03-birthday-problem-properties-of-probability.mp4
+│   │   ├── 04-conditional-probability.mp4
+│   │   ├── 05-conditioning-continued-law-of-total-probability.mp4
+│   │   ├── 06-monty-hall-simpsons-paradox.mp4
+│   │   ├── 07-gamblers-ruin-and-random-variables.mp4
+│   │   ├── 08-random-variables-and-their-distributions.mp4
+│   │   ├── 09-expectation-indicator-random-variables-linearity.mp4
+│   │   ├── 10-expectation-continued.mp4
+│   │   ├── 11-the-poisson-distribution.mp4
+│   │   ├── 12-discrete-vs-continuous-the-uniform.mp4
+│   │   ├── 13-normal-distribution.mp4
+│   │   ├── 14-location-scale-and-lotus.mp4
+│   │   ├── 15-midterm-review.mp4
+│   │   ├── 16-exponential-distribution.mp4
+│   │   ├── 17-moment-generating-functions.mp4
+│   │   ├── 18-mgfs-continued.mp4
+│   │   ├── 19-joint-conditional-and-marginal-distributions.mp4
+│   │   ├── 20-multinomial-and-cauchy.mp4
+│   │   ├── 21-covariance-and-correlation.mp4
+│   │   ├── 22-transformations-and-convolutions.mp4
+│   │   ├── 23-beta-distribution.mp4
+│   │   ├── 24-gamma-distribution-and-poisson-process.mp4
+│   │   ├── 25-order-statistics-and-conditional-expectation.mp4
+│   │   ├── 26-conditional-expectation-continued.mp4
+│   │   ├── 27-conditional-expectation-given-an-r-v.mp4
+│   │   ├── 28-inequalities.mp4
+│   │   ├── 29-law-of-large-numbers-and-central-limit-theorem.mp4
+│   │   ├── 30-chi-square-student-t-multivariate-normal.mp4
+│   │   ├── 31-markov-chains.mp4
+│   │   ├── 32-markov-chains-continued.mp4
+│   │   ├── 33-markov-chains-continued-further.mp4
+│   │   └── 34-a-look-ahead.mp4
+│   ├── introduction-to-probability-blitzstein-and-hwang.pdf
+│   ├── mathematical-circles-russian-experience-dmitri-fomin.pdf
+│   ├── mathematical-olympiad-challenges-titu-andreescu.pdf
+│   ├── problems-for-mathematicians-young-and-old-paul-r-halmos.djvu
+│   ├── problem-solving-through-problems-loren-larson.pdf
+│   ├── the-art-and-craft-of-problem-solving-paul-zeitz.pdf
+│   ├── the-colossal-book-of-mathematics-martin-gardner.pdf
+│   └── the-colossal-book-of-short-puzzles-and-problems-martin-gardner.djvu
+├── proof
+│   ├── book-of-proof-richard-hammack.pdf
+│   ├── proofs-from-the-book-aigner-and-ziegler.pdf
+│   └── proofs-jay-cummings.pdf
+├── ques
+│   ├── area-of-x2
+│   ├── base-conversion
+│   ├── cable-problem
+│   ├── calculate-value-of-pi
+│   ├── constraint-satisfaction-logic-equivalence
+│   ├── division-including-decimals
+│   ├── frequency-to-time-domain
+│   ├── math-and-logic
+│   ├── multiplying-negative-numbers
+│   ├── negative-power
+│   └── power-rule
+├── read
+│   ├── cambridge-university-reading-list.pdf
+│   ├── how-to-learn-math-and-physics-john-baez.txt
+│   ├── qiaochu-yuan-reading-list.txt
+│   └── the-mathematics-autodidacts-aid-kristine-fowler.pdf
+└── top
+    └── topology-illustrated-peter-saveliev.pdf
+
+63 directories, 784 files

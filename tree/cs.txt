@@ -1,0 +1,2538 @@
+Data/cs
+├── aiml
+│   ├── ai.adoc
+│   ├── artificial-intelligence-a-guide-for-thinking-humans-melanie-mitchell.epub
+│   ├── artificial-intelligence-a-modern-approach-peter-norvig
+│   ├── causal-inference-what-if-miguel-hernan.pdf
+│   ├── deep-dive-into-llms-like-chatgpt-andrej-karpathy.mp4
+│   ├── deep-learning-andrew-ng
+│   │   ├── 001-welcome.mp4
+│   │   ├── 002-what-is-a-neural-network.mp4
+│   │   ├── 003-supervised-learning-with-a-neural-network.mp4
+│   │   ├── 004-why-is-deep-learning-taking-off.mp4
+│   │   ├── 005-about-this-course.mp4
+│   │   ├── 006-course-resources.mp4
+│   │   ├── 007-binary-classification.mp4
+│   │   ├── 008-logistic-regression.mp4
+│   │   ├── 009-logistic-regression-cost-function.mp4
+│   │   ├── 010-gradient-descent.mp4
+│   │   ├── 011-derivatives.mp4
+│   │   ├── 012-more-derivative-examples.mp4
+│   │   ├── 013-computation-graph.mp4
+│   │   ├── 014-derivatives-with-computation-graphs.mp4
+│   │   ├── 015-logistic-regression-gradient-descent.mp4
+│   │   ├── 016-gradient-descent-on-m-examples.mp4
+│   │   ├── 017-vectorization.mp4
+│   │   ├── 018-more-vectorization-examples.mp4
+│   │   ├── 019-vectorizing-logistic-regression.mp4
+│   │   ├── 020-vectorizing-logistic-regression's-gradient-computation.mp4
+│   │   ├── 021-broadcasting-in-python.mp4
+│   │   ├── 022-a-note-on-python-numpy-vectors.mp4
+│   │   ├── 023-quick-tour-of-jupyter-ipython-notebooks.mp4
+│   │   ├── 024-explanation-of-logistic-regression's-cost-function.mp4
+│   │   ├── 025-neural-network-overview.mp4
+│   │   ├── 026-neural-network-representations.mp4
+│   │   ├── 027-computing-neural-network-output.mp4
+│   │   ├── 028-vectorizing-across-multiple-examples.mp4
+│   │   ├── 029-explanation-for-vectorized-implementation.mp4
+│   │   ├── 030-activation-functions.mp4
+│   │   ├── 031-why-non-linear-activation-functions.mp4
+│   │   ├── 032-derivatives-of-activation-functions.mp4
+│   │   ├── 033-gradient-descent-for-neural-networks.mp4
+│   │   ├── 034-backpropagation-intuition.mp4
+│   │   ├── 035-random-initialization.mp4
+│   │   ├── 036-deep-l-layer-neural-network.mp4
+│   │   ├── 037-forward-and-backward-propagation.mp4
+│   │   ├── 038-forward-propagation-in-a-deep-network.mp4
+│   │   ├── 039-getting-matrix-dimensions-right.mp4
+│   │   ├── 040-why-deep-representations.mp4
+│   │   ├── 041-building-blocks-of-a-deep-neural-network.mp4
+│   │   ├── 042-parameters-vs-hyperparameters.mp4
+│   │   ├── 043-what-does-this-have-to-do-with-the-brain.mp4
+│   │   ├── 044-train-dev-test-sets.mp4
+│   │   ├── 045-bias-variance.mp4
+│   │   ├── 046-basic-recipe-for-machine-learning.mp4
+│   │   ├── 047-regularization.mp4
+│   │   ├── 048-why-regularization-reduces-overfitting.mp4
+│   │   ├── 049-dropout-regularization.mp4
+│   │   ├── 050-understanding-dropout.mp4
+│   │   ├── 051-other-regularization-methods.mp4
+│   │   ├── 052-normalizing-inputs.mp4
+│   │   ├── 053-vanishing-exploding-gradients.mp4
+│   │   ├── 054-weight-initialization-in-a-deep-network.mp4
+│   │   ├── 055-numerical-approximations-of-gradients.mp4
+│   │   ├── 056-gradient-checking.mp4
+│   │   ├── 057-gradient-checking-implementation-notes.mp4
+│   │   ├── 058-mini-batch-gradient-descent.mp4
+│   │   ├── 059-understanding-mini-batch-gradient-dexcent.mp4
+│   │   ├── 060-exponentially-weighted-averages.mp4
+│   │   ├── 061-understanding-exponentially-weighted-averages.mp4
+│   │   ├── 062-bias-correction-of-exponentially-weighted-averages.mp4
+│   │   ├── 063-gradient-descent-with-momentum.mp4
+│   │   ├── 064-rmsprop.mp4
+│   │   ├── 065-adam-optimization-algorithm.mp4
+│   │   ├── 066-learning-rate-decay.mp4
+│   │   ├── 067-tuning-process.mp4
+│   │   ├── 068-using-an-appropriate-scale.mp4
+│   │   ├── 069-hyperparameter-tuning-in-practice.mp4
+│   │   ├── 070-normalizing-activations-in-a-network.mp4
+│   │   ├── 071-fitting-batch-norm-into-neural-networks.mp4
+│   │   ├── 072-why-does-batch-norm-work.mp4
+│   │   ├── 073-batch-norm-at-test-time.mp4
+│   │   ├── 074-softmax-regression.mp4
+│   │   ├── 075-training-softmax-classifier.mp4
+│   │   ├── 076-the-problem-of-local-optima.mp4
+│   │   ├── 077-tensorflow.mp4
+│   │   ├── 078-improving-model-performance.mp4
+│   │   ├── 079-orthogonalization-(c3w1l02-).mp4
+│   │   ├── 080-single-number-evaluation-metric.mp4
+│   │   ├── 081-satisficing-and-optimizing-metrics.mp4
+│   │   ├── 082-train-dev-test-set-distributions.mp4
+│   │   ├── 083-sizeof-dev-and-test-sets.mp4
+│   │   ├── 084-when-to-change-dev-test-sets.mp4
+│   │   ├── 085-c3w1l08-whyhumanlevelperformance.mp4
+│   │   ├── 086-avoidable-bias.mp4
+│   │   ├── 087-understanding-human-level-performance.mp4
+│   │   ├── 088-surpassing-human-level-performance.mp4
+│   │   ├── 089-improving-model-performance.mp4
+│   │   ├── 090-carrying-out-error-analysis.mp4
+│   │   ├── 091-cleaning-up-incorrectly-labelled-data.mp4
+│   │   ├── 092-build-first-system-quickly,-then-iterate.mp4
+│   │   ├── 093-training-and-testing-on-different-distributions.mp4
+│   │   ├── 094-bias-and-variance-with-mismatched-data.mp4
+│   │   ├── 095-addressing-data-mismatch.mp4
+│   │   ├── 096-transfer-learning.mp4
+│   │   ├── 097-multitask-learning.mp4
+│   │   ├── 098-what-is-end-to-end-deep-learning.mp4
+│   │   ├── 099-whether-to-use-end-to-end-deep-learning.mp4
+│   │   ├── 100-computer-vision.mp4
+│   │   ├── 101-edge-detection-examples.mp4
+│   │   ├── 102-more-edge-detection.mp4
+│   │   ├── 103-padding.mp4
+│   │   ├── 104-strided-convolutions.mp4
+│   │   ├── 105-convolutions-over-volumes.mp4
+│   │   ├── 106-one-layer-of-a-convolutional-net.mp4
+│   │   ├── 107-simple-convolutional-network-example.mp4
+│   │   ├── 108-pooling-layers.mp4
+│   │   ├── 109-cnn-example.mp4
+│   │   ├── 110-why-convolutions.mp4
+│   │   ├── 111-why-look-at-case-studies.mp4
+│   │   ├── 112-classic-network.mp4
+│   │   ├── 113-resnets.mp4
+│   │   ├── 114-why-resnets-work.mp4
+│   │   ├── 115-network-in-network.mp4
+│   │   ├── 116-inception-network-motivation.mp4
+│   │   ├── 117-inception-network.mp4
+│   │   ├── 118-using-open-source-implementation.mp4
+│   │   ├── 119-transfer-learning.mp4
+│   │   ├── 120-data-augmentation.mp4
+│   │   ├── 121-state-of-computer-vision.mp4
+│   │   ├── 122-object-localization.mp4
+│   │   ├── 123-landmark-detection.mp4
+│   │   ├── 124-object-detection.mp4
+│   │   ├── 125-convolutional-implementation-sliding-windows.mp4
+│   │   ├── 126-intersection-over-union.mp4
+│   │   ├── 127-nonmax-suppression.mp4
+│   │   ├── 128-anchor-boxes.mp4
+│   │   ├── 129-yolo-algorithm.mp4
+│   │   ├── 130-region-proposals.mp4
+│   │   ├── 131-what-is-face-recognition.mp4
+│   │   ├── 132-one-shot-learning.mp4
+│   │   ├── 133-siamese-network.mp4
+│   │   ├── 134-triplet-loss.mp4
+│   │   ├── 135-face-verification.mp4
+│   │   ├── 136-what-is-neural-style-transfer.mp4
+│   │   ├── 137-what-are-deep-cns-learning.mp4
+│   │   ├── 138-cost-function.mp4
+│   │   ├── 139-content-cost-function.mp4
+│   │   ├── 140-style-cost-function.mp4
+│   │   └── 141-1d-and-3d-generalizations.mp4
+│   ├── deep-learning-a-visual-approach-andrew-glassner.pdf
+│   ├── deep-learning-goodfellow-bengio-courville.pdf
+│   ├── deep-learning-grant-sanderson
+│   │   ├── 1-but-what-is-a-neural-network.mp4
+│   │   ├── 2-gradient-descent-how-neural-networks-learn.mp4
+│   │   ├── 3-what-is-backpropagation-really-doing.mp4
+│   │   ├── 4-backpropagation-calculus.mp4
+│   │   ├── 5-but-what-is-a-gpt-visual-intro-to-transformers.mp4
+│   │   ├── 6-attention-in-transformers-visually-explained.mp4
+│   │   ├── 7-how-might-llms-store-facts.mp4
+│   │   ├── large-language-models-explained-briefly.mp4
+│   │   └── visualizing-transformers-and-attention.mp4
+│   ├── hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow-aurelien-geron.pdf
+│   ├── how-neural-networks-learned-to-talk-art-of-the-problem.mp4
+│   ├── introduction-to-language-modeling-building-makemore-andrej-karpathy
+│   │   ├── 1.mp4
+│   │   ├── 2.mp4
+│   │   ├── 3.mp4
+│   │   ├── 4.mkv
+│   │   └── 5.mp4.mkv
+│   ├── introduction-to-large-language-models-andrej-karpathy.mp4
+│   ├── introduction-to-neural-networks-and-backpropagation-building-micrograd-andrej-karpathy.mp4
+│   ├── language-models-in-plain-english-danilevsky-and-eovito.pdf
+│   ├── latent-dirichlet-allocation-blei-jordan-and-ng.pdf
+│   ├── lets-build-llm-from-scratch-andrej-karpathy.mp4
+│   ├── machine-learning-andrew-ng
+│   │   ├── 01-overview
+│   │   │   ├── 01-welcome-to-machine-learning.mp4
+│   │   │   ├── 02-what-is-machine-learning.mp4
+│   │   │   ├── 03-applications-of-machine-learning.mp4
+│   │   │   ├── 04-supervised-learning-1.mp4
+│   │   │   ├── 05-supervised-learning-2.mp4
+│   │   │   ├── 06-unsupervised-learning-1.mp4
+│   │   │   ├── 07-unsupervised-learning-2.mp4
+│   │   │   ├── 08-jupyter-notebooks.mp4
+│   │   │   ├── 09-linear-regression-model-1.mp4
+│   │   │   ├── 10-linear-regression-model-2.mp4
+│   │   │   ├── 11-cost-function-formula.mp4
+│   │   │   ├── 12-cost-function-intuition.mp4
+│   │   │   ├── 13-visualizing-the-cost-function.mp4
+│   │   │   ├── 14-visualizing-examples.mp4
+│   │   │   ├── 15-gradient-descent.mp4
+│   │   │   ├── 16-implementing-gradient-descent.mp4
+│   │   │   ├── 17-gradient-descent-intuition.mp4
+│   │   │   ├── 18-learning-rate.mp4
+│   │   │   ├── 19-gradient-descent-for-linear-regression.mp4
+│   │   │   └── 20-running-gradient-descent.mp4
+│   │   ├── 02-linear-regression
+│   │   │   ├── 01-multiple-features.mp4
+│   │   │   ├── 02-vectorization-1.mp4
+│   │   │   ├── 03-vectorization-2.mp4
+│   │   │   ├── 04-gradient-descent-for-multiple-linear-regression.mp4
+│   │   │   ├── 05-feature-scaling-1.mp4
+│   │   │   ├── 06-feature-scaling-2.mp4
+│   │   │   ├── 07-checking-gradient-descent-for-convergence.mp4
+│   │   │   ├── 08-choosing-the-learning-rate.mp4
+│   │   │   ├── 09-feature-engineering.mp4
+│   │   │   └── 10-polynomial-regression.mp4
+│   │   ├── 03-classification
+│   │   │   ├── 01-motivations.mp4
+│   │   │   ├── 02-logistic-regression.mp4
+│   │   │   ├── 03-decision-boundary.mp4
+│   │   │   ├── 04-cost-function-for-logistic-regression.mp4
+│   │   │   ├── 05-simplified-cost-function-for-logistic-regression.mp4
+│   │   │   ├── 06-gradient-descent-implementation.mp4
+│   │   │   ├── 07-the-problem-of-overfitting.mp4
+│   │   │   ├── 08-addressing-overfitting.mp4
+│   │   │   ├── 09-cost-function-with-regularization.mp4
+│   │   │   ├── 10-regularized-linear-regression.mp4
+│   │   │   └── 11-regularized-logistic-regression.mp4
+│   │   ├── 04-advanced-learning-algorithms
+│   │   │   ├── 01-welcome.mp4
+│   │   │   ├── 02-neurons-and-the-brain.mp4
+│   │   │   ├── 03-demand-prediction.mp4
+│   │   │   ├── 04-example-recognizing-images.mp4
+│   │   │   ├── 05-neural-network-layer.mp4
+│   │   │   ├── 06-more-complex-neural-networks.mp4
+│   │   │   ├── 07-inference-making-predictions.mp4
+│   │   │   ├── 08-inference-in-code.mp4
+│   │   │   ├── 09-data-in-tensorflow.mp4
+│   │   │   ├── 10-building-a-neural-network.mp4
+│   │   │   ├── 11-forward-prop-in-a-single-layer.mp4
+│   │   │   ├── 12-general-implementation-of-forward-propagation.mp4
+│   │   │   ├── 13-is-there-a-path-to-agi.mp4
+│   │   │   ├── 14-how-neural-networks-are-implemented-efficiently.mp4
+│   │   │   ├── 15-matrix-multiplication.mp4
+│   │   │   ├── 16-matrix-multiplication-rules.mp4
+│   │   │   └── 17-matrix-multiplication-code.mp4
+│   │   ├── 05-neural-network-training
+│   │   │   ├── 01-tensorflow-implementation.mp4
+│   │   │   ├── 02-training-details.mp4
+│   │   │   ├── 03-alternatives-to-the-sigmoid-activation.mp4
+│   │   │   ├── 04-choosing-activation-functions.mp4
+│   │   │   ├── 05-why-do-we-need-activation-functions.mp4
+│   │   │   ├── 06-multiclass.mp4
+│   │   │   ├── 07-softmax.mp4
+│   │   │   ├── 08-neural-network-with-softmax-output.mp4
+│   │   │   ├── 09-improved-implementation-of-softmax.mp4
+│   │   │   ├── 10-classification-with-multiple-outputs.mp4
+│   │   │   ├── 11-advanced-optimization.mp4
+│   │   │   └── 12-additional-layer-types.mp4
+│   │   ├── 06-advice-for-applying-machine-learning
+│   │   │   ├── 01-deciding-what-to-try-next.mp4
+│   │   │   ├── 02-evaluating-a-model.mp4
+│   │   │   ├── 03-model-selection-and-training-cross-validation-test-sets.mp4
+│   │   │   ├── 04-diagnosing.mp4
+│   │   │   ├── 05-regularization-and-bias-variance.mp4
+│   │   │   ├── 06-establishing-a-baseline-level-of-performance.mp4
+│   │   │   ├── 07-learning-curves.mp4
+│   │   │   ├── 08-deciding-what-to-try-next-revisited.mp4
+│   │   │   ├── 09-bias-variance-and-neural-networks.mp4
+│   │   │   ├── 10-iterative-loop-of-ml-development.mp4
+│   │   │   ├── 11-error-analysis.mp4
+│   │   │   ├── 12-adding-data-.mp4
+│   │   │   ├── 13-transfer-learning-using-data-from-a-different-task.mp4
+│   │   │   ├── 14-full-cycle-of-a-machine-learning-project.mp4
+│   │   │   ├── 15-fairness-bias,-and-ethics.mp4
+│   │   │   ├── 16-error-metrics-for-skewed-datasets.mp4
+│   │   │   └── 17-trading-off-precision-and-recall.mp4
+│   │   ├── 07-decision-trees
+│   │   │   ├── 01-decision-tree-model.mp4
+│   │   │   ├── 02-learning-process.mp4
+│   │   │   ├── 03-measuring-purity.mp4
+│   │   │   ├── 04-choosing-a-split-information-gain.mp4
+│   │   │   ├── 05-putting-it-together.mp4
+│   │   │   ├── 06-using-one-hot-encoding-of-categorical-features.mp4
+│   │   │   ├── 07-continuous-valued-features.mp4
+│   │   │   ├── 08-regression-trees.mp4
+│   │   │   ├── 09-using-multiple-decision-trees.mp4
+│   │   │   ├── 10-sampling-with-replacement.mp4
+│   │   │   ├── 11-random-forest-algorithm.mp4
+│   │   │   ├── 12-xgboost.mp4
+│   │   │   └── 13-conclusion.mp4
+│   │   ├── 08-unsupervised-learning
+│   │   │   ├── 01-welcome.mp4
+│   │   │   ├── 02-what-is-clustering.mp4
+│   │   │   ├── 03-k-means.mp4
+│   │   │   ├── 04-algorithm.mp4
+│   │   │   ├── 05-optimization-objective.mp4
+│   │   │   ├── 06-initializing-k-means.mp4
+│   │   │   ├── 07-choosing-the-number-of-clusters.mp4
+│   │   │   ├── 08-finding-unusual-events.mp4
+│   │   │   ├── 09-gaussian-distribution.mp4
+│   │   │   ├── 10-anomaly-detection-algorithm.mp4
+│   │   │   ├── 11-developing-and-evaluating-an-anomaly-detection-system.mp4
+│   │   │   ├── 12-anomaly-detection-vs-supervised-learning.mp4
+│   │   │   └── 13-choosing-what-features-to-use.mp4
+│   │   ├── 09-recommender-system
+│   │   │   ├── 01-making-recommendations.mp4
+│   │   │   ├── 02-using-per-item-features.mp4
+│   │   │   ├── 03-collaborative-filtering-algorithm.mp4
+│   │   │   ├── 04-binary-labels-favs-likes-and-clicks.mp4
+│   │   │   ├── 05-mean-normalization.mp4
+│   │   │   ├── 06-collaborative-filtering.mp4
+│   │   │   ├── 07-finding-related-items.mp4
+│   │   │   ├── 08-collaborative-filtering-vs-content-based-filtering.mp4
+│   │   │   ├── 09-deep-learning-for-content-based-filtering.mp4
+│   │   │   ├── 10-recommending-from-a-large-catalogue.mp4
+│   │   │   ├── 11-ethical-use-of-recommender-systems.mp4
+│   │   │   └── 12-content-based-filtering.mp4
+│   │   └── 10-reinforcement-learning
+│   │       ├── 01-introduction.mp4
+│   │       ├── 02-mars-rover-example.mp4
+│   │       ├── 03-the-return-in-reinforcement-learning.mp4
+│   │       ├── 04-making-decisions-policies-in-reinforcement-learning.mp4
+│   │       ├── 05-review-of-key-concepts.mp4
+│   │       ├── 06-state-action-value-function-definition.mp4
+│   │       ├── 07-state-action-value-function-example.mp4
+│   │       ├── 08-bellman-equations.mp4
+│   │       ├── 09-random-environment.mp4
+│   │       ├── 10-example-of-continuous-state-space-applications.mp4
+│   │       ├── 11-lunar-lander.mp4
+│   │       ├── 12-learning-the-state-value-function.mp4
+│   │       ├── 13-improved-neural-network-architecture.mp4
+│   │       ├── 14-e-greedy-policy.mp4
+│   │       ├── 15-mini-batch-and-soft-updates.mp4
+│   │       ├── 16-the-state-of-reinforcement-learning.mp4
+│   │       └── 17-conclusion.mp4
+│   ├── neural-networks-grant-sanderson
+│   │   ├── 1-but-what-is-a-neural-network.mp4
+│   │   ├── 2-gradient-descent-how-neural-networks-learn.mp4
+│   │   ├── 3-what-is-backpropagation-really-doing.mp4
+│   │   └── 4-backpropagation-calculus.mp4
+│   ├── paradigms-of-artificial-intelligence-programming-case-studies-in-common-lisp-peter-norvig
+│   ├── programs-with-common-sense-john-mccarthy.pdf
+│   ├── sequence-to-sequence-learning-networks-google.pdf
+│   ├── statistical-language-models-based-on-neural-networks-tomas-mikolov.pdf
+│   ├── super-study-guide-transformers-and-large-language-models-afshine-and-shervine.pdf
+│   ├── the-annotated-transformer-alexander-rush.pdf
+│   ├── the-long-story-of-how-neural-nets-got-to-where-they-are-terry-sejnowski.webm
+│   ├── ucb-cs188-introduction-to-artificial-intelligence
+│   │   ├── 01-introduction.mp4
+│   │   ├── 02-uninformed-search.mp4
+│   │   ├── 03-a-star-search-and-heuristics.mp4
+│   │   ├── 04-constraint-satisfaction-problems-01.mp4
+│   │   ├── 05-constraint-satisfaction-problems-02.mp4
+│   │   ├── 06-gametrees-minimax.mp4
+│   │   ├── 07-gametrees-expectimax-and-utilities.mp4
+│   │   ├── 08-markov-decision-processes-1.mp4
+│   │   ├── 09-markov-decision-processes-2.mp4
+│   │   ├── 10-reinforcement-learning-1.mp4
+│   │   ├── 11-reinforcement-learning-2.mp4
+│   │   ├── 12-probability.mp4
+│   │   ├── 13-bayes-nets-introduction.mp4
+│   │   ├── 14-bayes-nets-independence.mp4
+│   │   ├── 15-bayes-nets-inference.mp4
+│   │   ├── 16-bayes-nets-sampling.mp4
+│   │   ├── 17-decision-networks-and-value-of-information.mp4
+│   │   ├── 18-hidden-markov-models-introduction.mp4
+│   │   ├── 19-hidden-markov-models-applications.mp4
+│   │   ├── 20-machine-learning-naive-bayes.mp4
+│   │   ├── 21-machine-learning-perceptrons-and-logical-regression.mp4
+│   │   ├── 22-machine-learning-optimization-and-neural-nets.mp4
+│   │   ├── 23-machine-learning-decision-trees.mp4
+│   │   ├── 24-robotics.mp4
+│   │   └── 25-conclusion.mp4
+│   ├── what-is-chatgpt-doing-and-why-does-it-work-stephen-worlfram.mp4
+│   └── what-is-chatgpt-doing-and-why-does-it-work-stephen-worlfram.pdf
+├── algo
+│   ├── a-better-way-to-combine-efficient-string-length-encoding-and-zero-termination-bron-and-dijkstra.pdf
+│   ├── algorithm-and-data-structures-niklaus-wirth.pdf
+│   ├── division-and-modulus-for-computer-scientists-daan-leijen.pdf
+│   ├── introduction-to-algorithms-cormen-leiserson-rivest-and-stein
+│   ├── introduction-to-algorithms-udi-manber.pdf
+│   ├── mit-6006-introduction-to-algorithms
+│   │   ├── 01.mp4
+│   │   ├── 02.mp4
+│   │   ├── 03.mp4
+│   │   ├── 04.mp4
+│   │   ├── 05.mp4
+│   │   ├── 06.mp4
+│   │   ├── 07.mp4
+│   │   ├── 08.mp4
+│   │   ├── 09.mp4
+│   │   ├── 10.mp4
+│   │   ├── 11.mp4
+│   │   ├── 12.mp4
+│   │   ├── 13.mp4
+│   │   ├── 14.mp4
+│   │   ├── 15.mp4
+│   │   ├── 16.mp4
+│   │   ├── 17.mp4
+│   │   ├── 18.mp4
+│   │   ├── 19.mp4
+│   │   ├── 20.mp4
+│   │   ├── 21.mp4
+│   │   ├── 22.mp4
+│   │   ├── 23.mp4
+│   │   ├── 24.mp4
+│   │   └── recitation
+│   │       ├── 01.mp4
+│   │       ├── 02.mp4
+│   │       ├── 03.mp4
+│   │       ├── 05.mp4
+│   │       ├── 06.mp4
+│   │       ├── 07.mp4
+│   │       ├── 08.mp4
+│   │       ├── 09-1.mp4
+│   │       ├── 09-2.mp4
+│   │       ├── 10.mp4
+│   │       ├── 11.mp4
+│   │       ├── 12.mp4
+│   │       ├── 13.mp4
+│   │       ├── 14.mp4
+│   │       ├── 15.mp4
+│   │       ├── 16.mp4
+│   │       ├── 18.mp4
+│   │       ├── 19.mp4
+│   │       ├── 20.mp4
+│   │       ├── 21.mp4
+│   │       ├── 22.mp4
+│   │       ├── 23.mp4
+│   │       └── 24.mp4
+│   ├── mit-6046j-design-and-analysis-of-algorithms
+│   ├── mit-6854j-advanced-algorithms
+│   ├── programming-algorithms-hard-problems-and-the-game-of-life-donald-knuth.webm
+│   ├── regular-expression-search-algorithm-ken-thompson.pdf
+│   └── the-art-of-computer-programming-donald-knuth
+│       ├── 1-fundamental-algorithms.epub
+│       ├── 2-seminumerical-algorithms.epub
+│       ├── 3-sorting-and-searching.epub
+│       ├── 4a-combinatorial-algorithms.epub
+│       ├── 4b-combinatorial-algorithms.epub
+│       └── mmix-supplement.epub
+├── arch
+│   ├── amd-2901
+│   ├── ben-eater-youtube
+│   ├── digital-circuit-design-for-computer-science-students-an-introductory-textbook-niklaus-wirth.pdf
+│   └── digital-design-and-computer-architecture-david-and-sarah
+│       ├── 1-0-introduction.mkv
+│       ├── 1-10-gates-from-transistors.mkv
+│       ├── 1-11-power-consumption.mkv
+│       ├── 1-1-managing-complexity.mkv
+│       ├── 1-2-unsigned-binary-numbers.mkv
+│       ├── 1-3-hexadecimal-numbers.webm
+│       ├── 1-4-bytes.webm
+│       ├── 1-5-binary-addition.mkv
+│       ├── 1-6-signed-binary-numbers.mkv
+│       ├── 1-7-extension.mkv
+│       ├── 1-8-logic-gates.mkv
+│       ├── 1-9-transistors.mkv
+│       ├── 2-10-xs-and-zs.mkv
+│       ├── 2-11-k-maps.mkv
+│       ├── 2-12-with-dont-cares.mkv
+│       ├── 2-13-multiplexers.mkv
+│       ├── 2-14-decoders.mkv
+│       ├── 2-15-timing-of-combinational-logic.mkv
+│       ├── 2-1-combinational-logic.mkv
+│       ├── 2-2-combinational-circuits.mkv
+│       ├── 2-3-boolean-equations.mkv
+│       ├── 2-4-boolean-axioms.mkv
+│       ├── 2-5-boolean-theorems-of-one-variable.mkv
+│       ├── 2-6-boolean-theorems-of-several-variables.mkv
+│       ├── 2-7-simplifying-boolean-equations.mkv
+│       ├── 2-8-from-logic-to-gates.mkv
+│       ├── 2-9-bubble-pushing.mkv
+│       ├── 2-demorgans-theorem.mkv
+│       ├── 2-proving-boolean-theorems.mkv
+│       ├── 2-simplifying-boolean-equations.mkv
+│       ├── 3-10-moore-fsm.mkv
+│       ├── 3-11-mealy-fsm.mkv
+│       ├── 3-12-factored-fsms.mkv
+│       ├── 3-13-timing.mkv
+│       ├── 3-14-clockskew.mkv
+│       ├── 3-16-parallelism.mkv
+│       ├── 3-19-metastability.mkv
+│       ├── 3-1-sequential-logic.mkv
+│       ├── 3-20-synchronizers.mkv
+│       ├── 3-2-bistable-circuit.mkv
+│       ├── 3-3-sr-latch.mkv
+│       ├── 3-4-d-latch.mkv
+│       ├── 3-5-d-flip-flop.mkv
+│       ├── 3-6-flop-variations.mkv
+│       ├── 3-7-synchronous-sequential-logic.mkv
+│       ├── 3-8-fsm.mkv
+│       ├── 3-9-moore-fsm.mkv
+│       ├── 4-1-system-verilog.mkv
+│       ├── 4-2-combinational-logic.mkv
+│       ├── 4-3-delays-in-simulations.mkv
+│       ├── 4-4-sequential-logic.mkv
+│       ├── 4-5-combinational-logic-using-always-blocks.mkv
+│       ├── 4-6-assignments.mkvq
+│       ├── 4-7-fsms.mkv
+│       ├── 4-8-parameterized-modules.mkv
+│       ├── 4-9-test-benches.mkv
+│       ├── 5-10-floating-point-numbers.mkv
+│       ├── 5-11-floating-point-addition.mkv
+│       ├── 5-12-counters-and-shift-registers.mkv
+│       ├── 5-13-memory-introduction.mkv
+│       ├── 5-14-ram.mkv
+│       ├── 5-15-rom.mkv
+│       ├── 5-16-system-verilog-memories.mkv
+│       ├── 5-17-logic-arrays.mkv
+│       ├── 5-1-digital-building-blocks.mkv
+│       ├── 5-2-adders-introduction.mkv
+│       ├── 5-3-ripple-carry-adders.mkv
+│       ├── 5-4-carry-lookahead-adders.mkv
+│       ├── 5-5-prefix-adders.mkv
+│       ├── 5-6-subtractors-and-comparators.mkv
+│       ├── 5-7-alus.mkv
+│       ├── 5-8-shifters-multipliers-and-dividers.mkv
+│       ├── 5-9-fixed-point-numbers.mkv
+│       ├── 6-10-arrays.mkv
+│       ├── 6-11-functions.mkv
+│       ├── 6-12-the-stack.mkv
+│       ├── 6-13-recursive-functions.mkv
+│       ├── 6-14-jumps-and-pseudo-instructions.mkv
+│       ├── 6-15-1-machine-language.mkv
+│       ├── 6-15-2-r-type-instructions.mkv
+│       ├── 6-16-1-more-formats.mkv
+│       ├── 6-16-2-more-formats.mkv
+│       ├── 6-17-immediate-encodings.mkv
+│       ├── 6-18-decoding-machine-language-and-addressing-operands.mkv
+│       ├── 6-19-compiling-assembling-and-loading-programs.mkv
+│       ├── 6-1-risc-v-architecture.mkv
+│       ├── 6-20-big-endian-and-little-endian-memory.mkv
+│       ├── 6-21-signed-and-unsigned-instructions.mkv
+│       ├── 6-22-compressed-instructions.mkv
+│       ├── 6-23-floating-point-instructions.mkv
+│       ├── 6-2-instructions.webm
+│       ├── 6-3-operands.mkv
+│       ├── 6-4-memory-instructions.mkv
+│       ├── 6-5-immediates-constants.mkv
+│       ├── 6-6-logical-instructions.mkv
+│       ├── 6-7-multiplication-and-division-instructions.mkv
+│       ├── 6-8-branches.mkv
+│       ├── 6-9-conditional-statements.mkv
+│       ├── 8-10-address-translation.mkv
+│       ├── 8-11-page-tables.mkv
+│       ├── 8-12-tlbs.mkv
+│       ├── 8-13-summary.mkv
+│       ├── 8-1-memory-system.mkv
+│       ├── 8-2-performance.mkv
+│       ├── 8-3-cache.mkv
+│       ├── 8-4-direct-mapped-caches.mkv
+│       ├── 8-5-associative-caches.mkv
+│       ├── 8-6-spatial-locality.mkv
+│       ├── 8-7-lru-replacement.mkv
+│       ├── 8-8-summary.mkv
+│       ├── 8-9-virtual-memory.mkv
+│       ├── 9-10-accelerometer.mkv
+│       ├── 9-1-embedded-systems.mkv
+│       ├── 9-2-microcontrollers.mkv
+│       ├── 9-3-memory-mapped-io.mkv
+│       ├── 9-4-general-purpose-io.mkv
+│       ├── 9-5-device-driver.mkv
+│       ├── 9-6-timers.mkv
+│       ├── 9-7-morse-code.mkv
+│       ├── 9-8-interfacing.mkv
+│       ├── 9-9-spi.mkv
+│       ├── book.pdf
+│       ├── vga-lecture.mkv
+│       └── wcae-21-paper-8.mkv
+├── comp
+│   ├── abstractions-their-algorithms-and-their-compilers-aho-and-ullman.mp4
+│   ├── a-history-of-compilers-peter-sestoft.pdf
+│   ├── an-incremental-approach-to-compiler-construction-abdulaziz-ghuloum.pdf
+│   ├── assemblers-compilers-and-program-translation-peter-calingaert.djvu
+│   ├── birth-of-the-compiler-arttu-kangas.pdf
+│   ├── chicken-chicken-chicken-chicken-chicken-doug-zongker.pdf
+│   ├── code-generation-on-the-fly-a-key-to-portable-software-michael-franz.pdf
+│   ├── coursera-compilers
+│   │   ├── 01-introduction
+│   │   │   ├── 1-introduction.mp4
+│   │   │   ├── 1-introduction.pdf
+│   │   │   ├── 2-structure-of-a-compiler.mp4
+│   │   │   ├── 2-structure-of-a-compiler.pdf
+│   │   │   ├── 3-the-economy-of-programming-languages.mp4
+│   │   │   └── 3-the-economy-of-programming-languages.pdf
+│   │   ├── 02-the-cool-programming-language
+│   │   │   ├── 1-overview.mp4
+│   │   │   ├── 1-overview.pdf
+│   │   │   ├── 2-example-1.mp4
+│   │   │   ├── 3-example-2.mp4
+│   │   │   └── 4-reference-manual.pdf
+│   │   ├── 03-lexical-analysis
+│   │   │   ├── 1-lexical-analysis.mp4
+│   │   │   ├── 1-lexical-analysis.pdf
+│   │   │   ├── 2-examples.mp4
+│   │   │   ├── 2-examples.pdf
+│   │   │   ├── 3-regular-languages.mp4
+│   │   │   ├── 3-regular-languages.pdf
+│   │   │   ├── 4-formal-languages.mp4
+│   │   │   ├── 4-formal-languages.pdf
+│   │   │   ├── 5-lexical-specifications.mp4
+│   │   │   ├── 5-lexical-specifications.pdf
+│   │   │   └── 6-deduceit-demo.mp4
+│   │   ├── 04-finite-automata
+│   │   │   ├── 1-lexical-specification.mp4
+│   │   │   ├── 1-lexical-specification.pdf
+│   │   │   ├── 2-finite-automata.mp4
+│   │   │   ├── 2-finite-automata.pdf
+│   │   │   ├── 3-regular-expressions-into-nfas.mp4
+│   │   │   ├── 3-regular-expressions-into-nfas.pdf
+│   │   │   ├── 4-nfa-to-dfa.mp4
+│   │   │   ├── 4-nfa-to-dfa.pdf
+│   │   │   ├── 5-implementing-finite-automata.mp4
+│   │   │   └── 5-implementing-finite-automata.pdf
+│   │   ├── 05-parsing
+│   │   │   ├── 1-introduction.mp4
+│   │   │   ├── 1-introduction.pdf
+│   │   │   ├── 2-context-free-grammars.mp4
+│   │   │   ├── 2-context-free-grammars.pdf
+│   │   │   ├── 3-derivations.mp4
+│   │   │   ├── 3-derivations.pdf
+│   │   │   ├── 4-ambiguity.mp4
+│   │   │   └── 4-ambiguity.pdf
+│   │   ├── 06-top-down-parsing
+│   │   │   ├── 1-error-handling.mp4
+│   │   │   ├── 1-error-handling.pdf
+│   │   │   ├── 2-abstract-syntax-trees.mp4
+│   │   │   ├── 2-abstract-syntax-trees.pdf
+│   │   │   ├── 3-recursive-descent-parsing.mp4
+│   │   │   ├── 3-recursive-descent-parsing.pdf
+│   │   │   ├── 4-recursive-descent-algorithm.mp4
+│   │   │   ├── 4-recursive-descent-algorithm.pdf
+│   │   │   ├── 5-1-recursive-descent-limitations.mp4
+│   │   │   ├── 5-1-recursive-descent-limitations.pdf
+│   │   │   ├── 6-left-recursion.mp4
+│   │   │   └── 6-left-recursion.pdf
+│   │   ├── 07-bottom-up-parsing-1
+│   │   │   ├── 1-predictive-parsing.mp4
+│   │   │   ├── 1-predictive-parsing.pdf
+│   │   │   ├── 2-first-sets.mp4
+│   │   │   ├── 2-first-sets.pdf
+│   │   │   ├── 3-follow-sets.mp4
+│   │   │   ├── 3-follow-sets.pdf
+│   │   │   ├── 4-ll1-parsing-tables.mp4
+│   │   │   ├── 4-ll1-parsing-tables.pdf
+│   │   │   ├── 5-bottom-up-parsing.mp4
+│   │   │   ├── 5-bottom-up-parsing.pdf
+│   │   │   ├── 6-shift-reduce-parsing.mp4
+│   │   │   └── 6-shift-reduce-parsing.pdf
+│   │   ├── 08-bottom-up-parsing-2
+│   │   │   ├── 1-handles.mp4
+│   │   │   ├── 1-handles.pdf
+│   │   │   ├── 2-recognizing-handles.mp4
+│   │   │   ├── 2-recognizing-handles.pdf
+│   │   │   ├── 3-recognizing-viable-prefixes.mp4
+│   │   │   ├── 3-recognizing-viable-prefixes.pdf
+│   │   │   ├── 4-valid-items.mp4
+│   │   │   ├── 4-valid-items.pdf
+│   │   │   ├── 5-slr-parsing.mp4
+│   │   │   ├── 5-slr-parsing.pdf
+│   │   │   ├── 6-slr-parsing-example.mp4
+│   │   │   ├── 6-slr-parsing-example.pdf
+│   │   │   ├── 7-slr-improvements.mp4
+│   │   │   ├── 7-slr-improvements.pdf
+│   │   │   ├── 8-slr-examples.mp4
+│   │   │   └── 8-slr-examples.pdf
+│   │   ├── 09-semantic-analysis-and-type-checking
+│   │   │   ├── 1-semantic-analysis.mp4
+│   │   │   ├── 1-semantic-analysis.pdf
+│   │   │   ├── 2-scope.mp4
+│   │   │   ├── 2-scope.pdf
+│   │   │   ├── 3-symbol-tables.mp4
+│   │   │   ├── 3-symbol-tables.pdf
+│   │   │   ├── 4-types.mp4
+│   │   │   ├── 4-types.pdf
+│   │   │   ├── 5-type-checking.mp4
+│   │   │   ├── 5-type-checking.pdf
+│   │   │   ├── 6-type-environments.mp4
+│   │   │   ├── 6-type-environments.pdf
+│   │   │   ├── 7-subtyping.mp4
+│   │   │   ├── 7-subtyping.pdf
+│   │   │   ├── 8-typing-methods.mp4
+│   │   │   ├── 8-typing-methods.pdf
+│   │   │   ├── 9-implementing-type-checking.mp4
+│   │   │   └── 9-implementing-type-checking.pdf
+│   │   ├── 10-cool-type-checking
+│   │   │   ├── 1-static-vs-dynamic-typing.mp4
+│   │   │   ├── 1-static-vs-dynamic-typing.pdf
+│   │   │   ├── 2-self-type.mp4
+│   │   │   ├── 2-self-type.pdf
+│   │   │   ├── 3-self-type-operations.mp4
+│   │   │   ├── 3-self-type-operations.pdf
+│   │   │   ├── 4-self-type-usage.mp4
+│   │   │   ├── 4-self-type-usage.pdf
+│   │   │   ├── 5-self-type-checking.mp4
+│   │   │   ├── 5-self-type-checking.pdf
+│   │   │   ├── 6-error-recovery.mp4
+│   │   │   └── 6-error-recovery.pdf
+│   │   ├── 11-runtime-organization
+│   │   │   ├── 1-introduction.mp4
+│   │   │   ├── 1-introduction.pdf
+│   │   │   ├── 2-activations.mp4
+│   │   │   ├── 2-activations.pdf
+│   │   │   ├── 3-activation-records.mp4
+│   │   │   ├── 3-activation-records.pdf
+│   │   │   ├── 4-globals-and-heap.mp4
+│   │   │   ├── 4-globals-and-heap.pdf
+│   │   │   ├── 5-alignment.mp4
+│   │   │   ├── 5-alignment.pdf
+│   │   │   ├── 6-stack-machines.mp4
+│   │   │   └── 6-stack-machines.pdf
+│   │   ├── 12-code-generation
+│   │   │   ├── 1-introduction.mp4
+│   │   │   ├── 1-introduction.pdf
+│   │   │   ├── 2-code-generation-1.mp4
+│   │   │   ├── 2-code-generation-1.pdf
+│   │   │   ├── 3-code-generation-2.mp4
+│   │   │   ├── 3-code-generation-2.pdf
+│   │   │   ├── 4-code-generation-example.mp4
+│   │   │   ├── 4-code-generation-example.pdf
+│   │   │   ├── 5-temporaries.mp4
+│   │   │   ├── 5-temporaries.pdf
+│   │   │   ├── 6-object-layout.mp4
+│   │   │   └── 6-object-layout.pdf
+│   │   ├── 13-operational-semantics
+│   │   │   ├── 1-overview.mp4
+│   │   │   ├── 1-overview.pdf
+│   │   │   ├── 2-introdction.pdf
+│   │   │   ├── 2-introduction.mp4
+│   │   │   ├── 3-cool-semantics-1.mp4
+│   │   │   ├── 3-cool-semantics-1.pdf
+│   │   │   ├── 4-cool-semantics-2.mp4
+│   │   │   └── 4-cool-semantics-2.pdf
+│   │   ├── 14-local-optimization
+│   │   │   ├── 1-intermediate-code.mp4
+│   │   │   ├── 1-intermediate-code.pdf
+│   │   │   ├── 2-optimization-overview.mp4
+│   │   │   ├── 2-optimization-overview.pdf
+│   │   │   ├── 3-local-optimization.mp4
+│   │   │   ├── 3-local-optimization.pdf
+│   │   │   ├── 4-peephole-optimization.mp4
+│   │   │   └── 4-peephole-optimization.pdf
+│   │   ├── 15-global-optimization
+│   │   │   ├── 1-dataflow-analysis.mp4
+│   │   │   ├── 1-dataflow-analysis.pdf
+│   │   │   ├── 2-constant-propagation.mp4
+│   │   │   ├── 2-constant-propagation.pdf
+│   │   │   ├── 3-analysis-of-loops.mp4
+│   │   │   ├── 3-analysis-of-loops.pdf
+│   │   │   ├── 4-orderings.mp4
+│   │   │   ├── 4-orderings.pdf
+│   │   │   ├── 5-liveness-analysis.mp4
+│   │   │   └── 5-liveness-analysis.pdf
+│   │   ├── 16-register-allocation
+│   │   │   ├── 1-introduction.mp4
+│   │   │   ├── 1-introduction.pdf
+│   │   │   ├── 2-graph-coloring.mp4
+│   │   │   ├── 2-graph-coloring.pdf
+│   │   │   ├── 3-spilling.mp4
+│   │   │   ├── 3-spilling.pdf
+│   │   │   ├── 4-managing-caches.mp4
+│   │   │   └── 4-managing-caches.pdf
+│   │   ├── 17-garbage-collection
+│   │   │   ├── 1-automatic-memory-management.mp4
+│   │   │   ├── 1-automatic-memory-management.pdf
+│   │   │   ├── 2-mark-and-sweep.mp4
+│   │   │   ├── 2-mark-and-sweep.pdf
+│   │   │   ├── 3-stop-and-copy.mp4
+│   │   │   ├── 3-stop-and-copy.pdf
+│   │   │   ├── 4-conservative-collection.mp4
+│   │   │   ├── 4-conservative-collection.pdf
+│   │   │   ├── 5-reference-counting.mp4
+│   │   │   └── 5-reference-counting.pdf
+│   │   └── 18-java
+│   │       ├── 1-java.mp4
+│   │       ├── 1-java.pdf
+│   │       ├── 2-java-arrays.mp4
+│   │       ├── 2-java-arrays.pdf
+│   │       ├── 3-java-exceptions.mp4
+│   │       ├── 3-java-exceptions.pdf
+│   │       ├── 4-java-interfaces.mp4
+│   │       ├── 4-java-interfaces.pdf
+│   │       ├── 5-java-coercions.mp4
+│   │       ├── 5-java-coercions.pdf
+│   │       ├── 6-java-threads.mp4
+│   │       ├── 6-java-threads.pdf
+│   │       ├── 7-other-topics.mp4
+│   │       └── 7-other-topics.pdf
+│   ├── crafting-interpreters-robert-nystrom.pdf
+│   ├── gems-of-corrado-bohm-henk-barendregt.pdf
+│   ├── how-to-build-a-virtual-machine-terence-parr.mp4
+│   ├── meta-ii-a-syntax-oriented-compiler-writing-language-dv-schorre.pdf
+│   ├── optimizing-compilers-for-structured-programming-languages-marc-brandis.pdf
+│   ├── reinventing-the-parser-generator-david-beazley.mp4
+│   ├── separate-compilation-and-module-extension-regis-crelier.pdf
+│   └── set-a-neglected-data-type-and-its-compilation-for-the-arm-niklaus-wirth.pdf
+├── crypto
+│   ├── understanding-cryptography-christof-paar
+│   │   ├── 01-introduction.mp4
+│   │   ├── 02-modular-arithmetic-and-historical-ciphers.mp4
+│   │   ├── 03-stream-ciphers-random-numbers-and-the-one-time-pad.mp4
+│   │   ├── 04-stream-ciphers-and-linear-feedback-shift-registers.mp4
+│   │   ├── 05-data-encryption-standard-encryption.mp4
+│   │   ├── 06-data-encryption-standard-key-schedule-and-decryption.mp4
+│   │   ├── 07-introduction-to-galois-fields-for-the-aes.mp4
+│   │   ├── 08-advanced-encryption-standard.mp4
+│   │   ├── 09-modes-of-operation-for-block-ciphers.mp4
+│   │   ├── 10-multiple-encryption-and-brute-force-attacks.mp4
+│   │   ├── 11-number-theory-for-public-key-cryptography.mp4
+│   │   ├── 12-the-rsa-cryptosystem-and-efficient-exponentiation.mp4
+│   │   ├── 13-cyclic-groups-and-diffie-hellman-key-exchange.mp4
+│   │   ├── 14-the-generalized-discrete-log-problem-and-the-security-of-diffie-hellman.mp4
+│   │   ├── 15-elgamal-encryption-scheme.mp4
+│   │   ├── 16-introduction-to-elliptic-curves.mp4
+│   │   ├── 17-elliptic-curve-cryptography.mp4
+│   │   ├── 18-digital-signatures-and-security-services.mp4
+│   │   ├── 19-elgamal-digital-signature.mp4
+│   │   ├── 20-hash-function.mp4
+│   │   ├── 21-sha-1-hash-function.mp4
+│   │   ├── 22-sha-3-hash-function.mp4
+│   │   ├── 23-message-authentication-codes-and-hmac.mp4
+│   │   ├── 24-symmetric-key-establishment.mp4
+│   │   └── 25-asymmetric-key-establishment-and-certificates.mp4
+│   └── understanding-cryptography-christof-paar.pdf
+├── db
+│   ├── cmu-15-445-introduction-to-database-systems
+│   │   ├── 01-course-introduction-and-relational-data-model.mp4
+│   │   ├── 02-advanced-sql.mp4
+│   │   ├── 03-database-storage-1.mp4
+│   │   ├── 04-database-storage-2.mp4
+│   │   ├── 05-buffer-pools.mp4
+│   │   ├── 06-hash-tables.mp4
+│   │   ├── 07-tree-indexes-1.mp4
+│   │   ├── 08-tree-indexes-2.mp4
+│   │   ├── 09-index-concurrency-control.mp4
+│   │   ├── 10-query-processing.mp4
+│   │   ├── 11-sorting-and-aggregation-algorithms.mp4
+│   │   ├── 12-join-algorithms.mp4
+│   │   ├── 13-query-optimization.mp4
+│   │   ├── 14-parallel-execution.mp4
+│   │   ├── 15-embedded-logic.mp4
+│   │   ├── 16-concurrency-control-theory.mp4
+│   │   ├── 17-two-phase-locking-concurrency-ccontrol.mp4
+│   │   ├── 18-timestamp-ordering-concurrency-control.mp4
+│   │   ├── 19-multi-version-concurrency-control.mp4
+│   │   ├── 20-logging-schemes.mp4
+│   │   ├── 21-database-recovery.mp4
+│   │   ├── 22-distributed-oltp-databases-1.mp4
+│   │   ├── 23-distributed-oltp-databases-2.mp4
+│   │   ├── 24-distributed-olap-databases-3.mp4
+│   │   ├── 25-voltdb-ethan-zhang.mp4
+│   │   ├── 26-systems-totpourri-cockroachdb-spanner-mongodb.mp4
+│   │   └── README
+│   ├── database-system-concepts-abraham-silberschatz
+│   ├── readings-in-database-systems-michael-stonebraker.pdf
+│   ├── sqlalchemy-2.0-the-one-point-four-ening-2021-mike-bayer.mp4
+│   ├── the-transaction-concept-virtues-and-limitations-jim-gray.pdf
+│   └── transaction-processing-concepts-and-techniques-gray-and-reuter.djvu
+├── dist
+│   ├── a-critique-of-the-remote-procedure-call-paradigm-andrew-tanenbaum.pdf
+│   ├── amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases-amazon.pdf
+│   ├── bitcoin-a-peer-to-peer-electronic-cash-system-satoshi-nakamoto-bitcoin.pdf
+│   ├── blockstack-a-new-internet-for-decentralized-applications-ali-freedman-nelson-and-shea.pdf
+│   ├── building-a-computing-system-for-worlds-information-jeff-dean.mp4
+│   ├── designing-data-intensive-applications-martin-kleppmann.epub
+│   ├── designing-data-intensive-applications-martin-kleppmann.pdf
+│   ├── distributed-algorithms-systems-and-programming-microsoft-research
+│   │   └── README
+│   ├── distributed-systems-martin-kleppmann
+│   │   ├── 1-1-introduction.mp4
+│   │   ├── 1-2-computer-networking.mp4
+│   │   ├── 1-3-rpc-remote-procedure-call.mp4
+│   │   ├── 2-1-the-two-generals-problem.mp4
+│   │   ├── 2-2-the-byzantine-generals-problem.mp4
+│   │   ├── 2-3-system-models.mp4
+│   │   ├── 2-4-fault-tolerance.mp4
+│   │   ├── 3-1-physical-time.mp4
+│   │   ├── 3-2-clock-synchronisation.mp4
+│   │   ├── 3-3-causality-and-happens-before.mp4
+│   │   ├── 4-1-logical-time.mp4
+│   │   ├── 4-2-broadcast-ordering.mp4
+│   │   ├── 4-3-broadcast-algorithms.mp4
+│   │   ├── 5-1-replication.mp4
+│   │   ├── 5-2-quorums.mp4
+│   │   ├── 5-3-state-machine-replication.mp4
+│   │   ├── 6-1-consensus.mp4
+│   │   ├── 6-2-raft.mp4
+│   │   ├── 7-1-two-phase-commit.mp4
+│   │   ├── 7-2-linearizability.mp4
+│   │   ├── 7-3-eventual-consistency.mp4
+│   │   ├── 8-1-collaboration-software.mp4
+│   │   └── 8-2-googles-spanner.mp4
+│   ├── distributed-systems-steen-and-tanenbaum.pdf
+│   ├── dont-settle-for-eventual-scalable-causal-consistency-for-wide-area-storage-with-cops-andersen-freedman-kaminsky-and-lloyd.pdf
+│   ├── flumejava-easy-efficient-data-parallel-pipelines-google.pdf
+│   ├── frangipani-a-scalable-distributed-file-system-lee-mann-and-thekkath.pdf
+│   ├── in-search-of-an-understandable-consensus-algorithm-ongaro-and-ousterhout.pdf
+│   ├── making-reliable-distributed-systems-in-the-presence-of-software-errors-joe-armstrong.pdf
+│   ├── map-reduce-simplified-data-processing-on-large-clusters-jeff-dean.pdf
+│   ├── mit-6824-distributed-systems
+│   │   ├── 01-introduction.mkv
+│   │   ├── 02-rpc-and-threads.mkv
+│   │   ├── 03-gfs.mkv
+│   │   ├── 04-primary-backup-replication.mkv
+│   │   ├── 05-go-threads-and-raft.mkv
+│   │   ├── 06-fault-tolerance-raft-1.mkv
+│   │   ├── 07-fault-tolerance-raft-2.mkv
+│   │   ├── 08-zookeeper.mkv
+│   │   ├── 09-more-replication-craq.mkv
+│   │   ├── 10-cloud-replicated-db-aurora.mkv
+│   │   ├── 11-cache-consistency-frangipani.mkv
+│   │   ├── 12-distributed-transactions.mkv
+│   │   ├── 13-spanner.mkv
+│   │   ├── 14-optimistic-concurrency-control.mkv
+│   │   ├── 15-big-data-spark.mkv
+│   │   ├── 16-cache-consistency-memcached-at-facebook.mkv
+│   │   ├── 17-cops-causal-consistency.mkv
+│   │   ├── 18-fork-consistency-certificate-transparency.mkv
+│   │   ├── 19-bitcoin.mkv
+│   │   └── 20-blockstack.mkv
+│   ├── no-compromises-distributed-transactions-with-consistency-availability-and-performance-microsoft-research.pdf
+│   ├── object-storage-on-craq-high-throughput-chain-replication-for-read-mostly-workloads-freedman-and-terrace.pdf
+│   ├── resilient-distributed-datasets-a-fault-tolerant-abstraction-for-in-memory-cluster-computing-ucb.pdf
+│   ├── scaling-memcache-at-facebook-facebook.pdf
+│   ├── spanner-googles-globally-distributed-database-google.pdf
+│   ├── spark-cluster-computing-with-working-sets-ucb.pdf
+│   ├── the-byzantine-generals-problem-lamport-pease-and-shostak.pdf
+│   ├── the-dataflow-model-a-practical-approach-to-balancing-correctness-latency-and-cost-in-massive-scale-unbounded-out-of-order-data-processing-google.pdf
+│   ├── the-design-of-a-practical-system-for-fault-tolerant-virtual-machines-nelson-scales-and-venkitachalam.pdf
+│   ├── the-google-filesystem-sanjay-ghemawat.pdf
+│   ├── time-clocks-and-the-ordering-of-events-in-a-distributed-system-leslie-lamport.pdf
+│   └── zookeeper-wait-free-coordination-for-internet-scale-systems-yahoo.pdf
+├── dp
+│   ├── event-driven-architecture-martin-fowler.mp4
+│   └── head-first-design-patterns-eric-freeman.pdf
+├── elem
+│   ├── art-of-the-problem
+│   │   ├── computer-science
+│   │   │   ├── 1-the-origin-and-history-of-computer-science.mp4
+│   │   │   ├── 2-what-is-computer-science-the-turing-test.mp4
+│   │   │   ├── 3-what-is-an-algorithm.mp4
+│   │   │   ├── 4-what-is-logic.mp4
+│   │   │   ├── 5-what-is-a-computer-the-history-covering-leibniz-babbage-and-lovelace.mp4
+│   │   │   ├── 6-turing-machines-explained-visually.mp4
+│   │   │   └── 7-what-is-complexity-theory-p-vs-np-explained-visually.mp4
+│   │   ├── cryptography
+│   │   │   ├── 1-what-is-cryptography.mp4
+│   │   │   ├── 2-prime-factorization.mp4
+│   │   │   ├── 3-probability-theory-and-randomness.mp4
+│   │   │   ├── 4-private-key-cryptography.mp4
+│   │   │   ├── 5-encryption-machines.mp4
+│   │   │   ├── 6-perfect-secrecy-and-pseudorandomness.mp4
+│   │   │   ├── 7-diffie-hellman-key-exchange.mp4
+│   │   │   └── 8-rsa-encryption.mp4
+│   │   └── information-theory
+│   │       ├── 01-origins-of-cuneiform-and-hieroglyphics.mp4
+│   │       ├── 02-history-of-the-alphabet.mp4
+│   │       ├── 03-what-is-coding-theory.mp4
+│   │       ├── 04-semaphores-and-signal-fires.mp4
+│   │       ├── 05-history-of-static-electricity.mp4
+│   │       ├── 06-how-batteries-work-electromagnetic-communication.mp4
+│   │       ├── 07-morse-code.mp4
+│   │       ├── 08-channel-capacity-baud-rate.mp4
+│   │       ├── 09-what-is-a-bit.mp4
+│   │       ├── 10-what-is-a-markov-chain.mp4
+│   │       ├── 11-claude-shannon-a-mathematical-theory-of-communication.mp4
+│   │       ├── 12-claude-shannon-entropy.mp4
+│   │       ├── 13-data-compression-via-huffman-coding.mp4
+│   │       ├── 14-error-correction-codes-hamming-coding.mp4
+│   │       └── 15-the-search-for-extra-terrestrial-intelligence.mp4
+│   ├── code-the-hidden-language-of-computer-hardware-and-software-charles-petzold.pdf
+│   ├── computer-science-an-interdisciplinary-approach-robert-sedgewick.pdf
+│   ├── coursera-computer-science-an-interdisciplinary-approach
+│   │   ├── 01-basic-programming-concepts
+│   │   │   ├── 1-why-programming.mp4
+│   │   │   ├── 2-program-development.mp4
+│   │   │   ├── 3-built-in-data-types.mp4
+│   │   │   ├── 4-type-conversion.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 02-conditionals-and-loops
+│   │   │   ├── 1-conditionals-the-if-statement.mp4
+│   │   │   ├── 2-loops-the-while-statement.mp4
+│   │   │   ├── 3-an-alternative-the-for-loop.mp4
+│   │   │   ├── 4-nesting.mp4
+│   │   │   ├── 5-debugging.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 03-arrays
+│   │   │   ├── 1-basic-concepts.mp4
+│   │   │   ├── 2-typical-array-processing-code.mp4
+│   │   │   ├── 3-two-dimensional-arrays.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 04-input-and-output
+│   │   │   ├── 1-standard-input-and-output.mp4
+│   │   │   ├── 2-standard-drawing.mp4
+│   │   │   ├── 3-fractal-drawings.mp4
+│   │   │   ├── 4-animation.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 05-functions-and-libraries
+│   │   │   ├── 1-basic-concepts.mp4
+│   │   │   ├── 2-case-study-digital-audio.mp4
+│   │   │   ├── 3-application-gaussian-distribution.mp4
+│   │   │   ├── 4-modular-programming-and-libraries.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 06-recursion
+│   │   │   ├── 1-foundations.mp4
+│   │   │   ├── 2-a-classic-example.mp4
+│   │   │   ├── 3-recursive-graphics.mp4
+│   │   │   ├── 4-avoiding-exponential-waste.mp4
+│   │   │   ├── 5-dynamic-programming.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 07-performance
+│   │   │   ├── 1-the-challenge.mp4
+│   │   │   ├── 2-empirical-analysis.mp4
+│   │   │   ├── 3-mathematical-models.mp4
+│   │   │   ├── 4-doubling-method.mp4
+│   │   │   ├── 5-familiar-examples.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 08-abstract-data-types
+│   │   │   ├── 1-overview.mp4
+│   │   │   ├── 2-color.mp4
+│   │   │   ├── 3-image-processing.mp4
+│   │   │   ├── 4-string-processing.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 09-creating-data-types
+│   │   │   ├── 1-overview.mp4
+│   │   │   ├── 2-point-charges.mp4
+│   │   │   ├── 3-turtle-graphics.mp4
+│   │   │   ├── 4-complex-numbers.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 10-programming-languages
+│   │   │   ├── 1-popular-languages.mp4
+│   │   │   ├── 2-java-in-context.mp4
+│   │   │   ├── 3-object-oriented-programming.mp4
+│   │   │   ├── 4-type-checking.mp4
+│   │   │   ├── 5-functional-programming.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 11-sorting-and-searching
+│   │   │   ├── 1-a-typical-client.mp4
+│   │   │   ├── 2-binary-search.mp4
+│   │   │   ├── 3-insertion-sort.mp4
+│   │   │   ├── 4-mergesort.mp4
+│   │   │   ├── 5-longest-repeated-substring.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 12-stacks-and-queues
+│   │   │   ├── 1-apis.mp4
+│   │   │   ├── 2-clients.mp4
+│   │   │   ├── 3-strawman-implementations.mp4
+│   │   │   ├── 4-linked-lists.mp4
+│   │   │   ├── 5-implementations.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 13-symbol-tables
+│   │   │   ├── 1-apis-and-clients.mp4
+│   │   │   ├── 2-a-design-challenge.mp4
+│   │   │   ├── 3-binary-search-trees.mp4
+│   │   │   ├── 4-implementation.mp4
+│   │   │   ├── 5-analysis.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 14-introduction-to-the-theory-of-computing
+│   │   │   ├── 1-overview.mp4
+│   │   │   ├── 2-regular-expressions.mp4
+│   │   │   ├── 3-dfas.mp4
+│   │   │   ├── 4-applications.mp4
+│   │   │   ├── 5-limitations.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 15-turing-machines
+│   │   │   ├── 1-context.mp4
+│   │   │   ├── 2-a-simple-model-of-computation.mp4
+│   │   │   ├── 3-universality.mp4
+│   │   │   ├── 4-computability.mp4
+│   │   │   ├── 5-implications.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 16-intractability
+│   │   │   ├── 1-reasonable-questions.mp4
+│   │   │   ├── 2-p-and-np.mp4
+│   │   │   ├── 3-poly-time-reductions.mp4
+│   │   │   ├── 4-np-completeness.mp4
+│   │   │   ├── 5-living-with-intractability.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 17-a-computing-machine
+│   │   │   ├── 1-overview.mp4
+│   │   │   ├── 2-data-types.mp4
+│   │   │   ├── 3-instructions.mp4
+│   │   │   ├── 4-operating-the-machine.mp4
+│   │   │   ├── 5-machine-language-programming.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 18-von-neumann-machines
+│   │   │   ├── 1-perspective.mp4
+│   │   │   ├── 2-a-note-of-caution.mp4
+│   │   │   ├── 3-practical-implications.mp4
+│   │   │   ├── 4-simulation.mp4
+│   │   │   └── supplement.pdf
+│   │   ├── 19-combinational-circuits
+│   │   │   ├── 1-building-blocks.mp4
+│   │   │   ├── 2-boolean-algebra.mp4
+│   │   │   ├── 3-digital-circuits.mp4
+│   │   │   ├── 4-adder-circuit.mp4
+│   │   │   ├── 5-arithmetic-logic-unit.mp4
+│   │   │   └── supplement.pdf
+│   │   └── 20-central-processing-unit
+│   │       ├── 1-overview.mp4
+│   │       ├── 2-bits-registers-and-memory.mp4
+│   │       ├── 3-program-counter.mp4
+│   │       ├── 4-components-and-connections.mp4
+│   │       └── supplement.pdf
+│   ├── coursera-from-nand-to-tetris
+│   │   ├── 0.0-introduction.mp4
+│   │   ├── 0.1-the-road-ahead.mp4
+│   │   ├── 0.2-from-nand-to-hack.mp4
+│   │   ├── 0.3-from-hack-to-tetris.mp4
+│   │   ├── 0.4-project-0-overview.mp4
+│   │   ├── 1.0-the-road-ahead.mp4
+│   │   ├── 1.10-perspective.mp4
+│   │   ├── 1.1-boolean-logic.mp4
+│   │   ├── 1.1-program-compilation-preview.mp4
+│   │   ├── 1.2-boolean-functions.mp4
+│   │   ├── 1.2-vm-abstraction-the-stack.mp4
+│   │   ├── 1.3-logic-gates.mp4
+│   │   ├── 1.3-vm-abstraction-memory-segments.mp4
+│   │   ├── 1.4-hardware-description-language.mp4
+│   │   ├── 1.4-vm-implementation-the-stack.mp4
+│   │   ├── 1.5-hardware-simulation.mp4
+│   │   ├── 1.5-vm-implementation-memory-segments.mp4
+│   │   ├── 1.6-multi-bit-buses.mp4
+│   │   ├── 1.6-the-vm-emulator.mp4
+│   │   ├── 1.7-project-1-overview.mp4
+│   │   ├── 1.7-the-vm-implementation-on-the-hack-platform.mp4
+│   │   ├── 1.8-perspectives.mp4
+│   │   ├── 1.8-the-vm-translator-proposed-implementation.mp4
+│   │   ├── 1.9-project-7-building-the-vm-translator-part-1.mp4
+│   │   ├── 2.10-perspective.mp4
+│   │   ├── 2.1-binary-numbers.mp4
+│   │   ├── 2.1-program-control.mp4
+│   │   ├── 2.2-binary-addition.mp4
+│   │   ├── 2.2-branching.mp4
+│   │   ├── 2.3-functions-abstraction.mp4
+│   │   ├── 2.3-negative-numbers.mp4
+│   │   ├── 2.4-arithmetic-logic-unit.mp4
+│   │   ├── 2.4-function-call-and-return-implementation-preview.mp4
+│   │   ├── 2.5-function-call-and-return-runtime-simulation.mp4
+│   │   ├── 2.5-project-2-overview.mp4
+│   │   ├── 2.6-function-call-and-return-implementation.mp4
+│   │   ├── 2.6-perspectives.mp4
+│   │   ├── 2.7-vm-implementation-on-the-hack-platform.mp4
+│   │   ├── 2.8-vm-translator-proposed-implementation.mp4
+│   │   ├── 2.9-project-8-building-the-vm-translator-part-2.mp4
+│   │   ├── 3.10-graphics-optimization.mp4
+│   │   ├── 3.11-perspective.mp4
+│   │   ├── 3.1-sequential-logic.mp4
+│   │   ├── 3.1-the-jack-language-in-a-nutshell.mp4
+│   │   ├── 3.2-flip-flops.mp4
+│   │   ├── 3.2-object-based-programming.mp4
+│   │   ├── 3.3-list-processing.mp4
+│   │   ├── 3.3-memory-units.mp4
+│   │   ├── 3.4-counters.mp4
+│   │   ├── 3.4-jack-language-specification-syntax.mp4
+│   │   ├── 3.5-jack-language-specification-data-types.mp4
+│   │   ├── 3.5-project-3-overview.mp4
+│   │   ├── 3.6-jack-language-specification-classes.mp4
+│   │   ├── 3.6-perspectives.mp4
+│   │   ├── 3.7-jack-language-specification-methods.mp4
+│   │   ├── 3.8-developing-apps-using-the-jack-language-and-os.mp4
+│   │   ├── 3.9-a-sample-jack-app-square-dance.mp4
+│   │   ├── 4.10-perspective.mp4
+│   │   ├── 4.10-perspectives.mp4
+│   │   ├── 4.1-machine-languages-overview.mp4
+│   │   ├── 4.1-syntax-analysis.mp4
+│   │   ├── 4.2-lexical-analysis.mp4
+│   │   ├── 4.2-machine-languages-elements.mp4
+│   │   ├── 4.3-grammars.mp4
+│   │   ├── 4.3-the-hack-computer-and-machine-language.mp4
+│   │   ├── 4.4-hack-language-specification.mp4
+│   │   ├── 4.4-parse-trees.mp4
+│   │   ├── 4.5-input⧸output.mp4
+│   │   ├── 4.5-parse-logic.mp4
+│   │   ├── 4.6-hack-programming-part-1.mp4
+│   │   ├── 4.6-the-jack-grammar.mp4
+│   │   ├── 4.7-hack-programming-part-2.mp4
+│   │   ├── 4.7-the-jack-analyzer.mp4
+│   │   ├── 4.8-hack-programming-part-3.mp4
+│   │   ├── 4.8-the-jack-analyzer-proposed-implementation.mp4
+│   │   ├── 4.9-project-4-overview.mp4
+│   │   ├── 4.9-the-jack-analyzer-project-10-building-a-syntax-analyzer.mp4
+│   │   ├── 5.10-completing-the-compiler-proposed-implementation.mp4
+│   │   ├── 5.11-project-11.mp4
+│   │   ├── 5.12-perspective.mp4
+│   │   ├── 5.1-code-generation.mp4
+│   │   ├── 5.1-von-neumann-architecture.mp4
+│   │   ├── 5.2-handling-variables.mp4
+│   │   ├── 5.2-the-fetch-execute-cycle.mp4
+│   │   ├── 5.3-central-processing-unit.mp4
+│   │   ├── 5.3-handling-expressions.mp4
+│   │   ├── 5.4-handling-flow-control.mp4
+│   │   ├── 5.4-the-hack-computer.mp4
+│   │   ├── 5.5-handling-objects-low-level-aspects.mp4
+│   │   ├── 5.5-project-5-overview.mp4
+│   │   ├── 5.6-handling-objects-construction.mp4
+│   │   ├── 5.6-perspectives.mp4
+│   │   ├── 5.7-handling-objects-manipulation.mp4
+│   │   ├── 5.8-handling-arrays.mp4
+│   │   ├── 5.9-standard-mapping-over-the-virtual-machine.mp4
+│   │   ├── 6.10-string-processing.mp4
+│   │   ├── 6.11-array-processing.mp4
+│   │   ├── 6.12-the-sys-class.mp4
+│   │   ├── 6.13-project-12-building-the-os.mp4
+│   │   ├── 6.14-perspectives.mp4
+│   │   ├── 6.1-assembly-languages-and-assemblers.mp4
+│   │   ├── 6.1-operating-system.mp4
+│   │   ├── 6.2-efficiency-matters.mp4
+│   │   ├── 6.2-the-hack-assembly-language.mp4
+│   │   ├── 6.3-mathematical-operations.mp4
+│   │   ├── 6.3-the-assembly-process-handling-instructions.mp4
+│   │   ├── 6.4-memory-access.mp4
+│   │   ├── 6.4-the-assembly-process-handling-symbols.mp4
+│   │   ├── 6.5-developing-a-hack-assembler.mp4
+│   │   ├── 6.5-heap-management.mp4
+│   │   ├── 6.6a-project-6-overview-programming-option.mp4
+│   │   ├── 6.6b-project-6-overview-without-programming.mp4
+│   │   ├── 6.6-graphics.mp4
+│   │   ├── 6.7-line-drawing.mp4
+│   │   ├── 6.7-perspectives.mp4
+│   │   ├── 6.8-handling-textual-output.mp4
+│   │   ├── 6.9-input.mp4
+│   │   ├── 7.1-more-fun-to-go.mp4
+│   │   ├── 7.2-more-fun-to-go.mp4
+│   │   ├── 7.3-more-fun-to-go.mp4
+│   │   └── 7.4-more-fun-to-go.mp4
+│   ├── mit-6001-structure-and-interpretation-of-computer-programs
+│   │   ├── 01-a-introduction-to-lisp.mp4
+│   │   ├── 01-b-procedure-and-processes.mp4
+│   │   ├── 02-a-higher-order-procedures.mp4
+│   │   ├── 02-b-compound-data.mp4
+│   │   ├── 03-a-henderson-escher-example.mp4
+│   │   ├── 03-b-symbolic-differentiation.mp4
+│   │   ├── 04-a-pattern-matching.mp4
+│   │   ├── 04-b-generic-operators.mp4
+│   │   ├── 05-a-assignment-states-and-side-effects.mp4
+│   │   ├── 05-b-computational-objects.mp4
+│   │   ├── 06-a-streams-1.mp4
+│   │   ├── 06-b-streams-2.mp4
+│   │   ├── 07-a-metacircular-evaluator-1.mp4
+│   │   ├── 07-b-metacircular-evaluator-2.mp4
+│   │   ├── 08-a-logic-programming-1.mp4
+│   │   ├── 08-b-logic-programming-2.mp4
+│   │   ├── 09-a-register-machines.mp4
+│   │   ├── 09-b-explicit-control-evaluator.mp4
+│   │   ├── 10-a-compilation.mp4
+│   │   └── 10-b-storage-allocation-and-garbage-collection.mp4
+│   ├── structure-and-interpretation-of-computer-programs-abelson-and-sussman.pdf
+│   └── the-elements-of-computing-systems-nisan-and-schocken.pdf
+├── exc
+│   ├── bus-route
+│   ├── cellphone
+│   ├── flight-simulator
+│   ├── google-earth
+│   ├── google-map
+│   ├── image-stitching
+│   ├── lenskart
+│   ├── parse-boolean-expression-and-generalize
+│   ├── photo-scan
+│   ├── python-execution-tracing
+│   ├── satellite-simulator
+│   ├── task-decorator-like-celery
+│   └── tic-tac-toe
+├── gen
+│   ├── alan-kay-interview-joe-armstrong.mp4
+│   ├── alan-kay-quora
+│   ├── alan-kay-youtube
+│   ├── all-of-this-has-happened-before-and-it-will-all-happen-again-mark-allen.mp4
+│   ├── as-we-may-program-peter-norvig.mp4
+│   ├── bitwise-per-vognsen-youtube
+│   ├── concurrency-is-not-parallelism-rob-pike.mp4
+│   ├── data-communications-the-first-2500-years-gerard-holzmann.pdf
+│   ├── donald-knuth-youtube
+│   ├── inventing-on-principle-bret-victor.webm
+│   ├── is-it-really-complex-or-did-we-just-make-it-complicated-alan-kay.mp4
+│   ├── ken-thompson-interview-brian-kernighan.webm
+│   ├── learning-how-to-learn-barbara-oakley.epub
+│   ├── learning-how-to-learn-barbara-oakley.pdf
+│   ├── learning-to-learn-richard-hamming
+│   │   ├── 01-intro-to-the-art-of-doing-science-and-engineering-learning-to-learn-march-28-1995.mp4
+│   │   ├── 02-foundations-of-the-digital-discrete-revolution-march-30-1995.mp4
+│   │   ├── 03-history-of-computers-hardware-march-31-1995.mp4
+│   │   ├── 04-history-of-computers-software-april-4-1995.mp4
+│   │   ├── 05-history-of-computers-applications-april-6-1995.mp4
+│   │   ├── 06-artificial-intelligence-2-april-7-1995.mp4
+│   │   ├── 07-artificial-intelligence-3-april-11-1995.mp4
+│   │   ├── 08-artificial-intelligence-1-april-13-1995.mp4
+│   │   ├── 09-n-dimensional-space-april-14-1995.mp4
+│   │   ├── 10-coding-theory-the-representation-of-information-1-april-18-1995.mp4
+│   │   ├── 11-coding-theory-the-representation-of-information-1-april-20-1995.mp4
+│   │   ├── 12-error-correcting-codes-april-21-1995.mp4
+│   │   ├── 13-information-theory-april-25-1995.mp4
+│   │   ├── 14-digital-filters-1-april-27-1995.mp4
+│   │   ├── 15-digital-filters-2-april-28-1995.mp4
+│   │   ├── 16-digital-filters-3-may-2-1995.mp4
+│   │   ├── 17-digital-filters-4-may-4-1995.mp4
+│   │   ├── 18-simulation-1-may-5-1995.mp4
+│   │   ├── 19-simulation-2-may-9-1995.mp4
+│   │   ├── 20-simulation-3-may-11-1995.mp4
+│   │   ├── 21-fiber-optics-may-12-1995.mp4
+│   │   ├── 22-computer-aided-instruction-may-16-1995.mp4
+│   │   ├── 23-mathematics-may-18-1995.mp4
+│   │   ├── 24-quantum-mechanics-may-19-1995.mp4
+│   │   ├── 25-creativity-may-23-1995.mp4
+│   │   ├── 26-experts-may-25-1995.mp4
+│   │   ├── 27-unreliable-data-may-26-1995.mp4
+│   │   ├── 28-systems-engineering-may-30-1995.mp4
+│   │   ├── 29-you-get-what-you-measure-june-1-1995.mp4
+│   │   ├── 30-how-do-we-know-what-we-know-june-2-1995.mp4
+│   │   ├── 31-you-and-your-research-june-6-1995.mp4
+│   │   └── 32-nps-sgl-lecture-1990.mp4
+│   ├── notes.txt
+│   ├── power-of-simplicity-alan-kay.mp4
+│   ├── reasoning-about-programs-edsger-dijkstra.mp4
+│   ├── reflections-on-data-abstractions-barbara-liskov.mp4
+│   ├── simple-made-easy-rich-hickey.mp4
+│   ├── simplicity-aint-easy-stuart-halloway.mp4
+│   ├── the-art-of-doing-science-and-engineering-learning-to-learn-richard-hamming.epub
+│   ├── the-art-of-teaching-computer-science-niklaus-wirth.pdf
+│   ├── the-computer-revolution-hasnt-happened-yet-alan-kay.mp4
+│   ├── the-dream-machine-jcr-licklider-and-the-revolution-that-made-computing-personal-waldrop-mitchell.epub
+│   ├── the-future-of-computing-grace-hopper.mp4
+│   ├── the-future-of-programming-bret-victor.mp4
+│   ├── the-most-beautiful-program-ever-written-william-byrd.mp4
+│   ├── the-phd-grind-a-phd-student-memoir-philip-guo.pdf
+│   ├── the-phd-grind-candid-discussions-about-phd-life-philip-guo.mp4
+│   ├── the-power-of-abstraction-barbara-liskov.mp4
+│   ├── the-power-of-counting-arguments-edsger-dijkstra.mp4
+│   ├── unix-a-history-and-a-memoir-brian-kernighan.pdf
+│   └── why-do-computers-stop-and-what-can-be-done-about-it-jim-gray.pdf
+├── gfx
+│   ├── cmu-15-462-computer-graphics
+│   ├── computer-graphics-principles-and-practice-john-hughes.pdf
+│   ├── game-physics-engine-development-ian-millington.pdf
+│   ├── game-programming-patterns-robert-nystrom.pdf
+│   ├── mit-6837-introduction-to-computer-graphics
+│   ├── physically-based-rendering-from-theory-to-implementation-humphreys-jakobs-and-pharr.pdf
+│   └── real-time-collision-detection-christer-ericson.pdf
+├── hci
+│   ├── all-the-widgets-brad-myers.mp4
+│   ├── design-and-development-of-a-modular-widget-toolkit-stefan-kohl.pdf
+│   ├── sketchpad-a-man-machine-graphical-communication-system-ivan-sutherland.pdf
+│   ├── sketchpad-ivan-sutherland.mp4
+│   ├── the-mother-of-all-demos-douglas-engelbart.mp4
+│   ├── the-xerox-alto-a-personal-retrospective-computer-history-museum.mp4
+│   ├── the-x-window-system-gettys-and-scheifler.pdf
+│   └── x-windows-system-design-principles-james-gettys.mp4
+├── it
+│   ├── an-introduction-to-information-theory-symbols-signals-and-noise-john-pierce.pdf
+│   ├── a-symbolic-analysis-of-relay-and-claude-shannon.pdf
+│   ├── communication-theory-of-secrecy-systems-claude-shannon.pdf
+│   ├── elements-of-information-theory-cover-and-thomas.pdf
+│   ├── information-theory-and-network-coding-raymond-yeung.pdf
+│   ├── information-theory-a-tutorial-introduction-james-stone.pdf
+│   ├── information-theory-from-coding-to-learning-polyanskiy-and-wu
+│   ├── information-theory-inference-and-learning-algorithms-david-mасkау.djvu
+│   ├── information-theory-pattern-recognition-and-neural-networks-david-mасkау
+│   │   ├── 01-introduction-to-information-theory.mp4
+│   │   ├── 02-entropy-and-data-compression-introduction-to-compression-information-theory-and-entropy.mp4
+│   │   ├── 03-entropy-and-data-compression-shannons-source-coding-theorem-the-bent-coin-lottery.mp4
+│   │   ├── 04-entropy-and-data-compression-shannons-source-coding-theorem-and-symbol-codes.mp4
+│   │   ├── 05-entropy-and-data-compression-shannons-source-coding-theorem-symbol-codes-and-arithmetic-coding.mp4
+│   │   ├── 06-noisy-channel-coding-inference-and-information-measures-for-noisy-channels.mp4
+│   │   ├── 07-noisy-channel-coding-the-capacity-of-a-noisy-channel.mp4
+│   │   ├── 08-noisy-channel-coding-the-noisy-channel-coding-theorem.mp4
+│   │   ├── 09-a-noisy-channel-coding-gem-and-an-introduction-to-bayesian-inference.mp4
+│   │   ├── 10-an-introduction-to-bayesian-inference-inference-of-parameters-and-models.mp4
+│   │   ├── 11-approximating-probability-distributions-clustering-as-an-example-inference-problem.mp4
+│   │   ├── 12-approximating-probability-distributions-monte-carlo-methods-importance-sampling-rejection-sampling-gibbs-sampling-metropolis-method.mp4
+│   │   ├── 13-approximating-probability-distributions-monte-carlo-methods-slice-sampling-hybrid-monte-carlo-over-relaxation-exact-sampling.mp4
+│   │   ├── 14-approximating-probability-distributions-variational-methods.mp4
+│   │   ├── 15-data-modelling-with-neural-networks-feedforward-networks-the-capacity-of-a-single-neuron-learning-as-inference.mp4
+│   │   └── 16-data-modelling-with-neural-networks-content-addressable-memories-and-state-of-the-art-error-correcting-codes.mp4
+│   ├── information-theory-raymond-yeung
+│   │   ├── 00-about-this-course.webm
+│   │   ├── 01-0-week-1-introduction.mkv
+│   │   ├── 01-the-science-of-information.mkv
+│   │   ├── 02-information-measures-2-10-entropy-rate-of-a-stationary-source.mkv
+│   │   ├── 02-information-measures-2-1-a-0-week-1-introduction.mkv
+│   │   ├── 02-information-measures-2-1-a-independence-and-markov-chains.mkv
+│   │   ├── 02-information-measures-2-1-b-independence-and-markov-chains.mp4
+│   │   ├── 02-information-measures-2-1-c-independence-and-markov-chains.mkv
+│   │   ├── 02-information-measures-2-2-shannons-information-measures.mkv
+│   │   ├── 02-information-measures-2-3-continuity-of-shannons-for.mkv
+│   │   ├── 02-information-measures-2-4-chain-rules.mkv
+│   │   ├── 02-information-measures-2-5-informational-divergence.mkv
+│   │   ├── 02-information-measures-2-6-the-basic-inequalities.mkv
+│   │   ├── 02-information-measures-2-7-some-useful-information-inequalities.mkv
+│   │   ├── 02-information-measures-2-8-fanos-inequality.mkv
+│   │   ├── 03-the-i-measure-3-1-0-week-3-introduction.mkv
+│   │   ├── 03-the-i-measure-3-1-preliminaries.mkv
+│   │   ├── 03-the-i-measure-3-3-a-construction-of-the-i-measure-µ.mkv
+│   │   ├── 03-the-i-measure-3-3-b-construction-of-the-i-measure-µ.mkv
+│   │   ├── 03-the-i-measure-3-4-µ-can-be-negative.mkv
+│   │   ├── 03-the-i-measure-3-5-a-information-diagrams.mkv
+│   │   ├── 03-the-i-measure-3-5-b-0-week-4-introduction.mkv
+│   │   ├── 03-the-i-measure-3-5-b-information-diagrams.mkv
+│   │   ├── 03-the-i-measure-3-6-a-examples-of-applications.mkv
+│   │   ├── 03-the-i-measure-3-6-b-examples-of-applications.mkv
+│   │   ├── 04-zero-error-data-compression-4-1-the-entropy-bound.mp4
+│   │   ├── 04-zero-error-data-compression-4-2-a-prefix-codes.mkv
+│   │   ├── 04-zero-error-data-compression-4-2-b-0-week-5-introduction.mp4
+│   │   ├── 04-zero-error-data-compression-4-2-b-prefix-codes.mkv
+│   │   ├── 04-zero-error-data-compression-4-2-c-prefix-codes.mkv
+│   │   ├── 04-zero-error-data-compression-4-3-redundancy-of-prefix-codes.mkv
+│   │   ├── 05-weak-typicality-5-1-the-weak-aep.mkv
+│   │   ├── 05-weak-typicality-5-2-the-source-coding-theorem.mkv
+│   │   ├── 06-strong-typicality-6-1-a-0-week-6-introduction.mkv
+│   │   ├── 06-strong-typicality-6-1-a-strong-aep.mkv
+│   │   ├── 06-strong-typicality-6-1-b-strong-aep.mkv
+│   │   ├── 06-strong-typicality-6-2-strong-typicality-versus-weak-typicality.mkv
+│   │   ├── 06-strong-typicality-6-3-a-joint-typicality.mkv
+│   │   ├── 06-strong-typicality-6-3-b-joint-typicality.mkv
+│   │   ├── 06-strong-typicality-6-4-an-interpretation-of-the-basic-inequalities.mkv
+│   │   ├── 07-discrete-memoryless-channels-7-1-a-0-week-7-introduction.mkv
+│   │   ├── 07-discrete-memoryless-channels-7-1-a-an-informal-discussion.mkv
+│   │   ├── 07-discrete-memoryless-channels-7-1-b-discrete-memoryless-channel.mkv
+│   │   ├── 07-discrete-memoryless-channels-7-2-the-channel-coding-theorem.mkv
+│   │   ├── 07-discrete-memoryless-channels-7-3-a-the-converse.mkv
+│   │   ├── 07-discrete-memoryless-channels-7-3-b-why-c-is-related-to-i-x-y.mkv
+│   │   ├── 07-discrete-memoryless-channels-7-4-a-0-week-8-introduction.mkv
+│   │   ├── 07-discrete-memoryless-channels-7-4-a-achievability.mkv
+│   │   ├── 07-discrete-memoryless-channels-7-4-b-performance-analysis.mkv
+│   │   ├── 07-discrete-memoryless-channels-7-5-a-discussion.mkv
+│   │   ├── 07-discrete-memoryless-channels-7-6-feedback-capacity.mkv
+│   │   ├── 07-discrete-memoryless-channels-7-7-separation-of-source-and-channel-coding.mkv
+│   │   ├── 08-rate-distortion-theory-8-1-0-week-9-introduction.mkv
+│   │   ├── 08-rate-distortion-theory-8-1-information-transmission-with-distortion.mkv
+│   │   ├── 08-rate-distortion-theory-8-2-the-rate-distortion-function.mkv
+│   │   ├── 08-rate-distortion-theory-8-3-a-the-rate-distortion-theorem.mkv
+│   │   ├── 08-rate-distortion-theory-8-3-b-corollary-8-19.mkv
+│   │   ├── 08-rate-distortion-theory-8-4-the-converse.mkv
+│   │   ├── 08-rate-distortion-theory-8-5-a-0-week-10-introduction.mkv
+│   │   ├── 08-rate-distortion-theory-8-5-a-achievability.mkv
+│   │   ├── 08-rate-distortion-theory-8-5-b-main-idea.mkv
+│   │   ├── 09-the-blahut-arimoto-algorithms-9-1-single-letter-characterization.mkv
+│   │   ├── 09-the-blahut-arimoto-algorithms-9-2-a-the-algorithms.mkv
+│   │   ├── 09-the-blahut-arimoto-algorithms-9-2-b-the-ba-algorithm-for-computing-c.mkv
+│   │   ├── 09-the-blahut-arimoto-algorithms-9-2-c-0-week-11-introduction.mkv
+│   │   ├── 09-the-blahut-arimoto-algorithms-9-2-c-the-rate-distortion-function.mkv
+│   │   ├── 09-the-blahut-arimoto-algorithms-9-3-convergence.mkv
+│   │   ├── 10-differential-entropy-10-1-a-real-random-variables.mkv
+│   │   ├── 10-differential-entropy-10-1-b-random-vectors.mkv
+│   │   ├── 10-differential-entropy-10-2-0-week-12-introduction.mkv
+│   │   ├── 10-differential-entropy-10-2-definition.mkv
+│   │   ├── 10-differential-entropy-10-3-a-joint-differential-entropy.mkv
+│   │   ├── 10-differential-entropy-10-3-b-interpretation-of-i-x-y.mkv
+│   │   ├── 10-differential-entropy-10-4-aep-for-continuous-random-variables.mkv
+│   │   ├── 10-differential-entropy-10-5-informational-divergence.mkv
+│   │   ├── 10-differential-entropy-10-6-maximum-differential-entropy-distributions.mkv
+│   │   ├── 11-continuous-valued-channels-11-1-0-week-13-introduction.mkv
+│   │   ├── 11-continuous-valued-channels-11-1-discrete-time-channel.mkv
+│   │   ├── 11-continuous-valued-channels-11-2-the-channel-coding-theorem.mkv
+│   │   ├── 11-continuous-valued-channels-11-3-a-the-converse.mkv
+│   │   ├── 11-continuous-valued-channels-11-3-b-performance-analysis.mkv
+│   │   ├── 11-continuous-valued-channels-11-4-0-week-14-introduction.mkv
+│   │   ├── 11-continuous-valued-channels-11-4-memoryless-gaussian-channel.mkv
+│   │   ├── 11-continuous-valued-channels-11-5-parallel-gaussian-channels.mkv
+│   │   ├── 11-continuous-valued-channels-11-6-correlated-gaussian-channels.mkv
+│   │   ├── 11-continuous-valued-channels-11-7-a-0-week-15-introduction.mkv
+│   │   ├── 11-continuous-valued-channels-11-7-a-the-bandlimited-white-gaussian-channel.mkv
+│   │   ├── 11-continuous-valued-channels-11-7-b-heuristic-treatment-of-the-bandlimited.mkv
+│   │   ├── 11-continuous-valued-channels-11-8-the-bandlimited-colored-gaussian-channel.mkv
+│   │   └── 11-continuous-valued-channels-11-9-zero-mean-gaussian-noise.mkv
+│   ├── information-theory-thomas-cover
+│   │   ├── 01-1.mp4
+│   │   ├── 01-2.mp4
+│   │   ├── 01-3.mp4
+│   │   ├── 01-4.mp4
+│   │   ├── 01-5.mp4
+│   │   ├── 01-6.mp4
+│   │   ├── 01-7.mp4
+│   │   ├── 01-8.mp4
+│   │   ├── 02-1.mp4
+│   │   ├── 02-2.mp4
+│   │   ├── 02-3.mkv
+│   │   ├── 02-4.mp4
+│   │   ├── 02-5.mp4
+│   │   ├── 03-1.mp4
+│   │   ├── 03-2.mkv
+│   │   ├── 03-3.mp4
+│   │   ├── 03-4.mkv
+│   │   ├── 03-5.mp4
+│   │   ├── 03-6.mkv
+│   │   ├── 04-1.mp4
+│   │   ├── 04-2.mp4
+│   │   ├── 04-3.mp4
+│   │   ├── 04-4.mp4
+│   │   ├── 04-5.mp4
+│   │   ├── 04-6.mp4
+│   │   ├── 05-1.mkv
+│   │   ├── 05-2.mp4
+│   │   ├── 05-3.mp4
+│   │   ├── 05-4.mkv
+│   │   ├── 05-5.mp4
+│   │   ├── 05-6.mp4
+│   │   ├── 06-1.mp4
+│   │   ├── 06-2.mp4
+│   │   ├── 06-3.mkv
+│   │   ├── 06-4.mp4
+│   │   ├── 06-5.mkv
+│   │   ├── 06-6.mkv
+│   │   ├── 07-1.mp4
+│   │   ├── 07-2.mp4
+│   │   ├── 07-3.mp4
+│   │   ├── 07-4.mp4
+│   │   ├── 07-5.mp4
+│   │   ├── 08-1.mkv
+│   │   ├── 08-2.mkv
+│   │   ├── 08-3.mp4
+│   │   ├── 08-4.mkv
+│   │   ├── 08-6.mp4
+│   │   ├── 09-1.mkv
+│   │   ├── 09-2.mp4
+│   │   ├── 09-3.mp4
+│   │   ├── 09-4.mp4
+│   │   ├── 09-5.mp4
+│   │   ├── 10-1.mkv
+│   │   ├── 10-2.mp4
+│   │   ├── 10-3.mp4
+│   │   ├── 10-4.mkv
+│   │   ├── 11-1.mp4
+│   │   ├── 11-2.mp4
+│   │   ├── 11-3.mp4
+│   │   ├── 11-4.mp4
+│   │   ├── 12-1.mkv
+│   │   ├── 12-2.mp4
+│   │   ├── 12-3.mkv
+│   │   ├── 12-4.mp4
+│   │   ├── 12-5.mkv
+│   │   ├── 13-1.mp4
+│   │   ├── 13-2.mp4
+│   │   ├── 13-3.mp4
+│   │   ├── 13-4.mkv
+│   │   ├── 13-5.mp4
+│   │   ├── 14-1.mp4
+│   │   ├── 14-2.mp4
+│   │   ├── 14-3.mp4
+│   │   ├── 14-4.mkv
+│   │   ├── 14-5.mp4
+│   │   ├── 15-1.mp4
+│   │   ├── 15-2.mkv
+│   │   ├── 15-3.mkv
+│   │   ├── 15-4.mp4
+│   │   ├── 15-5.mkv
+│   │   └── 15-6.mkv
+│   ├── introduction-to-information-theory-ryan-adams.mp4
+│   ├── mathematical-theory-of-communication-claude-shannon.pdf
+│   ├── principles-of-communication-engineering-jacobs-and-wozencraft.pdf
+│   ├── principles-of-digital-communication-robert-gallager.pdf
+│   ├── silicon-dreams-information-man-and-machine-robert-lucky.pdf
+│   ├── the-essential-message-claude-shannon-and-the-making-of-information-theory-erico-guizzo.pdf
+│   ├── the-information-a-history-a-theory-a-flood-james-gleick.pdf
+│   └── the-science-of-information-from-language-to-black-holes-benjamin-schumacher.pdf
+├── lang
+│   ├── a-comparison-of-object-oriented-programming-in-four-modern-language-henderson-and-zorn.pdf
+│   ├── an-axiomatic-basis-for-computer-programming-car-hoare.pdf
+│   ├── an-introduction-to-structured-programming-karl-hunt.pdf
+│   ├── another-defence-of-enumerated-types-markku-sakkinen.pdf
+│   ├── apl
+│   │   ├── apl-the-language-daniel-brocklebank.pdf
+│   │   ├── a-programming-language-kenneth-iverson.djvu
+│   │   └── the-evolution-apl-falkoff-and-iverson.pdf
+│   ├── a-programming-language-for-vector-computers-robert-griesemer.pdf
+│   ├── are-we-there-yet-rich-hickey.mp4
+│   ├── awk
+│   │   └── the-awk-programming-language-aho-kernighan-and-weinberger.pdf
+│   ├── c
+│   │   ├── an-analysis-of-x86-64-inline-assembly-in-c-programs-rigger-marr-and-kell.pdf
+│   │   └── the-c-programming-language-kernighan-and-ritchie.pdf
+│   ├── cmu-15-150-principles-of-functional-programming
+│   │   ├── 01-prologue.mkv
+│   │   ├── 02-equivalence-binding-and-scope.mkv
+│   │   ├── 03-induction-and-recursion.mkv
+│   │   ├── 04-structural-induction-and-tail-recursion.mkv
+│   │   ├── 05-trees.mkv
+│   │   ├── 06-asymptotic-analysis.mkv
+│   │   ├── 07-sorting-and-parallelism.mkv
+│   │   ├── 08-polymorphism.mkv
+│   │   ├── 09-higher-order-functions.mkv
+│   │   ├── 10-combinators-and-staging.mkv
+│   │   ├── 11-continuation-passing-style.mkv
+│   │   ├── 12-exceptions.mkv
+│   │   ├── 13-regular-expressions.mkv
+│   │   ├── 14-structures-and-signatures.mkv
+│   │   ├── 15-functors.mkv
+│   │   ├── 16-red-black-trees.mkv
+│   │   ├── 17-sequences.mkv
+│   │   ├── 18-lazy-programming.mkv
+│   │   ├── 19-imperative-programming.mkv
+│   │   ├── 20-compilers.mkv
+│   │   ├── 21-program-analysis.mkv
+│   │   └── 22-finale.mkv
+│   ├── concepts-techniques-and-models-of-computer-programming-haridi-and-van-roy.pdf
+│   ├── effective-programs-rich-hickey.mp4
+│   ├── erlang
+│   │   ├── faults-scaling-and-erlang-concurrency-joe-armstrong.mp4
+│   │   ├── learn-you-some-erlang-for-great-good-fred-hebert.epub
+│   │   └── learn-you-some-erlang-for-great-good-fred-hebert.pdf
+│   ├── forth
+│   │   ├── programming-a-problem-oriented-language-charles-moore.pdf
+│   │   └── starting-forth-introduction-to-the-forth-language-and-operating-system-for-beginners-and-professionals-leo-brodie.pdf
+│   ├── growing-a-language-guy-steele.mp4
+│   ├── haskell
+│   │   ├── learn-you-a-haskell-for-great-good-miran-lipovaca.pdf
+│   │   └── the-haskell-journey-simon-jones.mp4
+│   ├── hints-on-programming-language-design-car-hoare.pdf
+│   ├── how-to-succeed-in-language-design-without-really-trying-brian-kernighan.webm
+│   ├── import-is-not-inheritance-why-we-need-both-modules-and-classes-clemens-szyperski.pdf
+│   ├── lisp
+│   │   ├── a-lisp-oriented-architecture-john-mcclain.pdf
+│   │   ├── anatomy-of-lisp-john-allen.djvu
+│   │   ├── an-introduction-to-scheme-and-its-implementation-paul-wilson.pdf
+│   │   ├── history-of-lisp-john-mccarthy.pdf
+│   │   ├── lisp-in-small-pieces-christiane-quiennec.pdf
+│   │   ├── lisp-machine-progress-report-mit.pdf
+│   │   ├── lisp-machines
+│   │   ├── lisp-programmers-manual-john-mccarthy.djvu
+│   │   ├── list-processing-in-real-time-on-a-serial-computer-henry-baker.pdf
+│   │   ├── make-a-lisp
+│   │   ├── on-lisp-advanced-techniques-for-common-lisp-paul-graham.pdf
+│   │   ├── procedural-reflection-in-programming-languages-brian-smith.pdf
+│   │   ├── recursive-functions-of-symbolic-expressions-john-mccarthy.pdf
+│   │   ├── reflection-and-semantics-in-lisp-brian-smith.pdf
+│   │   ├── scheme-implementation-techniques-felix-winkelmann.mp4
+│   │   ├── the-architecture-of-lisp-machines-pleszkun-and-thazhuthaveetil.pdf
+│   │   ├── the-evolution-of-lisp-gabriel-and-steele.pdf
+│   │   ├── the-lambda-papers-lewis-and-sussman
+│   │   │   ├── lambda-the-ultimate-declarative.pdf
+│   │   │   ├── lambda-the-ultimate-goto.pdf
+│   │   │   ├── lambda-the-ultimate-imperative.pdf
+│   │   │   ├── lambda-the-ultimate-opcode.pdf
+│   │   │   ├── rabbit-a-compiler-for-scheme.pdf
+│   │   │   ├── scheme-interpreter-for-lambda-calculus.pdf
+│   │   │   └── the-art-of-the-interpreter.pdf
+│   │   ├── the-little-prover-daniel-friendman.pdf
+│   │   ├── the-little-schemer-daniel-friedman.pdf
+│   │   ├── the-reasoned-schemer-daniel-friedman.pdf
+│   │   ├── the-roots-of-lisp-paul-graham.pdf
+│   │   └── the-seasoned-schemer-daniel-friedman.pdf
+│   ├── loop-exits-and-structured-programming-reopening-the-debate-eric-roberts.pdf
+│   ├── lua
+│   │   ├── a-look-at-the-design-of-lua-roberto-ierusalimschy.pdf
+│   │   ├── a-surprisingly-simple-lua-compiler-roberto-ierusalimschy.pdf
+│   │   ├── c-apis-in-extension-and-extensible-languages-roberto-ierusalimschy.pdf
+│   │   ├── functions-in-lua-roberto-ierusalimshy.mp4
+│   │   ├── lua-an-extensible-extension-language-roberto-ierusalimschy.ps
+│   │   ├── on-the-design-of-lua-roberto-ierusalimschy.mp4
+│   │   ├── scripting-with-lua-roberto-ierusalimschy.mp4
+│   │   ├── the-design-and-implementation-of-a-language-for-extending-applications-roberto-ierusalimschy.ps
+│   │   ├── the-evolution-of-lua-roberto-ierusalimschy.pdf
+│   │   ├── the-implementation-of-lua-5-roberto-ierusalimschy.pdf
+│   │   └── why-and-why-not-lua-roberto-ierusalimschy.mp4
+│   ├── maybe-not-rich-hickey.mp4
+│   ├── notes-on-data-structuring-car-hoare.pdf
+│   ├── notes-on-structured-programming-edsger-dijkstra.pdf
+│   ├── object-oriented-programming-alan-kay.mp4
+│   ├── object-oriented-programming-daniel-ingalls.mp4
+│   ├── object-oriented-programming-hanspeter-mossenbock.pdf
+│   ├── object-oriented-programming-with-ansi-c-axel-schreiner.pdf
+│   ├── programming-language-pragmatics-michael-scott.pdf
+│   ├── prolog
+│   │   └── building-expert-systems-in-prolog-dennis-merritt.pdf
+│   ├── propositions-as-types-philip-wadler.mp4
+│   ├── python
+│   │   ├── bytes-in-the-machine-inside-the-cpython-interpreter-allison-kaptur.mp4
+│   │   ├── cpython-internals-philip-guo
+│   │   │   ├── 1-interpreter-and-source-code-overview.mp4
+│   │   │   ├── 2-opcodes-and-main-interpreter-loop.mp4
+│   │   │   ├── 3-frames-function-calls-and-scope.mp4
+│   │   │   ├── 4-pyobject-the-core-python-object.mp4
+│   │   │   ├── 5-example-python-data-types.mp4
+│   │   │   ├── 6-code-objects-function-objects-and-closures.mp4
+│   │   │   ├── 7-iterators.mp4
+│   │   │   ├── 8-user-defined-classes-and-objects.mp4
+│   │   │   └── 9-generators.mp4
+│   │   ├── fluent-python-luciano-ramalho.epub
+│   │   ├── fluent-python-luciano-ramalho.pdf
+│   │   ├── heapy-sverker-nilsson.pdf
+│   │   ├── introduction-to-python-david-beazley
+│   │   │   ├── 00-introduction.mp4
+│   │   │   ├── 01-topics.mp4
+│   │   │   ├── 02-starting-stopping-and-typing-commands-into-the-interactive-interpreter.mp4
+│   │   │   ├── 03-project-catching-the-bus.mp4
+│   │   │   ├── 04-project-reading-command-line-arguments-and-making-a-script.mp4
+│   │   │   ├── 05-debugging.mp4
+│   │   │   ├── 06-topics.mp4
+│   │   │   ├── 07-project-mortgage-calculator.mp4
+│   │   │   ├── 08-project-formatted-output-and-file-io.mp4
+│   │   │   ├── 09-topics.mp4
+│   │   │   ├── 10-file-and-string-basics.mp4
+│   │   │   ├── 11-project-reading-from-a-file-and-performing-a-calculation.mp4
+│   │   │   ├── 12-project-using-the-csv-module-to-read-data.mp4
+│   │   │   ├── 13-topics.mp4
+│   │   │   ├── 14-defining-and-using-simple-functions.mp4
+│   │   │   ├── 15-project-moving-a-script-into-a-function.mp4
+│   │   │   ├── 16-project-handling-bad-data-and-exception-handling.mp4
+│   │   │   ├── 17-project-function-design-considerations.mp4
+│   │   │   ├── 18-topics.mp4
+│   │   │   ├── 19-basic-material-tuples-lists-sets-and-dicts.mp4
+│   │   │   ├── 20-project-building-a-data-structure-from-a-file.mp4
+│   │   │   ├── 21-data-manipulation.mp4
+│   │   │   ├── 22-example-sorting-and-grouping.mp4
+│   │   │   ├── 23-topics.mp4
+│   │   │   ├── 24-module-basics.mp4
+│   │   │   ├── 25-project-writing-a-general-purpose-csv-parsing-module.mp4
+│   │   │   ├── 26-making-a-package.mp4
+│   │   │   ├── 27-topics.mp4
+│   │   │   ├── 28-introduction-from-simple-data-structures-to-classes.mp4
+│   │   │   ├── 29-understanding-attribute-access.mp4
+│   │   │   ├── 30-advanced-class-methods-and-alternate-constructors.mp4
+│   │   │   ├── 31-topics.mp4
+│   │   │   ├── 32-inheritance-concepts.mp4
+│   │   │   ├── 33-inheritance-in-practice-building-an-extensible-library.mp4
+│   │   │   ├── 34-advanced-inheritance.mp4
+│   │   │   ├── 35-designing-for-inheritance.mp4
+│   │   │   ├── 36-defensive-programming-with-abstract-base-classes.mp4
+│   │   │   ├── 37-advanced-how-inheritance-actually-works.mp4
+│   │   │   ├── 38-topics.mp4
+│   │   │   ├── 39-background-use-of-magic-methods-to-implement-operators.mp4
+│   │   │   ├── 40-making-objects-printable-and-debuggable.mp4
+│   │   │   ├── 41-making-a-custom-container-object.mp4
+│   │   │   ├── 42-making-a-custom-context-manager.mp4
+│   │   │   ├── 43-topics.mp4
+│   │   │   ├── 44-instance-representation-attribute-access-and-naming-conventions.mp4
+│   │   │   ├── 45-managed-attributes-with-properties.mp4
+│   │   │   ├── 46-managed-attributes-with-descriptors.mp4
+│   │   │   ├── 47-object-wrappers-and-proxies.mp4
+│   │   │   ├── 48-topics.mp4
+│   │   │   ├── 49-functions-as-objects.mp4
+│   │   │   ├── 50-generating-code-with-closures.mp4
+│   │   │   ├── 51-topics.mp4
+│   │   │   ├── 52-background-function-argument-passing-and-calling-conventions.mp4
+│   │   │   ├── 53-dont-repeat-yourself-introducing-decorators.mp4
+│   │   │   ├── 54-decorators-with-arguments.mp4
+│   │   │   ├── 55-class-decorators.mp4
+│   │   │   ├── 56-topics.mp4
+│   │   │   ├── 57-background-types-and-metaclasses-introduced.mp4
+│   │   │   ├── 58-project-tracking-subclasses-in-a-framework.mp4
+│   │   │   ├── 59-project-filling-in-missing-details-and-code-generation.mp4
+│   │   │   ├── 60-topics.mp4
+│   │   │   ├── 61-iteration-protocol-and-customization-via-generators.mp4
+│   │   │   ├── 62-project-watching-a-real-time-data-source-with-a-generator.mp4
+│   │   │   ├── 63-processing-pipelines-and-workflows.mp4
+│   │   │   ├── 64-topics.mp4
+│   │   │   ├── 65-defining-and-calling-coroutines-with-asyncawait.mp4
+│   │   │   ├── 66-project-asynchronous-echo-server-with-coroutines-and-asyncio.mp4
+│   │   │   ├── 67-under-the-covers-enhanced-generators.mp4
+│   │   │   └── 68-python-programming-language-summary.mp4
+│   │   └── python-in-python-the-pypy-system-armin-rigo.mp4
+│   ├── self
+│   │   ├── organizing-programs-without-classes-david-ungar.pdf
+│   │   ├── parents-are-shared-parts-of-objects-inheritance-and-encapsulation-in-self-david-ungar.pdf
+│   │   ├── programming-as-an-experience-the-inspiration-for-self-smith-and-ungar.pdf
+│   │   ├── self-and-self-whys-and-wherefores-david-undar.mkv
+│   │   ├── self-the-power-of-simplicity-smith-and-ungar.pdf
+│   │   ├── self-the-video-randall-smith.mp4
+│   │   └── site.url
+│   ├── smalltalk
+│   │   ├── cuis-smalltalk-and-the-history-of-computings-future-juan-vuletich.mp4
+│   │   ├── from-smalltalk-to-squeak-dan-ingalls.mp4
+│   │   ├── smalltalk-80-the-language-and-its-implementation-goldberg-and-robson.pdf
+│   │   ├── smalltalk-daniel-ingalls.mp4
+│   │   └── the-cuis-book-dickey-fernandes-and-vuletich.pdf
+│   ├── stanford-cs107-programming-paradigms
+│   │   ├── 01-introduction.mp4
+│   │   ├── 02-c-data-types.mp4
+│   │   ├── 03-pointers.mp4
+│   │   ├── 04-generic-swap-implementation.mp4
+│   │   ├── 05-generic-lsearch-implementation.mp4
+│   │   ├── 06-stack-implementation-1.mp4
+│   │   ├── 07-stack-implementation-2.mp4
+│   │   ├── 08-heap-management.mp4
+│   │   ├── 09-c-to-assembly.mp4
+│   │   ├── 10-activation-records.mp4
+│   │   ├── 11-cpp-to-assembly.mp4
+│   │   ├── 12-preprocessing.mp4
+│   │   ├── 13-compilation.mp4
+│   │   ├── 14-array-indexing-pitfalls.mp4
+│   │   ├── 15-concurrent-programming.mp4
+│   │   ├── 16-semaphore-syntax.mp4
+│   │   ├── 17-dining-philosophers-problem.mp4
+│   │   ├── 18-ice-cream-store-problem.mp4
+│   │   ├── 19-paradigm-comparison.mp4
+│   │   ├── 20-scheme.mp4
+│   │   ├── 21-expression-evaluation.mp4
+│   │   ├── 22-recursive-functions.mp4
+│   │   ├── 23-scheme-memory-model.mp4
+│   │   ├── 24-python-introduction.mp4
+│   │   ├── 25-python-paradigms.mp4
+│   │   ├── 26-python-xml-processing.mp4
+│   │   └── 27-haskell.mp4
+│   ├── stonybrook-cse307-principles-of-programming-languages
+│   │   ├── 01-syllabus.mp4
+│   │   ├── 02-introduction-to-programming-languages.mp4
+│   │   ├── 03-python-crash-course.mp4
+│   │   ├── 04-sml-1.mp4
+│   │   ├── 05-sml-2.mp4
+│   │   ├── 06-syntax-1.mp4
+│   │   ├── 07-syntax-2.mp4
+│   │   ├── 08-names-scopes-and-bindings.mp4
+│   │   ├── 09-midterm-practice-discussion.mp4
+│   │   ├── 10-semantic-analysis-with-ply-in-python.mp4
+│   │   ├── 11-control-flow.mp4
+│   │   ├── 12-data-types.mp4
+│   │   └── 13-logic-programming.mp4
+│   ├── strand-new-concepts-in-parallel-programming-foster-and-taylor.djvu
+│   ├── structured-programming-with-goto-statements-donald-knuth.pdf
+│   ├── tcltk
+│   │   ├── practical-programming-in-tcl-and-tk-brent-welch.pdf
+│   │   ├── python-gui-programming-with-tkinter-alan-moore.pdf
+│   │   ├── tcl-and-the-tk-toolkit-john-ousterhout.pdf
+│   │   ├── tcl-an-embeddable-command-language-john-ousterhout.pdf
+│   │   └── tcl-tk-developer-guide-clif-flynt.pdf
+│   ├── the-art-of-the-metaobject-protocol-kiczales-rivieres-bobrow
+│   ├── types-and-programming-languages-benjamin-pierce.pdf
+│   ├── why-objects-are-not-enough-pfister-and-szyperski.pdf
+│   └── zero-overhead-exception-handling-using-metaprogramming-hof-mossenbock-and-pirkelbauer.pdf
+├── nw
+│   ├── a-protocol-for-packet-network-intercommunication-cerf-and-kahn.pdf
+│   ├── computer-networks-a-systems-approach-larry-peterson.epub
+│   ├── introduction-to-networking-how-the-internet-works-charles-severance.pdf
+│   ├── networking-fundamentals-practical-networking
+│   │   ├── 1-1-network-devices-hosts-ip-addresses-networks.webm
+│   │   ├── 1-2-hub-bridge-switch-router-network-devices.webm
+│   │   ├── 2-1-osi-model-a-practical-perspective.webm
+│   │   ├── 2-2-osi-model-a-practical-perspective.webm
+│   │   ├── 3-1-everything-hosts-do-to-speak-on-the-internet.webm
+│   │   ├── 3-2-everything-hosts-do-to-speak-on-the-internet.webm
+│   │   ├── 4-1-everything-switches-do.webm
+│   │   ├── 4-2-everything-switches-do.webm
+│   │   ├── 5-1-everything-routers-do.webm
+│   │   ├── 5-2-everything-routers-do.webm
+│   │   ├── 5-3-everything-routers-do.webm
+│   │   ├── 6-network-protocols-arp-ftp-smtp-http-ssl-tls-https-dns-dhcp.webm
+│   │   ├── 7-how-data-moves-through-the-internet.webm
+│   │   ├── 8-http-vs-html-unveiling-network-protocols-using-telnet.mkv
+│   │   └── 9-osi-model-layer-5-6-7-session-presentation-application-layers.webm
+│   ├── patterns-in-network-architecture-a-return-to-fundamentals-john-day.pdf
+│   ├── stanford-cs144-introduction-to-computer-networking
+│   │   ├── 1-the-internet-and-ip
+│   │   │   ├── 01-introduction.mp4
+│   │   │   ├── 02-networked-applications.mp4
+│   │   │   ├── 03-the-4-layer-internet-model.mp4
+│   │   │   ├── 04-life-of-a-packet.mp4
+│   │   │   ├── 05-the-ip-service.mp4
+│   │   │   ├── 06-packet-switching.mp4
+│   │   │   ├── 07-layering.mp4
+│   │   │   ├── 08-encapslation.mp4
+│   │   │   ├── 09-memory-byte-order-and-packet-formats.mp4
+│   │   │   ├── 10-ipv4-addresses.mp4
+│   │   │   ├── 11-longest-prefix-match.mp4
+│   │   │   ├── 12-address-resolution-protocol.mp4
+│   │   │   ├── 13-recap.mp4
+│   │   │   └── 14-talk-sip-jon-peterson.mp4
+│   │   ├── 2-transport
+│   │   │   ├── 01-introduction.mp4
+│   │   │   ├── 02-the-tcp-service-model.mp4
+│   │   │   ├── 03-the-udp-service-model.mp4
+│   │   │   ├── 04-the-icmp-service-model.mp4
+│   │   │   ├── 05-the-end-to-end-principle.mp4
+│   │   │   ├── 06-error-detection.mp4
+│   │   │   ├── 07-finite-state-machines.mp4
+│   │   │   ├── 08-flow-control-1.mp4
+│   │   │   ├── 09-flow-control-2.mp4
+│   │   │   ├── 10-retransmission-strategies.mp4
+│   │   │   ├── 11-tcp-header.mp4
+│   │   │   ├── 12-tcp-setup-and-teardown.mp4
+│   │   │   ├── 13-recap.mp4
+│   │   │   └── 14-talk-tcp-ip-kevin-fall.mp4
+│   │   ├── 3-packet-switching
+│   │   │   ├── 01-introduction.mp4
+│   │   │   ├── 02-the-history-of-internet.mp4
+│   │   │   ├── 03-what-is-packet-switching.mp4
+│   │   │   ├── 04-end-to-end-delay.mp4
+│   │   │   ├── 05-playback-buffers.mp4
+│   │   │   ├── 06-queue-models.mp4
+│   │   │   ├── 07-useful-queue-properties.mp4
+│   │   │   ├── 08-packet-switching-1.mp4
+│   │   │   ├── 09-packet-switching-2.mp4
+│   │   │   ├── 10-rate-guarantees.mp4
+│   │   │   ├── 11-delay-guarantees.mp4
+│   │   │   ├── 12-recap.mp4
+│   │   │   └── 13-talk-dc-switches-tom-edsall.mp4
+│   │   ├── 4-congestion-control
+│   │   │   ├── 01-introduction.mp4
+│   │   │   ├── 02-basic-ideas.mp4
+│   │   │   ├── 03-basic-approaches.mp4
+│   │   │   ├── 04-aimd-with-a-single-flow.mp4
+│   │   │   ├── 05-aimd-with-multiple-flows.mp4
+│   │   │   ├── 06-tcp-tahoe.mp4
+│   │   │   ├── 07-rtt-estimation-and-self-clocking.mp4
+│   │   │   ├── 08-tcp-reno-and-new-reno.mp4
+│   │   │   ├── 09-why-aimd.mp4
+│   │   │   ├── 10-reading-an-rfc.mp4
+│   │   │   ├── 11-recap.mp4
+│   │   │   └── 12-talk-tcp-congestion-control-nandita-dukkipati.mp4
+│   │   ├── 5-nat-and-application
+│   │   │   ├── 01-introduction.mp4
+│   │   │   ├── 02-nat.mp4
+│   │   │   ├── 03-types-of-nat.mp4
+│   │   │   ├── 04-nat-implications.mp4
+│   │   │   ├── 05-nat-operation-details.mp4
+│   │   │   ├── 06-http.mp4
+│   │   │   ├── 07-http-1.1-keep-alive.mp4
+│   │   │   ├── 08-bittorrent.mp4
+│   │   │   ├── 09-dns-1.mp4
+│   │   │   ├── 10-dns-2.mp4
+│   │   │   ├── 11-dns-3.mp4
+│   │   │   ├── 12-dhcp.mp4
+│   │   │   └── 13-recap.mp4
+│   │   ├── 6-routing
+│   │   │   ├── 01-introduction.mp4
+│   │   │   ├── 02-basics.mp4
+│   │   │   ├── 03-bellman-ford-algorithm.mp4
+│   │   │   ├── 04-dijkstras-shortest-path-algorithm.mp4
+│   │   │   ├── 05-routing-in-the-internet.mp4
+│   │   │   ├── 06-bgp.mp4
+│   │   │   ├── 07-multicast-routing.mp4
+│   │   │   ├── 08-spanning-tree-protocol.mp4
+│   │   │   ├── 09-ipv6.mp4
+│   │   │   ├── 10-recap.mp4
+│   │   │   ├── 11-talk-routing-david-ward.mp4
+│   │   │   └── 12-talk-putting-the-inter-in-internet-jennifer-rexford.mp4
+│   │   ├── 7-lower-layers
+│   │   │   ├── 01-introduction.mp4
+│   │   │   ├── 02-capacity-and-modulation.mp4
+│   │   │   ├── 03-bit-errors-and-coding.mp4
+│   │   │   ├── 04-clocks-and-clock-recovery.mp4
+│   │   │   ├── 05-forward-error-correction-1.mp4
+│   │   │   ├── 06-forward-error-correction-2.mp4
+│   │   │   ├── 07-csma-cd-and-ethernet.mp4
+│   │   │   ├── 08-ethernet.mp4
+│   │   │   ├── 09-wireless-networking.mp4
+│   │   │   ├── 10-wireless-mac.mp4
+│   │   │   ├── 11-wireless-csma-ca.mp4
+│   │   │   ├── 12-wireless-rts-cts.mp4
+│   │   │   ├── 13-802.11-format-and-overhead.mp4
+│   │   │   ├── 14-fragmentation-and-assembly.mp4
+│   │   │   ├── 15-recap.mp4
+│   │   │   └── 16-talk-cloud-managed-wifi-sanjit-biswas.mp4
+│   │   ├── 8-security
+│   │   │   ├── 01-introduction.mp4
+│   │   │   ├── 02-basics.mp4
+│   │   │   ├── 03-layer-2-attacks.mp4
+│   │   │   ├── 04-mac-table-overflow-attack.mp4
+│   │   │   ├── 05-dhcp-masquerade-attack.mp4
+│   │   │   ├── 06-layer-3-attacks.mp4
+│   │   │   ├── 07-tcp-hijacking.mp4
+│   │   │   ├── 08-ssh-man-in-the-middle-attack.mp4
+│   │   │   ├── 09-denial-of-service.mp4
+│   │   │   ├── 10-security-principles.mp4
+│   │   │   ├── 11-confidentiality.mp4
+│   │   │   ├── 12-integrity.mp4
+│   │   │   ├── 13-public-key-cryptography.mp4
+│   │   │   ├── 14-certificates.mp4
+│   │   │   ├── 15-tls.mp4
+│   │   │   ├── 16-security.mp4
+│   │   │   ├── 17-talk-security-and-openness-reed-hundt.mp4
+│   │   │   └── 18-talk-security-dan-boneh.mp4
+│   │   └── README
+│   └── tcp-illustrated
+│       ├── 1-the-protocols.pdf
+│       ├── 2-the-implementation.pdf
+│       └── 3-the-application.pdf
+├── os
+│   ├── caltech-cs124-operating-systems
+│   │   ├── 01-introduction-and-course-overview.mp4
+│   │   ├── 01-introduction-and-course-overview.pdf
+│   │   ├── 02-components.mp4
+│   │   ├── 02-components.pdf
+│   │   ├── 03-hardware-details.mp4
+│   │   ├── 03-hardware-details.pdf
+│   │   ├── 04-design-patterns.mp4
+│   │   ├── 04-design-patterns.pdf
+│   │   ├── 05-bootstrap-process.mp4
+│   │   ├── 05-bootstrap-process.pdf
+│   │   ├── 06-ia32-bootstrap-process.mp4
+│   │   ├── 06-ia32-bootstrap-process.pdf
+│   │   ├── 07-the-process-abstraction.mp4
+│   │   ├── 07-the-process-abstraction.pdf
+│   │   ├── 08-the-thread-abstraction.mp4
+│   │   ├── 08-the-thread-abstraction.pdf
+│   │   ├── 09-thread-implementation.mp4
+│   │   ├── 09-thread-implementation.pdf
+│   │   ├── 10-multithreading-and-synchronization.mp4
+│   │   ├── 10-multithreading-and-synchronization.pdf
+│   │   ├── 11-synchronization-on-shared-data-structures.mp4
+│   │   ├── 11-synchronization-on-shared-data-structures.pdf
+│   │   ├── 12-process-scheduling-1.mp4
+│   │   ├── 12-process-scheduling-1.pdf
+│   │   ├── 13-process-scheduling-2.mp4
+│   │   ├── 13-process-scheduling-2.pdf
+│   │   ├── 14-system-call-implementation.mp4
+│   │   ├── 14-system-call-implementation.pdf
+│   │   ├── 15-signal-implementation.mp4
+│   │   ├── 15-signal-implementation.pdf
+│   │   ├── 16-kernel-memory-allocators-1.mp4
+│   │   ├── 16-kernel-memory-allocators-1.pdf
+│   │   ├── 17-kernel-memory-allocators-2.mp4
+│   │   ├── 17-kernel-memory-allocators-2.pdf
+│   │   ├── 18-process-virtual-memory-1.mp4
+│   │   ├── 18-process-virtual-memory-1.pdf
+│   │   ├── 19-process-virtual-memory-2.mp4
+│   │   ├── 19-process-virtual-memory-2.pdf
+│   │   ├── 20-virtual-memory-management-1.mp4
+│   │   ├── 20-virtual-memory-management-1.pdf
+│   │   ├── 21-virtual-memory-management-2.mp4
+│   │   ├── 21-virtual-memory-management-2.pdf
+│   │   ├── 22-virtual-memory-management-3.mp4
+│   │   ├── 22-virtual-memory-management-3.pdf
+│   │   ├── 23-filesystems-1.mp4
+│   │   ├── 23-filesystems-1.pdf
+│   │   ├── 24-filesystems-2.mp4
+│   │   ├── 24-filesystems-2.pdf
+│   │   ├── 25-pintos-filesystem.mp4
+│   │   ├── 25-pintos-filesystem.pdf
+│   │   ├── 26-journaling-filesystems.mp4
+│   │   ├── 26-journaling-filesystems.pdf
+│   │   └── README
+│   ├── combining-lock-free-programming-with-cooperative-multitasking-for-a-portable-multiprocessor-runtime-system-florian-negele.pdf
+│   ├── communicating-seqential-processes-car-hoare.pdf
+│   ├── cooperating-sequential-processes-edsger-dijkstra.pdf
+│   ├── how-linux-is-built-greg-hartman.mp4
+│   ├── insight-ethos-on-object-orientation-in-operating-systems-clemens-szyperski.pdf
+│   ├── little-book-of-semaphores-allen-downey.pdf
+│   ├── minos-the-design-and-implementation-of-an-embedded-real-time-operating-system-with-a-perspective-of-fault-tolerance-kaegi-trachsel-and-gutknecht.pdf
+│   ├── operating-systems-three-easy-pieces-andrea-and-rezmi.pdf
+│   ├── tasks-versus-threads-niklaus-wirth.pdf
+│   ├── the-active-object-system-design-and-multiprocessor-implementation-pieter-muller.pdf
+│   └── the-design-of-the-unix-operating-system-maurice-bach.pdf
+├── prob
+│   └── competitive-programming-halim-and-effendy
+│       ├── 1.pdf
+│       └── 2.pdf
+├── ques
+│   ├── big-ideas-in-ai
+│   ├── bits-transfer-over-the-wire
+│   ├── embedding-lua
+│   ├── extract-background-from-a-music-file
+│   ├── fibonacci-numbers-in-o-log-n-using-matrices
+│   ├── games-programming-and-parallel-computation
+│   ├── hardware-software-equivalence
+│   ├── loop-issue-in-networks
+│   ├── paranthesis-matching-with-regex
+│   ├── plot-the-map-of-earth
+│   ├── signed-and-unsigned-numbers-handled-in-assembly
+│   ├── twos-complement-multiplication-and-division
+│   ├── two-word-search
+│   ├── universality-of-nor-gates
+│   └── wireless
+├── scal
+│   ├── big-table-jeff-dean.pdf
+│   ├── building-software-systems-at-google-and-lessons-learned-jeff-dean.mp4
+│   ├── dynamo-amazons-highly-available-key-value-store-amazon.pdf
+│   ├── the-anatomy-of-a-large-scale-hypertextual-web-search-engine-brin-and-page.pdf
+│   └── underneath-the-covers-at-google-jeff-dean.mp4
+├── se
+│   ├── a-discipline-of-programming-edsger-dijkstra.djvu
+│   ├── a-philosophy-of-software-design-john-ousterhout.mp4
+│   ├── a-philosophy-of-software-design-john-ousterhout.pdf
+│   ├── a-plea-for-lean-software-niklaus-wirth.pdf
+│   ├── can-great-programmers-be-taught-john-ousterhout.mp4
+│   ├── elements-of-programming-style-brian-kernighan.mp4
+│   ├── elements-of-programming-style-brian-kernighan.pdf
+│   ├── good-ideas-through-the-looking-glass-niklaus-wirth.pdf
+│   ├── how-to-design-a-good-api-and-why-it-matters-joshua-bloch.mp4
+│   ├── literate-programming-donald-knuth.pdf
+│   ├── programming-pearls-jon-bentley.pdf
+│   ├── systematic-programming-an-introduction-niklaus-wirth.djvu
+│   ├── tdd-where-did-it-all-go-wrong-ian-cooper.webm
+│   ├── the-art-of-code-dylan-beattie.mp4
+│   ├── the-mythical-man-month-essays-on-software-engineering-frederick-brooks.djvu
+│   ├── the-practice-of-programming-kernighan-and-pike.epub
+│   ├── the-practice-of-programming-kernighan-and-pike.pdf
+│   ├── the-pragmatic-programmer-hunt-and-thomas.epub
+│   ├── the-pragmatic-programmer-hunt-and-thomas.pdf
+│   └── unit-testing-vladimir-khorikov.pdf
+├── sys
+│   ├── advanced-programming-in-the-unix-environment-richard-stephen-and-stevens.pdf
+│   ├── cmu-15-213-introduction-to-computer-systems
+│   │   ├── 01-overview.mp4
+│   │   ├── 02-bits-1.mp4
+│   │   ├── 03-bits-2.mp4
+│   │   ├── 04-floating-point.mp4
+│   │   ├── 05-machine-level-programming-1-basics.mp4
+│   │   ├── 06-machine-level-programming-2-control.mp4
+│   │   ├── 07-machine-level-programming-3-procedures.mp4
+│   │   ├── 08-machine-level-programming-4-data.mp4
+│   │   ├── 09-machine-level-programming-5-advanced-topics.mp4
+│   │   ├── 10-program-optimization.mp4
+│   │   ├── 11-the-memory-hierarchy.mp4
+│   │   ├── 12-cache-memories.mp4
+│   │   ├── 13-linking.mp4
+│   │   ├── 14-ecf-exceptions-and-processes.mp4
+│   │   ├── 15-ecf-signals-and-nonlocal-jumps.mp4
+│   │   ├── 16-system-level-i-o.mp4
+│   │   ├── 17-virtual-memory-concepts.mp4
+│   │   ├── 18-virtual-memory-systems.mp4
+│   │   ├── 19-dynamic-memory-allocation-basic-concepts.mp4
+│   │   ├── 20-dynamic-memory-allocation-advanced-concepts.mp4
+│   │   ├── 21-network-programming-part-1.mp4
+│   │   ├── 22-network-programming-part-2.mp4
+│   │   ├── 23-concurrent-programming.mp4
+│   │   ├── 24-synchronization-basics.mp4
+│   │   ├── 25-synchronization-advanced.mp4
+│   │   ├── 26-thread-level-parallelism.mp4
+│   │   └── 27-future-of-computing.mp4
+│   ├── computer-structures-readings-and-examples-gorden-bell.pdf
+│   ├── computer-systems-a-programmers-perspective-bryant-ohallaron.pdf
+│   ├── inferno-bell-labs
+│   │   ├── acid-a-debugger-built-from-a-language.pdf
+│   │   ├── acid-reference-manual.pdf
+│   │   ├── acme-a-user-interface-for-programmers.pdf
+│   │   ├── a-descent-into-limbo.pdf
+│   │   ├── a-manual-for-the-assembler.pdf
+│   │   ├── dis-virtual-machine-specification.pdf
+│   │   ├── inferno-ports-hosted-and-native.pdf
+│   │   ├── inferno.tgz
+│   │   ├── information-sheet.pdf
+│   │   ├── maintaining-files-on-plan-9-with-mk.pdf
+│   │   ├── native-kernel-debugging-with-acid.pdf
+│   │   ├── overview.pdf
+│   │   ├── plan-9-c-compilers.pdf
+│   │   ├── program-development-under-inferno.pdf
+│   │   ├── README.md
+│   │   ├── real-inferno.pdf
+│   │   ├── the-design-of-the-inferno-virtual-machine.pdf
+│   │   ├── the-inferno-operating-system.pdf
+│   │   ├── the-inferno-shell.pdf
+│   │   ├── the-limbo-programming-language.pdf
+│   │   └── the-styx-architecture-for-distributed-systems.pdf
+│   ├── introduction-to-mips-david-black-schaffer
+│   │   ├── 1-1-introduction.mp4
+│   │   ├── 1-2-instructions.mp4
+│   │   ├── 1-3-memory-organization.mp4
+│   │   ├── 1-4-instruction-execution-model.mp4
+│   │   ├── 1-5-data-operation-instructions.mp4
+│   │   ├── 1-6-data-transfer-instructions.mp4
+│   │   ├── 1-7-sequencing-instructions.mp4
+│   │   ├── 1-8-sequencing-example.mp4
+│   │   ├── 1-9-mips-isa-summary.mp4
+│   │   ├── 2-01-introduction.mp4
+│   │   ├── 2-02-instruction-encodings.mp4
+│   │   ├── 2-03-immediate-constants.mp4
+│   │   ├── 2-04-addresses-in-branches-and-jumps.mp4
+│   │   ├── 2-05-large-constants.mp4
+│   │   ├── 2-06-summary-machine-code-and-immediates.mp4
+│   │   ├── 2-07-procedures-and-jal.mp4
+│   │   ├── 2-08-procedure-call-in-detail.mp4
+│   │   ├── 2-09-saving-and-restoring-registers-to-the-stack.mp4
+│   │   ├── 2-10-procedure-calls-saving-registers-1.mp4
+│   │   ├── 2-11-procedure-calls-saving-registers-2.mp4
+│   │   ├── 2-12-procedure-call-summary.mp4
+│   │   ├── 2-13-other-isas.mp4
+│   │   └── 2-14-the-truth-about-isas.mp4
+│   ├── operations
+│   │   ├── cache
+│   │   ├── copy
+│   │   ├── create
+│   │   ├── find
+│   │   ├── open
+│   │   ├── remote
+│   │   └── view
+│   ├── pi
+│   │   ├── git
+│   │   ├── icon.png
+│   │   ├── pi
+│   │   │   ├── config.py
+│   │   │   ├── core.py
+│   │   │   ├── core.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── pi.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── config.cpython-313.pyc
+│   │   │   │   ├── core.cpython-313.pyc
+│   │   │   │   ├── core.cpython-38.pyc
+│   │   │   │   ├── __init__.cpython-313.pyc
+│   │   │   │   ├── __init__.cpython-38.pyc
+│   │   │   │   ├── pi.cpython-313.pyc
+│   │   │   │   ├── utils.cpython-313.pyc
+│   │   │   │   └── utils.cpython-38.pyc
+│   │   │   └── utils.py
+│   │   ├── q-core.py -> pi/core.py
+│   │   ├── q-pi.py -> pi/pi.py
+│   │   ├── q-test.py -> tests/test_core.py
+│   │   ├── README.md
+│   │   ├── refs
+│   │   │   ├── 2cols.py
+│   │   │   ├── editor.py
+│   │   │   └── resize.py
+│   │   ├── run
+│   │   ├── test
+│   │   └── tests
+│   │       ├── __init__.py
+│   │       ├── __init__.pyc
+│   │       ├── __pycache__
+│   │       │   └── __init__.cpython-38.pyc
+│   │       └── test_core.py
+│   ├── plan9-bell-labs
+│   │   ├── a-tutorial-for-the-sam-command-language-rob-pike.pdf
+│   │   ├── introduction-to-operating-systems-abstractions-using-plan-9-from-bell-labs-francisco-ballesteros.pdf
+│   │   ├── notes-on-the-plan-9-3rd-edition-kernel-source-francisco-ballesteros.pdf
+│   │   ├── plan-9-from-bell-labs-rob-pike.pdf
+│   │   ├── plan9.iso
+│   │   ├── plan9port.tar
+│   │   ├── structural-regular-expressions-rob-pike.pdf
+│   │   └── the-text-editor-sam-rob-pike.pdf
+│   ├── project-oberon-eth-zurich
+│   │   ├── 1-system-niklaus-wirth.pdf
+│   │   ├── 2-applications-niklaus-wirth.pdf
+│   │   ├── 3-computer-niklaus-wirth.pdf
+│   │   ├── a2-programming-quick-start-guide-felix-friedrich.pdf
+│   │   ├── a2.tar
+│   │   ├── bluebottle-a-thread-safe-multimedia-and-gui-framework-for-active-oberon-thomas-frey.pdf
+│   │   ├── compiler-construction-niklaus-wirth.pdf
+│   │   ├── compiler-construction-the-art-of-niklaus-wirth-hanspeter-mossenbock.pdf
+│   │   ├── design-and-implementation-of-a-component-architecture-for-oberon-johannes-marais
+│   │   ├── design-patterns-in-oberon-2-and-component-pascal-hanspeter-mossenbock.pdf
+│   │   ├── extensible-programming-in-oberon-a-tutorial-r-rudiger.ps
+│   │   ├── fff97-oberon-in-the-real-world-josef-templ.pdf
+│   │   ├── how-to-use-the-oberon-system-niklaus-wirth.pdf
+│   │   ├── inkys-fork.url
+│   │   ├── less-is-more-why-oberon-beats-mainstream-in-complex-applications-fv-tkachov.pdf
+│   │   ├── lightweight-parametric-polymorphism-for-oberon-roe-and-szyperski.pdf
+│   │   ├── oberon.tar
+│   │   ├── oberon-the-overlooked-jewel-michael-franz.pdf
+│   │   ├── oberon-with-gadgets-a-simple-component-framework-franz-and-gutknecht.pdf
+│   │   ├── programming-in-modula-2-niklaus-wirth.pdf
+│   │   ├── programming-in-oberon-steps-beyond-pascal-and-modula-reiser-and-wirth.pdf
+│   │   ├── programming-without-enumerations-in-oberon-c-lins.pdf
+│   │   ├── reviving-a-computer-system-of-25-years-ago-niklaus-wirth.mp4
+│   │   ├── systems-programming-with-modula-3-greg-nelson.pdf
+│   │   ├── the-active-object-system-design-and-multiprocessor-implementation-pieter-muller.pdf
+│   │   ├── the-design-of-a-risc-architecture-and-its-implementation-with-an-fpga-niklaus-wirth.pdf
+│   │   ├── the-oberon-companion-a-guide-to-using-and-programming-oberon-system-3-fischer-and-marais.pdf
+│   │   ├── the-oberon-system-users-guide-and-programmers-manual-martin-reiser.pdf
+│   │   ├── the-programming-language-oberon-niklaus-wirth.pdf
+│   │   ├── the-risc-architecture-niklaus-wirth.pdf
+│   │   ├── the-school-of-niklaus-wirth-the-art-of-simplicity-boszormenyi-gutknecht-pomberger
+│   │   │   ├── 1.pdf
+│   │   │   ├── 2-1.pdf
+│   │   │   ├── 3-1.pdf
+│   │   │   └── 3-2.pdf
+│   │   ├── trestle-reference-manual-manasse-and-nelson.pdf
+│   │   ├── trestle-tutorial-manasse-and-nelson.pdf
+│   │   ├── twin-a-design-pattern-for-modeling-multiple-inheritance-hanspeter-mossenbock.pdf
+│   │   └── using-oberons-active-objects-for-language-interoperability-and-compilation-patrik-reali.pdf
+│   ├── properties
+│   │   ├── commands-as-transitions
+│   │   ├── everything-should-be-addressable-from-root
+│   │   ├── file-system-outline
+│   │   ├── guis-as-partials
+│   │   ├── interactions-should-be-saveable-replayable-and-composeable
+│   │   ├── interprocess-communication
+│   │   ├── o-1-access
+│   │   └── states-should-be-restorable
+│   ├── systems-software-research-is-irrelevant-rob-pike.pdf
+│   ├── the-linux-programming-interface-michael-kerisk.pdf
+│   └── the-unix-programming-environment-kernighan-and-pike.djvu
+├── toc
+│   ├── alan-turing-a-tcs-role-model-avi-wigderson.mp4
+│   ├── algebra-logic-geometry-at-the-foundation-of-cs-car-hoare.mp4
+│   ├── algorithms-complexity-and-the-art-of-computer-programming-donald-knuth.webm
+│   ├── an-informal-arithmetical-approach-to-computability-and-computation
+│   │   ├── 1.pdf
+│   │   ├── 2.pdf
+│   │   └── 3.pdf
+│   ├── annotated-turing-charles-petzold.pdf
+│   ├── automata-computability-and-complexity-elaine-rich
+│   ├── a-variant-to-turings-theory-of-computing-machines-hao-wang.pdf
+│   ├── beyond-computation-the-p-vs-np-problem-michael-sipser.mp4
+│   ├── celebrating-emil-post-his-intractable-problem-of-tag-100-years-later-stephen-wolfram.mp4
+│   ├── churchs-coincidences-philip-wadler.mp4
+│   ├── cmu-15-251-great-theoretical-ideas-in-computer-science
+│   │   ├── 01-course-introduction.mp4
+│   │   ├── 02-deductive-systems.mp4
+│   │   ├── 03-formalization-of-proof.mp4
+│   │   ├── 04-finite-automata.mp4
+│   │   ├── 05-turings-legacy.mp4
+│   │   ├── 06-uncountability-and-uncomputability.mp4
+│   │   ├── 07-introduction-to-computational-complexity-1.mp4
+│   │   ├── 08-introduction-to-computational-complexity-2.mp4
+│   │   ├── 09-introduction-to-computational-complexity-3.mp4
+│   │   ├── 10-graphs-the-basics.mp4
+│   │   ├── 11-graph-algorithms-1.mp4
+│   │   ├── 12-graph-algorithms-2.mp4
+│   │   ├── 13-reductions.mp4
+│   │   ├── 14-proof-of-cook-levin-theorem.mp4
+│   │   ├── 15-approximation-algorithms.mp4
+│   │   ├── 16-godels-incompleteness-theorems.mp4
+│   │   ├── 17-probability-1.mp4
+│   │   ├── 18-probability-2.mp4
+│   │   ├── 19-randomized-algorithms.mp4
+│   │   ├── 20-computational-arithmetic.mp4
+│   │   ├── 21-cryptography.mp4
+│   │   ├── 22-polynomials.mp4
+│   │   ├── 23-linear-algebra.mp4
+│   │   ├── 24-markov-chains.mp4
+│   │   ├── 25-quantum-computation.mp4
+│   │   ├── 26-communication-complexity.mp4
+│   │   ├── 27-proofs-a-computational-lens.mp4
+│   │   ├── 28-life-after-15-251.mp4
+│   │   └── 29-max-cut.mp4
+│   ├── cmu-15-751-cs-theory-toolkit
+│   ├── computable-real-numbers-and-why-they-are-still-important-today-edmund-clarke.mp4
+│   ├── computation-finite-and-infinite-machines-marvin-minsky.djvu
+│   ├── constructivity-and-computability-in-historical-and-philosophical-perspective-dubucs-and-bourdeau.pdf
+│   ├── digitial-computers-on-encoding-logical-mathematical-formulas-using-the-machine-itself-during-program-conception-corrado-bohm.pdf
+│   ├── feynman-and-computation-tony-hey.mp4
+│   ├── feynman-and-computation-tony-hey.pdf
+│   ├── feynman-lectures-on-computation-richard-feynman.pdf
+│   ├── finite-automata-and-their-decision-problems-rabin-and-scott.pdf
+│   ├── george-boole-madhu-sudhan.mp4
+│   ├── godel-escher-bach-an-eternal-golden-braid-douglas-hofstadter.pdf
+│   ├── great-ideas-in-computer-science-eric-roberts.pdf
+│   ├── hardware-software-and-heuristics-richard-feynman.mp4
+│   ├── ideas-that-created-the-future-classic-papers-of-computer-science-harry-r-lewis.epub
+│   ├── introduction-to-computation-theory-sfi
+│   │   ├── 1-1-what-is-an-algorithm.mp4
+│   │   ├── 2-1-absolute-limitations-algorithms.mp4
+│   │   ├── 3-1-resource-limitations-algorithms.mp4
+│   │   ├── 4-1-divide-and-conquer.mp4
+│   │   ├── 4-2-greedy.mp4
+│   │   ├── 4-3-landscapes.mp4
+│   │   ├── 5-1-p-vs-np.mp4
+│   │   ├── 5-2-build-a-computer.mp4
+│   │   ├── 6-1-algorithms-and-complex-systems.mp4
+│   │   ├── 7-1-heuristics.mp4
+│   │   ├── 7-2-heuristics-2.mp4
+│   │   ├── 7-3-approximation-algorithms.mp4
+│   │   ├── 8-1-randomized-algorithms.mp4
+│   │   ├── 8-2-randomized-algorithms.mp4
+│   │   └── 8-3-randomized-algorithms.mp4
+│   ├── introduction-to-theoretical-computer-science-boaz-barak.pdf
+│   ├── introduction-to-the-theory-of-computation-michael-sipser.pdf
+│   ├── lambda-calculus-david-beazley.mp4
+│   ├── lambda-calculus-then-and-now-dana-scott.mp4
+│   ├── lambda-calculus-vs-turing-machines-advait-shinde.mp4
+│   ├── logic-for-computer-science-foundations-of-automatic-theorem-proving-jean-gallier.pdf
+│   ├── mathematics-and-computation-a-theory-revolutionizing-technology-and-science-avi-wigderson.pdf
+│   ├── mit-18404j-theory-of-computation
+│   │   ├── 01-introduction-finite-automata-regular-expressions.mp4
+│   │   ├── 02-nondeterminism-closure-properties-conversion-of-regular-expressions-to-finite-automata.mp4
+│   │   ├── 03-regular-pumping-lemma-conversion-of-finite-automata-to-regular-expressions-cfgs.mp4
+│   │   ├── 04-pushdown-automata-conversion-of-cfg-to-pda.mp4
+│   │   ├── 06-tm-variants-church-turing-thesis.mp4
+│   │   ├── 07-decision-problems-for-automata-and-grammars.mp4
+│   │   ├── 08-undecidability.mp4
+│   │   ├── 09-reducibility.mp4
+│   │   ├── 10-computation-history-method.mp4
+│   │   ├── 11-recursion-theorem-and-logic.mp4
+│   │   ├── 12-time-complexity.mp4
+│   │   ├── 14-p-and-np-sat-poly-time-reducibility.mp4
+│   │   ├── 15-np-completeness.mp4
+│   │   ├── 16-cook-levin-theorem.mp4
+│   │   ├── 17-space-complexity-pspace-savitchs-theorem.mp4
+│   │   ├── 18-pspace-completeness.mp4
+│   │   ├── 19-games-generalized-geography.mp4
+│   │   ├── 20-l-and-nl-nl-equals-conl.mp4
+│   │   ├── 21-hierarchy-theorems.mp4
+│   │   ├── 22-provably-intractable-problems-oracles.mp4
+│   │   ├── 23-probabilistic-computation-1.mp4
+│   │   ├── 24-probabilistic-computation-2.mp4
+│   │   ├── 25-interactive-proof-systems-ip.mp4
+│   │   └── 26-conp-is-a-subset-of-ip.mp4
+│   ├── mit-godel-escher-bach
+│   │   ├── 1.mp4
+│   │   ├── 2.mp4
+│   │   ├── 3.mp4
+│   │   ├── 4.mp4
+│   │   ├── 5.mp4
+│   │   ├── 6.mp4
+│   │   └── 7.mp4
+│   ├── models-of-computation-john-savage.pdf
+│   ├── mov-is-turing-complete-stephan-dolan.pdf
+│   ├── notes.txt
+│   ├── on-computable-numbers-with-an-application-to-the-entscheidungsproblem-alan-turing.pdf
+│   ├── open-texture-computability-and-churchs-thesis-stewart-shapiro.mp4
+│   ├── programming-the-turing-machine-barbara-liskov.mp4
+│   ├── stanford-cs208-canon-of-computer-science-spring-2011
+│   ├── the-ada-lovelace-bicentenary-lectures-on-computability-iias
+│   │   ├── 01-computability-in-the-footsteps-of-turing-a-personal-trip-david-harel.mp4
+│   │   ├── 02-what-is-an-algorithm-yuri-gurevich.mp4
+│   │   ├── 03-humans-machines-and-the-future-of-work-moshe-y-vardi.mp4
+│   │   ├── 04-explorations-in-universality-scott-aaronson.mp4
+│   │   ├── 05-weizac-an-interim-adventure-between-ada-and-responsa-aviezri-fraenkel.mp4
+│   │   ├── 06-zero-knowledge-proofs-and-applications-michael-rabin.mp4
+│   │   ├── 07-from-aristotle-to-the-iphone-moshe-y-vardi.mp4
+│   │   ├── 08-when-does-a-slime-mould-compute-susan-stepney.mp4
+│   │   ├── 09-evolved-construction-kits-for-building-minds.mp4
+│   │   ├── 10-evolved-construction-kits-for-building-minds.mp4
+│   │   ├── 11-proving-the-church-turing-thesis-nachum-dershowitz.mp4
+│   │   ├── 12-structure-in-the-theory-of-computing-avi-wigderson.mp4
+│   │   └── 13-how-to-build-an-insecure-system-out-of-perfectly-good-cryptography-radia-perlman.mp4
+│   ├── the-confluence-of-ideas-in-1936-robin-gandy.pdf
+│   ├── the-master-algorithm-pedro-domingos.mp4
+│   ├── the-nature-of-computation-christopher-moore-stephan-mertans.epub
+│   ├── theory-of-computation-christos-papadimitriou
+│   │   ├── 1.mp4
+│   │   └── 2.mp4
+│   ├── the-turing-computational-model-acm.mp4
+│   ├── the-universal-computer-the-road-from-leibniz-to-turing-martin-davis.epub
+│   ├── turing-computability-theory-and-applications-robert-soare.pdf
+│   ├── turing-godel-and-church-at-princeton-in-the-1930s-andrew-appel.mp4
+│   ├── turing-pioneer-of-the-information-age-jack-copeland.mp4
+│   ├── turings-vision-the-birth-of-computer-science-chris-benhardt.epub
+│   ├── turing-the-man-acm.mp4
+│   ├── uva-3102-theory-of-computation
+│   │   ├── 001-why-study-theory-of-computation.mp4
+│   │   ├── 002-is-zero-a-natural-number.mp4
+│   │   ├── 003-constructing-the-natural-numbers.mp4
+│   │   ├── 004-defining-equality.mp4
+│   │   ├── 005-sets-and-the-natural-numbers.mp4
+│   │   ├── 006-defining-addition.mp4
+│   │   ├── 007-principle-of-induction.mp4
+│   │   ├── 008-using-the-induction-principle.mp4
+│   │   ├── 009-defining-the-binary-strings.mp4
+│   │   ├── 010-defining-set-cadinality.mp4
+│   │   ├── 011-countable-sets.mp4
+│   │   ├── 012-python-vs-mathematics.mp4
+│   │   ├── 013-binary-relations.mp4
+│   │   ├── 014-do-infinite-sets-exist.mp4
+│   │   ├── 015-are-there-sets-bigger-than-the-natural-numbers.mp4
+│   │   ├── 016-cantors-shocking-proof.mp4
+│   │   ├── 017-counting-the-binary-strings.mp4
+│   │   ├── 018-what-is-a-computer.mp4
+│   │   ├── 019-modeling-computers.mp4
+│   │   ├── 020-and-or-not.mp4
+│   │   ├── 021-programming-with-and-or-not.mp4
+│   │   ├── 022-equivalence-of-two-computing-models-nand-and-aon.mp4
+│   │   ├── 023-boolean-circuits.mp4
+│   │   ├── 024-defining-a-computing-model-for-boolean-circuits.mp4
+│   │   ├── 025-boolean-circuit-execution.mp4
+│   │   ├── 026-good-circuits-evaluate.mp4
+│   │   ├── 027-computing-models-and-syntactic-sugar.mp4
+│   │   ├── 028-de-sugaring-procedures.mp4
+│   │   ├── 029-constructing-conditionals.mp4
+│   │   ├── 030-lengthening-lookup.mp4
+│   │   ├── 031-cost-of-lookup.mp4
+│   │   ├── 032-computing-any-finite-function.mp4
+│   │   ├── 033-making-zero-and-one.mp4
+│   │   ├── 034-how-many-gates.mp4
+│   │   ├── 035-introducing-eval.mp4
+│   │   ├── 036-representing-programs.mp4
+│   │   ├── 037-defining-eval.mp4
+│   │   ├── 038-introducing-complexity.mp4
+│   │   ├── 039-complexity-classes-g-size.mp4
+│   │   ├── 040-first-complexity-proof.mp4
+│   │   ├── 041-asymptotic-operators.mp4
+│   │   ├── 042-using-big-o.mp4
+│   │   ├── 043-understanding-the-asymptotic-operators.mp4
+│   │   ├── 044-big-o-examples.mp4
+│   │   ├── 045-common-misuses-of-asymptotic-notation.mp4
+│   │   ├── 046-some-functions-are-expensive.mp4
+│   │   ├── 047-cost-of-computing.mp4
+│   │   ├── 048-warm-up-g-questions-about-strings.mp4
+│   │   ├── 049-functions-and-languages.mp4
+│   │   ├── 050-beyond-finite-functions.mp4
+│   │   ├── 051-finite-automaton-for-xor.mp4
+│   │   ├── 052-formalizing-finite-state-automata.mp4
+│   │   ├── 053-power-of-deterministic-finite-automata.mp4
+│   │   ├── 054-regular-expressions.mp4
+│   │   ├── 055-warm-up-g-complementing-the-xor-language.mp4
+│   │   ├── 056-equivalence-of-regular-expressions-and-finite-state-automata.mp4
+│   │   ├── 057-proving-fsas-are-as-powerful-as-regular-expressions-1.mp4
+│   │   ├── 058-proving-fsas-are-as-powerful-as-regular-expressions-2.mp4
+│   │   ├── 059-nondeterminism.mp4
+│   │   ├── 060-nfas.mp4
+│   │   ├── 061-equivalence-of-nfas-and-dfas.mp4
+│   │   ├── 062-proving-fsas-are-as-powerful-as-regular-expressions-3.mp4
+│   │   ├── 063-proving-fsas-are-as-powerful-as-regular-expressions-4.mp4
+│   │   ├── 064-life-on-mars.mp4
+│   │   ├── 065-limitations-of-finite-state-automata.mp4
+│   │   ├── 066-turing-machines.mp4
+│   │   ├── 067-turing-machine-examples.mp4
+│   │   ├── 068-what-was-turings-model-modeling.mp4
+│   │   ├── 069-turing-machine-execution.mp4
+│   │   ├── 070-turing-machine-variations.mp4
+│   │   ├── 071-busy-beavers.mp4
+│   │   ├── 072-on-uncomputable-numbers.mp4
+│   │   ├── 073-church-turing-thesis.mp4
+│   │   ├── 074-self-rejection-an-uncomputable-function.mp4
+│   │   ├── 075-universal-machines.mp4
+│   │   ├── 076-accepts-is-uncomputable-1.mp4
+│   │   ├── 077-accepts-is-uncomputable-2.mp4
+│   │   ├── 078-computability-in-theory-and-practice.mp4
+│   │   ├── 079-an-undecidable-problem.mp4
+│   │   ├── 080-decidable-recognizable-computable.mp4
+│   │   ├── 081-an-undecidable-problem.mp4
+│   │   ├── 082-proof-by-reduction.mp4
+│   │   ├── 083-halts-is-undecidable.mp4
+│   │   ├── 084-finite-is-undecidable.mp4
+│   │   ├── 085-prints3-and-ismalware-are-undecidable.mp4
+│   │   ├── 086-rices-theorem.mp4
+│   │   ├── 087-proving-computability-and-noncomputability.mp4
+│   │   ├── 088-the-natural-numbers-are-computable.mp4
+│   │   ├── 089-proving-uncomputability-busy-boas-and-busier-beavers.mp4
+│   │   ├── 090-difficulty-of-functions.mp4
+│   │   ├── 091-ram-model.mp4
+│   │   ├── 092-shortest-and-longest-paths.mp4
+│   │   ├── 093-satisfiability.mp4
+│   │   ├── 094-tractable-and-intractable-problems.mp4
+│   │   ├── 095-questions-about-p-and-exp.mp4
+│   │   ├── 096-introducing-np.mp4
+│   │   ├── 097-complexity-class-np.mp4
+│   │   ├── 098-power-of-nondeterministic-turing-machines.mp4
+│   │   ├── 099-proving-a-problem-is-in-np.mp4
+│   │   ├── 100-the-p-equals-np-question.mp4
+│   │   ├── 101-cook-levin-theorem.mp4
+│   │   ├── 102-history-of-the-cook-levin-theorem.mp4
+│   │   ├── 103-p-equals-np-recap.mp4
+│   │   └── 104-main-themes-of-course.mp4
+│   ├── we-really-dont-know-how-to-compute-gerry-sussman.mp4
+│   ├── what-can-be-computed-john-maccormick.pdf
+│   ├── what-is-computability-joel-david-hamkins.mp4
+│   ├── what-is-computation-leslie-lamport.mp4
+│   └── who-is-the-human-computer-in-turings-analysis-of-computability-oron-shagrir.mp4
+└── tools
+    ├── abduco-dvtm-marc-andre-tanner.mkv
+    ├── abduco-dvtm-marc-andre-tanner.pdf
+    ├── abduco.tar
+    ├── bspwm.tar
+    ├── data-structures-for-text-sequences-charles-crowley.pdf
+    ├── dmenu.tar
+    ├── dvtm.tar
+    ├── dwm.tar
+    ├── es-shell.tar
+    ├── fzy.tar
+    ├── introduction-to-git-scott-chacon.mp4
+    ├── jj.tar
+    ├── ma.tar
+    ├── practical-vim-edit-at-the-speed-of-thought-drew-neil.epub
+    ├── quark.tar
+    ├── sim.tar
+    ├── slstatus.tar
+    ├── software-tools-in-pascal-kernighan-and-plaugher.pdf
+    ├── st.tar
+    ├── tabbed.tar
+    ├── vifm.tar
+    ├── vis.tar
+    └── web-browser-engineering-panchekha-chris-harrelson
+
+154 directories, 2382 files
