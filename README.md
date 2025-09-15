@@ -100,7 +100,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>Programming Pearls</sub> | <sub>Jon Bentley</sub> |  |
 |  | <sub>The PhD Grind</sub> | <sub>Philip Guo</sub> |  |
 
-### Quotes
+## Quotes
 
 - <sub>"Mathematics reveals its secrets only to those who approach it with pure love, for its own beauty." — Archimedes</sub>
 - <sub>"Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding." — William Paul Thurston</sub>
