@@ -102,7 +102,8 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 
 ### Quotes
 
-- <sub>"Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding." — William Paul Thurston
+- <sub>"Mathematics reveals its secrets only to those who approach it with pure love, for its own beauty." — Archimedes</sub>
+- <sub>"Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding." — William Paul Thurston</sub>
 - <sub>"What is mathematics? It is only a systematic effort of solving puzzles posed by nature." — Shakuntala Devi</sub>
 - <sub>"The best way to learn anything is to discover it by yourself." — George Pólya</sub>
 - <sub>"The only way to learn mathematics is to do mathematics." — Paul Halmos</sub>
