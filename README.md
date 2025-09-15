@@ -115,6 +115,9 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 - <sub>"If I have seen further than others, it is by standing on the shoulders of giants." — Isaac Newton</sub>
 - <sub>"An equation for me has no meaning, unless it expresses a thought of God." — Srinivasa Ramanujan</sub>
 
+## Anecdotes
+- <sub> Max Planck was told by his professor to not go into Physics because "almost everything is already discovered". Planck said he didn't want to discover anything, just learn the fundamentals. He went on to originate quantum theory and win a Nobel Prize.</sub>
+
 ## Tips
 
 Read the works of Alan Kay, Brian Kernighan, Donald Knuth, Edward Dijkstra, Niklaus Wirth, Tony Hoare etc.
