@@ -1,4 +1,4 @@
-Data/cs
+cs
 ├── aiml
 │   ├── ai.adoc
 │   ├── artificial-intelligence-a-guide-for-thinking-humans-melanie-mitchell.epub
@@ -1261,6 +1261,7 @@ Data/cs
 │   ├── all-of-this-has-happened-before-and-it-will-all-happen-again-mark-allen.mp4
 │   ├── as-we-may-program-peter-norvig.mp4
 │   ├── bitwise-per-vognsen-youtube
+│   ├── computer-a-history-of-the-information-machine-martin-campbell-kelly.pdf
 │   ├── concurrency-is-not-parallelism-rob-pike.mp4
 │   ├── data-communications-the-first-2500-years-gerard-holzmann.pdf
 │   ├── donald-knuth-youtube
@@ -1319,6 +1320,7 @@ Data/cs
 │   ├── the-phd-grind-candid-discussions-about-phd-life-philip-guo.mp4
 │   ├── the-power-of-abstraction-barbara-liskov.mp4
 │   ├── the-power-of-counting-arguments-edsger-dijkstra.mp4
+│   ├── the-universal-history-of-computing-from-the-abacus-to-the-quantum-computer-georges-ifrah.djvu
 │   ├── unix-a-history-and-a-memoir-brian-kernighan.pdf
 │   └── why-do-computers-stop-and-what-can-be-done-about-it-jim-gray.pdf
 ├── gfx
@@ -2029,6 +2031,7 @@ Data/cs
 ├── ques
 │   ├── big-ideas-in-ai
 │   ├── bits-transfer-over-the-wire
+│   ├── dsl-in-lisp
 │   ├── embedding-lua
 │   ├── extract-background-from-a-music-file
 │   ├── fibonacci-numbers-in-o-log-n-using-matrices
@@ -2299,6 +2302,7 @@ Data/cs
 │   ├── cmu-15-751-cs-theory-toolkit
 │   ├── computable-real-numbers-and-why-they-are-still-important-today-edmund-clarke.mp4
 │   ├── computation-finite-and-infinite-machines-marvin-minsky.djvu
+│   ├── computing-machinery-and-intelligence-alan-turing.pdf
 │   ├── constructivity-and-computability-in-historical-and-philosophical-perspective-dubucs-and-bourdeau.pdf
 │   ├── digitial-computers-on-encoding-logical-mathematical-formulas-using-the-machine-itself-during-program-conception-corrado-bohm.pdf
 │   ├── feynman-and-computation-tony-hey.mp4
@@ -2371,6 +2375,7 @@ Data/cs
 │   ├── notes.txt
 │   ├── on-computable-numbers-with-an-application-to-the-entscheidungsproblem-alan-turing.pdf
 │   ├── open-texture-computability-and-churchs-thesis-stewart-shapiro.mp4
+│   ├── posts-machine-vladimir-upnesky.pdf
 │   ├── programming-the-turing-machine-barbara-liskov.mp4
 │   ├── stanford-cs208-canon-of-computer-science-spring-2011
 │   ├── the-ada-lovelace-bicentenary-lectures-on-computability-iias
@@ -2535,4 +2540,4 @@ Data/cs
     ├── vis.tar
     └── web-browser-engineering-panchekha-chris-harrelson
 
-154 directories, 2382 files
+154 directories, 2387 files

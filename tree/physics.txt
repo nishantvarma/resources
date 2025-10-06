@@ -1,5 +1,8 @@
-Data/physics
+physics
+├── an-essay-on-the-application-of-mathematical-analysis-to-the-theories-of-electricity-and-magnetism-george-green.pdf
 ├── a-students-guide-to-waves-fleisch-and-kinnaman.pdf
+├── course-of-theoretical-physics-berestetskii-landau-lifshitz-and-pitaevskii
+├── diracs-principle-of-mathematical-beauty-mathematics-of-harmony-and-golden-scientific-revolution-alexey-stakhov.pdf
 ├── feynman-lectures.url
 ├── fundamentals-of-physics-1-mechanics-relativity-and-thermodynamics-r-shankar.epub
 ├── fundamentals-of-physics-2-electromagnetism-optics-and-quantum-mechanics-r-shankar.epub
@@ -42,11 +45,83 @@ Data/physics
 │   ├── 36-special-relativity-2.mp4
 │   ├── 37-special-relativity-3.mp4
 │   └── 38-special-relativity-4.mp4
+├── iit-madras-quantum-physics
+│   ├── 01.webm
+│   ├── 02.webm
+│   ├── 03.mp4
+│   ├── 04.mp4
+│   ├── 05.mp4
+│   ├── 06.mp4
+│   ├── 07.mp4
+│   ├── 08.mp4
+│   ├── 09.mp4
+│   ├── 10.mp4
+│   ├── 11.mp4
+│   ├── 12.mp4
+│   ├── 13.mp4
+│   ├── 14.mp4
+│   ├── 15.mp4
+│   ├── 16.mp4
+│   ├── 17.mp4
+│   ├── 18.mp4
+│   ├── 19.mp4
+│   ├── 20.mp4
+│   ├── 21.mp4
+│   ├── 22.mp4
+│   ├── 23.mp4
+│   ├── 24.mp4
+│   ├── 25.mp4
+│   ├── 26.mp4
+│   ├── 27.mp4
+│   ├── 28.mp4
+│   ├── 29.mp4
+│   ├── 30.mp4
+│   └── 31.mp4
+├── iit-madras-selected-topics-in-mathematical-physics
+│   ├── 01-analytic-functions-of-a-complex-variable.webm
+│   ├── 02-analytic-functions-of-a-complex-variable.webm
+│   ├── 03-calculus-of-residues.webm
+│   ├── 04-calculus-of-residues.webm
+│   ├── 05-calculus-of-residues.webm
+│   ├── 06-calculus-of-residues.webm
+│   ├── 07-linear-response-dispersion-relations.webm
+│   ├── 08-linear-response-dispersion-relations.webm
+│   ├── 09-analytic-continuation-and-the-gamma-function.webm
+│   ├── 10-analytic-continuation-and-the-gamma-function.webm
+│   ├── 11-möbius-transformations.webm
+│   ├── 12-möbius-transformations.webm
+│   ├── 13-möbius-transformations.webm
+│   ├── 14-multivalued-functions-integral-representations.webm
+│   ├── 15-multivalued-functions-integral-representations.mkv
+│   ├── 16-multivalued-functions-integral-representations.webm
+│   ├── 17-multivalued-functions-integral-representations.webm
+│   ├── 18-laplace-transforms.webm
+│   ├── 19-laplace-transforms.webm
+│   ├── 20-fourier-transforms.webm
+│   ├── 21-fourier-transforms.mkv
+│   ├── 22-fourier-transforms.webm
+│   ├── 23-fundamental-green-function-for-d2.mkv
+│   ├── 24-fundamental-green-function-for-d2.webm
+│   ├── 25-the-diffusion-equation.webm
+│   ├── 26-the-diffusion-equation.webm
+│   ├── 27-the-diffusion-equation.webm
+│   ├── 28-the-diffusion-equation.mkv
+│   ├── 29-green-function-for-d2-plus-k2-nonrelativistic-scattering.webm
+│   ├── 30-green-function-for-d2-plus-k2-nonrelativistic-scattering.webm
+│   ├── 31-green-function-for-d2-plus-k2-nonrelativistic-scattering.webm
+│   ├── 32-the-wave-equation.webm
+│   ├── 33-the-wave-equation.webm
+│   ├── 34-the-rotation-group-and-all-that.webm
+│   ├── 35-the-rotation-group-and-all-that.webm
+│   ├── 36-the-rotation-group-and-all-that.webm
+│   └── book.epub
 ├── my-view-of-the-world-erwin-schrodinger.pdf
 ├── no-nonsense-classical-mechanics-jakob-schwichtenberg.pdf
 ├── no-nonsense-electrodynamics-jakob-schwichtenberg.pdf
 ├── no-nonsense-quantum-field-theory-jakob-schwichtenberg.pdf
 ├── no-nonsense-quantum-mechanics-jakob-schwichtenberg.pdf
+├── ques
+│   └── latitude-and-longitude
 ├── raghu-mahajan
 │   ├── classical-mechanics.pdf
 │   ├── electromagnetism.pdf
@@ -59,9 +134,72 @@ Data/physics
 ├── six-easy-pieces-richard-feynman.pdf
 ├── six-not-so-easy-pieces-richard-feynman.pdf
 ├── teach-yourself-physics-jakob-schwichtenberg.pdf
+├── the-character-of-physical-laws-richard-feynman
+│   ├── book.djvu
+│   └── lecture.mp4
 ├── the-feynman-lectures-on-physics-vol-1-mechanics-radiation-and-heat-richard-feynman.pdf
 ├── the-feynman-lectures-on-physics-vol-2-electromagnetism-and-matter-richard-feynman.pdf
 ├── the-feynman-lectures-on-physics-vol-3-quantum-mechanics-richard-feynman.pdf
+├── the-mechanical-universe-david-goodstein
+│   ├── 01-introduction.webm
+│   ├── 02-the-law-of-falling-bodies.webm
+│   ├── 03-derivatives.webm
+│   ├── 04-inertia.webm
+│   ├── 05-vectors.mkv
+│   ├── 06-newtons-laws.webm
+│   ├── 07-integration.mkv
+│   ├── 08-the-apple-and-the-moon.webm
+│   ├── 09-moving-in-circles.mkv
+│   ├── 10-fundamental-forces.mkv
+│   ├── 11-gravity-electricity-magnetism.mkv
+│   ├── 12-the-millikan-experiment.mkv
+│   ├── 13-conservation-of-energy.webm
+│   ├── 14-potential-energy.mkv
+│   ├── 15-conservation-of-momentum.mkv
+│   ├── 16-harmonic-motion.mkv
+│   ├── 17-resonance.webm
+│   ├── 18-waves.mkv
+│   ├── 19-angular-momentum.mkv
+│   ├── 20-torques-and-gyroscopes.mkv
+│   ├── 21-keplers-three-laws.webm
+│   ├── 22-the-kepler-problem.mkv
+│   ├── 23-energy-and-eccentricity.mkv
+│   ├── 24-navigating-in-space.mkv
+│   ├── 25-from-kepler-to-einstein.mkv
+│   ├── 26-harmony-of-the-spheres.mkv
+│   ├── 27-beyond-the-mechanical-universe.mkv
+│   ├── 28-static-electricity.mkv
+│   ├── 29-the-electric-field.mkv
+│   ├── 30-capacitance-and-potential.mkv
+│   ├── 31-voltage-energy-and-force.mkv
+│   ├── 32-the-electric-battery.mkv
+│   ├── 33-electric-circuits.mkv
+│   ├── 34-magnetism.mkv
+│   ├── 35-the-magnetic-field.mkv
+│   ├── 36-vector-fields-and-hydrodynamics.mkv
+│   ├── 37-electromagnetic-induction.mkv
+│   ├── 38-alternating-current.mkv
+│   ├── 39-maxwells-equations.webm
+│   ├── 40-optics.mkv
+│   ├── 41-the-michelson-morley-experiment.webm
+│   ├── 42-the-lorentz-transformation.webm
+│   ├── 43-velocity-and-time.mkv
+│   ├── 44-energy-momentum-and-mass.mkv
+│   ├── 45-temperature-and-the-gas-law.webm
+│   ├── 46-engine-of-nature.mkv
+│   ├── 47-entropy.mkv
+│   ├── 48-low-temperatures.mkv
+│   ├── 49-the-atom.mkv
+│   ├── 50-particles-and-waves.mkv
+│   ├── 51-atoms-to-quarks.mkv
+│   ├── 52-the-quantum-mechanical-universe.mkv
+│   └── siggraph-demo
+│       ├── 1984.mkv
+│       ├── 1985.mkv
+│       ├── 1986.mkv
+│       └── 1987.mkv
+├── the-relation-between-mathematics-and-physics-paul-dirac.pdf
+├── the-road-to-reality-a-complete-guide-to-the-laws-of-the-universe-roger-penrose.pdf
 ├── the-theoretical-minimum-leonard-susskind
 │   ├── classical-mechanics
 │   │   ├── 01.mp4
@@ -80,6 +218,10 @@ Data/physics
 │   ├── quantum-mechanics.pdf
 │   └── special-relativity-and-classical-field-theory.djvu
 ├── the-variational-principles-of-mechanics-cornelius-lanczos.pdf
+├── understanding-physics-isaac-asimov
+│   ├── 1-motion-sound-and-heat.pdf
+│   ├── 2-light-magnetism-and-electricity.pdf
+│   └── 3-the-electron-proton-and-neutron.pdf
 ├── yale-phys200-fundamentals-of-physics-1
 │   ├── 01-course-introduction-and-newtonian-mechanics.mp4
 │   ├── 02-vectors-in-multiple-dimensions.mp4
@@ -132,4 +274,4 @@ Data/physics
     ├── 24-quantum-mechanics-6-time-dependent-schrödinger-equation.mp4
     └── 25-quantum-mechanics-7-summary-of-postulates-and-special-topics.mp4
 
-7 directories, 126 files
+14 directories, 261 files
