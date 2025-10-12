@@ -21,6 +21,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>How to Think Like a Mathematician: A Companion to Undergraduate Mathematics</sub> | <sub>Kevin Houston</sub> |  |
 |  | <sub>Precalculus</sub> | <sub>Israel Gelfand</sub> | <sub>[book](https://archive.org/details/precalculus-israel-gelfand) [video](https://archive.org/details/umkc-math110-college-algebra)</sub> |  |
 |  | <sub>Elements of Mathematics: From Euclid to Gödel</sub> | <sub>John Stillwell</sub> |  |
+|  | <sub>Mathematics and its History</sub> | <sub>John Stillwell</sub> |  |
 |  <sub>Calculus</sub> | <sub>Calculus Made Easy</sub> | <sub>Martin Gardner, Silvanus P. Thompson</sub> |  |
 |  | <sub>Calculus: An Intuitive and Physical Approach</sub> | <sub>Morris Kline</sub> |  |
 |  | <sub>Infinite Powers: How Calculus Reveals the Secrets of the Universe</sub> | <sub>Steven Strogatz</sub> |  |
@@ -44,8 +45,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>What Is Mathematics? An Elementary Approach to Ideas and Methods</sub> | <sub>Richard Courant</sub> |  |
 |  | <sub>Vector Calculus, Linear Algebra, and Differential Forms: A Unified Approach</sub> | <sub>Barbara Burke Hubbard, John H. Hubbard</sub> |  |
 |  | <sub>An Infinitely Large Napkin</sub> | <sub>Evan Chen</sub> | <sub>[book](https://venhance.github.io/napkin/Napkin.pdf)</sub> |  |
-| <sub>History</sub> | <sub>Mathematics and its History</sub> | <sub>John Stillwell</sub> |  |
-|  | <sub>Mathematical Thought from Ancient to Modern Times</sub> | <sub>Morris Kline</sub> |  |
+| <sub>History</sub> | <sub>Mathematical Thought from Ancient to Modern Times</sub> | <sub>Morris Kline</sub> |  |
 |  | <sub>The Story of Proof: Logic and the History of Mathematics</sub> | <sub>John Stillwell</sub> |  |
 |  | <sub>Non-Euclidean Geometry: A Critical and Historical Study of Its Development</sub> | <sub>Roberto Bonala</sub> |  |
 
