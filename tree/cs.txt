@@ -2040,6 +2040,7 @@ cs
 │   ├── loop-issue-in-networks
 │   ├── paranthesis-matching-with-regex
 │   ├── plot-the-map-of-earth
+│   ├── self-hosting-and-bootrapping
 │   ├── signed-and-unsigned-numbers-handled-in-assembly
 │   ├── twos-complement-multiplication-and-division
 │   ├── two-word-search
@@ -2076,32 +2077,58 @@ cs
 │   ├── advanced-programming-in-the-unix-environment-richard-stephen-and-stevens.pdf
 │   ├── cmu-15-213-introduction-to-computer-systems
 │   │   ├── 01-overview.mp4
+│   │   ├── 01-overview.pdf
 │   │   ├── 02-bits-1.mp4
+│   │   ├── 02-bits-1.pdf
 │   │   ├── 03-bits-2.mp4
 │   │   ├── 04-floating-point.mp4
+│   │   ├── 04-floating-point.pdf
 │   │   ├── 05-machine-level-programming-1-basics.mp4
+│   │   ├── 05-machine-level-programming-1-basics.pdf
 │   │   ├── 06-machine-level-programming-2-control.mp4
+│   │   ├── 06-machine-level-programming-2-control.pdf
 │   │   ├── 07-machine-level-programming-3-procedures.mp4
+│   │   ├── 07-machine-level-programming-3-procedures.pdf
 │   │   ├── 08-machine-level-programming-4-data.mp4
+│   │   ├── 08-machine-level-programming-4-data.pdf
 │   │   ├── 09-machine-level-programming-5-advanced-topics.mp4
+│   │   ├── 09-machine-level-programming-5-advanced-topics.pdf
 │   │   ├── 10-program-optimization.mp4
+│   │   ├── 10-program-optimization.pdf
 │   │   ├── 11-the-memory-hierarchy.mp4
+│   │   ├── 11-the-memory-hierarchy.pdf
 │   │   ├── 12-cache-memories.mp4
+│   │   ├── 12-cache-memories.pdf
 │   │   ├── 13-linking.mp4
+│   │   ├── 13-linking.pdf
 │   │   ├── 14-ecf-exceptions-and-processes.mp4
+│   │   ├── 14-ecf-exceptions-and-processes.pdf
 │   │   ├── 15-ecf-signals-and-nonlocal-jumps.mp4
-│   │   ├── 16-system-level-i-o.mp4
+│   │   ├── 15-ecf-signals-and-nonlocal-jumps.pdf
+│   │   ├── 16-system-level-io.mp4
+│   │   ├── 16-system-level-io.pdf
 │   │   ├── 17-virtual-memory-concepts.mp4
+│   │   ├── 17-virtual-memory-concepts.pdf
 │   │   ├── 18-virtual-memory-systems.mp4
+│   │   ├── 18-virtual-memory-systems.pdf
 │   │   ├── 19-dynamic-memory-allocation-basic-concepts.mp4
+│   │   ├── 19-dynamic-memory-allocation-basic-concepts.pdf
 │   │   ├── 20-dynamic-memory-allocation-advanced-concepts.mp4
+│   │   ├── 20-dynamic-memory-allocation-advanced-concepts.pdf
 │   │   ├── 21-network-programming-part-1.mp4
+│   │   ├── 21-network-programming-part-1.pdf
 │   │   ├── 22-network-programming-part-2.mp4
+│   │   ├── 22-network-programming-part-2.pdf
 │   │   ├── 23-concurrent-programming.mp4
+│   │   ├── 23-concurrent-programming.pdf
 │   │   ├── 24-synchronization-basics.mp4
+│   │   ├── 24-synchronization-basics.pdf
 │   │   ├── 25-synchronization-advanced.mp4
+│   │   ├── 25-synchronization-advanced.pdf
 │   │   ├── 26-thread-level-parallelism.mp4
-│   │   └── 27-future-of-computing.mp4
+│   │   ├── 26-thread-level-parallelism.pdf
+│   │   ├── 27-future-of-computing.mp4
+│   │   └── 27-future-of-computing.pdf
 │   ├── computer-structures-readings-and-examples-gorden-bell.pdf
 │   ├── computer-systems-a-programmers-perspective-bryant-ohallaron.pdf
 │   ├── inferno-bell-labs
@@ -2519,6 +2546,7 @@ cs
     ├── abduco-dvtm-marc-andre-tanner.mkv
     ├── abduco-dvtm-marc-andre-tanner.pdf
     ├── abduco.tar
+    ├── bar.tar
     ├── bspwm.tar
     ├── data-structures-for-text-sequences-charles-crowley.pdf
     ├── dmenu.tar
@@ -2535,9 +2563,11 @@ cs
     ├── slstatus.tar
     ├── software-tools-in-pascal-kernighan-and-plaugher.pdf
     ├── st.tar
+    ├── sxhkd.tar
     ├── tabbed.tar
     ├── vifm.tar
     ├── vis.tar
-    └── web-browser-engineering-panchekha-chris-harrelson
+    ├── web-browser-engineering-panchekha-chris-harrelson
+    └── xdo.tar
 
-154 directories, 2387 files
+154 directories, 2417 files

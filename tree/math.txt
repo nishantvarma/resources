@@ -10,6 +10,7 @@ math
 ├── alg
 │   ├── a-book-of-abstract-algebra-charles-pinter.pdf
 │   ├── algebra-chapter-0-paolo-aluffi.pdf
+│   ├── algebra-in-simple-terms-annenberg-media
 │   ├── algebra-notes-from-the-underground-paolo-aluffi.pdf
 │   ├── elements-of-algebra-geometry-numbers-equations-john-stillwell.djvu
 │   ├── elements-of-algebra-leonhard-euler.pdf
@@ -18,12 +19,15 @@ math
 │   ├── office-hours-with-a-geometric-group-theorist-clay-and-margalit.pdf
 │   └── quadratic-equations-gilbert-strang.mp4
 ├── anal
+│   ├── a-course-of-modern-analysis-watson-and-whittaker.pdf
 │   ├── a-history-of-analysis-hans-jahnke.djvu
 │   ├── analysis-terrence-tao
 │   │   ├── 1.pdf
 │   │   └── 2.pdf
+│   ├── an-introduction-to-the-theory-of-infinite-series-thomas-bromwich.pdf
 │   ├── development-of-the-foundations-of-mathematical-analysis-from-euler-to-riemann-grattan-guinness.djvu
 │   ├── e-to-the-pi-i-a-nontraditional-take-grant-sanderson.mp4
+│   ├── gamma-exploring-eulers-constant-dyson-and-havil.pdf
 │   ├── generalized-functions-israel-gelfand
 │   │   ├── 1-properties-and-operations.pdf
 │   │   ├── 2-spaces-of-fundamental-and-generalized-functions.pdf
@@ -32,11 +36,23 @@ math
 │   │   ├── 5-integral-geometry-and-representation-theory.pdf
 │   │   └── 6-representation-theory-and-automorphic-functions-6.pdf
 │   ├── how-to-think-about-analysis-lara-alcock.pdf
+│   ├── inequalities-hardy-littlewood-and-polya.djvu
+│   ├── inside-interesting-integrals-paul-nahin.pdf
+│   ├── introduction-to-analysis-of-the-infinite-book-blanton-and-euler
+│   │   ├── 1.pdf
+│   │   └── 2.pdf
 │   ├── lectures-on-the-hyperreals-an-introduction-to-nonstandard-analysis-robert-goldblatt.pdf
 │   ├── mathematical-analysis-a-straightforward-approach-kg-binmore.pdf
 │   ├── mathematical-analysis-vladimir-zorich
 │   │   ├── 1.pdf
 │   │   └── 2.pdf
+│   ├── pi-and-the-agm-a-study-in-analytic-number-theory-and-computational-complexity-jonathan-and-peter.djvu
+│   ├── ramanujans-lost-notebook-andrews-and-berndt
+│   │   ├── 1.pdf
+│   │   ├── 2.pdf
+│   │   ├── 3.pdf
+│   │   ├── 4.pdf
+│   │   └── 5.pdf
 │   ├── ramanujans-notebooks-bruce-berndt
 │   │   ├── 1.djvu
 │   │   ├── 2.djvu
@@ -44,6 +60,8 @@ math
 │   │   ├── 4.djvu
 │   │   └── 5.djvu
 │   ├── real-mathematical-analysis-charles-pugh.pdf
+│   ├── the-applications-of-elliptic-functions-alfred-greenhill.djvu
+│   ├── the-continued-fractions-found-in-the-unorganized-portions-of-ramanujans-notebooks-andrews-berndt-and-jacobsen-and-lamphere.djvu
 │   ├── the-origins-of-cauchys-rigorous-calculus-judith-grabiner.pdf
 │   ├── understanding-analysis-stephen-abbott.pdf
 │   └── visual-complex-analysis-tristan-needham.pdf
@@ -86,26 +104,66 @@ math
 ├── bio
 │   ├── a-beautiful-mind-sylvia-nasar.djvu
 │   ├── a-mathematicians-apology-godfrey-hardy.pdf
+│   ├── a-tribute-to-paul-erdos-baker-bollobas-and-hajnal.djvu
 │   ├── euler-the-master-of-us-all-william-dunham.pdf
+│   ├── freeman-dyson-web-of-stories
 │   ├── hilbert-constance-reid.pdf
 │   ├── i-want-to-be-a-mathematician-an-automathography-paul-halmos.djvu
 │   ├── john-milnor-abel-prize.mp3
 │   ├── journey-through-genius-william-dunham.pdf
 │   ├── leonard-euler-life-work-and-legacy-robert-bradley.pdf
 │   ├── letters-to-a-young-mathematician-ian-stewart.djvu
+│   ├── littlewoods-miscellany-littlewood-and-bollobas.djvu
+│   ├── maker-of-patterns-freeman-dyson.epub
 │   ├── mathematical-people-princeton-university.pdf
+│   ├── men-of-mathematics-eric-bell
+│   ├── michael-atiyah-web-of-stories
 │   ├── never-at-rest-a-biography-of-isaac-newton-richard-westfall.djvu
 │   ├── paul-halmos-celebrating-fifty-years-of-mathematics-ewing-and-gehring.pdf
-│   ├── ramanujan-letters-and-commentary-berndt-and-rankin.pdf
-│   ├── ramanujan-twelve-lectures-on-subjects-suggested-by-his-life-and-work-godfrey-hardy.pdf
-│   ├── srinivasa-ramanujan-life-and-work-of-a-natural-mathematical-genius-srinivasa-rao.pdf
+│   ├── srinivasa-ramanujan
+│   │   ├── bela-bollobas.webm
+│   │   ├── collected-papers-of-ramanujan-aiyar-hardy-and-wilson.pdf
+│   │   ├── doordarshan.webm
+│   │   ├── glances-of-ramanujan-s-parthasarathy.pdf
+│   │   ├── house.webm
+│   │   ├── letters-from-an-indian-clerk.mkv
+│   │   ├── manuscript-book-of-ramanujan
+│   │   │   ├── 1.pdf
+│   │   │   ├── 2.pdf
+│   │   │   └── 3.pdf
+│   │   ├── mathematics-wizard-srinivas-ramanujan-govil-and-sharma
+│   │   ├── my-search-for-ramanujan-how-i-learned-to-count-ken-ono.epub
+│   │   ├── namakkal-temple.mp4
+│   │   ├── notebooks-of-srinivasa-ramanujan-tata-institute-of-fundamental-research
+│   │   │   ├── 1.pdf
+│   │   │   └── 2.pdf
+│   │   ├── ramanujan-and-i-paul-erdos.pdf
+│   │   ├── ramanujan-essays-and-surveys-berndt-and-rankin.pdf
+│   │   ├── ramanujan-journey-of-a-great-mathematician-sharma-and-singhal
+│   │   ├── ramanujan-letters-and-commentary-berndt-and-rankin.pdf
+│   │   ├── ramanujans-place-in-the-world-of-mathematics-krishnaswami-alladi.pdf
+│   │   ├── ramanujan-the-man-and-the-mathematician-shiyali-ranganathan.pdf
+│   │   ├── ramanujan-twelve-lectures-on-subjects-suggested-by-his-life-and-work-godfrey-hardy.pdf
+│   │   ├── rediscovering-ramanujan-momin-mallik.pdf
+│   │   ├── reflections-around-the-ramanujan-centenary-atle-selberg.pdf
+│   │   ├── richard-borcherds.mkv
+│   │   ├── srinivasa-ramanujan-life-and-work-of-a-natural-mathematical-genius-srinivasa-rao.pdf
+│   │   ├── srinivasa-ramanujan-sivaraj-ramseshan.pdf
+│   │   ├── srinivasa-ramanujan-s-ramalingam.pdf
+│   │   ├── srinivasa-ramanujan-vidyarthi-vigyan-manthan.pdf
+│   │   ├── steven-strogatz.webm
+│   │   ├── the-indian-clerk-david-leavitt
+│   │   ├── the-last-words-of-a-genius-ken-ono.pdf
+│   │   ├── the-man-who-knew-infinity-a-life-of-the-genius-ramanujan-robert-kanigel.pdf
+│   │   ├── the-mathematical-legacy-of-srinivasa-ramanujan-kumar-and-ram.pdf
+│   │   ├── the-math-sorcerer.webm
+│   │   └── toils-and-triumphs-of-srinivasa-ramanujan-the-man-and-the-mathematician-wazir-abdi.pdf
 │   ├── srinivasa-varadhan-abel-prize.mp3
 │   ├── terrence-tao-ken-clements.pdf
 │   ├── the-man-who-invented-calculus-the-life-and-work-of-madhava-pp-divakaran
 │   │   ├── 1.mp4
 │   │   ├── 2.mp4
 │   │   └── 3.mp4
-│   ├── the-man-who-knew-infinity-a-life-of-the-genius-ramanujan-robert-kanigel.pdf
 │   ├── the-man-who-loved-only-numbers-the-story-of-paul-erdos-paul-hoffman.pdf
 │   └── the-mathematician-sophus-lie-it-was-the-audacity-of-my-thinking-arild-stubhaug.djvu
 ├── calc
@@ -468,7 +526,7 @@ math
 │   │   ├── 38.mp4
 │   │   └── 39.mp4
 │   ├── mit-highlights-of-calculus
-│   │   ├── 00-intro.mp4
+│   │   ├── 00-introduction.mp4
 │   │   ├── 01-big-picture-of-calculus.mp4
 │   │   ├── 02-big-picture-derivatives.mp4
 │   │   ├── 03-max-and-min-and-second-derivative.mp4
@@ -576,6 +634,7 @@ math
 │   ├── generatingfunctionology-herbert-wilf.pdf
 │   ├── graph-theory-with-applications-to-engineering-and-computer-science-narsingh-deo
 │   ├── principles-and-techniques-in-combinatorics-chuan-chong-and-khee-meng.pdf
+│   ├── ramanujan-graphs-an-introduction-ram-murty.pdf
 │   └── ucb-cs70-discrete-mathematics-and-probability-theory
 │       ├── 01.mp4
 │       ├── 02.mp4
@@ -604,7 +663,16 @@ math
 │       ├── 25.mp4
 │       └── 26.mp4
 ├── elem
+│   ├── a-gateway-to-modern-mathematics-adventures-in-iteration-shailesh-shirali
+│   │   ├── 1.pdf
+│   │   └── 2.pdf
 │   ├── a-mathematicians-lament-paul-lockhart.pdf
+│   ├── an-introduction-to-creativity-of-ramanujan-pk-srinivasan
+│   │   ├── 1.pdf
+│   │   ├── 2.pdf
+│   │   └── 3.pdf
+│   ├── arithmetic-and-algebra-shailesh-shirali.pdf
+│   ├── challenge-and-thrill-of-pre-college-mathematics-v-krishnamurthy
 │   ├── college-algebra-michael-sullivan.pdf
 │   ├── complex-numbers-gilbert-strang.mp4
 │   ├── effective-thinking-through-mathematics-michael-starbird
@@ -838,6 +906,7 @@ math
 │   │   │       ├── 9-solution.pdf
 │   │   │       └── appendix.pdf
 │   │   └── mathematics-a-chronicle-of-human-endeavor-herbert-gross.pdf
+│   ├── gems-from-the-mathematics-teacher-s-muralidharan.pdf
 │   ├── higher-math-for-beginners-yalgom-and-zeldovich.djvu
 │   ├── how-to-solve-it-george-polya.epub
 │   ├── how-to-think-like-a-mathematician-kevin-houston.pdf
@@ -845,7 +914,54 @@ math
 │   ├── joy-of-x-steven-strogatz
 │   ├── lectures-on-elementary-mathematics-joseph-lagrange.pdf
 │   ├── mathematicians-delight-walter-sawyer.pdf
+│   ├── mathematics-and-its-history-john-stillwell
+│   │   ├── book.pdf
+│   │   └── lecture-norman-wildberger
+│   │       ├── 01-pythagoras-theorem-a.mp4
+│   │       ├── 02-pythagoras-theorem-b.mp4
+│   │       ├── 03-greek-geometry-a.mp4
+│   │       ├── 04-greek-geometry-b.mp4
+│   │       ├── 05-greek-number-theory-a.mp4
+│   │       ├── 06-greek-number-theory-b.mp4
+│   │       ├── 07-infinity-in-greek-mathematics.mp4
+│   │       ├── 08-number-theory-and-algebra-in-asia-a.mp4
+│   │       ├── 09-number-theory-and-algebra-in-asia-b.mp4
+│   │       ├── 10-polynomial-equations-a.mp4
+│   │       ├── 11-polynomial-equations-b.mp4
+│   │       ├── 12-analytic-geometry-and-the-continuum-a.mp4
+│   │       ├── 13-analytic-geometry-and-the-continuum-b.mp4
+│   │       ├── 14-projective-geometry.mp4
+│   │       ├── 15-calculus.mp4
+│   │       ├── 16-infinite-series.mp4
+│   │       ├── 17-mechanics-and-the-solar-system.mp4
+│   │       ├── 18-non-euclidean-geometry.mp4
+│   │       ├── 19-the-number-theory-revival.mp4
+│   │       ├── 20-mechanics-and-curves.mp4
+│   │       ├── 21-complex-numbers-and-algebra.mp4
+│   │       ├── 22-differential-geometry.mp4
+│   │       ├── 23-topology.mp4
+│   │       ├── 24-hypercomplex-numbers.mp4
+│   │       ├── 25-complex-numbers-and-curves.mp4
+│   │       ├── 26-group-theory.mp4
+│   │       ├── 27-galois-theory-a.mp4
+│   │       ├── 28-galois-theory-b.mp4
+│   │       ├── 29-algebraic-number-theory-and-rings-a.mp4
+│   │       ├── 30-algebraic-number-theory-and-rings-b.mp4
+│   │       ├── 31-simple-groups-lie-groups-and-the-search-for-symmetry-a.mp4
+│   │       ├── 32-simple-groups-lie-groups-and-the-search-for-symmetry-b.mp4
+│   │       ├── 33-number-systems-and-stevins-decimals.mp4
+│   │       ├── 34-problems-with-the-calculus.mp4
+│   │       ├── 35-matrices-determinants-and-the-birth-of-linear-algebra.mp4
+│   │       ├── 36-sets-logic-and-computability.mp4
+│   │       ├── 37-computability-and-problems-with-set-theory.mp4
+│   │       ├── 38-combinatorics.mp4
+│   │       ├── 39-astronomy-and-trigonometry-in-india.mp4
+│   │       ├── 40-ancient-astronomy-in-babylon-and-china.mp4
+│   │       ├── 41-mesopotamian-mathematics.mp4
+│   │       └── 42-plimpton-322-and-old-babylonian-trigonometry.mp4
+│   ├── mathematics-and-magic-squares-pk-srinivasan.pdf
 │   ├── mathematics-for-the-nonmathematician-morris-kline.epub
+│   ├── math-foundations-norman-wildberger
 │   ├── math-illuminated-annenberg-media
 │   │   ├── 01-primes.mp4
 │   │   ├── 01-primes.pdf
@@ -875,6 +991,7 @@ math
 │   │   └── 13-the-concept-of-chaos.pdf
 │   ├── measurement-paul-lockhart.pdf
 │   ├── numbers-and-geometry-john-stillwell.djvu
+│   ├── plane-trigonometry-sydney-loney.pdf
 │   ├── precalculus-gelfand
 │   │   ├── 1-functions-and-graphs.djvu
 │   │   ├── 2-the-method-of-coordinates.djvu
@@ -883,6 +1000,22 @@ math
 │   │   ├── 5-trigonometry.pdf
 │   │   ├── 6-geometry.pdf
 │   │   └── 7-calculus-of-variations.pdf
+│   ├── project-mathematics-tom-apostol
+│   │   ├── 01-similarity.mkv
+│   │   ├── 02-the-story-of-pi.mkv
+│   │   ├── 03-the-theorem-of-pythagoras.mkv
+│   │   ├── 04-sines-and-cosines-1.mkv
+│   │   ├── 05-sines-and-cosines-2.mkv
+│   │   ├── 06-sines-and-cosines-3.mkv
+│   │   ├── 07-polynomials.mkv
+│   │   ├── 08-the-tunnel-of-samos.mkv
+│   │   ├── 09-early-history.mkv
+│   │   ├── 10-teachers-workshop.mkv
+│   │   ├── 11-contest.mkv
+│   │   └── siggraph-demo
+│   │       ├── 1988.mkv
+│   │       ├── 1990.mkv
+│   │       └── 1993.mkv
 │   ├── stanford-intro-to-mathematical-thinking
 │   │   ├── 00-1-welcome.mp4
 │   │   ├── 00-2-team.mp4
@@ -933,6 +1066,9 @@ math
 │   │   │   ├── 4.mp4
 │   │   │   └── 5.mp4
 │   │   └── README
+│   ├── the-elements-of-coordinate-geometry-sydney-loney
+│   │   ├── 1.djvu
+│   │   └── 2.pdf
 │   ├── the-first-six-books-of-the-elements-of-euclid-jemmy-button.pdf
 │   └── umkc-math110-college-algebra
 │       ├── 01-numbers.mp4
@@ -981,6 +1117,7 @@ math
 │   ├── a-course-of-pure-mathematics-godfrey-hardy.pdf
 │   ├── an-infinitely-large-napkin-evan-chen.pdf
 │   ├── a-source-book-in-mathematics-david-smith.pdf
+│   ├── a-synopsis-of-elementary-results-in-pure-and-applied-mathematics-george-carr.pdf
 │   ├── collected-works-of-alan-turing
 │   │   ├── 1-mechanical-intelligence-derek-ince.pdf
 │   │   ├── 2-pure-mathematics-john-britton.pdf
@@ -988,15 +1125,8 @@ math
 │   │   └── 4-mathematical-logic-gandy-and-yates.pdf
 │   ├── elementary-mathematics-from-an-advanced-standpoint-felix-klein.djvu
 │   ├── flatland-a-romance-of-many-dimensions-edwin-abbott.epub
-│   ├── ganita-yukti-bhasa-venkateswara-sharma
-│   │   ├── 1-mathematics.pdf
-│   │   ├── 2-astronomy.pdf
-│   │   └── malayalam.pdf
 │   ├── geometry-and-the-imagination-cohn-vossen-and-hilbert.pdf
-│   ├── godel-escher-bach-an-eternal-golden-braid-douglas-hofstadter
 │   ├── hackenbush-a-window-to-a-new-world-of-math-owen-maitzen.mp4
-│   ├── mathematics-and-logic-kac-and-ulam.djvu
-│   ├── mathematics-and-the-physical-world-morris-kline.djvu
 │   ├── mathematics-form-and-function-maclane-saunders.pdf
 │   ├── mathematics-trench.jpg
 │   ├── pi-a-source-book-berggren-and-borwein.pdf
@@ -1006,72 +1136,41 @@ math
 │   ├── the-computational-beauty-of-nature-computer-explorations-of-fractals-chaos-complex-systems-and-adaptation-gary-flake
 │   ├── the-princeton-companion-to-applied-mathematics-nicholas-higham.pdf
 │   ├── the-princeton-companion-to-mathematics-timothy-gowers.pdf
-│   ├── the-principia-mathematical-principles-of-natural-philosophy-isaac-newton.epub
 │   ├── the-world-of-mathematics-james-newman.pdf
 │   ├── vector-calculus-linear-algebra-and-differential-forms-a-unified-approach-john-hubbard.pdf
 │   ├── what-is-mathematics-richard-courant.djvu
+│   ├── why-pi-donald-knuth
 │   └── why-the-professor-cant-teach-mathematics-and-the-dilemma-of-university-education-morris-kline.pdf
 ├── hist
+│   ├── an-imaginary-tale-the-story-of-i-paul-nahin.pdf
 │   ├── a-passage-to-infinity-medieval-indian-mathematics-from-kerala-and-its-impact-george-joseph.pdf
-│   ├── crest-of-the-peacock-george-joseph.pdf
+│   ├── dr-eulers-fabulous-formula-paul-nahin.pdf
+│   ├── e-the-story-of-a-number-eli-maor.pdf
+│   ├── euler-through-times-a-new-look-at-old-themes-veeravalli-varadarajan
 │   ├── fermats-last-theorem-simon-singh
+│   ├── ganita-yukti-bhasa-venkateswara-sharma
+│   │   ├── 1-mathematics.pdf
+│   │   ├── 2-astronomy.pdf
+│   │   └── malayalam.pdf
+│   ├── geometry-in-ancient-and-medieval-india-sarasvati-amma
+│   ├── history-and-development-of-mathematics-in-india-ram-and-venkatraman.pdf
+│   ├── history-of-hindu-mathematics-datta-and-singh
 │   ├── history-of-mathematics-an-introduction-victor-katz.pdf
-│   ├── history-of-mathematics-nj-wildberger
-│   │   ├── 01-pythagoras-theorem-a.mp4
-│   │   ├── 02-pythagoras-theorem-b.mp4
-│   │   ├── 03-greek-geometry-a.mp4
-│   │   ├── 04-greek-geometry-b.mp4
-│   │   ├── 05-greek-number-theory-a.mp4
-│   │   ├── 06-greek-number-theory-b.mp4
-│   │   ├── 07-infinity-in-greek-mathematics.mp4
-│   │   ├── 08-number-theory-and-algebra-in-asia-a.mp4
-│   │   ├── 09-number-theory-and-algebra-in-asia-b.mp4
-│   │   ├── 10-polynomial-equations-a.mp4
-│   │   ├── 11-polynomial-equations-b.mp4
-│   │   ├── 12-analytic-geometry-and-the-continuum-a.mp4
-│   │   ├── 13-analytic-geometry-and-the-continuum-b.mp4
-│   │   ├── 14-projective-geometry.mp4
-│   │   ├── 15-calculus.mp4
-│   │   ├── 16-infinite-series.mp4
-│   │   ├── 17-mechanics-and-the-solar-system.mp4
-│   │   ├── 18-non-euclidean-geometry.mp4
-│   │   ├── 19-the-number-theory-revival.mp4
-│   │   ├── 20-mechanics-and-curves.mp4
-│   │   ├── 21-complex-numbers-and-algebra.mp4
-│   │   ├── 22-differential-geometry.mp4
-│   │   ├── 23-topology.mp4
-│   │   ├── 24-hypercomplex-numbers.mp4
-│   │   ├── 25-complex-numbers-and-curves.mp4
-│   │   ├── 26-group-theory.mp4
-│   │   ├── 27-galois-theory-a.mp4
-│   │   ├── 28-galois-theory-b.mp4
-│   │   ├── 29-algebraic-number-theory-and-rings-a.mp4
-│   │   ├── 30-algebraic-number-theory-and-rings-b.mp4
-│   │   ├── 31-simple-groups-lie-groups-and-the-search-for-symmetry-a.mp4
-│   │   ├── 32-simple-groups-lie-groups-and-the-search-for-symmetry-b.mp4
-│   │   ├── 33-number-systems-and-stevins-decimals.mp4
-│   │   ├── 34-problems-with-the-calculus.mp4
-│   │   ├── 35-matrices-determinants-and-the-birth-of-linear-algebra.mp4
-│   │   ├── 36-sets-logic-and-computability.mp4
-│   │   ├── 37-computability-and-problems-with-set-theory.mp4
-│   │   ├── 38-combinatorics.mp4
-│   │   ├── 39-astronomy-and-trigonometry-in-india.mp4
-│   │   ├── 40-ancient-astronomy-in-babylon-and-china.mp4
-│   │   ├── 41-mesopotamian-mathematics.mp4
-│   │   └── 42-plimpton-322-and-old-babylonian-trigonometry.mp4
 │   ├── indian-mathematics-engaging-with-the-world-from-ancient-to-modern-times-george-joseph.pdf
 │   ├── kerala-mathematics-history-and-its-possible-transmission-to-europe-george-joseph.djvu
 │   ├── lilavati-of-bhaskaracarya-nampally-and-patwardhan.djvu
 │   ├── mathematical-thought-from-ancient-to-modern-times-morris-kline.pdf
 │   ├── mathematics-a-cultural-approach-morris-kline.djvu
-│   ├── mathematics-and-its-history-john-stillwell.pdf
 │   ├── non-euclidean-geometry-roberto-bonala.epub
 │   ├── quite-right-the-story-of-mathematics-measurement-and-money-norman-biggs.pdf
+│   ├── studies-in-the-history-of-indian-mathematics-conjeevaram-seshadri.pdf
+│   ├── the-crest-of-the-peacock-george-joseph.pdf
 │   ├── the-development-of-mathematics-eric-bell.pdf
 │   └── the-universal-history-of-numbers-georges-ifrah.pdf
 ├── it
 │   └── communication-theory-goldie-and-pinch.pdf
 ├── la
+│   ├── an-introduction-to-linear-algebra-v-krishnamurthy.pdf
 │   ├── coding-the-matrix-linear-algebra-through-computer-science-applications-philip-klein.pdf
 │   ├── coursera-coding-the-matrix
 │   │   ├── 1-the-function-and-the-field
@@ -1308,6 +1407,7 @@ math
 ├── logic
 │   ├── a-tour-through-mathematical-logic-robert-wolf.pdf
 │   ├── introduction-to-metamathematics-stephen-kleene.pdf
+│   ├── mathematics-and-logic-kac-and-ulam.djvu
 │   ├── naive-set-theory-paul-halmos.pdf
 │   ├── on-formally-undecidable-propositions-of-principia-mathematica-and-related-systems-kurt-godel.epub
 │   ├── on-formally-undecidable-propositions-of-principia-mathematica-and-related-systems-kurt-godel.pdf
@@ -1315,12 +1415,21 @@ math
 │   └── principles-of-mathematics-bertrand-russell.pdf
 ├── nt
 │   ├── a-first-course-in-modular-forms-diamond-and-shurman.pdf
+│   ├── analytic-number-theory-exploring-the-anatomy-of-integers-de-koninck-and-luca.pdf
+│   ├── an-introduction-to-the-theory-of-numbers-hardy-and-wright.pdf
+│   ├── development-of-elliptic-functions-according-to-ramanujan-cooper-and-venkatachaliengar.pdf
 │   ├── disquisitiones-arithmeticae-carl-gauss.pdf
+│   ├── introduction-to-analytic-number-theory-tom-apostol.pdf
 │   ├── introduction-to-the-theory-of-numbers-niven-zuckerman-and-montgomery.pdf
 │   ├── modular-forms-a-classical-approach-cohen-and-stromberg.pdf
+│   ├── modular-functions-and-dirichlet-series-in-number-theory-tom-apostol.pdf
 │   ├── numbers-heinz-dieter-ebbinghaus.pdf
+│   ├── number-theory-and-discrete-mathematics-bruce-berndt.pdf
 │   ├── number-theory-in-the-spirit-of-ramanujan-bruce-berndt.pdf
 │   ├── number-theory-kuldeep-singh.pdf
+│   ├── the-higher-arithmetic-harold-davenport.pdf
+│   ├── the-theory-of-partitions-george-andrews.pdf
+│   ├── those-fascinating-numbers-jean-marie-de-koninck.pdf
 │   ├── ucb-math115-introduction-to-number-theory
 │   │   ├── 01-introduction.mp4
 │   │   ├── 02-survey.mp4
@@ -1377,11 +1486,15 @@ math
 │   │   └── 53-three-calculators-for-number-theorists.mp4
 │   └── wallis-product-grant-sanderson.mp4
 ├── prob
+│   ├── an-excursion-in-mathematics-acharya-modak-katre-and-sholapurkar
 │   ├── berkeley-problems-in-mathematics-paulo-and-silva.pdf
 │   ├── mathematical-circles-russian-experience-dmitri-fomin.pdf
 │   ├── mathematical-olympiad-challenges-titu-andreescu.pdf
+│   ├── problem-primer-for-the-olympiad-pranesacher-venkatachala-and-yogananda
 │   ├── problems-for-mathematicians-young-and-old-paul-r-halmos.djvu
+│   ├── problems-from-the-book-andreescu-and-dospinescu.djvu
 │   ├── problem-solving-through-problems-loren-larson.pdf
+│   ├── putnam-and-beyond-andreescu-and-gelca.pdf
 │   ├── the-art-and-craft-of-problem-solving-paul-zeitz.pdf
 │   ├── the-colossal-book-of-mathematics-martin-gardner.pdf
 │   └── the-colossal-book-of-short-puzzles-and-problems-martin-gardner.djvu
@@ -1391,6 +1504,7 @@ math
 │   ├── proofs-jay-cummings.pdf
 │   └── the-story-of-proof-john-stillwell.pdf
 ├── ques
+│   ├── arc-length
 │   ├── area-of-x2
 │   ├── arithmetic-vs-algebra-vs-algorithm
 │   ├── base-conversion
@@ -1399,13 +1513,22 @@ math
 │   ├── calculus
 │   ├── connection-between-complex-and-fourier-analysis
 │   ├── constraint-satisfaction-logic-equivalence
+│   ├── continued-fractions
+│   ├── diophantus
+│   ├── distribution-of-prime-numbers
 │   ├── division-including-decimals
 │   ├── fourier-series
 │   ├── frequency-to-time-domain
+│   ├── frosty-look
+│   ├── infinite-prime-numbers
+│   ├── magic-squares
 │   ├── math-and-logic
+│   ├── modular-forms
 │   ├── multiplying-negative-numbers
 │   ├── negative-power
 │   ├── power-rule
+│   ├── prime-between-n-and-2n
+│   ├── pythagorean-triplet
 │   ├── rational-operations
 │   ├── repeating-decimals
 │   ├── roots-and-approximation
@@ -1460,4 +1583,4 @@ math
 └── top
     └── topology-illustrated-peter-saveliev.pdf
 
-171 directories, 1290 files
+182 directories, 1402 files
