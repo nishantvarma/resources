@@ -138,9 +138,9 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 
 ## Tips
 
-- <sub>**Mathematics**: Read the works of George Pólya, Paul Halmos, Richard Courant, John Stillwell, Terence Tao, Timothy Gowers etc.</sub>
-- <sub>**Physics**: Read the works of Richard Feynman, Roger Penrose, Paul Dirac, Leonard Susskind, John Wheeler etc.</sub>
-- <sub>**Computer Science**: Read the works of Alan Kay, Brian Kernighan, Donald Knuth, Edsger Dijkstra, Niklaus Wirth, Tony Hoare etc.</sub>
+- <sub>**Mathematics**: Read the works of Richard Courant, Timothy Gowers, Paul Halmos, George Pólya, John Stillwell, Terence Tao etc.</sub>
+- <sub>**Physics**: Read the works of Paul Dirac, Richard Feynman, Roger Penrose, Leonard Susskind, John Wheeler etc.</sub>
+- <sub>**Computer Science**: Read the works of Edsger Dijkstra, Tony Hoare, Alan Kay, Brian Kernighan, Donald Knuth, Niklaus Wirth etc.</sub>
 
 ## Note
 
