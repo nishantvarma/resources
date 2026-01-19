@@ -1,4 +1,4 @@
-Curated resources for mathematics, physics, computer science. See [Goodreads](https://www.goodreads.com/review/list/72807383-nishant-varma), [tree](tree), [misc](misc.md).
+Curated resources for mathematics, physics, computer science. See [tree](tree), [misc](misc.md).
 
 ## 📚 Learning
 
