@@ -80,6 +80,14 @@ Curated resources for mathematics, physics, computer science. See [Goodreads](ht
 </details>
 
 <details>
+<summary>Complex Analysis</summary>
+
+- **Visual Complex Analysis** — Tristan Needham
+- **Complex Variables and Applications** — James Ward Brown, Ruel V. Churchill
+
+</details>
+
+<details>
 <summary>Abstract Algebra</summary>
 
 - **Algebra** — Michael Artin
@@ -175,6 +183,14 @@ Curated resources for mathematics, physics, computer science. See [Goodreads](ht
 - **Computer Science: An Interdisciplinary Approach** — Robert Sedgewick, Kevin Wayne
 - **Elements of Modern Computer Systems** — Noam Nisan, Shimon Schocken
 - **Structure and Interpretation of Computer Programs** — Harold Abelson, Gerald Jay Sussman — [video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)
+
+</details>
+
+<details>
+<summary>Computer Architecture</summary>
+
+- **Computer Organization and Design** — David A. Patterson, John L. Hennessy
+- **Computer Architecture: A Quantitative Approach** — John L. Hennessy, David A. Patterson
 
 </details>
 
