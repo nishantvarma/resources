@@ -1,13 +1,13 @@
 Curated resources for mathematics, physics, computer science. See [Goodreads](https://www.goodreads.com/review/list/72807383-nishant-varma), [tree](tree), [misc](misc.md).
 
-## [![](https://img.shields.io/badge/λ-f7df1e?style=flat-square)](#) Learning
+## 🟨 λ Learning
 
 - **Learning How to Learn** — Alistair McConville, Barbara Oakley, Terrence Sejnowski
 - **How to Study Math** — Paul Dawkins — [site](https://tutorial.math.lamar.edu/Extras/StudyMath/HowToStudyMath.aspx)
 - **How to Solve It** — George Pólya
 - **Art of Doing Science and Engineering** — Richard Hamming, Bret Victor
 
-## [![](https://img.shields.io/badge/∞-4a90d9?style=flat-square)](#) Mathematics
+## 🟦 ∞ Mathematics
 
 <details>
 <summary>Foundations</summary>
@@ -138,7 +138,7 @@ Curated resources for mathematics, physics, computer science. See [Goodreads](ht
 
 </details>
 
-## [![](https://img.shields.io/badge/Φ-5cb85c?style=flat-square)](#) Physics
+## 🟩 Φ Physics
 
 <details>
 <summary>Foundations</summary>
@@ -174,7 +174,7 @@ Curated resources for mathematics, physics, computer science. See [Goodreads](ht
 
 </details>
 
-## [![](https://img.shields.io/badge/⌘-e67e22?style=flat-square)](#) Computer Science
+## 🟧 ⌘ Computer Science
 
 <details>
 <summary>Foundations</summary>
