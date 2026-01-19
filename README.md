@@ -1,13 +1,13 @@
 Curated resources for mathematics, physics, computer science. See [Goodreads](https://www.goodreads.com/review/list/72807383-nishant-varma), [tree](tree), [tips](tips.md), [related](related.md).
 
-## 🟨 λ Learning
+## [![](https://img.shields.io/badge/λ-f7df1e?style=flat-square)](#) Learning
 
 - **Learning How to Learn** — Alistair McConville, Barbara Oakley, Terrence Sejnowski
 - **How to Study Math** — Paul Dawkins — [site](https://tutorial.math.lamar.edu/Extras/StudyMath/HowToStudyMath.aspx)
 - **How to Solve It** — George Pólya
 - **Art of Doing Science and Engineering** — Richard Hamming, Bret Victor
 
-## 🟦 ∞ Mathematics
+## [![](https://img.shields.io/badge/∞-4a90d9?style=flat-square)](#) Mathematics
 
 #### Foundations
 - **Project Mathematics** — Tom M. Apostol
@@ -78,7 +78,7 @@ Curated resources for mathematics, physics, computer science. See [Goodreads](ht
 - **The Story of Proof** — John Stillwell
 - **Non-Euclidean Geometry** — Roberto Bonola
 
-## 🟩 Φ Physics
+## [![](https://img.shields.io/badge/Φ-5cb85c?style=flat-square)](#) Physics
 
 #### Foundations
 - **Why Is It So?** — Julius Sumner Miller
@@ -102,7 +102,7 @@ Curated resources for mathematics, physics, computer science. See [Goodreads](ht
 - **Course of Theoretical Physics** — Vladimir Berestetskii, Lev Landau, Evgeny Lifshitz, Lev Pitaevskii
 - **The Road to Reality** — Roger Penrose
 
-## 🟧 ⌘ Computer Science
+## [![](https://img.shields.io/badge/⌘-e67e22?style=flat-square)](#) Computer Science
 
 #### Foundations
 - **Code** — Charles Petzold
