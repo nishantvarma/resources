@@ -5,7 +5,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 | <sub>Resource</sub> | <sub>Author(s)</sub> | <sub>Links</subs> |
 |---|---|---|
 | <sub>Learning How to Learn: How to Succeed in School Without Spending All Your Time Studying</sub> | <sub>Alistair McConville, Barbara Oakley, Terrence Sejnowski</sub> |  |
-| <sub>How to Study Math</sub>| <sub>Paul Dawkins</sub> | <sub>[site](https://tutorial.math.lamar.edu/Extras/StudyMath/HowToStudyMath.aspx)</sub>  |  |
+| <sub>How to Study Math</sub>| <sub>Paul Dawkins</sub> | <sub>[site](https://tutorial.math.lamar.edu/Extras/StudyMath/HowToStudyMath.aspx)</sub> |
 | <sub>How to Solve It</sub> | <sub>George Pólya</sub> |  |
 | <sub>Art of Doing Science and Engineering: Learning to Learn</sub> | <sub>Richard Hamming, Bret Victor</sub> |  |
 
@@ -31,12 +31,20 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>Linear Algebra Done Right</sub> | <sub>Sheldon Axler</sub> |  |
 |  | <sub>Linear Algebra Problem Book</sub> | <sub>Paul Halmos</sub> |  |
 |  | <sub>Finite-Dimensional Vector Spaces</sub> | <sub>Paul Halmos</sub> |  |
+|  <sub>Differential Equations</sub> | <sub>Ordinary Differential Equations</sub> | <sub>Morris Tenenbaum, Harry Pollard</sub> |  |
 | <sub>Discrete Math & Probability</sub> | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |  |
 |  | <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |  |
 |  | <sub>Principles and Techniques in Combinatorics</sub> | <sub>Chen Chuan-Chong, Koh Khee-Meng</sub> |  |
 |  | <sub>Concrete Mathematics</sub> | <sub>Ronald Graham, Donald Knuth, Oren Patashnik</sub> |  |
 |  <sub>Proofs</sub> | <sub>Book of Proof</sub> | <sub>Richard Hammack</sub> |  |
 |  | <sub>Proofs from THE BOOK</sub> | <sub>Martin Aigner, Günter M. Ziegler</sub> |  |
+|  <sub>Real Analysis</sub> | <sub>Understanding Analysis</sub> | <sub>Stephen Abbott</sub> |  |
+|  | <sub>Principles of Mathematical Analysis</sub> | <sub>Walter Rudin</sub> |  |
+|  | <sub>Real Mathematical Analysis</sub> | <sub>Charles C. Pugh</sub> |  |
+|  <sub>Abstract Algebra</sub> | <sub>Algebra</sub> | <sub>Michael Artin</sub> |  |
+|  | <sub>Abstract Algebra</sub> | <sub>David S. Dummit, Richard M. Foote</sub> |  |
+|  <sub>Number Theory</sub> | <sub>An Introduction to the Theory of Numbers</sub> | <sub>G.H. Hardy, E.M. Wright</sub> |  |
+|  <sub>Topology</sub> | <sub>Topology</sub> | <sub>James Munkres</sub> |  |
 |  <sub>Problem Solving</sub> | <sub>Mathematical Circles: Russian Experience</sub> | <sub>Dmitri Fomin, Sergey Genkin, Ilia Itenberg</sub> |  |
 |  | <sub>The Art and Craft of Problem Solving</sub> | <sub>Paul Zeitz</sub> |  |
 | <sub>General</sub> | <sub>The Princeton Companion to Mathematics</sub> | <sub>Timothy Gowers</sub> |  |
@@ -61,6 +69,10 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>Understanding Physics</sub> | <sub>Isaac Asimov</sub> |  |
 |  | <sub>For the Love of Physics: From the End of the Rainbow to the Edge of Time - A Journey Through the Wonders of Physics</sub> | <sub>Walter Lewin</sub> |  |
 |  | <sub>Teach Yourself Physics</sub> | <sub>Jakob Schwichtenberg</sub> |  |
+| <sub>Intermediate</sub> | <sub>An Introduction to Mechanics</sub> | <sub>Daniel Kleppner, Robert Kolenkow</sub> |  |
+|  | <sub>Introduction to Electrodynamics</sub> | <sub>David J. Griffiths</sub> |  |
+|  | <sub>Introduction to Quantum Mechanics</sub> | <sub>David J. Griffiths</sub> |  |
+|  | <sub>An Introduction to Thermal Physics</sub> | <sub>Daniel V. Schroeder</sub> |  |
 | <sub>Advanced</sub> | <sub>Theoretical Minimum</sub> | <sub>Leonard Susskind</sub> | <sub>[site](https://theoreticalminimum.com/)</sub> |
 |  | <sub>The Feynman Lectures on Physics</sub> | <sub>Richard Feynman, Robert B. Leighton, Matthew Sands</sub> |  |
 |  | <sub>Course of Theoretical Physics</sub> | <sub>Evgeny Lifshitz, Lev Landau, Lev Pitaevskii, Vladimir Berestetskii</sub> |  |
@@ -80,8 +92,9 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>Introduction to the Theory of Computation</sub> | <sub>Michael Sipser</sub> | <sub>[video](https://archive.org/details/mit-18404j-theory-of-computation)</sub> |
 |  | <sub>Computation: Finite and Infinite Machines</sub> | <sub>Marvin Minsky</sub> |  |
 |  | <sub>Feynman Lectures on Computation</sub> | <sub>Richard P. Feynman</sub> |  |
-| <sub>Information Theory</sub> | <sub>Information Theory: A Tutorial Introduction</sub> | <sub>James Stone</sub> | <sub></sub> |
+| <sub>Information Theory</sub> | <sub>Information Theory: A Tutorial Introduction</sub> | <sub>James Stone</sub> |  |
 |  | <sub>Information Theory, Inference, and Learning Algorithms</sub> | <sub>David J.C. MacKay</sub> |  |
+| <sub>Cryptography</sub> | <sub>Introduction to Modern Cryptography</sub> | <sub>Jonathan Katz, Yehuda Lindell</sub> |  |
 | <sub>Programming Languages & Compilers</sub> | <sub>Programming Language Pragmatics</sub> | <sub>Michael L. Scott</sub> | <sub>[video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)</sub> |
 |  | <sub>Compilers: Principles, Techniques, and Tools</sub> | <sub>Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman</sub> | <sub>[video](https://archive.org/details/coursera-compilers)</sub> |
 | <sub>Systems Programming & Architecture</sub> | <sub>Computer Systems: A Programmer’s Perspective</sub> | <sub>Randal E. Bryant, David R. O’Hallaron</sub> | <sub>[video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)</sub> |
@@ -89,12 +102,14 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>Computer Networks: A Systems Approach</sub> | <sub>Bruce S. David, Larry L. Peterson</sub> | <sub>[video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)</sub> |
 |  | <sub>Project Oberon</sub> | <sub>Niklaus Wirth</sub> |  |
 |  | <sub>Plan 9</sub> | <sub>Bell Labs</sub> |  |
+| <sub>Concurrency</sub> | <sub>The Art of Multiprocessor Programming</sub> | <sub>Maurice Herlihy, Nir Shavit</sub> |  |
 | <sub>Database</sub> | <sub>Database System Concepts</sub> | <sub>Henry F. Korth, Abraham Silberschatz S. Sudarshan</sub> | <sub>[video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)</sub> |
 | <sub>Distributed Systems & Scalability</sub> | <sub>Designing Data-Intensive Applications</sub> | <sub>Martin Kleppmann</sub> |  |
 |  | <sub>Distributed Systems</sub> | <sub>Maarten Van Steen, Andrew S. Tanenbaum</sub> |  |
 | <sub>AI & ML</sub> | <sub>Artificial Intelligence: A Guide for Thinking Humans</sub> | <sub>Melanie Mitchell</sub> |  |
 |  | <sub>Artificial Intelligence: A Modern Approach</sub> | <sub>Peter Norvig, Stuart Russell</sub> |  |
 |  | <sub>Deep Learning</sub> | <sub>Yoshua Bengio, Aaron Courville, Ian Goodfellow</sub> |  |
+| <sub>Computer Graphics</sub> | <sub>Fundamentals of Computer Graphics</sub> | <sub>Steve Marschner, Peter Shirley</sub> |  |
 | <sub>Software Engineering & Career</sub> | <sub>Systematic Programming: An Introduction</sub> | <sub>Niklaus Wirth</sub> |  |
 |  | <sub>The Practice of Programming</sub> | <sub>Brian W. Kernighan, Rob Pike</sub> |  |
 |  | <sub>The Pragmatic Programmer</sub> | <sub>Andrew Hunt, David Thomas</sub> |  |
