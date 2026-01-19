@@ -1,4 +1,4 @@
-Curated resources for mathematics, physics, computer science. See [Goodreads](https://www.goodreads.com/review/list/72807383-nishant-varma), [tree](tree), [tips](tips.md), [related](related.md).
+Curated resources for mathematics, physics, computer science. See [Goodreads](https://www.goodreads.com/review/list/72807383-nishant-varma), [tree](tree), [misc](misc.md).
 
 ## [![](https://img.shields.io/badge/λ-f7df1e?style=flat-square)](#) Learning
 
@@ -166,28 +166,4 @@ Curated resources for mathematics, physics, computer science. See [Goodreads](ht
 
 ---
 
-> "Mathematics reveals its secrets only to those who approach it with pure love, for its own beauty." — Archimedes
-
-> "The best way to learn anything is to discover it by yourself." — George Pólya
-
-> "The only way to learn mathematics is to do mathematics." — Paul Halmos
-
-> "If you can't solve a problem, then there is an easier problem you can solve: find it." — George Pólya
-
-> "It is better to solve one problem five different ways, than to solve five problems one way." — George Pólya
-
-> "If I have seen further than others, it is by standing on the shoulders of giants." — Isaac Newton
-
----
-
-**Anecdotes**
-
-Max Planck was told by his professor not to go into Physics because "almost everything is already discovered". Planck said he didn't want to discover anything, just learn the fundamentals. He went on to originate quantum theory and win a Nobel Prize.
-
-Ramanujan's elbow was black and coarse from erasing his slate — he couldn't afford paper. When a friend called him a genius, he showed his elbow. Four reams of paper a month was beyond his family's means. This was 1912.
-
----
-
-**Tips**: Read the works of Courant, Gowers, Halmos, Pólya, Stillwell, Tao (math) · Dirac, Feynman, Penrose, Susskind, Wheeler (physics) · Dijkstra, Hoare, Kay, Kernighan, Knuth, Wirth (CS).
-
-**Note**: If useful, consider supporting [Internet Archive](https://archive.org/donate). For concerns: `nishant.varma@gmail.com`
+If useful, consider supporting [Internet Archive](https://archive.org/donate).
