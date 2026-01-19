@@ -31,7 +31,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>Linear Algebra Done Right</sub> | <sub>Sheldon Axler</sub> |  |
 |  | <sub>Linear Algebra Problem Book</sub> | <sub>Paul Halmos</sub> |  |
 |  | <sub>Finite-Dimensional Vector Spaces</sub> | <sub>Paul Halmos</sub> |  |
-|  <sub>Differential Equations</sub> | <sub>Ordinary Differential Equations</sub> | <sub>Morris Tenenbaum, Harry Pollard</sub> |  |
+|  <sub>Differential Equations</sub> | <sub>Ordinary Differential Equations</sub> | <sub>Harry Pollard, Morris Tenenbaum</sub> |  |
 | <sub>Discrete Math & Probability</sub> | <sub>Discrete Mathematics and Its Applications</sub> | <sub>Kenneth H. Rosen</sub> | <sub>[video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)</sub> |  |
 |  | <sub>Introduction to Probability</sub> | <sub>Joseph K. Blitzstein, Jessica Hwang</sub> | <sub>[video](https://archive.org/details/harvard-stat110-probability)</sub> |  |
 |  | <sub>Principles and Techniques in Combinatorics</sub> | <sub>Chen Chuan-Chong, Koh Khee-Meng</sub> |  |
@@ -75,7 +75,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 |  | <sub>An Introduction to Thermal Physics</sub> | <sub>Daniel V. Schroeder</sub> |  |
 | <sub>Advanced</sub> | <sub>Theoretical Minimum</sub> | <sub>Leonard Susskind</sub> | <sub>[site](https://theoreticalminimum.com/)</sub> |
 |  | <sub>The Feynman Lectures on Physics</sub> | <sub>Richard Feynman, Robert B. Leighton, Matthew Sands</sub> |  |
-|  | <sub>Course of Theoretical Physics</sub> | <sub>Evgeny Lifshitz, Lev Landau, Lev Pitaevskii, Vladimir Berestetskii</sub> |  |
+|  | <sub>Course of Theoretical Physics</sub> | <sub>Vladimir Berestetskii, Lev Landau, Evgeny Lifshitz, Lev Pitaevskii</sub> |  |
 |  | <sub>The Road to Reality: A Complete Guide to the Laws of the Universe</sub>| <sub>Roger Penrose</sub> |
 
 ### Computer Science
@@ -105,7 +105,7 @@ Curated resources for mathematics, physics, computer science enthusiasts. See Go
 | <sub>Concurrency</sub> | <sub>The Art of Multiprocessor Programming</sub> | <sub>Maurice Herlihy, Nir Shavit</sub> |  |
 | <sub>Database</sub> | <sub>Database System Concepts</sub> | <sub>Henry F. Korth, Abraham Silberschatz S. Sudarshan</sub> | <sub>[video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)</sub> |
 | <sub>Distributed Systems & Scalability</sub> | <sub>Designing Data-Intensive Applications</sub> | <sub>Martin Kleppmann</sub> |  |
-|  | <sub>Distributed Systems</sub> | <sub>Maarten Van Steen, Andrew S. Tanenbaum</sub> |  |
+|  | <sub>Distributed Systems</sub> | <sub>Andrew S. Tanenbaum, Maarten Van Steen</sub> |  |
 | <sub>AI & ML</sub> | <sub>Artificial Intelligence: A Guide for Thinking Humans</sub> | <sub>Melanie Mitchell</sub> |  |
 |  | <sub>Artificial Intelligence: A Modern Approach</sub> | <sub>Peter Norvig, Stuart Russell</sub> |  |
 |  | <sub>Deep Learning</sub> | <sub>Yoshua Bengio, Aaron Courville, Ian Goodfellow</sub> |  |
