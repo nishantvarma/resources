@@ -88,6 +88,14 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 </details>
 
 <details>
+<summary>Functional Analysis</summary>
+
+- **Introductory Functional Analysis with Applications** — Erwin Kreyszig
+- **Functional Analysis: Introduction to Further Topics in Analysis** — Elias M. Stein, Rami Shakarchi
+
+</details>
+
+<details>
 <summary>Abstract Algebra</summary>
 
 - **Algebra** — Michael Artin
