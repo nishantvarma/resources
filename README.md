@@ -91,7 +91,9 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 <summary>Abstract Algebra</summary>
 
 - **Algebra** — Michael Artin
+- **Algebra: Notes from the Underground** — Paolo Aluffi
 - **Abstract Algebra** — David S. Dummit, Richard M. Foote
+- **Algebra: Chapter 0** — Paolo Aluffi
 
 </details>
 
