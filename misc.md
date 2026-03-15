@@ -1,9 +1,10 @@
 ## Quotes
 
-> *"The only way to learn mathematics is to do mathematics."* — Halmos
-> *"The best way to learn anything is to discover it by yourself."* — Pólya
-> *"If you can't solve a problem, find an easier one."* — Pólya
 > *"Standing on the shoulders of giants."* — Newton
+> *"The best way to learn anything is to discover it by yourself."* — Pólya
+> *"The only way to learn mathematics is to do mathematics."* — Halmos
+> *"If you can't solve a problem, find an easier one."* — Pólya
+> *"Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away."* — Saint-Exupery
 
 ## Anecdotes
 
