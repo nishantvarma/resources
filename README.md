@@ -284,7 +284,10 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 - **Artificial Intelligence: A Guide for Thinking Humans** — Melanie Mitchell
 - **Artificial Intelligence: A Modern Approach** — Peter Norvig, Stuart Russell
+- **Pattern Recognition and Machine Learning** — Christopher Bishop
 - **Deep Learning** — Yoshua Bengio, Aaron Courville, Ian Goodfellow
+- **Deep Learning: Foundations and Concepts** — Christopher Bishop, Hugh Bishop — [book](https://www.bishopbook.com/)
+- **Understanding Deep Learning** — Simon J.D. Prince — [book](https://udlbook.github.io/udlbook/)
 
 </details>
 
