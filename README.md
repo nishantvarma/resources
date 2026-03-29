@@ -9,8 +9,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 ## 🧮 Mathematics
 
-<details>
-<summary>Foundations</summary>
+### Foundations
 
 - **Project Mathematics** — Tom M. Apostol
 - **Gateways to Mathematics** — Herbert I. Gross — [site](https://www.mathasasecondlanguage.org/self-guided)
@@ -21,114 +20,93 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **Precalculus** — Israel Gelfand — [book](https://archive.org/details/precalculus-israel-gelfand) [video](https://archive.org/details/umkc-math110-college-algebra)
 - **Elements of Mathematics: From Euclid to Gödel** — John Stillwell
 - **Mathematics and its History** — John Stillwell
+- **A Mathematician's Lament** — Paul Lockhart
+- **Measurement** — Paul Lockhart
 
-</details>
+### Calculus
 
-<details>
-<summary>Calculus</summary>
-
+- **What Is Calculus About?** — Walter Sawyer
 - **Calculus Made Easy** — Martin Gardner, Silvanus P. Thompson
 - **Calculus: An Intuitive and Physical Approach** — Morris Kline
 - **Infinite Powers** — Steven Strogatz
+- **The Essence of Calculus** — Grant Sanderson — [video](https://archive.org/details/the-essence-of-calculus-grant-sanderson)
+- **Calculus Revisited** — Herbert Gross — [video](https://archive.org/details/calculus-revisited-herbert-gross)
+- **MIT Highlights of Calculus** — Gilbert Strang — [video](https://archive.org/details/mit-highlights-of-calculus)
 - **Calculus with Analytic Geometry** — George F. Simmons — [video](https://archive.org/details/mit-1801-single-variable-calculus)
+- **Differential and Integral Calculus** — Richard Courant
 - **Calculus** — Michael Spivak
 
-</details>
+### Linear Algebra
 
-<details>
-<summary>Linear Algebra</summary>
-
+- **The Essence of Linear Algebra** — Grant Sanderson — [video](https://archive.org/details/the-essence-of-linear-algebra-grant-sanderson)
 - **Linear Algebra: Step by Step** — Kuldeep Singh
+- **Introduction to Applied Linear Algebra** — Stephen Boyd, Lieven Vandenberghe
+- **Lectures on Linear Algebra** — Israel Gelfand
 - **Linear Algebra Done Right** — Sheldon Axler
 - **Linear Algebra Problem Book** — Paul Halmos
 - **Finite-Dimensional Vector Spaces** — Paul Halmos
 
-</details>
-
-<details>
-<summary>Differential Equations</summary>
+### Differential Equations
 
 - **Ordinary Differential Equations** — Harry Pollard, Morris Tenenbaum
 
-</details>
-
-<details>
-<summary>Discrete Math & Probability</summary>
+### Discrete Math & Combinatorics
 
 - **Discrete Mathematics and Its Applications** — Kenneth H. Rosen — [video](https://archive.org/details/ucb-cs70-discrete-mathematics-and-probability-theory)
-- **Introduction to Probability** — Joseph K. Blitzstein, Jessica Hwang — [video](https://archive.org/details/harvard-stat110-probability)
 - **Principles and Techniques in Combinatorics** — Chen Chuan-Chong, Koh Khee-Meng
 - **Concrete Mathematics** — Ronald Graham, Donald Knuth, Oren Patashnik
+- **Generatingfunctionology** — Herbert Wilf
 
-</details>
+### Probability & Statistics
 
-<details>
-<summary>Proofs</summary>
+- **Introduction to Probability** — Joseph K. Blitzstein, Jessica Hwang — [video](https://archive.org/details/harvard-stat110-probability)
+
+### Proofs
 
 - **Book of Proof** — Richard Hammack
 - **Proofs from THE BOOK** — Martin Aigner, Günter M. Ziegler
 
-</details>
-
-<details>
-<summary>Real Analysis</summary>
+### Real Analysis
 
 - **Understanding Analysis** — Stephen Abbott
 - **Principles of Mathematical Analysis** — Walter Rudin
 - **Real Mathematical Analysis** — Charles C. Pugh
 
-</details>
-
-<details>
-<summary>Complex Analysis</summary>
+### Complex Analysis
 
 - **Visual Complex Analysis** — Tristan Needham
 - **Complex Variables and Applications** — James Ward Brown, Ruel V. Churchill
 
-</details>
-
-<details>
-<summary>Functional Analysis</summary>
+### Functional Analysis
 
 - **Introductory Functional Analysis with Applications** — Erwin Kreyszig
-- **Functional Analysis: Introduction to Further Topics in Analysis** — Elias M. Stein, Rami Shakarchi
+- **Functional Analysis** — Elias M. Stein, Rami Shakarchi
 
-</details>
-
-<details>
-<summary>Abstract Algebra</summary>
+### Abstract Algebra
 
 - **Algebra** — Michael Artin
 - **Algebra: Notes from the Underground** — Paolo Aluffi
 - **Abstract Algebra** — David S. Dummit, Richard M. Foote
 - **Algebra: Chapter 0** — Paolo Aluffi
 
-</details>
+### Number Theory
 
-<details>
-<summary>Number Theory</summary>
-
+- **The Higher Arithmetic** — Harold Davenport
 - **An Introduction to the Theory of Numbers** — G.H. Hardy, E.M. Wright
+- **Introduction to Analytic Number Theory** — Tom Apostol
+- **Number Theory in the Spirit of Ramanujan** — Bruce Berndt — [video](https://archive.org/details/ucb-math115-introduction-to-number-theory)
 
-</details>
+### Topology
 
-<details>
-<summary>Topology</summary>
-
+- **Topology Illustrated** — Peter Saveliev
 - **Topology** — James Munkres
 
-</details>
-
-<details>
-<summary>Problem Solving</summary>
+### Problem Solving
 
 - **Mathematical Circles: Russian Experience** — Dmitri Fomin, Sergey Genkin, Ilia Itenberg
 - **The Art and Craft of Problem Solving** — Paul Zeitz
 
-</details>
-
-<details>
-<summary>General</summary>
+### General
 
 - **The Princeton Companion to Mathematics** — Timothy Gowers
 - **The Princeton Companion to Applied Mathematics** — Nicholas J. Higham
@@ -136,22 +114,19 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **What Is Mathematics?** — Richard Courant
 - **Vector Calculus, Linear Algebra, and Differential Forms** — Barbara Burke Hubbard, John H. Hubbard
 - **An Infinitely Large Napkin** — Evan Chen — [book](https://venhance.github.io/napkin/Napkin.pdf)
+- **The Art of Insight in Science and Engineering** — Sanjoy Mahajan
 
-</details>
-
-<details>
-<summary>History</summary>
+### History
 
 - **Mathematical Thought from Ancient to Modern Times** — Morris Kline
 - **The Story of Proof** — John Stillwell
+- **The Crest of the Peacock** — George Joseph
+- **An Imaginary Tale: The Story of √−1** — Paul Nahin
 - **Non-Euclidean Geometry** — Roberto Bonola
-
-</details>
 
 ## 🍎 Physics
 
-<details>
-<summary>Foundations</summary>
+### Foundations
 
 - **Why Is It So?** — Julius Sumner Miller
 - **Demonstrations in Physics** — Julius Sumner Miller
@@ -160,154 +135,135 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **Hewitt Drew It** — Paul G. Hewitt — [site](https://www.conceptualphysics.com/)
 - **Understanding Physics** — Isaac Asimov
 - **For the Love of Physics** — Walter Lewin
+- **Six Easy Pieces** — Richard Feynman
+- **The Character of Physical Laws** — Richard Feynman
+- **Mathematics and the Physical World** — Morris Kline
 - **Teach Yourself Physics** — Jakob Schwichtenberg
+- **Fundamentals of Physics** — Ramamurti Shankar — [video](https://archive.org/details/yale-phys200-fundamentals-of-physics)
 
-</details>
-
-<details>
-<summary>Intermediate</summary>
+### Intermediate
 
 - **An Introduction to Mechanics** — Daniel Kleppner, Robert Kolenkow
 - **Introduction to Electrodynamics** — David J. Griffiths
 - **Introduction to Quantum Mechanics** — David J. Griffiths
 - **An Introduction to Thermal Physics** — Daniel V. Schroeder
+- **Six Not-So-Easy Pieces** — Richard Feynman
+- **Classical Mechanics** — IIT Madras — [video](https://archive.org/details/iit-madras-classical-physics)
+- **Quantum Mechanics** — IIT Madras — [video](https://archive.org/details/iit-madras-quantum-physics)
 
-</details>
+### Advanced
 
-<details>
-<summary>Advanced</summary>
-
+- **The Variational Principles of Mechanics** — Cornelius Lanczos
 - **Theoretical Minimum** — Leonard Susskind — [site](https://theoreticalminimum.com/)
 - **The Feynman Lectures on Physics** — Richard Feynman, Robert B. Leighton, Matthew Sands
 - **Course of Theoretical Physics** — Vladimir Berestetskii, Lev Landau, Evgeny Lifshitz, Lev Pitaevskii
 - **The Road to Reality** — Roger Penrose
-
-</details>
+- **The Emperor's New Mind** — Roger Penrose
+- **The Principia** — Isaac Newton
+- **Truth and Beauty** — Subrahmanyan Chandrasekhar
+- **The Relation Between Mathematics and Physics** — Paul Dirac
 
 ## 🖥️ Computer Science
 
-<details>
-<summary>Foundations</summary>
+### Foundations
 
 - **Code** — Charles Petzold
 - **Computer Science: An Interdisciplinary Approach** — Robert Sedgewick, Kevin Wayne
-- **Elements of Modern Computer Systems** — Noam Nisan, Shimon Schocken
+- **The Elements of Computing Systems** — Noam Nisan, Shimon Schocken — [video](https://archive.org/details/coursera-from-nand-to-tetris)
 - **Structure and Interpretation of Computer Programs** — Harold Abelson, Gerald Jay Sussman — [video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)
 
-</details>
-
-<details>
-<summary>Computer Architecture</summary>
+### Computer Architecture
 
 - **Computer Organization and Design** — David A. Patterson, John L. Hennessy
 - **Computer Architecture: A Quantitative Approach** — John L. Hennessy, David A. Patterson
 
-</details>
-
-<details>
-<summary>Algorithms & Data Structures</summary>
+### Algorithms & Data Structures
 
 - **Algorithms and Data Structures** — Niklaus Wirth
 - **Introduction to Algorithms** — Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein — [video](https://archive.org/details/mit-6006-introduction-to-algorithms)
+- **The Art of Computer Programming** — Donald Knuth
 
-</details>
-
-<details>
-<summary>Theory</summary>
+### Theory of Computation
 
 - **Introduction to Theoretical Computer Science** — Boaz Barak
 - **Introduction to the Theory of Computation** — Michael Sipser — [video](https://archive.org/details/mit-18404j-theory-of-computation)
 - **Computation: Finite and Infinite Machines** — Marvin Minsky
+- **Gödel, Escher, Bach** — Douglas Hofstadter
 - **Feynman Lectures on Computation** — Richard P. Feynman
 
-</details>
-
-<details>
-<summary>Information Theory</summary>
+### Information Theory
 
 - **Information Theory: A Tutorial Introduction** — James Stone
 - **Information Theory, Inference, and Learning Algorithms** — David J.C. MacKay
 
-</details>
-
-<details>
-<summary>Cryptography</summary>
+### Cryptography
 
 - **Introduction to Modern Cryptography** — Jonathan Katz, Yehuda Lindell
+- **Understanding Cryptography** — Christof Paar — [video](https://archive.org/details/understanding-cryptography-christof-paar)
 
-</details>
+### Programming Languages
 
-<details>
-<summary>Languages & Compilers</summary>
-
+- **The Little Schemer** — Daniel P. Friedman, Matthias Felleisen
 - **Programming Language Pragmatics** — Michael L. Scott — [video](https://archive.org/details/stonybrook-cse307-principles-of-programming-languages)
+- **Concepts, Techniques, and Models of Computer Programming** — Peter Van Roy, Seif Haridi
+- **Types and Programming Languages** — Benjamin C. Pierce
+
+### Compilers
+
+- **Crafting Interpreters** — Robert Nystrom — [book](https://craftinginterpreters.com)
 - **Compilers: Principles, Techniques, and Tools** — Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman — [video](https://archive.org/details/coursera-compilers)
 
-</details>
-
-<details>
-<summary>Systems</summary>
+### Systems
 
 - **Computer Systems: A Programmer's Perspective** — Randal E. Bryant, David R. O'Hallaron — [video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)
+- **The Unix Programming Environment** — Brian W. Kernighan, Rob Pike
+- **Advanced Programming in the Unix Environment** — W. Richard Stevens
 - **Operating Systems: Three Easy Pieces** — Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau — [video](https://archive.org/details/caltech-cs124-operating-systems)
+- **The Design of the Unix Operating System** — Maurice J. Bach
 - **Computer Networks: A Systems Approach** — Bruce S. Davie, Larry L. Peterson — [video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)
 - **Project Oberon** — Niklaus Wirth
 - [Plan 9](https://9p.io/plan9)
 - [Suckless](https://suckless.org)
 
-</details>
-
-<details>
-<summary>Concurrency</summary>
+### Concurrency
 
 - **The Art of Multiprocessor Programming** — Maurice Herlihy, Nir Shavit
 
-</details>
-
-<details>
-<summary>Databases</summary>
+### Databases
 
 - **Database System Concepts** — Henry F. Korth, Abraham Silberschatz, S. Sudarshan — [video](https://archive.org/details/cmu-15-445-introduction-to-database-systems)
+- **Readings in Database Systems** — Michael Stonebraker
 
-</details>
-
-<details>
-<summary>Distributed Systems</summary>
+### Distributed Systems
 
 - **Designing Data-Intensive Applications** — Martin Kleppmann
 - **Distributed Systems** — Andrew S. Tanenbaum, Maarten Van Steen
 
-</details>
-
-<details>
-<summary>AI & ML</summary>
+### AI & Machine Learning
 
 - **Artificial Intelligence: A Guide for Thinking Humans** — Melanie Mitchell
-- **Artificial Intelligence: A Modern Approach** — Peter Norvig, Stuart Russell
+- **Artificial Intelligence: A Modern Approach** — Peter Norvig, Stuart Russell — [video](https://archive.org/details/ucb-cs188-introduction-to-artificial-intelligence)
 - **Pattern Recognition and Machine Learning** — Christopher Bishop
 - **Deep Learning** — Yoshua Bengio, Aaron Courville, Ian Goodfellow
 - **Understanding Deep Learning** — Simon J.D. Prince — [book](https://udlbook.github.io/udlbook/)
 - **Deep Learning: Foundations and Concepts** — Christopher Bishop, Hugh Bishop — [book](https://www.bishopbook.com/)
+- **Machine Learning** — Andrew Ng — [video](https://archive.org/details/machine-learning-andrew-ng)
+- **Neural Networks** — Grant Sanderson — [video](https://archive.org/details/neural-networks-grant-sanderson)
 
-</details>
-
-<details>
-<summary>Graphics</summary>
+### Graphics
 
 - **Fundamentals of Computer Graphics** — Steve Marschner, Peter Shirley
 
-</details>
+### Software Engineering
 
-<details>
-<summary>Practice</summary>
-
+- **A Philosophy of Software Design** — John Ousterhout
+- **A Discipline of Programming** — Edsger W. Dijkstra
+- **The Mythical Man-Month** — Frederick P. Brooks Jr.
 - **Systematic Programming** — Niklaus Wirth
 - **The Practice of Programming** — Brian W. Kernighan, Rob Pike
-- **The Pragmatic Programmer** — Andrew Hunt, David Thomas
 - **Programming Pearls** — Jon Bentley
+- **The Pragmatic Programmer** — Andrew Hunt, David Thomas
 - **The PhD Grind** — Philip Guo
-
-</details>
 
 ---
 

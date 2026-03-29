@@ -287,5 +287,3 @@ physics
         ├── 24-quantum-mechanics-6-time-dependent-schrödinger-equation.mp4
         ├── 25-quantum-mechanics-7-summary-of-postulates-and-special-topics.mp4
         └── book.epub
-
-17 directories, 272 files

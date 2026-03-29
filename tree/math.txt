@@ -26,7 +26,9 @@ math
 │   │   └── 2.pdf
 │   ├── an-introduction-to-the-theory-of-infinite-series-thomas-bromwich.pdf
 │   ├── development-of-the-foundations-of-mathematical-analysis-from-euler-to-riemann-grattan-guinness.djvu
+│   ├── elliptic-functions-and-elliptic-integrals-prasolov-and-solovyev.djvu
 │   ├── e-to-the-pi-i-a-nontraditional-take-grant-sanderson.mp4
+│   ├── functional-analysis-shakarchi-and-stein.pdf
 │   ├── gamma-exploring-eulers-constant-dyson-and-havil.pdf
 │   ├── generalized-functions-israel-gelfand
 │   │   ├── 1-properties-and-operations.pdf
@@ -41,6 +43,7 @@ math
 │   ├── introduction-to-analysis-of-the-infinite-book-blanton-and-euler
 │   │   ├── 1.pdf
 │   │   └── 2.pdf
+│   ├── introductory-functional-analysis-with-applications-erwin-kreyszig.pdf
 │   ├── lectures-on-the-hyperreals-an-introduction-to-nonstandard-analysis-robert-goldblatt.pdf
 │   ├── mathematical-analysis-a-straightforward-approach-kg-binmore.pdf
 │   ├── mathematical-analysis-vladimir-zorich
@@ -157,6 +160,7 @@ math
 │   │   ├── the-man-who-knew-infinity-a-life-of-the-genius-ramanujan-robert-kanigel.pdf
 │   │   ├── the-mathematical-legacy-of-srinivasa-ramanujan-kumar-and-ram.pdf
 │   │   ├── the-math-sorcerer.webm
+│   │   ├── toils-and-triumphs-of-ramanujan-wazir-abdi
 │   │   └── toils-and-triumphs-of-srinivasa-ramanujan-the-man-and-the-mathematician-wazir-abdi.pdf
 │   ├── srinivasa-varadhan-abel-prize.mp3
 │   ├── terrence-tao-ken-clements.pdf
@@ -999,7 +1003,8 @@ math
 │   │   ├── 4-algebra.djvu
 │   │   ├── 5-trigonometry.pdf
 │   │   ├── 6-geometry.pdf
-│   │   └── 7-calculus-of-variations.pdf
+│   │   ├── 7-calculus-of-variations.pdf
+│   │   └── precalculus-gelfand -> ../../math/elem/precalculus-gelfand
 │   ├── project-mathematics-tom-apostol
 │   │   ├── 01-similarity.mkv
 │   │   ├── 02-the-story-of-pi.mkv
@@ -1013,9 +1018,9 @@ math
 │   │   ├── 10-teachers-workshop.mkv
 │   │   ├── 11-contest.mkv
 │   │   └── siggraph-demo
-│   │       ├── 1988.mkv
-│   │       ├── 1990.mkv
-│   │       └── 1993.mkv
+│   │       ├── 1988
+│   │       ├── 1990
+│   │       └── 1993
 │   ├── stanford-intro-to-mathematical-thinking
 │   │   ├── 00-1-welcome.mp4
 │   │   ├── 00-2-team.mp4
@@ -1582,5 +1587,3 @@ math
 │   └── martin-davis-on-computability-computational-logic-and-mathematical-foundations-omodeo-and-policriti.pdf
 └── top
     └── topology-illustrated-peter-saveliev.pdf
-
-182 directories, 1402 files

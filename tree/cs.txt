@@ -3,6 +3,7 @@ cs
 │   ├── ai.adoc
 │   ├── artificial-intelligence-a-guide-for-thinking-humans-melanie-mitchell.epub
 │   ├── artificial-intelligence-a-modern-approach-peter-norvig
+│   ├── build-a-large-language-model-from-scratch-sebastian-raschka.pdf
 │   ├── causal-inference-what-if-miguel-hernan.pdf
 │   ├── deep-dive-into-llms-like-chatgpt-andrej-karpathy.mp4
 │   ├── deep-learning-andrew-ng
@@ -149,16 +150,6 @@ cs
 │   │   └── 141-1d-and-3d-generalizations.mp4
 │   ├── deep-learning-a-visual-approach-andrew-glassner.pdf
 │   ├── deep-learning-goodfellow-bengio-courville.pdf
-│   ├── deep-learning-grant-sanderson
-│   │   ├── 1-but-what-is-a-neural-network.mp4
-│   │   ├── 2-gradient-descent-how-neural-networks-learn.mp4
-│   │   ├── 3-what-is-backpropagation-really-doing.mp4
-│   │   ├── 4-backpropagation-calculus.mp4
-│   │   ├── 5-but-what-is-a-gpt-visual-intro-to-transformers.mp4
-│   │   ├── 6-attention-in-transformers-visually-explained.mp4
-│   │   ├── 7-how-might-llms-store-facts.mp4
-│   │   ├── large-language-models-explained-briefly.mp4
-│   │   └── visualizing-transformers-and-attention.mp4
 │   ├── hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow-aurelien-geron.pdf
 │   ├── how-neural-networks-learned-to-talk-art-of-the-problem.mp4
 │   ├── introduction-to-language-modeling-building-makemore-andrej-karpathy
@@ -166,7 +157,7 @@ cs
 │   │   ├── 2.mp4
 │   │   ├── 3.mp4
 │   │   ├── 4.mkv
-│   │   └── 5.mp4.mkv
+│   │   └── 5.mkv
 │   ├── introduction-to-large-language-models-andrej-karpathy.mp4
 │   ├── introduction-to-neural-networks-and-backpropagation-building-micrograd-andrej-karpathy.mp4
 │   ├── language-models-in-plain-english-danilevsky-and-eovito.pdf
@@ -329,7 +320,17 @@ cs
 │   │   ├── 1-but-what-is-a-neural-network.mp4
 │   │   ├── 2-gradient-descent-how-neural-networks-learn.mp4
 │   │   ├── 3-what-is-backpropagation-really-doing.mp4
-│   │   └── 4-backpropagation-calculus.mp4
+│   │   ├── 4-backpropagation-calculus.mp4
+│   │   └── deep-learning-grant-sanderson
+│   │       ├── 1-but-what-is-a-neural-network.mp4
+│   │       ├── 2-gradient-descent-how-neural-networks-learn.mp4
+│   │       ├── 3-what-is-backpropagation-really-doing.mp4
+│   │       ├── 4-backpropagation-calculus.mp4
+│   │       ├── 5-but-what-is-a-gpt-visual-intro-to-transformers.mp4
+│   │       ├── 6-attention-in-transformers-visually-explained.mp4
+│   │       ├── 7-how-might-llms-store-facts.mp4
+│   │       ├── large-language-models-explained-briefly.mp4
+│   │       └── visualizing-transformers-and-attention.mp4
 │   ├── paradigms-of-artificial-intelligence-programming-case-studies-in-common-lisp-peter-norvig
 │   ├── programs-with-common-sense-john-mccarthy.pdf
 │   ├── sequence-to-sequence-learning-networks-google.pdf
@@ -2569,5 +2570,3 @@ cs
     ├── vis.tar
     ├── web-browser-engineering-panchekha-chris-harrelson
     └── xdo.tar
-
-154 directories, 2417 files
