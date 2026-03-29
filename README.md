@@ -11,25 +11,25 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 ### Foundations
 
+- **The Joy Of X** — Steven Strogatz
+- **A Mathematician's Lament** — Paul Lockhart
+- **Letters to a Young Mathematician** — Ian Stewart
 - **Project Mathematics** — Tom M. Apostol
 - **Gateways to Mathematics** — Herbert I. Gross — [site](https://www.mathasasecondlanguage.org/self-guided)
-- **The Joy Of X** — Steven Strogatz
-- **Letters to a Young Mathematician** — Ian Stewart
 - **Introduction to Mathematical Thinking** — Keith Devlin
 - **How to Think Like a Mathematician** — Kevin Houston
 - **Precalculus** — Israel Gelfand — [book](https://archive.org/details/precalculus-israel-gelfand) [video](https://archive.org/details/umkc-math110-college-algebra)
+- **Measurement** — Paul Lockhart
 - **Elements of Mathematics: From Euclid to Gödel** — John Stillwell
 - **Mathematics and its History** — John Stillwell
-- **A Mathematician's Lament** — Paul Lockhart
-- **Measurement** — Paul Lockhart
 
 ### Calculus
 
 - **What Is Calculus About?** — Walter Sawyer
 - **Calculus Made Easy** — Martin Gardner, Silvanus P. Thompson
-- **Calculus: An Intuitive and Physical Approach** — Morris Kline
 - **Infinite Powers** — Steven Strogatz
 - **The Essence of Calculus** — Grant Sanderson — [video](https://archive.org/details/the-essence-of-calculus-grant-sanderson)
+- **Calculus: An Intuitive and Physical Approach** — Morris Kline
 - **Calculus Revisited** — Herbert Gross — [video](https://archive.org/details/calculus-revisited-herbert-gross)
 - **MIT Highlights of Calculus** — Gilbert Strang — [video](https://archive.org/details/mit-highlights-of-calculus)
 - **Calculus with Analytic Geometry** — George F. Simmons — [video](https://archive.org/details/mit-1801-single-variable-calculus)
@@ -85,7 +85,6 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 ### Abstract Algebra
 
 - **Algebra** — Michael Artin
-- **Algebra: Notes from the Underground** — Paolo Aluffi
 - **Abstract Algebra** — David S. Dummit, Richard M. Foote
 - **Algebra: Chapter 0** — Paolo Aluffi
 
@@ -129,39 +128,37 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 ### Foundations
 
 - **Why Is It So?** — Julius Sumner Miller
-- **Demonstrations in Physics** — Julius Sumner Miller
-- **The Mechanical Universe** — David Goodstein
 - **Conceptual Physics** — Paul G. Hewitt — [site](https://www.conceptualphysics.com/)
-- **Hewitt Drew It** — Paul G. Hewitt — [site](https://www.conceptualphysics.com/)
-- **Understanding Physics** — Isaac Asimov
 - **For the Love of Physics** — Walter Lewin
+- **Understanding Physics** — Isaac Asimov
 - **Six Easy Pieces** — Richard Feynman
 - **The Character of Physical Laws** — Richard Feynman
+- **The Mechanical Universe** — David Goodstein
 - **Mathematics and the Physical World** — Morris Kline
 - **Teach Yourself Physics** — Jakob Schwichtenberg
 - **Fundamentals of Physics** — Ramamurti Shankar — [video](https://archive.org/details/yale-phys200-fundamentals-of-physics)
 
 ### Intermediate
 
+- **Six Not-So-Easy Pieces** — Richard Feynman
 - **An Introduction to Mechanics** — Daniel Kleppner, Robert Kolenkow
 - **Introduction to Electrodynamics** — David J. Griffiths
 - **Introduction to Quantum Mechanics** — David J. Griffiths
 - **An Introduction to Thermal Physics** — Daniel V. Schroeder
-- **Six Not-So-Easy Pieces** — Richard Feynman
 - **Classical Mechanics** — IIT Madras — [video](https://archive.org/details/iit-madras-classical-physics)
 - **Quantum Mechanics** — IIT Madras — [video](https://archive.org/details/iit-madras-quantum-physics)
 
 ### Advanced
 
-- **The Variational Principles of Mechanics** — Cornelius Lanczos
 - **Theoretical Minimum** — Leonard Susskind — [site](https://theoreticalminimum.com/)
 - **The Feynman Lectures on Physics** — Richard Feynman, Robert B. Leighton, Matthew Sands
+- **The Variational Principles of Mechanics** — Cornelius Lanczos
 - **Course of Theoretical Physics** — Vladimir Berestetskii, Lev Landau, Evgeny Lifshitz, Lev Pitaevskii
 - **The Road to Reality** — Roger Penrose
 - **The Emperor's New Mind** — Roger Penrose
-- **The Principia** — Isaac Newton
 - **Truth and Beauty** — Subrahmanyan Chandrasekhar
 - **The Relation Between Mathematics and Physics** — Paul Dirac
+- **The Principia** — Isaac Newton
 
 ## 🖥️ Computer Science
 
@@ -185,11 +182,11 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 ### Theory of Computation
 
+- **Gödel, Escher, Bach** — Douglas Hofstadter
+- **Feynman Lectures on Computation** — Richard P. Feynman
 - **Introduction to Theoretical Computer Science** — Boaz Barak
 - **Introduction to the Theory of Computation** — Michael Sipser — [video](https://archive.org/details/mit-18404j-theory-of-computation)
 - **Computation: Finite and Infinite Machines** — Marvin Minsky
-- **Gödel, Escher, Bach** — Douglas Hofstadter
-- **Feynman Lectures on Computation** — Richard P. Feynman
 
 ### Information Theory
 
@@ -198,8 +195,8 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 ### Cryptography
 
-- **Introduction to Modern Cryptography** — Jonathan Katz, Yehuda Lindell
 - **Understanding Cryptography** — Christof Paar — [video](https://archive.org/details/understanding-cryptography-christof-paar)
+- **Introduction to Modern Cryptography** — Jonathan Katz, Yehuda Lindell
 
 ### Programming Languages
 
@@ -215,10 +212,10 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 ### Systems
 
-- **Computer Systems: A Programmer's Perspective** — Randal E. Bryant, David R. O'Hallaron — [video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)
 - **The Unix Programming Environment** — Brian W. Kernighan, Rob Pike
-- **Advanced Programming in the Unix Environment** — W. Richard Stevens
+- **Computer Systems: A Programmer's Perspective** — Randal E. Bryant, David R. O'Hallaron — [video](https://archive.org/details/cmu-15-213-introduction-to-computer-systems)
 - **Operating Systems: Three Easy Pieces** — Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau — [video](https://archive.org/details/caltech-cs124-operating-systems)
+- **Advanced Programming in the Unix Environment** — W. Richard Stevens
 - **The Design of the Unix Operating System** — Maurice J. Bach
 - **Computer Networks: A Systems Approach** — Bruce S. Davie, Larry L. Peterson — [video](https://archive.org/details/stanford-cs144-introduction-to-computer-networking)
 - **Project Oberon** — Niklaus Wirth
@@ -242,13 +239,13 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 ### AI & Machine Learning
 
 - **Artificial Intelligence: A Guide for Thinking Humans** — Melanie Mitchell
+- **Neural Networks** — Grant Sanderson — [video](https://archive.org/details/neural-networks-grant-sanderson)
+- **Machine Learning** — Andrew Ng — [video](https://archive.org/details/machine-learning-andrew-ng)
+- **Understanding Deep Learning** — Simon J.D. Prince — [book](https://udlbook.github.io/udlbook/)
 - **Artificial Intelligence: A Modern Approach** — Peter Norvig, Stuart Russell — [video](https://archive.org/details/ucb-cs188-introduction-to-artificial-intelligence)
 - **Pattern Recognition and Machine Learning** — Christopher Bishop
 - **Deep Learning** — Yoshua Bengio, Aaron Courville, Ian Goodfellow
-- **Understanding Deep Learning** — Simon J.D. Prince — [book](https://udlbook.github.io/udlbook/)
-- **Deep Learning: Foundations and Concepts** — Christopher Bishop, Hugh Bishop — [book](https://www.bishopbook.com/)
-- **Machine Learning** — Andrew Ng — [video](https://archive.org/details/machine-learning-andrew-ng)
-- **Neural Networks** — Grant Sanderson — [video](https://archive.org/details/neural-networks-grant-sanderson)
+
 
 ### Graphics
 
@@ -256,13 +253,13 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 ### Software Engineering
 
-- **A Philosophy of Software Design** — John Ousterhout
-- **A Discipline of Programming** — Edsger W. Dijkstra
 - **The Mythical Man-Month** — Frederick P. Brooks Jr.
-- **Systematic Programming** — Niklaus Wirth
+- **The Pragmatic Programmer** — Andrew Hunt, David Thomas
 - **The Practice of Programming** — Brian W. Kernighan, Rob Pike
 - **Programming Pearls** — Jon Bentley
-- **The Pragmatic Programmer** — Andrew Hunt, David Thomas
+- **A Philosophy of Software Design** — John Ousterhout
+- **Systematic Programming** — Niklaus Wirth
+- **A Discipline of Programming** — Edsger W. Dijkstra
 - **The PhD Grind** — Philip Guo
 
 ---
