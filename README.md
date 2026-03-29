@@ -28,17 +28,17 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **What Is Calculus About?** — Walter Sawyer
 - **Calculus Made Easy** — Martin Gardner, Silvanus P. Thompson
 - **Infinite Powers** — Steven Strogatz
-- **The Essence of Calculus** — Grant Sanderson — [video](https://archive.org/details/the-essence-of-calculus-grant-sanderson)
+- **The Essence of Calculus** — Grant Sanderson
 - **Calculus: An Intuitive and Physical Approach** — Morris Kline
-- **Calculus Revisited** — Herbert Gross — [video](https://archive.org/details/calculus-revisited-herbert-gross)
-- **MIT Highlights of Calculus** — Gilbert Strang — [video](https://archive.org/details/mit-highlights-of-calculus)
+- **Calculus Revisited** — Herbert Gross
+- **MIT Highlights of Calculus** — Gilbert Strang
 - **Calculus with Analytic Geometry** — George F. Simmons — [video](https://archive.org/details/mit-1801-single-variable-calculus)
 - **Differential and Integral Calculus** — Richard Courant
 - **Calculus** — Michael Spivak
 
 ### Linear Algebra
 
-- **The Essence of Linear Algebra** — Grant Sanderson — [video](https://archive.org/details/the-essence-of-linear-algebra-grant-sanderson)
+- **The Essence of Linear Algebra** — Grant Sanderson
 - **Linear Algebra: Step by Step** — Kuldeep Singh
 - **Introduction to Applied Linear Algebra** — Stephen Boyd, Lieven Vandenberghe
 - **Lectures on Linear Algebra** — Israel Gelfand
@@ -93,7 +93,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **The Higher Arithmetic** — Harold Davenport
 - **An Introduction to the Theory of Numbers** — G.H. Hardy, E.M. Wright
 - **Introduction to Analytic Number Theory** — Tom Apostol
-- **Number Theory in the Spirit of Ramanujan** — Bruce Berndt — [video](https://archive.org/details/ucb-math115-introduction-to-number-theory)
+- **Number Theory in the Spirit of Ramanujan** — Bruce Berndt
 
 ### Topology
 
@@ -128,7 +128,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 ### Foundations
 
 - **Why Is It So?** — Julius Sumner Miller
-- **Conceptual Physics** — Paul G. Hewitt — [site](https://www.conceptualphysics.com/)
+- **Conceptual Physics** — Paul G. Hewitt
 - **For the Love of Physics** — Walter Lewin
 - **Understanding Physics** — Isaac Asimov
 - **Six Easy Pieces** — Richard Feynman
@@ -136,7 +136,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **The Mechanical Universe** — David Goodstein
 - **Mathematics and the Physical World** — Morris Kline
 - **Teach Yourself Physics** — Jakob Schwichtenberg
-- **Fundamentals of Physics** — Ramamurti Shankar — [video](https://archive.org/details/yale-phys200-fundamentals-of-physics)
+- **Fundamentals of Physics** — Ramamurti Shankar
 
 ### Intermediate
 
@@ -145,8 +145,8 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **Introduction to Electrodynamics** — David J. Griffiths
 - **Introduction to Quantum Mechanics** — David J. Griffiths
 - **An Introduction to Thermal Physics** — Daniel V. Schroeder
-- **Classical Mechanics** — IIT Madras — [video](https://archive.org/details/iit-madras-classical-physics)
-- **Quantum Mechanics** — IIT Madras — [video](https://archive.org/details/iit-madras-quantum-physics)
+- **Classical Mechanics** — IIT Madras
+- **Quantum Mechanics** — IIT Madras
 
 ### Advanced
 
@@ -166,7 +166,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 - **Code** — Charles Petzold
 - **Computer Science: An Interdisciplinary Approach** — Robert Sedgewick, Kevin Wayne
-- **The Elements of Computing Systems** — Noam Nisan, Shimon Schocken — [video](https://archive.org/details/coursera-from-nand-to-tetris)
+- **The Elements of Computing Systems** — Noam Nisan, Shimon Schocken
 - **Structure and Interpretation of Computer Programs** — Harold Abelson, Gerald Jay Sussman — [video](https://archive.org/details/mit-6001-structure-and-interpretation-of-computer-programs)
 
 ### Computer Architecture
@@ -195,7 +195,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 ### Cryptography
 
-- **Understanding Cryptography** — Christof Paar — [video](https://archive.org/details/understanding-cryptography-christof-paar)
+- **Understanding Cryptography** — Christof Paar
 - **Introduction to Modern Cryptography** — Jonathan Katz, Yehuda Lindell
 
 ### Programming Languages
@@ -239,10 +239,10 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 ### AI & Machine Learning
 
 - **Artificial Intelligence: A Guide for Thinking Humans** — Melanie Mitchell
-- **Neural Networks** — Grant Sanderson — [video](https://archive.org/details/neural-networks-grant-sanderson)
-- **Machine Learning** — Andrew Ng — [video](https://archive.org/details/machine-learning-andrew-ng)
+- **Neural Networks** — Grant Sanderson
+- **Machine Learning** — Andrew Ng
 - **Understanding Deep Learning** — Simon J.D. Prince — [book](https://udlbook.github.io/udlbook/)
-- **Artificial Intelligence: A Modern Approach** — Peter Norvig, Stuart Russell — [video](https://archive.org/details/ucb-cs188-introduction-to-artificial-intelligence)
+- **Artificial Intelligence: A Modern Approach** — Peter Norvig, Stuart Russell
 - **Pattern Recognition and Machine Learning** — Christopher Bishop
 - **Deep Learning** — Yoshua Bengio, Aaron Courville, Ian Goodfellow
 
