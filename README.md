@@ -264,6 +264,11 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 ---
 
-Many titles are published by **[Princeton University Press](https://press.princeton.edu/)**.
+Many titles are published by:
+
+- **[Cambridge University Press](https://www.cambridge.org/)**
+- **[Dover Publications](https://doverpublications.com/)**
+- **[MIT Press](https://mitpress.mit.edu/)**
+- **[Princeton University Press](https://press.princeton.edu/)**
 
 If useful, consider supporting [Internet Archive](https://archive.org/donate).
