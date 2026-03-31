@@ -23,6 +23,11 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **Elements of Mathematics: From Euclid to Gödel** — John Stillwell
 - **Mathematics and its History** — John Stillwell
 
+### Proofs
+
+- **Book of Proof** — Richard Hammack
+- **Proofs from THE BOOK** — Martin Aigner, Günter M. Ziegler
+
 ### Calculus
 
 - **What Is Calculus About?** — Walter Sawyer
@@ -49,6 +54,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 ### Differential Equations
 
 - **Ordinary Differential Equations** — Harry Pollard, Morris Tenenbaum
+- **Ordinary Differential Equations** — Vladimir Arnold
 
 ### Discrete Math & Combinatorics
 
@@ -61,16 +67,12 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 - **Introduction to Probability** — Joseph K. Blitzstein, Jessica Hwang — [video](https://archive.org/details/harvard-stat110-probability)
 
-### Proofs
-
-- **Book of Proof** — Richard Hammack
-- **Proofs from THE BOOK** — Martin Aigner, Günter M. Ziegler
-
 ### Real Analysis
 
 - **Understanding Analysis** — Stephen Abbott
 - **Principles of Mathematical Analysis** — Walter Rudin
 - **Real Mathematical Analysis** — Charles C. Pugh
+- **Princeton Lectures in Analysis** (4 vols) — Elias M. Stein, Rami Shakarchi
 
 ### Complex Analysis
 
@@ -80,7 +82,6 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 ### Functional Analysis
 
 - **Introductory Functional Analysis with Applications** — Erwin Kreyszig
-- **Functional Analysis** — Elias M. Stein, Rami Shakarchi
 
 ### Abstract Algebra
 
@@ -99,6 +100,10 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 - **Topology Illustrated** — Peter Saveliev
 - **Topology** — James Munkres
+
+### Differential Geometry
+
+- **Visual Differential Geometry and Forms** — Tristan Needham
 
 ### Problem Solving
 
@@ -187,6 +192,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **Introduction to Theoretical Computer Science** — Boaz Barak
 - **Introduction to the Theory of Computation** — Michael Sipser — [video](https://archive.org/details/mit-18404j-theory-of-computation)
 - **Computation: Finite and Infinite Machines** — Marvin Minsky
+- **The Nature of Computation** — Cristopher Moore, Stephan Mertens
 
 ### Information Theory
 
