@@ -42,6 +42,7 @@ goal: theory of computation, information theory, ai/ml — foundations of the fi
 5. CMU 15-251 — Great Theoretical Ideas in Computer Science
 6. **Mathematics and Computation** — Avi Wigderson — complexity theory
 7. **Computation: Finite and Infinite Machines** — Marvin Minsky
+8. **Post's Machine** — Vladimir Uspensky
 8. **Gödel, Escher, Bach** — Douglas Hofstadter — incompleteness, self-reference, consciousness
 9. **The Emperor's New Mind** — Roger Penrose — computation, physics and the mind; read alongside GEB
 10. **The Nature of Computation** — Cristopher Moore & Stephan Mertens — comprehensive complexity
