@@ -1,137 +1,145 @@
-# cs/path
+# Path to Theoretical Computer Science
 
-goal: foundations of cs, strong in toc, aiml, it
+goal: theory of computation, information theory, ai/ml — foundations of the field
 
 ---
 
-## phase 0 — prerequisites (math/)
+## Stage 0 — Mathematical Prerequisites
 
-| goal | resource |
+| area | resource |
 |------|----------|
-| toc  | math/dm — discrete math (sets, combinatorics, proofs) |
-| toc  | math/logic — propositional + predicate logic |
-| aiml | math/la — linear algebra (axler, sanderson) |
-| aiml | math/prob, math/stat — probability + statistics |
-| aiml | math/calc — calculus (for backprop) |
+| toc  | Discrete Mathematics and Its Applications — Rosen (or math path stage 3) |
+| toc  | Logic — propositional + predicate |
+| aiml | Linear Algebra Done Right — Axler / The Essence of Linear Algebra — Sanderson |
+| aiml | Introduction to Probability — Blitzstein & Hwang |
+| aiml | Calculus — Spivak (or math path) |
 
 ---
 
-## phase 1 — foundations (cs/elem)
+## Stage 1 — Foundations of Computing
 
-1. code-charles-petzold
-2. coursera-from-nand-to-tetris + the-elements-of-computing-systems-nisan-schocken
-3. structure-and-interpretation-of-computer-programs-abelson-sussman + mit-6001-sicp
-4. computer-science-an-interdisciplinary-approach-sedgewick
-
----
-
-## phase 2 — algorithms (cs/algo)
-
-1. mit-6006-introduction-to-algorithms
-2. algorithm-and-data-structures-niklaus-wirth
-3. the-art-of-computer-programming-donald-knuth (reference)
+1. **Code** — Charles Petzold
+2. **The Elements of Computing Systems** — Nisan & Schocken + Nand to Tetris course
+3. **Structure and Interpretation of Computer Programs** — Abelson & Sussman + MIT 6001
+4. **Computer Science: An Interdisciplinary Approach** — Sedgewick & Wayne
 
 ---
 
-## phase 3a — theory of computation (cs/toc)
+## Stage 2 — Algorithms
 
-1. annotated-turing-charles-petzold
-2. introduction-to-the-theory-of-computation-michael-sipser
-3. mit-18404j-theory-of-computation
-4. introduction-to-theoretical-computer-science-boaz-barak
-5. cmu-15-251-great-theoretical-ideas-in-computer-science
-6. mathematics-and-computation-avi-wigderson
-7. computation-finite-and-infinite-machines-marvin-minsky
-8. godel-escher-bach-douglas-hofstadter
-9. the-nature-of-computation-moore-mertens
-10. on-computable-numbers-alan-turing (primary source)
+1. **Introduction to Algorithms** — Cormen, Leiserson, Rivest & Stein + MIT 6006
+2. **Algorithms and Data Structures** — Niklaus Wirth
+3. **The Art of Computer Programming** — Donald Knuth (reference)
+
+---
+
+## Stage 3a — Theory of Computation
+
+1. **The Annotated Turing** — Charles Petzold — guided reading of the original paper
+2. **Introduction to the Theory of Computation** — Michael Sipser
+3. MIT 18404J — Theory of Computation (Sipser's own course)
+4. **Introduction to Theoretical Computer Science** — Boaz Barak — free, modern, complements Sipser
+5. CMU 15-251 — Great Theoretical Ideas in Computer Science
+6. **Mathematics and Computation** — Avi Wigderson — complexity theory
+7. **Computation: Finite and Infinite Machines** — Marvin Minsky
+8. **Gödel, Escher, Bach** — Douglas Hofstadter — incompleteness, self-reference, consciousness
+9. **The Nature of Computation** — Cristopher Moore & Stephan Mertens — comprehensive complexity
+10. **On Computable Numbers** — Alan Turing (primary source, 1936)
 
 talks:
-- what-is-computation-leslie-lamport
-- beyond-computation-the-p-vs-np-problem-michael-sipser
-- hardware-software-and-heuristics-richard-feynman
-- feynman-and-computation-tony-hey
-- alan-turing-a-tcs-role-model-avi-wigderson
-- algebra-logic-geometry-at-the-foundation-of-cs-car-hoare
-- algorithms-complexity-and-the-art-of-computer-programming-donald-knuth
-- churchs-coincidences-philip-wadler
-- lambda-calculus-david-beazley
-- lambda-calculus-then-and-now-dana-scott
-- lambda-calculus-vs-turing-machines-advait-shinde
-- what-is-computability-joel-david-hamkins
-- turing-godel-and-church-at-princeton-andrew-appel
-- programming-the-turing-machine-barbara-liskov
-- we-really-dont-know-how-to-compute-gerry-sussman
+- What Is Computation — Leslie Lamport
+- Beyond Computation: The P vs NP Problem — Michael Sipser
+- Hardware, Software and Heuristics — Richard Feynman
+- Feynman and Computation — Tony Hey
+- Alan Turing: A TCS Role Model — Avi Wigderson
+- Algebra, Logic, Geometry at the Foundation of CS — C.A.R. Hoare
+- Algorithms, Complexity and TAOCP — Donald Knuth
+- Church's Coincidences — Philip Wadler
+- Lambda Calculus — David Beazley
+- Lambda Calculus Then and Now — Dana Scott
+- Lambda Calculus vs Turing Machines — Advait Shinde
+- What Is Computability? — Joel David Hamkins
+- Turing, Gödel and Church at Princeton — Andrew Appel
+- Programming the Turing Machine — Barbara Liskov
+- We Really Don't Know How to Compute — Gerald Sussman
 
 biographical:
-- george-boole-madhu-sudhan
-- turing-the-man-acm
-- turing-pioneer-of-the-information-age-jack-copeland
-- the-turing-computational-model-acm
-- celebrating-emil-post-stephen-wolfram
-- open-texture-computability-and-churchs-thesis-stewart-shapiro
-- who-is-the-human-computer-oron-shagrir
-- computable-real-numbers-edmund-clarke
+- George Boole — Madhu Sudan
+- Turing: The Man — ACM
+- Turing, Pioneer of the Information Age — Jack Copeland
+- Celebrating Emil Post — Stephen Wolfram
+- Open Texture, Computability and Church's Thesis — Stewart Shapiro
+- Who Is the Human Computer in Turing's Analysis? — Oron Shagrir
 
 ---
 
-## phase 3b — aiml (cs/aiml)
+## Stage 3b — AI & Machine Learning
 
-1. ucb-cs188-introduction-to-artificial-intelligence
-2. machine-learning-andrew-ng
-3. hands-on-machine-learning-with-scikit-learn-keras-tensorflow-aurelien-geron
-4. neural-networks-grant-sanderson
-5. introduction-to-neural-networks-and-backpropagation-building-micrograd-andrej-karpathy
-6. deep-learning-andrew-ng + deep-learning-goodfellow-bengio-courville
-7. introduction-to-language-modeling-building-makemore-andrej-karpathy
-8. lets-build-llm-from-scratch-andrej-karpathy
-9. the-annotated-transformer-alexander-rush
-10. deep-dive-into-llms-like-chatgpt-andrej-karpathy
-11. build-a-large-language-model-from-scratch-sebastian-raschka
-12. probabilistic-graphical-models-koller-and-friedman
-13. artificial-intelligence-a-guide-for-thinking-humans-melanie-mitchell
+1. UCB CS188 — Introduction to Artificial Intelligence (Russell & Norvig textbook)
+2. **Machine Learning** — Andrew Ng (course)
+3. **Hands-On Machine Learning** — Aurélien Géron
+4. **Neural Networks** — Grant Sanderson
+5. Neural Networks and Backpropagation: Building Micrograd — Andrej Karpathy
+6. **Deep Learning** — Andrew Ng (course) + **Deep Learning** — Goodfellow, Bengio & Courville
+7. Language Modeling: Building Makemore — Andrej Karpathy
+8. Building an LLM from Scratch — Andrej Karpathy
+9. **The Annotated Transformer** — Alexander Rush
+10. Deep Dive into LLMs — Andrej Karpathy
+11. **Build a Large Language Model from Scratch** — Sebastian Raschka
+12. **Probabilistic Graphical Models** — Koller & Friedman
+13. **Artificial Intelligence: A Guide for Thinking Humans** — Melanie Mitchell
 
 talks:
-- how-neural-networks-learned-to-talk-art-of-the-problem
-- introduction-to-large-language-models-andrej-karpathy
-- introduction-to-neural-networks-and-backpropagation-building-micrograd-andrej-karpathy
-- the-long-story-of-how-neural-nets-got-to-where-they-are-terry-sejnowski
-- what-is-chatgpt-doing-and-why-does-it-work-stephen-wolfram
-- programs-with-common-sense-john-mccarthy (historical)
-- the-master-algorithm-pedro-domingos
+- How Neural Networks Learned to Talk — Art of the Problem
+- Introduction to Large Language Models — Andrej Karpathy
+- The Long Story of How Neural Nets Got Here — Terry Sejnowski
+- What Is ChatGPT Doing? — Stephen Wolfram
+- Programs with Common Sense — John McCarthy (1958, historical)
+- The Master Algorithm — Pedro Domingos
 
 ---
 
-## phase 3c — information theory (cs/it)
+## Stage 3c — Information Theory
 
-it bridges toc (kolmogorov complexity) and aiml (cross-entropy, kl divergence)
+information theory bridges toc (kolmogorov complexity) and aiml (cross-entropy, kl divergence)
 
-1. the-information-james-gleick
-2. mathematical-theory-of-communication-claude-shannon
-3. a-symbolic-analysis-of-relay-claude-shannon
-4. an-introduction-to-information-theory-john-pierce
-5. elements-of-information-theory-cover-thomas
-6. information-theory-inference-and-learning-algorithms-david-mackay
+1. **The Information** — James Gleick — accessible narrative; read this first
+2. **A Mathematical Theory of Communication** — Claude Shannon (1948)
+3. **A Symbolic Analysis of Relay and Switching Circuits** — Claude Shannon (master's thesis, 1937)
+4. **An Introduction to Information Theory** — John Pierce
+5. **Elements of Information Theory** — Cover & Thomas
+6. **Information Theory, Inference, and Learning Algorithms** — David MacKay
 
 talks:
-- introduction-to-information-theory-ryan-adams
+- Introduction to Information Theory — Ryan Adams
 
 ---
 
-## map
+## Map
 
-    math/dm + math/logic
+    prerequisites (discrete math, logic, linear algebra, probability)
             |
-    cs/elem (petzold -> nand2tetris -> sicp)
+    stage 1: foundations (petzold → nand2tetris → sicp)
             |
-    cs/algo (mit-6006 -> knuth)
+    stage 2: algorithms (clrs + mit 6006 → knuth)
             |
         +---+-------------------+
         |                       |
-    cs/toc (sipser -> mit18404j)  math/la + math/prob
-        |                       |
-    cs/it (shannon -> mackay) -> cs/aiml (cs188 -> ng -> karpathy)
+    stage 3a: toc            prereqs: la + prob
+    (sipser → mit 18404j)       |
+        |                       ↓
+    stage 3c: it ──────────→ stage 3b: aiml
+    (shannon → mackay)      (cs188 → ng → karpathy)
         |                       |
         +-----------+-----------+
                     |
               geb + wigderson
+
+---
+
+## Notes
+
+- Do stage 3c alongside or between 3a and 3b — information theory bridges both.
+- GEB is best read after Sipser — the incompleteness results land differently once you know the formal machinery.
+- Shannon's 1948 paper is short and readable; the master's thesis shows the Boolean algebra connection.
+- CS188 before neural networks — gives the full classical AI picture first.
