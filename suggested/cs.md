@@ -44,9 +44,9 @@ goal: theory of computation, information theory, ai/ml — foundations of the fi
 7. **Computation: Finite and Infinite Machines** — Marvin Minsky
 8. **Post's Machine** — Vladimir Uspensky
 9. **Gödel, Escher, Bach** — Douglas Hofstadter — incompleteness, self-reference, consciousness
-9. **The Emperor's New Mind** — Roger Penrose — computation, physics and the mind; read alongside GEB
-10. **The Nature of Computation** — Cristopher Moore & Stephan Mertens — comprehensive complexity
-10. **On Computable Numbers** — Alan Turing (primary source, 1936)
+10. **The Emperor's New Mind** — Roger Penrose — computation, physics and the mind; read alongside GEB
+11. **The Nature of Computation** — Cristopher Moore & Stephan Mertens — comprehensive complexity
+12. **On Computable Numbers** — Alan Turing (primary source, 1936)
 
 talks:
 - What Is Computation — Leslie Lamport
