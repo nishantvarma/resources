@@ -1,4 +1,4 @@
-Curated resources for mathematics, physics, computer science. See [tree](tree), [misc](misc.md).
+Curated resources for mathematics, physics, computer science. See [tree](tree), [misc](misc.md), [suggested/math](suggested/math.md), [suggested/cs](suggested/cs.md).
 
 ## 📚 Learning
 
