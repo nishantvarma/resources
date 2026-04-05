@@ -88,6 +88,8 @@ goal: analysis, number theory, algebra — classical foundations
 - **A Passage to Infinity** — George Joseph — Kerala mathematics and its precalculus tradition
 - **Lilavati of Bhaskaracarya** — medieval Indian mathematics, primary source
 - **Journey Through Genius** — William Dunham — great theorems told as stories
+- **The Calculus Gallery** — William Dunham — masterpieces from Newton to Lebesgue; shows the actual humans struggling with the ideas
+- **Infinite Powers** — Steven Strogatz — narrative arc of how calculus was built and why; strong on intuition and motivation
 - **Euler: The Master of Us All** — William Dunham
 - **Fermat's Last Theorem** — Simon Singh — shows why all this matters
 - **Hilbert** — Constance Reid
