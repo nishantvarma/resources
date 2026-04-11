@@ -36,17 +36,18 @@ goal: theory of computation, information theory, ai/ml — foundations of the fi
 ## Stage 3a — Theory of Computation
 
 1. **The Annotated Turing** — Charles Petzold — guided reading of the original paper
-2. **Introduction to the Theory of Computation** — Michael Sipser
-3. MIT 18404J — Theory of Computation (Sipser's own course)
-4. **Introduction to Theoretical Computer Science** — Boaz Barak — free, modern, complements Sipser
-5. CMU 15-251 — Great Theoretical Ideas in Computer Science
-6. **Mathematics and Computation** — Avi Wigderson — complexity theory
-7. **Computation: Finite and Infinite Machines** — Marvin Minsky
-8. **Post's Machine** — Vladimir Uspensky
-9. **Gödel, Escher, Bach** — Douglas Hofstadter — incompleteness, self-reference, consciousness
-10. **The Emperor's New Mind** — Roger Penrose — computation, physics and the mind; read alongside GEB
-11. **The Nature of Computation** — Cristopher Moore & Stephan Mertens — comprehensive complexity
-12. **On Computable Numbers** — Alan Turing (primary source, 1936)
+2. **Alan Turing's Systems of Logic** — Andrew Appel (ed.) — annotated Princeton thesis, 1938
+3. **Introduction to the Theory of Computation** — Michael Sipser
+4. MIT 18404J — Theory of Computation (Sipser's own course)
+5. **Introduction to Theoretical Computer Science** — Boaz Barak — free, modern, complements Sipser
+6. CMU 15-251 — Great Theoretical Ideas in Computer Science
+7. **Mathematics and Computation** — Avi Wigderson — complexity theory
+8. **Computation: Finite and Infinite Machines** — Marvin Minsky
+9. **Post's Machine** — Vladimir Uspensky
+10. **Gödel, Escher, Bach** — Douglas Hofstadter — incompleteness, self-reference, consciousness
+11. **The Emperor's New Mind** — Roger Penrose — computation, physics and the mind; read alongside GEB
+12. **The Nature of Computation** — Cristopher Moore & Stephan Mertens — comprehensive complexity
+13. **On Computable Numbers** — Alan Turing (primary source, 1936)
 
 talks:
 - What Is Computation — Leslie Lamport
