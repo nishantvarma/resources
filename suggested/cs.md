@@ -92,6 +92,10 @@ biographical:
 12. **Probabilistic Graphical Models** — Koller & Friedman
 13. **Artificial Intelligence: A Guide for Thinking Humans** — Melanie Mitchell
 
+primary sources:
+- **Perceptrons** — Minsky & Papert (1969) — foundational critique of single-layer networks; motivated the push toward multi-layer architectures
+- **Learning Representations by Back-Propagating Errors** — Rumelhart, Hinton & Williams (1986) — the paper that established backprop for multi-layer networks
+
 talks:
 - How Neural Networks Learned to Talk — Art of the Problem
 - Introduction to Large Language Models — Andrej Karpathy
