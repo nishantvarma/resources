@@ -48,24 +48,25 @@ goal: analysis, number theory, algebra — classical foundations
 25. **Real Mathematical Analysis** — Charles Pugh — more geometric than Rudin
 26. **Mathematical Analysis** — Tom Apostol — rigorous real analysis with metric spaces; bridges Pugh to analytic number theory
 27. **Visual Complex Analysis** — Tristan Needham — complex analysis with geometric intuition
-28. **Introduction to Analytic Number Theory** — Tom Apostol
-29. **Analytic Number Theory: Exploring the Anatomy of Integers** — de Koninck & Luca
-30. **An Introduction to the Theory of Infinite Series** — Bromwich
-31. **Inequalities** — Hardy, Littlewood & Pólya
-32. **Gamma: Exploring Euler's Constant** — Julian Havil — readable and beautiful
-33. **A Course of Modern Analysis** — Whittaker & Watson — the classical reference; gateway to advanced work
+28. **A Primer of Analytic Number Theory** — Jeffrey Stopple — gentler entry; from Pythagoras to Riemann; read before Apostol
+29. **Introduction to Analytic Number Theory** — Tom Apostol
+30. **Analytic Number Theory: Exploring the Anatomy of Integers** — de Koninck & Luca
+31. **An Introduction to the Theory of Infinite Series** — Bromwich
+32. **Inequalities** — Hardy, Littlewood & Pólya
+33. **Gamma: Exploring Euler's Constant** — Julian Havil — readable and beautiful
+34. **A Course of Modern Analysis** — Whittaker & Watson — the classical reference; gateway to advanced work
 
 ---
 
 ## Stage 5 — Advanced
 
-34. **An Introduction to the Theory of Numbers** — Hardy & Wright — monograph, not textbook; read after stage 4
-35. **Disquisitiones Arithmeticae** — Gauss — number theory's founding text
-36. **Elliptic Functions and Elliptic Integrals** — Prasolov & Solovyev
-37. **The Applications of Elliptic Functions** — Greenhill — classical 19th-century treatment
-38. **Modular Functions and Dirichlet Series** — Tom Apostol
-39. **A First Course in Modular Forms** — Diamond & Shurman — standard graduate text
-40. **Modular Forms: A Classical Approach** — Cohen & Strömberg
+35. **An Introduction to the Theory of Numbers** — Hardy & Wright — monograph, not textbook; read after stage 4
+36. **Disquisitiones Arithmeticae** — Gauss — number theory's founding text
+37. **Elliptic Functions and Elliptic Integrals** — Prasolov & Solovyev
+38. **The Applications of Elliptic Functions** — Greenhill — classical 19th-century treatment
+39. **Modular Functions and Dirichlet Series** — Tom Apostol
+40. **A First Course in Modular Forms** — Diamond & Shurman — standard graduate text
+41. **Modular Forms: A Classical Approach** — Cohen & Strömberg
 
 ---
 
