@@ -94,7 +94,9 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **The Higher Arithmetic** — Harold Davenport
 - **An Introduction to the Theory of Numbers** — G.H. Hardy, E.M. Wright
 - **Introduction to Analytic Number Theory** — Tom Apostol
+- **An Introduction to the Circle Method** — M. Ram Murty
 - **Number Theory in the Spirit of Ramanujan** — Bruce Berndt
+- **Hilbert's Tenth Problem** — M. Ram Murty, Brandon Fodden
 
 ### Topology
 
@@ -272,6 +274,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 
 Many titles are published by:
 
+- **[AMS Student Mathematical Library](https://bookstore.ams.org/stml)**
 - **[Cambridge University Press](https://www.cambridge.org/)**
 - **[Dover Publications](https://doverpublications.com/)**
 - **[MIT Press](https://mitpress.mit.edu/)**
