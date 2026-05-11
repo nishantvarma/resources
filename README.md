@@ -125,6 +125,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 ### History
 
 - **Mathematical Thought from Ancient to Modern Times** — Morris Kline
+- **Prime Obsession** — John Derbyshire
 - **The Story of Proof** — John Stillwell
 - **The Crest of the Peacock** — George Joseph
 - **An Imaginary Tale: The Story of √−1** — Paul Nahin
