@@ -121,6 +121,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **Vector Calculus, Linear Algebra, and Differential Forms** — Barbara Burke Hubbard, John H. Hubbard
 - **An Infinitely Large Napkin** — Evan Chen — [book](https://venhance.github.io/napkin/Napkin.pdf)
 - **The Art of Insight in Science and Engineering** — Sanjoy Mahajan
+- **Euler's Pioneering Equation** — Robin Wilson
 
 ### History
 

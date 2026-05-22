@@ -92,6 +92,7 @@ goal: analysis, number theory, algebra — classical foundations
 - **The Calculus Gallery** — William Dunham — masterpieces from Newton to Lebesgue; shows the actual humans struggling with the ideas
 - **Infinite Powers** — Steven Strogatz — narrative arc of how calculus was built and why; strong on intuition and motivation
 - **Euler: The Master of Us All** — William Dunham
+- **Euler's Pioneering Equation** — Robin Wilson — short, accessible; the story of e^iπ+1=0
 - **Fermat's Last Theorem** — Simon Singh — shows why all this matters
 - **Hilbert** — Constance Reid
 
