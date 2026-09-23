@@ -44,6 +44,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 ### Linear Algebra
 
 - **The Essence of Linear Algebra** — Grant Sanderson
+- **MIT A Vision of Linear Algebra** — Gilbert Strang
 - **Linear Algebra: Step by Step** — Kuldeep Singh
 - **Introduction to Applied Linear Algebra** — Stephen Boyd, Lieven Vandenberghe
 - **Lectures on Linear Algebra** — Israel Gelfand
