@@ -103,5 +103,6 @@ goal: analysis, number theory, algebra — classical foundations
 - Stages 1–2 are years of solid work. Don't rush them.
 - Problem books run in parallel throughout — not sequentially.
 - Spivak is the real analysis warm-up; Abbott is the formal transition into rigorous analysis.
+- Bressoud's *A Radical Approach to Real Analysis* covers Abbott's ground through its history; read it in place of or beside Abbott.
 - Whittaker & Watson is the bridge from analysis to advanced number theory.
 - Hardy & Wright and Gauss are not textbooks — read them after stage 4.

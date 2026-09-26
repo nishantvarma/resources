@@ -35,6 +35,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **Infinite Powers** — Steven Strogatz
 - **The Essence of Calculus** — Grant Sanderson
 - **Calculus: An Intuitive and Physical Approach** — Morris Kline
+- **Calculus Reordered** — David M. Bressoud
 - **Calculus Revisited** — Herbert Gross
 - **MIT Highlights of Calculus** — Gilbert Strang
 - **Calculus with Analytic Geometry** — George F. Simmons — [video](https://archive.org/details/mit-1801-single-variable-calculus)
@@ -71,6 +72,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 ### Real Analysis
 
 - **Understanding Analysis** — Stephen Abbott
+- **A Radical Approach to Real Analysis** — David M. Bressoud
 - **Principles of Mathematical Analysis** — Walter Rudin
 - **Real Mathematical Analysis** — Charles C. Pugh
 - **Princeton Lectures in Analysis** (4 vols) — Elias M. Stein, Rami Shakarchi
