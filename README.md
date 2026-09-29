@@ -64,6 +64,7 @@ Curated resources for mathematics, physics, computer science. See [tree](tree), 
 - **Principles and Techniques in Combinatorics** — Chen Chuan-Chong, Koh Khee-Meng
 - **Concrete Mathematics** — Ronald Graham, Donald Knuth, Oren Patashnik
 - **Generatingfunctionology** — Herbert Wilf
+- **Proofs and Confirmations** — David M. Bressoud
 
 ### Probability & Statistics
 
