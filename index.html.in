@@ -1,0 +1,301 @@
+<!doctype html>
+<!-- resources as a bookshelf: fm's pane over the repo. mkindex fills the
+     library below from the .md files and writes index.html; edit this, not
+     that.
+
+     pane     one folder at a time, numbered rows, a cursor remembered per
+              folder by the name under it
+     folder   a shelf, a row on it, or a folder of shelf/. with a path its
+              stages come first, then the folder's names under a rule
+     entry    a row of a stage. l opens the book it names
+     preview  beside the pane: the row under the cursor, unfolded — a
+              stage's entries, a folder's path or listing, a book's cover
+     open     l on a book: the preview is the viewer. f full width, esc back
+     header   where you are, then path t/n
+     keys     j k ↑ ↓, l → in or open, h ← up, x tick, f full width, esc close
+     library  { root, disk, paths, pages } — the shape is mkindex's header -->
+<html lang="en">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>resources</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --paper: light-dark(#ffffff, #0f0f0f);
+    --panel: light-dark(#f4f4f3, #1a1a1a);
+    --ink: light-dark(#0a0a0a, #f2f2f2);
+    --muted: light-dark(#6b6b6b, #8f8f8f);
+    --rule: light-dark(#e5e5e5, #262626);
+    --accent: light-dark(#1f4fd8, #7b97ff);
+    --sans: 'Ubuntu Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --serif: Charter, 'Bitstream Charter', Georgia, serif;
+    --mono: 'Ubuntu Sans Mono', 'SF Mono', Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    block-size: 100dvh;
+    display: grid;
+    grid-template: auto minmax(0, 1fr) auto / minmax(0, 26rem) minmax(0, 1fr);
+    background: var(--paper);
+    color: var(--ink);
+    font: 0.9375rem/1.5 var(--sans);
+  }
+  body.wide { grid-template-columns: 0 minmax(0, 1fr); }
+  header, footer {
+    grid-column: 1 / -1;
+    padding: 0.5rem 1rem;
+    border-block-end: 1px solid var(--rule);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  header b { font-weight: 600; }
+  footer { border: 0; border-block-start: 1px solid var(--rule); color: var(--muted); font-size: 0.8125rem; }
+  .muted { color: var(--muted); }
+  nav {
+    background: var(--panel);
+    border-inline-end: 1px solid var(--rule);
+    overflow: auto;
+    padding-block: 0.25rem;
+  }
+  .row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .row.at { background: color-mix(in srgb, var(--accent) 14%, transparent); }
+  .n { font: 0.75rem var(--mono); color: var(--muted); inline-size: 1.5rem; text-align: end; flex: none; }
+  .t { inline-size: 1rem; flex: none; }
+  .t input { margin: 0; }
+  .name { overflow: hidden; text-overflow: ellipsis; }
+  .dir { color: var(--accent); }
+  .sep {
+    margin: 0.4rem 1rem 0.2rem 3.1rem;
+    padding-block-start: 0.3rem;
+    border-block-start: 1px solid var(--rule);
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .count { margin-inline-start: auto; font: 0.75rem var(--mono); color: var(--muted); flex: none; }
+  main { overflow: auto; padding: 1.5rem 2rem; }
+  main h2 { margin: 0 0 0.25rem; font-size: 1.1rem; }
+  main h3 { margin: 1rem 0 0.25rem; font-size: 0.9375rem; }
+  main .line { padding-block: 0.1rem; }
+  .done { color: var(--muted); text-decoration: line-through; }
+  .open { color: var(--accent); font-size: 0.8125rem; }
+  /* a book: its cover, then its note and links */
+  .cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    inline-size: 14rem;
+    aspect-ratio: 2 / 3;
+    padding: 1.5rem 1.25rem;
+    margin-block-start: 1rem;
+    background: #f4f1ea;
+    color: #222;
+    font: 1.15rem/1.3 var(--serif);
+    border-inline-start: 0.6rem solid #8b6f47;
+    box-shadow: 0 2px 8px #0004;
+  }
+  .cover span { font-size: 0.85rem; color: #555; }
+  .links a { color: var(--accent); }
+  /* a file of shelf/: its name on a blank page, the repo holds no more */
+  .page {
+    background: #f4f1ea;
+    color: #222;
+    font: 1rem/1.6 var(--serif);
+    max-inline-size: 38rem;
+    aspect-ratio: 1 / 1.3;
+    padding: 3rem 2.5rem;
+    margin-block-start: 1rem;
+    box-shadow: 0 1px 4px #0003;
+  }
+  .page i { display: block; block-size: 0.6em; background: #d8d3c8; margin-block: 0.8em; }
+  .video { display: grid; place-items: center; background: #000; color: #fff; aspect-ratio: 16 / 9; max-inline-size: 48rem; font-size: 2.5rem; margin-block-start: 1rem; }
+  .text { font: 0.8125rem/1.5 var(--mono); white-space: pre-wrap; }
+  @media (width < 40rem) {
+    body { grid-template-columns: minmax(0, 1fr); }
+    main { display: none; }
+    body.reading nav { display: none; }
+    body.reading main { display: block; }
+  }
+</style>
+
+<header></header>
+<nav></nav>
+<main></main>
+<footer></footer>
+
+<script type="application/json" id="library">{"root": "~", "disk": {"~": []}, "paths": {}, "pages": {}}</script>
+
+<script type="module">
+  // -- data --
+  // disk: a folder is a list of names, a trailing / is a folder. paths: a
+  // folder's stages of entries. pages: a book or a text, by the path it sits at
+  const { root, disk, paths, pages } = JSON.parse(document.getElementById('library').textContent);
+
+  // -- state --
+  // where: a folder, and in a path folder the stage you are in. pos: the
+  // name under the cursor, per place
+  let cwd = root, stage = null, open = null, msg = '';
+  const pos = new Map();
+  const done = new Set();
+
+  const join = (dir, rel) => {
+    const out = dir.split('/');
+    for (const p of rel.split('/')) p === '..' ? out.pop() : p && p !== '.' && out.push(p);
+    return out.join('/');
+  };
+  const isdir = p => p in disk;
+  const base = p => p.slice(p.lastIndexOf('/') + 1);
+
+  // a row is one kind of thing whichever the folder: { name, kind, to }
+  // kind is dir, file, stage or entry; to is the path a dir or file is at.
+  // a folder is its stages, if it has a path, then its names
+  function rowsOf(dir, s) {
+    const path = paths[dir];
+    if (path && s != null)
+      return path[s].entries.map(e => ({ ...e, kind: 'entry', to: join(dir, e.file), key: `${dir}#${s}/${e.name}` }));
+    const stages = (path ?? []).map((st, i) => ({ name: st.name, kind: 'stage', s: i }));
+    const files = (disk[dir] ?? []).map(n => {
+      const name = n.replace(/\/$/, '');
+      return { name, kind: n.endsWith('/') ? 'dir' : 'file', to: join(dir, name) };
+    });
+    if (stages.length && files.length) files[0].sep = true;
+    return [...stages, ...files];
+  }
+  const place = () => `${cwd}#${stage ?? ''}`;
+  const rows = () => rowsOf(cwd, stage);
+  const idx = () => Math.max(0, rows().findIndex(r => r.name === pos.get(place())));
+  const go = i => pos.set(place(), rows()[Math.max(0, Math.min(rows().length - 1, i))]?.name);
+
+  // t/n: the entries ticked under a folder or a stage
+  function tally(dir, s) {
+    const path = paths[dir];
+    if (!path) return [0, 0];
+    const keys = (s == null ? path.map((_, i) => i) : [s])
+      .flatMap(i => path[i].entries.map(e => `${dir}#${i}/${e.name}`));
+    return [keys.filter(k => done.has(k)).length, keys.length];
+  }
+
+  // -- draw --
+  const esc = s => s.replace(/[&<>"]/g, c => `&${{ '&': 'amp', '<': 'lt', '>': 'gt', '"': 'quot' }[c]};`);
+  const $ = q => document.querySelector(q);
+  function draw() {
+    const r = rows(), at = idx(), cur = r[at];
+    const [t, a] = tally(cwd, stage);
+    const where = stage == null ? cwd : `${cwd} / ${paths[cwd][stage].name}`;
+    $('header').innerHTML = `<b>${esc(where)}</b>` + (a ? `<span class="muted">  path ${t}/${a}</span>` : '');
+    $('nav').innerHTML = r.map((row, i) => {
+      const tick = row.kind === 'entry' ? `<input type="checkbox"${done.has(row.key) ? ' checked' : ''} tabindex="-1">` : '';
+      const [ct, ca] = row.kind === 'stage' ? tally(cwd, row.s) : row.kind === 'dir' ? tally(row.to) : [0, 0];
+      const cls = (row.kind === 'dir' || row.kind === 'stage' ? ' dir' : '') + (done.has(row.key) ? ' done' : '');
+      return (row.sep ? '<div class="sep">shelf</div>' : '') +
+        `<div class="row${i === at ? ' at' : ''}" data-i="${i}">` +
+        `<span class="n">${i + 1}</span><span class="t">${tick}</span>` +
+        `<span class="name${cls}">${esc(row.name)}${row.kind === 'dir' ? '/' : ''}</span>` +
+        (ca ? `<span class="count">${ct}/${ca}</span>` : '') + '</div>';
+    }).join('') || '<div class="row muted">empty</div>';
+    // drawn again only if it changed: a tick or a step that lands on the
+    // same book must not reset its scroll
+    const html = open ? `<div class="open">open</div>${page(open)}` : cur ? preview(cur) : '';
+    if (html !== $('main').dataset.html) $('main').innerHTML = $('main').dataset.html = html;
+    document.body.classList.toggle('reading', !!open);
+    $('footer').textContent = msg || cur?.note || cur?.to || '';
+    msg = '';
+  }
+
+  // the row under the cursor, unfolded
+  function preview(row) {
+    if (row.kind === 'stage') return stagePreview(cwd, row.s);
+    const to = row.to;
+    if (!isdir(to)) return page(to);
+    if (paths[to]) {
+      const [t, a] = tally(to);
+      return `<h2>${esc(base(to))}</h2><div class="muted">path ${t}/${a}</div>` +
+        paths[to].map((_, s) => stagePreview(to, s, 'h3')).join('');
+    }
+    return `<h2>${esc(base(to))}/</h2>` + disk[to].map(n => `<div class="line${n.endsWith('/') ? ' dir' : ''}">${esc(n)}</div>`).join('');
+  }
+  function stagePreview(dir, s, h = 'h2') {
+    const st = paths[dir][s];
+    return `<${h}>${esc(st.name)} <span class="muted">${tally(dir, s).join('/')}</span></${h}>` +
+      st.entries.map(e => {
+        const x = done.has(`${dir}#${s}/${e.name}`);
+        return `<div class="line${x ? ' done' : ''}">${x ? '✓' : '·'} ${esc(e.name)}</div>`;
+      }).join('');
+  }
+  function page(to) {
+    if (isdir(to)) return preview({ kind: 'dir', to });
+    const p = pages[to];
+    if (p?.text != null) return `<h2>${esc(p.title)}</h2><div class="text">${esc(p.text)}</div>`;
+    if (p) {
+      const links = p.links.map(([label, url]) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>`);
+      return `<div class="cover"><b>${esc(p.title)}</b><span>${esc(p.by)}</span></div>` +
+        (p.note ? `<p>${esc(p.note)}</p>` : '') + `<p class="links">${links.join(' · ')}</p>`;
+    }
+    const n = base(to);
+    if (/\.(mp4|mp3)$/.test(n)) return `<h2>${esc(n)}</h2><div class="video">▶</div>`;
+    return `<h2>${esc(n)}</h2><div class="page"><b>${esc(n.replace(/\.\w+$/, '').replace(/-/g, ' '))}</b>${'<i></i>'.repeat(16)}</div>`;
+  }
+
+  // -- keys --
+  function cd(dir, land) {
+    cwd = dir;
+    stage = null;
+    if (land) pos.set(place(), land);
+  }
+  function enter() {
+    const row = rows()[idx()];
+    if (!row) return;
+    if (row.kind === 'stage') return void (stage = row.s);
+    if (isdir(row.to)) return cd(row.to);
+    open = row.to;
+  }
+  function up() {
+    if (open) return void (open = null);
+    if (stage != null) {
+      pos.set(`${cwd}#`, paths[cwd][stage].name);
+      return void (stage = null);
+    }
+    if (cwd === root) return;
+    cd(cwd.slice(0, cwd.lastIndexOf('/')), base(cwd));
+  }
+  function tick() {
+    const row = rows()[idx()];
+    if (row?.kind !== 'entry') return void (msg = 'x ticks an entry — go into a stage');
+    done.has(row.key) ? done.delete(row.key) : done.add(row.key);
+    go(idx() + 1);
+  }
+  const keys = {
+    j: () => go(idx() + 1), ArrowDown: () => go(idx() + 1),
+    k: () => go(idx() - 1), ArrowUp: () => go(idx() - 1),
+    l: enter, ArrowRight: enter, Enter: enter,
+    h: up, ArrowLeft: up,
+    x: tick,
+    f: () => document.body.classList.toggle('wide'),
+    Escape: () => { open = null; document.body.classList.remove('wide'); },
+  };
+  addEventListener('keydown', e => {
+    const f = keys[e.key];
+    if (!f || e.ctrlKey || e.metaKey) return;
+    e.preventDefault();
+    f();
+    draw();
+  });
+  // the tablet: tap a row to put the cursor there, tap it again to go in
+  $('nav').addEventListener('click', e => {
+    const el = e.target.closest('.row');
+    if (!el?.dataset.i) return;
+    const i = +el.dataset.i;
+    if (e.target.matches('input')) { go(i); tick(); go(i); return draw(); }
+    i === idx() ? enter() : go(i);
+    draw();
+  });
+  draw();
+</script>
