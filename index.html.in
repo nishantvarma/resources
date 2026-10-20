@@ -1,301 +1,622 @@
 <!doctype html>
-<!-- resources as a bookshelf: fm's pane over the repo. mkindex fills the
-     library below from the .md files and writes index.html; edit this, not
-     that.
+<!-- resources as a library in tabs. mkindex fills the library below from
+     the .md files and writes index.html; edit this, not that.
 
-     pane     one folder at a time, numbered rows, a cursor remembered per
-              folder by the name under it
-     folder   a shelf, a row on it, or a folder of shelf/. with a path its
-              stages come first, then the folder's names under a rule
-     entry    a row of a stage. l opens the book it names
-     preview  beside the pane: the row under the cursor, unfolded — a
-              stage's entries, a folder's path or listing, a book's cover
-     open     l on a book: the preview is the viewer. f full width, esc back
-     header   where you are, then path t/n
-     keys     j k ↑ ↓, l → in or open, h ← up, x tick, f full width, esc close
-     library  { root, disk, paths, pages } — the shape is mkindex's header -->
+     tab      one section at a time, the one the hash names (the first if
+              none): a shelf each, then Paths, Files, Notes
+     shelf    a heading, then its rows of covers
+     cover    a book's title and author on paper. a hash of the two picks
+              its face and paper: type, not colour, tells books apart, and
+              a book always looks the same
+     paths    a path a checklist, a stage a block, numbered through; ticked
+              is read, and the counts follow
+     files    shelf/ as a tree drawn with lines, folders folded, a file by
+              its words with its extension a tag
+     notes    the prose, its markdown made html
+     open     a title clicked lifts its book into a dialog: note, links,
+              stage. x marks a path's book read, esc puts it back
+     library  { shelves, files, notes } — the shape is mkindex's header -->
 <html lang="en">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>resources</title>
-<style>
-  :root {
-    color-scheme: light dark;
-    --paper: light-dark(#ffffff, #0f0f0f);
-    --panel: light-dark(#f4f4f3, #1a1a1a);
-    --ink: light-dark(#0a0a0a, #f2f2f2);
-    --muted: light-dark(#6b6b6b, #8f8f8f);
-    --rule: light-dark(#e5e5e5, #262626);
-    --accent: light-dark(#1f4fd8, #7b97ff);
-    --sans: 'Ubuntu Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --serif: Charter, 'Bitstream Charter', Georgia, serif;
-    --mono: 'Ubuntu Sans Mono', 'SF Mono', Menlo, Consolas, monospace;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    block-size: 100dvh;
-    display: grid;
-    grid-template: auto minmax(0, 1fr) auto / minmax(0, 26rem) minmax(0, 1fr);
-    background: var(--paper);
-    color: var(--ink);
-    font: 0.9375rem/1.5 var(--sans);
-  }
-  body.wide { grid-template-columns: 0 minmax(0, 1fr); }
-  header, footer {
-    grid-column: 1 / -1;
-    padding: 0.5rem 1rem;
-    border-block-end: 1px solid var(--rule);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  header b { font-weight: 600; }
-  footer { border: 0; border-block-start: 1px solid var(--rule); color: var(--muted); font-size: 0.8125rem; }
-  .muted { color: var(--muted); }
-  nav {
-    background: var(--panel);
-    border-inline-end: 1px solid var(--rule);
-    overflow: auto;
-    padding-block: 0.25rem;
-  }
-  .row {
-    display: flex;
-    align-items: baseline;
-    gap: 0.6rem;
-    padding: 0.2rem 1rem;
-    cursor: pointer;
-    white-space: nowrap;
-  }
-  .row.at { background: color-mix(in srgb, var(--accent) 14%, transparent); }
-  .n { font: 0.75rem var(--mono); color: var(--muted); inline-size: 1.5rem; text-align: end; flex: none; }
-  .t { inline-size: 1rem; flex: none; }
-  .t input { margin: 0; }
-  .name { overflow: hidden; text-overflow: ellipsis; }
-  .dir { color: var(--accent); }
-  .sep {
-    margin: 0.4rem 1rem 0.2rem 3.1rem;
-    padding-block-start: 0.3rem;
-    border-block-start: 1px solid var(--rule);
-    font-size: 0.75rem;
-    color: var(--muted);
-  }
-  .count { margin-inline-start: auto; font: 0.75rem var(--mono); color: var(--muted); flex: none; }
-  main { overflow: auto; padding: 1.5rem 2rem; }
-  main h2 { margin: 0 0 0.25rem; font-size: 1.1rem; }
-  main h3 { margin: 1rem 0 0.25rem; font-size: 0.9375rem; }
-  main .line { padding-block: 0.1rem; }
-  .done { color: var(--muted); text-decoration: line-through; }
-  .open { color: var(--accent); font-size: 0.8125rem; }
-  /* a book: its cover, then its note and links */
-  .cover {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    inline-size: 14rem;
-    aspect-ratio: 2 / 3;
-    padding: 1.5rem 1.25rem;
-    margin-block-start: 1rem;
-    background: #f4f1ea;
-    color: #222;
-    font: 1.15rem/1.3 var(--serif);
-    border-inline-start: 0.6rem solid #8b6f47;
-    box-shadow: 0 2px 8px #0004;
-  }
-  .cover span { font-size: 0.85rem; color: #555; }
-  .links a { color: var(--accent); }
-  /* a file of shelf/: its name on a blank page, the repo holds no more */
-  .page {
-    background: #f4f1ea;
-    color: #222;
-    font: 1rem/1.6 var(--serif);
-    max-inline-size: 38rem;
-    aspect-ratio: 1 / 1.3;
-    padding: 3rem 2.5rem;
-    margin-block-start: 1rem;
-    box-shadow: 0 1px 4px #0003;
-  }
-  .page i { display: block; block-size: 0.6em; background: #d8d3c8; margin-block: 0.8em; }
-  .video { display: grid; place-items: center; background: #000; color: #fff; aspect-ratio: 16 / 9; max-inline-size: 48rem; font-size: 2.5rem; margin-block-start: 1rem; }
-  .text { font: 0.8125rem/1.5 var(--mono); white-space: pre-wrap; }
-  @media (width < 40rem) {
-    body { grid-template-columns: minmax(0, 1fr); }
-    main { display: none; }
-    body.reading nav { display: none; }
-    body.reading main { display: block; }
-  }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>resources</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --paper: light-dark(#ffffff, #0f0f0f);
+      --ink: light-dark(#0a0a0a, #f2f2f2);
+      --muted: light-dark(#6b6b6b, #8f8f8f);
+      --rule: light-dark(#e5e5e5, #262626);
+      --accent: light-dark(#1f4fd8, #7b97ff);
+      --sans: 'Ubuntu Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      --serif: Charter, 'Bitstream Charter', Georgia, serif;
+      --mono: 'Ubuntu Sans Mono', 'SF Mono', Menlo, Consolas, monospace;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      max-inline-size: 72rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+      background: var(--paper);
+      color: var(--ink);
+      font: 0.9375rem/1.5 var(--sans);
+    }
+    a {
+      color: var(--accent);
+    }
+    small {
+      margin-inline-start: 0.4rem;
+      font: 0.7rem var(--mono);
+      color: var(--muted);
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 0;
+      font: 1.4rem var(--serif);
+    }
+    h3 {
+      margin: 1.75rem 0 0.75rem;
+      font: 600 0.7rem var(--sans);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    summary {
+      list-style: none;
+      cursor: pointer;
+    }
+    summary::-webkit-details-marker {
+      display: none;
+    }
 
-<header></header>
-<nav></nav>
-<main></main>
-<footer></footer>
+    /* tabs: one section at a time, the one the hash names */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      display: flex;
+      gap: 1.25rem;
+      padding-block: 0.75rem;
+      overflow-x: auto;
+      background: var(--paper);
+      border-block-end: 1px solid var(--rule);
+      font-size: 0.8125rem;
+      scrollbar-width: none;
+    }
+    header a {
+      color: var(--muted);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    header a:hover,
+    header a[aria-current] {
+      color: var(--ink);
+    }
+    header a[aria-current] {
+      text-decoration: underline 1.5px;
+      text-underline-offset: 0.9rem;
+    }
+    header i {
+      color: var(--rule);
+      font-style: normal;
+    }
+    main > section {
+      display: none;
+      padding-block-start: 2.5rem;
+      scroll-margin-top: 3rem;
+    }
+    main > section:target,
+    main:not(:has(> section:target)) > section:first-child {
+      display: block;
+    }
 
-<script type="application/json" id="library">{"root": "~", "disk": {"~": []}, "paths": {}, "pages": {}}</script>
+    /* a shelf: rows of covers. a cover: paper, a title, an author — five
+       faces, four papers. its type fits its title: short titles set large,
+       long ones small, each clamped to the lines its size has room for */
+    .row {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+      gap: 1.5rem 1.25rem;
+    }
+    .cover {
+      --base: 0.9rem;
+      --fit: 1;
+      --lines: 6;
+      all: unset;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 0.5rem;
+      aspect-ratio: 2 / 3;
+      padding: 0.9rem 0.75rem;
+      overflow: hidden;
+      background: var(--leaf);
+      color: #2a2723;
+      font: calc(var(--base) * var(--fit)) / 1.2 var(--serif);
+      hyphens: auto;
+      overflow-wrap: break-word;
+      box-shadow:
+        0 1px 2px #0002,
+        0 4px 12px #0001;
+      cursor: pointer;
+      transition:
+        transform 0.15s,
+        box-shadow 0.15s;
+    }
+    .cover:hover,
+    .cover:focus-visible {
+      transform: translateY(-3px);
+      box-shadow:
+        0 2px 4px #0002,
+        0 10px 24px #0002;
+    }
+    .cover b {
+      font-weight: 400;
+      text-wrap: balance;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: var(--lines);
+      overflow: hidden;
+    }
+    .cover span {
+      flex: none;
+      font-size: 0.65rem;
+      color: #6b655c;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+    }
+    [data-fit='s'] {
+      --fit: 1.2;
+      --lines: 4;
+    }
+    [data-fit='l'] {
+      --fit: 0.8;
+      --lines: 8;
+    }
+    [data-paper='0'] {
+      --leaf: #f4f1ea;
+    }
+    [data-paper='1'] {
+      --leaf: #ebe5d8;
+    }
+    [data-paper='2'] {
+      --leaf: #e8e6e0;
+    }
+    [data-paper='3'] {
+      --leaf: #f8f6f1;
+    }
+    [data-face='0'] {
+      justify-content: center;
+      text-align: center;
+    }
+    [data-face='0'] b {
+      padding-block: 0.5rem;
+      border-block: 1px solid;
+    }
+    [data-face='1'] b {
+      font-size: 1.05em;
+      font-weight: 600;
+      line-height: 1.1;
+    }
+    [data-face='2'] {
+      padding: 1.25rem 0.9rem;
+      text-align: center;
+      outline: 3px double #2a272355;
+      outline-offset: -0.45rem;
+    }
+    [data-face='3'] {
+      justify-content: flex-end;
+    }
+    [data-face='3'] b::first-letter {
+      font-size: 2.4em;
+      line-height: 1;
+    }
+    [data-face='4'] {
+      border-inline-start: 0.5rem solid #2a27231f;
+    }
+    [data-face='4'] span {
+      order: -1;
+      font-size: 0.55rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
 
-<script type="module">
-  // -- data --
-  // disk: a folder is a list of names, a trailing / is a folder. paths: a
-  // folder's stages of entries. pages: a book or a text, by the path it sits at
-  const { root, disk, paths, pages } = JSON.parse(document.getElementById('library').textContent);
+    /* a path: a checklist, its stages flowing in columns */
+    .stages {
+      columns: 3 19rem;
+      column-gap: 2.5rem;
+    }
+    .stages > div {
+      break-inside: avoid;
+      margin-block-end: 1.75rem;
+    }
+    .stages h4 {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 0 0.35rem;
+      padding-block-end: 0.3rem;
+      border-block-end: 1px solid var(--rule);
+      font: 600 0.8rem var(--sans);
+    }
+    .stages ol {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .stages li {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      padding-block: 0.12rem;
+      font-size: 0.875rem;
+    }
+    .stages li.group {
+      display: block;
+      margin: 0.5rem 0 0.1rem 3rem;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .stages .n {
+      flex: none;
+      inline-size: 1.5rem;
+      font: 0.7rem var(--mono);
+      color: var(--muted);
+      text-align: end;
+    }
+    .stages input {
+      flex: none;
+      margin: 0;
+      accent-color: var(--accent);
+    }
+    /* inline-flex: a button sits on its first line's baseline, not its last */
+    .stages .title {
+      all: unset;
+      display: inline-flex;
+      cursor: pointer;
+    }
+    .stages .title:hover {
+      color: var(--accent);
+    }
+    .stages .by {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+    .stages .read .title {
+      color: var(--muted);
+      text-decoration: line-through;
+    }
+    .notes {
+      columns: 2 20rem;
+      column-gap: 2.5rem;
+      font: italic 0.8rem var(--serif);
+      color: var(--muted);
+    }
+    .notes p {
+      margin: 0 0 0.3rem;
+      break-inside: avoid;
+    }
 
-  // -- state --
-  // where: a folder, and in a path folder the stage you are in. pos: the
-  // name under the cursor, per place
-  let cwd = root, stage = null, open = null, msg = '';
-  const pos = new Map();
-  const done = new Set();
+    /* files: real lines where tree drew ascii */
+    .tree,
+    .tree ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      line-height: 1.6rem;
+    }
+    .tree {
+      margin-block-start: 1.5rem;
+    }
+    .tree ul {
+      margin-inline-start: 0.4rem;
+    }
+    .tree ul > li {
+      position: relative;
+      padding-inline-start: 1.25rem;
+    }
+    .tree ul > li::before {
+      content: '';
+      position: absolute;
+      inset-inline-start: 0;
+      inset-block: 0;
+      border-inline-start: 1px solid var(--rule);
+    }
+    .tree ul > li:last-child::before {
+      inset-block-end: auto;
+      block-size: 0.8rem;
+    }
+    .tree ul > li::after {
+      content: '';
+      position: absolute;
+      inset-inline-start: 0;
+      inset-block-start: 0.8rem;
+      inline-size: 0.9rem;
+      border-block-start: 1px solid var(--rule);
+    }
+    .tree summary b {
+      font-weight: 600;
+    }
+    .tree details:not([open]) > summary b::after {
+      content: ' …';
+      color: var(--muted);
+      font-weight: 400;
+    }
+    .tree .file small {
+      padding: 0 0.3rem;
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+    }
 
-  const join = (dir, rel) => {
-    const out = dir.split('/');
-    for (const p of rel.split('/')) p === '..' ? out.pop() : p && p !== '.' && out.push(p);
-    return out.join('/');
-  };
-  const isdir = p => p in disk;
-  const base = p => p.slice(p.lastIndexOf('/') + 1);
+    /* notes: prose, set for reading */
+    .prose {
+      max-inline-size: 42rem;
+      font: 1rem/1.65 var(--serif);
+    }
+    .prose h1,
+    .prose h2 {
+      margin: 1.75rem 0 0.5rem;
+      font: 1.15rem var(--serif);
+    }
+    .prose blockquote {
+      margin: 0;
+      padding-inline-start: 1rem;
+      border-inline-start: 2px solid var(--rule);
+      color: var(--muted);
+    }
 
-  // a row is one kind of thing whichever the folder: { name, kind, to }
-  // kind is dir, file, stage or entry; to is the path a dir or file is at.
-  // a folder is its stages, if it has a path, then its names
-  function rowsOf(dir, s) {
-    const path = paths[dir];
-    if (path && s != null)
-      return path[s].entries.map(e => ({ ...e, kind: 'entry', to: join(dir, e.file), key: `${dir}#${s}/${e.name}` }));
-    const stages = (path ?? []).map((st, i) => ({ name: st.name, kind: 'stage', s: i }));
-    const files = (disk[dir] ?? []).map(n => {
-      const name = n.replace(/\/$/, '');
-      return { name, kind: n.endsWith('/') ? 'dir' : 'file', to: join(dir, name) };
+    /* a book open: lifted over the page */
+    dialog {
+      max-inline-size: 40rem;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      background: none;
+      color: var(--ink);
+    }
+    dialog::backdrop {
+      background: light-dark(#ffffffe0, #0f0f0fe0);
+      backdrop-filter: blur(3px);
+    }
+    dialog > div {
+      display: grid;
+      grid-template-columns: 11rem minmax(0, 1fr);
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    dialog .cover {
+      --base: 1.3rem;
+      cursor: default;
+      transform: none;
+    }
+    dialog h2 {
+      margin: 0 0 0.25rem;
+      font-size: 1.3rem;
+    }
+    dialog p {
+      margin: 0.4rem 0;
+    }
+    dialog p:empty {
+      display: none;
+    }
+    .muted {
+      color: var(--muted);
+    }
+
+    @media (width < 40rem) {
+      body {
+        padding-inline: 1rem;
+      }
+      .row {
+        grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr));
+        gap: 1rem;
+      }
+      dialog > div {
+        grid-template-columns: 8rem;
+        justify-content: center;
+      }
+    }
+  </style>
+
+  <header></header>
+  <main></main>
+
+  <dialog>
+    <div>
+      <div class="cover"><b></b><span></span></div>
+      <div>
+        <h2></h2>
+        <p class="muted by"></p>
+        <p class="note"></p>
+        <p class="links"></p>
+        <p class="muted stage"></p>
+      </div>
+    </div>
+  </dialog>
+
+  <script type="application/json" id="library">
+    { "shelves": [], "files": [], "notes": [] }
+  </script>
+
+  <script type="module">
+    // -- data --
+    const { shelves, files, notes } = JSON.parse(document.getElementById('library').textContent);
+
+    // -- state --
+    // read: the path entries ticked. open: the book in the dialog, and the
+    // stage it is on if it came from a path
+    const read = new Set();
+    let open = null;
+
+    // -- draw --
+    const $ = (q) => document.querySelector(q);
+    function h(tag, props, ...kids) {
+      const el = Object.assign(document.createElement(tag), props);
+      el.append(...kids);
+      return el;
+    }
+    const slug = (s) => s.toLowerCase().replace(/\W+/g, '-');
+    const hash = (s) => [...s].reduce((n, c) => (n * 31 + c.codePointAt(0)) % 9973, 7);
+
+    // a book always gets the same face and paper
+    function dress(el, b) {
+      el.dataset.face = hash(b.title) % 5;
+      el.dataset.paper = hash(b.by || b.title) % 4;
+      el.dataset.fit = b.title.length <= 16 ? 's' : b.title.length <= 36 ? 'm' : 'l';
+      el.querySelector('b').textContent = b.title;
+      el.querySelector('span').textContent = b.by;
+      return el;
+    }
+    const cover = (b) =>
+      dress(
+        h(
+          'button',
+          { className: 'cover', type: 'button', title: b.title, onclick: () => show({ b }) },
+          h('b'),
+          h('span'),
+        ),
+        b,
+      );
+    const row = (r) => [
+      ...(r.name ? [h('h3', {}, r.name, h('small', {}, r.books.length))] : []),
+      h('div', { className: 'row' }, ...r.books.map(cover)),
+    ];
+    const count = (s) => s.rows.reduce((n, r) => n + r.books.length, 0);
+
+    // a path: a stage a numbered list, numbered through the path; a group
+    // heads the entries under it, as in the .md
+    const tally = (es) => `${es.filter((e) => read.has(e)).length}/${es.length}`;
+    function entry(e, stage, n) {
+      const tick = h('input', { type: 'checkbox', checked: read.has(e), onchange: () => toggle(e) });
+      const title = h('button', { className: 'title', type: 'button', onclick: () => show({ b: e, stage }) }, e.title);
+      return h(
+        'li',
+        { className: read.has(e) ? 'read' : '' },
+        h('span', { className: 'n' }, n),
+        tick,
+        h('span', {}, title, ' ', h('span', { className: 'by' }, e.by)),
+      );
+    }
+    function path(s) {
+      const { stages, notes } = s.path;
+      let n = 0;
+      const list = (st) =>
+        st.entries.flatMap((e, i) => [
+          ...(e.group && e.group !== st.entries[i - 1]?.group ? [h('li', { className: 'group' }, e.group)] : []),
+          entry(e, st.name, ++n),
+        ]);
+      return [
+        h('h3', {}, s.name, h('small', {}, tally(stages.flatMap((st) => st.entries)))),
+        h(
+          'div',
+          { className: 'stages' },
+          ...stages.map((st) =>
+            h('div', {}, h('h4', {}, st.name, h('small', {}, tally(st.entries))), h('ol', {}, ...list(st))),
+          ),
+        ),
+        h('div', { className: 'notes' }, ...notes.map((t) => h('p', {}, t))),
+      ];
+    }
+    const drawPaths = () =>
+      $('#paths').replaceChildren(h('h2', {}, 'Paths'), ...shelves.filter((s) => s.path).flatMap(path));
+
+    // files: a file by its words, dashes to spaces, its extension a tag
+    const size = (n) => (n.kids ? n.kids.reduce((s, k) => s + size(k), 0) : 1);
+    function file(n) {
+      const [, stem, ext = ''] = n.name.match(/^(.+?)(?:\.(\w{2,4}))?$/);
+      const words = stem.replace(/[-_]+/g, ' ');
+      return h(
+        'span',
+        { className: 'file', title: n.name },
+        words[0].toUpperCase() + words.slice(1),
+        ext && h('small', {}, ext),
+      );
+    }
+    // every folder starts folded; you open what you want to see
+    const node = (n) =>
+      h(
+        'li',
+        {},
+        n.kids
+          ? h(
+              'details',
+              {},
+              h('summary', {}, h('b', {}, n.name), h('small', {}, size(n))),
+              h('ul', {}, ...n.kids.map(node)),
+            )
+          : file(n),
+      );
+
+    const tab = (id, name) => h('a', { href: `#${id}` }, name);
+    $('header').append(
+      ...shelves.map((s) => tab(slug(s.name), s.name)),
+      h('i', {}, '·'),
+      tab('paths', 'Paths'),
+      tab('files', 'Files'),
+      tab('notes', 'Notes'),
+    );
+    $('main').append(
+      ...shelves.map((s) =>
+        h('section', { id: slug(s.name) }, h('h2', {}, s.name, h('small', {}, count(s))), ...s.rows.flatMap(row)),
+      ),
+      h('section', { id: 'paths' }),
+      h('section', { id: 'files' }, h('h2', {}, 'Files'), h('ul', { className: 'tree' }, ...files.map(node))),
+      // the notes' html is mkindex's, made from the repo's own markdown
+      h(
+        'section',
+        { id: 'notes' },
+        h('h2', {}, 'Notes'),
+        ...notes.flatMap((n) => [h('h3', {}, n.name), h('div', { className: 'prose', innerHTML: n.html })]),
+      ),
+    );
+    drawPaths();
+
+    // the dialog: one shape, filled with the book open
+    function show(o) {
+      const { b, stage } = o;
+      const d = $('dialog');
+      open = o;
+      dress(d.querySelector('.cover'), b);
+      d.querySelector('h2').textContent = b.title;
+      d.querySelector('.by').textContent = b.by;
+      d.querySelector('.note').textContent = b.note;
+      d.querySelector('.links').replaceChildren(
+        ...b.links.flatMap(([label, url], i) => [
+          ...(i ? [' · '] : []),
+          h('a', { href: url, target: '_blank', rel: 'noopener', textContent: label }),
+        ]),
+      );
+      d.querySelector('.stage').textContent = stage
+        ? `${[stage, b.group].filter(Boolean).join(' · ')} — ${read.has(b) ? '✓ read' : 'not read'} · x`
+        : '';
+      if (!d.open) d.showModal();
+    }
+    function toggle(e) {
+      read.has(e) ? read.delete(e) : read.add(e);
+      drawPaths();
+      if (open) show(open);
+    }
+
+    // -- keys --
+    // a tab is the section the hash names: css shows it, this marks its link
+    function mark() {
+      const at = location.hash || `#${slug(shelves[0].name)}`;
+      for (const a of document.querySelectorAll('header a')) a.ariaCurrent = a.hash === at ? 'page' : null;
+    }
+    addEventListener('hashchange', mark);
+    mark();
+    // esc closes the dialog on its own; a click outside it closes it too
+    $('dialog').addEventListener('click', (e) => e.target === e.currentTarget && e.currentTarget.close());
+    $('dialog').addEventListener('close', () => (open = null));
+    addEventListener('keydown', (e) => {
+      if (e.key === 'x' && open?.stage && !e.ctrlKey && !e.metaKey) toggle(open.b);
     });
-    if (stages.length && files.length) files[0].sep = true;
-    return [...stages, ...files];
-  }
-  const place = () => `${cwd}#${stage ?? ''}`;
-  const rows = () => rowsOf(cwd, stage);
-  const idx = () => Math.max(0, rows().findIndex(r => r.name === pos.get(place())));
-  const go = i => pos.set(place(), rows()[Math.max(0, Math.min(rows().length - 1, i))]?.name);
-
-  // t/n: the entries ticked under a folder or a stage
-  function tally(dir, s) {
-    const path = paths[dir];
-    if (!path) return [0, 0];
-    const keys = (s == null ? path.map((_, i) => i) : [s])
-      .flatMap(i => path[i].entries.map(e => `${dir}#${i}/${e.name}`));
-    return [keys.filter(k => done.has(k)).length, keys.length];
-  }
-
-  // -- draw --
-  const esc = s => s.replace(/[&<>"]/g, c => `&${{ '&': 'amp', '<': 'lt', '>': 'gt', '"': 'quot' }[c]};`);
-  const $ = q => document.querySelector(q);
-  function draw() {
-    const r = rows(), at = idx(), cur = r[at];
-    const [t, a] = tally(cwd, stage);
-    const where = stage == null ? cwd : `${cwd} / ${paths[cwd][stage].name}`;
-    $('header').innerHTML = `<b>${esc(where)}</b>` + (a ? `<span class="muted">  path ${t}/${a}</span>` : '');
-    $('nav').innerHTML = r.map((row, i) => {
-      const tick = row.kind === 'entry' ? `<input type="checkbox"${done.has(row.key) ? ' checked' : ''} tabindex="-1">` : '';
-      const [ct, ca] = row.kind === 'stage' ? tally(cwd, row.s) : row.kind === 'dir' ? tally(row.to) : [0, 0];
-      const cls = (row.kind === 'dir' || row.kind === 'stage' ? ' dir' : '') + (done.has(row.key) ? ' done' : '');
-      return (row.sep ? '<div class="sep">shelf</div>' : '') +
-        `<div class="row${i === at ? ' at' : ''}" data-i="${i}">` +
-        `<span class="n">${i + 1}</span><span class="t">${tick}</span>` +
-        `<span class="name${cls}">${esc(row.name)}${row.kind === 'dir' ? '/' : ''}</span>` +
-        (ca ? `<span class="count">${ct}/${ca}</span>` : '') + '</div>';
-    }).join('') || '<div class="row muted">empty</div>';
-    // drawn again only if it changed: a tick or a step that lands on the
-    // same book must not reset its scroll
-    const html = open ? `<div class="open">open</div>${page(open)}` : cur ? preview(cur) : '';
-    if (html !== $('main').dataset.html) $('main').innerHTML = $('main').dataset.html = html;
-    document.body.classList.toggle('reading', !!open);
-    $('footer').textContent = msg || cur?.note || cur?.to || '';
-    msg = '';
-  }
-
-  // the row under the cursor, unfolded
-  function preview(row) {
-    if (row.kind === 'stage') return stagePreview(cwd, row.s);
-    const to = row.to;
-    if (!isdir(to)) return page(to);
-    if (paths[to]) {
-      const [t, a] = tally(to);
-      return `<h2>${esc(base(to))}</h2><div class="muted">path ${t}/${a}</div>` +
-        paths[to].map((_, s) => stagePreview(to, s, 'h3')).join('');
-    }
-    return `<h2>${esc(base(to))}/</h2>` + disk[to].map(n => `<div class="line${n.endsWith('/') ? ' dir' : ''}">${esc(n)}</div>`).join('');
-  }
-  function stagePreview(dir, s, h = 'h2') {
-    const st = paths[dir][s];
-    return `<${h}>${esc(st.name)} <span class="muted">${tally(dir, s).join('/')}</span></${h}>` +
-      st.entries.map(e => {
-        const x = done.has(`${dir}#${s}/${e.name}`);
-        return `<div class="line${x ? ' done' : ''}">${x ? '✓' : '·'} ${esc(e.name)}</div>`;
-      }).join('');
-  }
-  function page(to) {
-    if (isdir(to)) return preview({ kind: 'dir', to });
-    const p = pages[to];
-    if (p?.text != null) return `<h2>${esc(p.title)}</h2><div class="text">${esc(p.text)}</div>`;
-    if (p) {
-      const links = p.links.map(([label, url]) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>`);
-      return `<div class="cover"><b>${esc(p.title)}</b><span>${esc(p.by)}</span></div>` +
-        (p.note ? `<p>${esc(p.note)}</p>` : '') + `<p class="links">${links.join(' · ')}</p>`;
-    }
-    const n = base(to);
-    if (/\.(mp4|mp3)$/.test(n)) return `<h2>${esc(n)}</h2><div class="video">▶</div>`;
-    return `<h2>${esc(n)}</h2><div class="page"><b>${esc(n.replace(/\.\w+$/, '').replace(/-/g, ' '))}</b>${'<i></i>'.repeat(16)}</div>`;
-  }
-
-  // -- keys --
-  function cd(dir, land) {
-    cwd = dir;
-    stage = null;
-    if (land) pos.set(place(), land);
-  }
-  function enter() {
-    const row = rows()[idx()];
-    if (!row) return;
-    if (row.kind === 'stage') return void (stage = row.s);
-    if (isdir(row.to)) return cd(row.to);
-    open = row.to;
-  }
-  function up() {
-    if (open) return void (open = null);
-    if (stage != null) {
-      pos.set(`${cwd}#`, paths[cwd][stage].name);
-      return void (stage = null);
-    }
-    if (cwd === root) return;
-    cd(cwd.slice(0, cwd.lastIndexOf('/')), base(cwd));
-  }
-  function tick() {
-    const row = rows()[idx()];
-    if (row?.kind !== 'entry') return void (msg = 'x ticks an entry — go into a stage');
-    done.has(row.key) ? done.delete(row.key) : done.add(row.key);
-    go(idx() + 1);
-  }
-  const keys = {
-    j: () => go(idx() + 1), ArrowDown: () => go(idx() + 1),
-    k: () => go(idx() - 1), ArrowUp: () => go(idx() - 1),
-    l: enter, ArrowRight: enter, Enter: enter,
-    h: up, ArrowLeft: up,
-    x: tick,
-    f: () => document.body.classList.toggle('wide'),
-    Escape: () => { open = null; document.body.classList.remove('wide'); },
-  };
-  addEventListener('keydown', e => {
-    const f = keys[e.key];
-    if (!f || e.ctrlKey || e.metaKey) return;
-    e.preventDefault();
-    f();
-    draw();
-  });
-  // the tablet: tap a row to put the cursor there, tap it again to go in
-  $('nav').addEventListener('click', e => {
-    const el = e.target.closest('.row');
-    if (!el?.dataset.i) return;
-    const i = +el.dataset.i;
-    if (e.target.matches('input')) { go(i); tick(); go(i); return draw(); }
-    i === idx() ? enter() : go(i);
-    draw();
-  });
-  draw();
-</script>
+  </script>
+</html>
