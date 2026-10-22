@@ -1,45 +1,79 @@
 <!doctype html>
-<!-- resources as a library in tabs. mkindex fills the library below from
-     the .md files and writes index.html; edit this, not that.
+<!-- resources as a book. mkindex fills the library below from the .md files
+     and writes index.html; edit this, not that.
 
-     tab      one section at a time, the one the hash names (the first if
-              none): a shelf each, then Paths, Files, Notes
-     shelf    a heading, then its rows of covers
+     volume   leaves, a page each side, lying turned up to the one the hash
+              names: #p3 has the third spread open, no hash the jacket. leaf
+              j has spread j's right page on its front and spread j+1's left
+              on its back; the jacket is the first front, a blank page the
+              last back
+     jacket   the front: the masthead, the first three books on a shelf
+     spread   a left page and a right page, each with a foot
+     part     what a tab names: the index, a shelf, the notes. a shelf is its
+              path, its planks of covers, its files — those it has — a spread
+              or more of each
+     opener   a left page: the part, its kind, and a list of its spreads with
+              the ones on this page bold
+     plank    a row's covers on a shelf: four to a plank, three planks a page
      cover    a book's title and author on paper. a hash of the two picks
               its face and paper: type, not colour, tells books apart, and
               a book always looks the same
      paths    a path a checklist, a stage a block, numbered through; ticked
               is read, and the counts follow
-     files    shelf/ as a tree drawn with lines, folders folded, a file by
-              its words with its extension a tag
+     files    a shelf's folder as a tree drawn with lines, folders folded, a
+              file by its words with its extension a tag
      notes    the prose, its markdown made html
+     tab      a part, on the fore-edge, there when the volume is closed; the
+              one the hash is in is lifted. the Keys page lists the keys
      open     a title clicked lifts its book into a dialog: note, links,
               stage. x marks a path's book read, esc puts it back
-     library  { shelves, files, notes } — the shape is mkindex's header -->
+     library  { shelves, notes } — the shape is mkindex's header -->
 <html lang="en">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>resources</title>
   <style>
+    /* the order: outside in — the volume, a page, what its left holds, what
+       its right holds, the jacket, the tabs, the dialog */
+
+    /* -- base -- */
     :root {
       color-scheme: light dark;
-      --paper: light-dark(#ffffff, #0f0f0f);
+      --desk: light-dark(#e4dfd3, #1c1915);
+      --page: #f4f1ea;
       --ink: light-dark(#0a0a0a, #f2f2f2);
       --muted: light-dark(#6b6b6b, #8f8f8f);
       --rule: light-dark(#e5e5e5, #262626);
       --accent: light-dark(#1f4fd8, #7b97ff);
+      --gold: #b08a45;
+      --wood: #6b4a2f;
+      --grain: #8a6540;
+      --board: linear-gradient(#a07850, var(--grain) 25%, var(--wood));
       --sans: 'Ubuntu Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       --serif: Charter, 'Bitstream Charter', Georgia, serif;
       --mono: 'Ubuntu Sans Mono', 'SF Mono', Menlo, Consolas, monospace;
+      /* the volume's size and corner, a page's margin; a cover's width, the
+         scale it stands at on a plank, the gap between standing covers */
+      --w: 62.5rem;
+      --h: 42.5rem;
+      --round: 5px;
+      --margin: 1.75rem;
+      --cover: 8rem;
+      --shrink: 0.78;
+      --gap: 0.9rem;
     }
     * {
       box-sizing: border-box;
     }
+    html {
+      overflow: hidden;
+    }
     body {
-      max-inline-size: 72rem;
-      margin: 0 auto;
-      padding: 0 1.5rem 3rem;
-      background: var(--paper);
+      display: grid;
+      place-items: center;
+      block-size: 100dvh;
+      margin: 0;
+      background: var(--desk);
       color: var(--ink);
       font: 0.9375rem/1.5 var(--sans);
     }
@@ -71,55 +105,261 @@
       display: none;
     }
 
-    /* tabs: one section at a time, the one the hash names */
-    header {
-      position: sticky;
-      top: 0;
-      z-index: 1;
-      display: flex;
-      gap: 1.25rem;
-      padding-block: 0.75rem;
-      overflow-x: auto;
-      background: var(--paper);
-      border-block-end: 1px solid var(--rule);
-      font-size: 0.8125rem;
-      scrollbar-width: none;
+    /* -- volume -- */
+    /* the desk fits the volume to the window. a leaf is two pages back to
+       back, hinged at the spine; it lies turned when the hash names it or a
+       leaf after it. closed, the volume is its jacket, centred; open, two
+       pages */
+    .desk {
+      zoom: min(tan(atan2(90vw, var(--w))), tan(atan2(90vh, var(--h))));
+      perspective: 160rem;
     }
-    header a {
-      color: var(--muted);
-      text-decoration: none;
-      white-space: nowrap;
+    .volume {
+      position: relative;
+      inline-size: var(--w);
+      block-size: var(--h);
+      transform: translateX(-25%);
+      transform-style: preserve-3d;
+      transition: transform 0.8s;
     }
-    header a:hover,
-    header a[aria-current] {
-      color: var(--ink);
+    .volume:has(.leaf:target) {
+      transform: none;
     }
-    header a[aria-current] {
-      text-decoration: underline 1.5px;
-      text-underline-offset: 0.9rem;
+    .volume::before {
+      content: '';
+      position: absolute;
+      inset: 0.4rem 0 -0.4rem 50%;
+      border-radius: 0.5rem;
+      background: #0007;
+      filter: blur(1.5rem);
+      transform: translateZ(-2.5rem);
     }
-    header i {
-      color: var(--rule);
-      font-style: normal;
+    .volume:has(.leaf:target)::before {
+      inset-inline-start: 0;
     }
-    main > section {
-      display: none;
-      padding-block-start: 2.5rem;
-      scroll-margin-top: 3rem;
+    /* --n leaves; those not turned stack down from the first */
+    .leaf {
+      position: absolute;
+      inset-block: 0;
+      inset-inline-start: 50%;
+      inline-size: 50%;
+      z-index: calc(var(--n) - var(--i));
+      transform-origin: left center;
+      transform-style: preserve-3d;
+      transition:
+        transform 0.8s,
+        z-index 0s 0.4s;
     }
-    main > section:target,
-    main:not(:has(> section:target)) > section:first-child {
-      display: block;
+    .leaf:target,
+    .leaf:has(~ .leaf:target) {
+      z-index: var(--i);
+      transform: rotateY(-180deg);
+    }
+    .front,
+    .back {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      backface-visibility: hidden;
+    }
+    .front {
+      border-radius: 0 var(--round) var(--round) 0;
+    }
+    .back {
+      border-radius: var(--round) 0 0 var(--round);
+      transform: rotateY(180deg);
     }
 
-    /* a shelf: rows of covers. a cover: paper, a title, an author — five
-       faces, four papers. its type fits its title: short titles set large,
-       long ones small, each clamped to the lines its size has room for */
-    .row {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
-      gap: 1.5rem 1.25rem;
+    /* -- page -- */
+    /* paper under the light tokens whatever the scheme, shaded toward the
+       spine; its body scrolls if it runs long, its foot a way and a folio */
+    .page {
+      position: absolute;
+      inset: 0;
+      padding: 2.1rem var(--margin) 2.6rem;
+      color-scheme: light;
+      color: var(--ink);
+      font-family: var(--serif);
     }
+    .left {
+      background: linear-gradient(270deg, #0003, #0000 4%), var(--page);
+    }
+    .right {
+      background: linear-gradient(90deg, #0003, #0000 4%), var(--page);
+    }
+    .body {
+      block-size: 100%;
+      overflow-y: auto;
+      scrollbar-width: thin;
+    }
+    .page footer {
+      position: absolute;
+      inset-inline: var(--margin);
+      inset-block-end: 0.85rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+    .page footer a {
+      padding-inline: 0.4rem;
+      color: var(--ink);
+      font-size: 1.1rem;
+      line-height: 1;
+      text-decoration: none;
+    }
+    .page footer .home {
+      color: var(--muted);
+      font-size: 0.75rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+    }
+    .page footer a:hover {
+      color: var(--gold);
+    }
+    .page h2 {
+      margin: 0.4rem 0 1.1rem;
+      font-size: 2.75rem;
+      line-height: 1.05;
+      letter-spacing: -0.01em;
+    }
+    .page h3 {
+      margin: 0 0 0.75rem;
+    }
+    .kick {
+      margin: 0;
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    /* -- left -- */
+    /* leaders: a name, a dotted line, a count; the contents is the same list
+       set larger */
+    .leaders {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .leaders a {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      padding-block: 0.1rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-decoration: none;
+    }
+    .leaders a:hover {
+      color: var(--gold);
+    }
+    .leaders i {
+      flex: 1;
+      border-block-end: 1px dotted var(--rule);
+      transform: translateY(-0.2rem);
+    }
+    .leaders em {
+      font-size: 0.75rem;
+      font-style: normal;
+    }
+    .leaders .here a {
+      color: var(--ink);
+      font-weight: 600;
+    }
+    .toc a {
+      padding-block: 0.45rem;
+      color: var(--ink);
+      font-size: 1.4rem;
+    }
+
+    /* -- right -- */
+    /* in volume order: the keys, a shelf's path, its covers on planks, its
+       files, the notes */
+    .keys {
+      display: grid;
+      grid-template-columns: 4rem 1fr;
+      gap: 0.3rem 0.5rem;
+      margin: 0;
+    }
+    .keys dd {
+      margin: 0;
+    }
+    .keys kbd {
+      font: 0.8rem var(--mono);
+    }
+    /* a path: a checklist, a stage a block */
+    .stages > div {
+      margin-block-end: 1.75rem;
+    }
+    .stages h4 {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 0 0.35rem;
+      padding-block-end: 0.3rem;
+      border-block-end: 1px solid var(--rule);
+      font: 600 0.8rem var(--sans);
+    }
+    .stages ol {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .stages li {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      padding-block: 0.12rem;
+      font-size: 0.875rem;
+    }
+    .stages li.group {
+      display: block;
+      margin: 0.5rem 0 0.1rem 3rem;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .stages .n {
+      flex: none;
+      inline-size: 1.5rem;
+      font: 0.7rem var(--mono);
+      color: var(--muted);
+      text-align: end;
+    }
+    .stages input {
+      flex: none;
+      margin: 0;
+      accent-color: var(--accent);
+    }
+    /* inline-flex: a button sits on its first line's baseline, not its last */
+    .stages .title {
+      all: unset;
+      display: inline-flex;
+      cursor: pointer;
+    }
+    .stages .title:hover {
+      color: var(--accent);
+    }
+    .stages .by {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+    .stages .read .title {
+      color: var(--muted);
+      text-decoration: line-through;
+    }
+    .notes {
+      font: italic 0.8rem var(--serif);
+      color: var(--muted);
+    }
+    .notes p {
+      margin: 0 0 0.3rem;
+    }
+
+    /* a cover: paper, a title, an author — five faces, four papers. its type
+       fits its title: short titles set large, long ones small, each clamped
+       to the lines its size has room for */
     .cover {
       --base: 0.9rem;
       --fit: 1;
@@ -226,81 +466,40 @@
       text-transform: uppercase;
     }
 
-    /* a path: a checklist, its stages flowing in columns */
-    .stages {
-      columns: 3 19rem;
-      column-gap: 2.5rem;
+    /* a plank: a row's covers standing on a board, the row's name over them.
+       the jacket's stand is the same, so is its board */
+    .plank {
+      position: relative;
+      block-size: 12.25rem;
     }
-    .stages > div {
-      break-inside: avoid;
-      margin-block-end: 1.75rem;
-    }
-    .stages h4 {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 0 0.35rem;
-      padding-block-end: 0.3rem;
-      border-block-end: 1px solid var(--rule);
-      font: 600 0.8rem var(--sans);
-    }
-    .stages ol {
+    .plank h3 {
       margin: 0;
-      padding: 0;
-      list-style: none;
+      padding-block-start: 0.4rem;
+      block-size: 1.4rem;
     }
-    .stages li {
+    .plank div {
       display: flex;
-      align-items: baseline;
-      gap: 0.5rem;
-      padding-block: 0.12rem;
-      font-size: 0.875rem;
+      align-items: flex-end;
+      gap: var(--gap);
+      block-size: calc(var(--cover) * 1.5 * var(--shrink));
     }
-    .stages li.group {
-      display: block;
-      margin: 0.5rem 0 0.1rem 3rem;
-      font-size: 0.65rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-    .stages .n {
+    .plank .cover,
+    .stand .cover {
       flex: none;
-      inline-size: 1.5rem;
-      font: 0.7rem var(--mono);
-      color: var(--muted);
-      text-align: end;
+      inline-size: var(--cover);
+      zoom: var(--shrink);
     }
-    .stages input {
-      flex: none;
-      margin: 0;
-      accent-color: var(--accent);
+    .plank::after,
+    .stand::after {
+      content: '';
+      position: absolute;
+      border-radius: 2px;
+      background: var(--board);
     }
-    /* inline-flex: a button sits on its first line's baseline, not its last */
-    .stages .title {
-      all: unset;
-      display: inline-flex;
-      cursor: pointer;
-    }
-    .stages .title:hover {
-      color: var(--accent);
-    }
-    .stages .by {
-      font-size: 0.75rem;
-      color: var(--muted);
-    }
-    .stages .read .title {
-      color: var(--muted);
-      text-decoration: line-through;
-    }
-    .notes {
-      columns: 2 20rem;
-      column-gap: 2.5rem;
-      font: italic 0.8rem var(--serif);
-      color: var(--muted);
-    }
-    .notes p {
-      margin: 0 0 0.3rem;
-      break-inside: avoid;
+    .plank::after {
+      inset: calc(1.4rem + var(--cover) * 1.5 * var(--shrink)) 0 auto;
+      block-size: 0.75rem;
+      box-shadow: 0 0.4rem 0.5rem -0.1rem #0005;
     }
 
     /* files: real lines where tree drew ascii */
@@ -312,7 +511,7 @@
       line-height: 1.6rem;
     }
     .tree {
-      margin-block-start: 1.5rem;
+      margin-block-start: 0;
     }
     .tree ul {
       margin-inline-start: 0.4rem;
@@ -353,10 +552,8 @@
       border: 1px solid var(--rule);
       border-radius: 3px;
     }
-
     /* notes: prose, set for reading */
     .prose {
-      max-inline-size: 42rem;
       font: 1rem/1.65 var(--serif);
     }
     .prose h1,
@@ -371,7 +568,122 @@
       color: var(--muted);
     }
 
-    /* a book open: lifted over the page */
+    /* -- jacket -- */
+    /* the volume's front, walnut under a gold line. its first three books
+       stand on a shelf at the foot, the middle one the largest */
+    .jacket {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3.25rem 0 2.4rem;
+      border-radius: 0 var(--round) var(--round) 0;
+      background: radial-gradient(ellipse at 50% 38%, #3a2f24, #1d1812 75%);
+      outline: 1px solid color-mix(in srgb, var(--gold) 47%, transparent);
+      outline-offset: calc(var(--gap) * -1);
+      color: var(--page);
+      text-align: center;
+      text-decoration: none;
+    }
+    .jacket h1 {
+      margin: 0;
+      font: 5.25rem/1 var(--serif);
+      letter-spacing: -0.02em;
+    }
+    .jacket hr {
+      inline-size: 4.4rem;
+      margin: 1.25rem 0 1rem;
+      border: 0;
+      border-block-start: 3px solid var(--gold);
+    }
+    .jacket ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      color: var(--gold);
+      font-size: 0.7rem;
+      letter-spacing: 0.24em;
+      line-height: 1.7;
+      text-transform: uppercase;
+    }
+    .jacket p {
+      margin: 3.6rem 0 0;
+      color: #d9cfbd;
+      font-size: 0.75rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+    }
+    .stand {
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      gap: var(--gap);
+      inline-size: 100%;
+      margin-block-start: auto;
+    }
+    .stand .cover {
+      box-shadow: 0 0.5rem 1.1rem #000a;
+    }
+    .stand .cover:nth-child(2) {
+      zoom: 1.35;
+    }
+    .stand::after {
+      inset: 100% var(--gap) auto;
+      block-size: 1rem;
+      box-shadow: 0 0.6rem 0.9rem -0.1rem #000a;
+    }
+
+    /* -- tabs -- */
+    /* on the fore-edge, the one the hash is in lifted; they share the
+       volume's height, the longest names give way first */
+    .tabs {
+      position: absolute;
+      inset-block: 1.6rem 1rem;
+      inset-inline-start: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+    .tabs a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      min-block-size: 0;
+      padding: 0.5rem 0.35rem;
+      overflow: hidden;
+      border-radius: 0 0.35rem 0.35rem 0;
+      background: linear-gradient(90deg, var(--wood), var(--grain));
+      color: #e9dcc3;
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-decoration: none;
+      text-transform: uppercase;
+      transform: translateX(-0.3rem);
+      transition:
+        transform 0.15s,
+        background 0.15s;
+      writing-mode: vertical-rl;
+    }
+    .tabs a:hover {
+      color: #fff;
+      transform: translateX(0.1rem);
+    }
+    .tabs a[aria-current] {
+      background: var(--page);
+      color-scheme: light;
+      color: var(--ink);
+      transform: translateX(0);
+    }
+    .tabs kbd {
+      font: inherit;
+      letter-spacing: 0;
+      opacity: 0.55;
+    }
+
+    /* -- dialog -- */
+    /* a book opened: lifted over the page */
     dialog {
       max-inline-size: 40rem;
       padding: 0;
@@ -411,13 +723,6 @@
     }
 
     @media (width < 40rem) {
-      body {
-        padding-inline: 1rem;
-      }
-      .row {
-        grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr));
-        gap: 1rem;
-      }
       dialog > div {
         grid-template-columns: 8rem;
         justify-content: center;
@@ -425,8 +730,9 @@
     }
   </style>
 
-  <header></header>
-  <main></main>
+  <main class="desk">
+    <div class="volume"></div>
+  </main>
 
   <dialog>
     <div>
@@ -442,12 +748,15 @@
   </dialog>
 
   <script type="application/json" id="library">
-    { "shelves": [], "files": [], "notes": [] }
+    { "shelves": [], "notes": [] }
   </script>
 
   <script type="module">
     // -- data --
-    const { shelves, files, notes } = JSON.parse(document.getElementById('library').textContent);
+    const { shelves, notes } = JSON.parse(
+      document.getElementById('library').textContent,
+    );
+    const books = shelves.flatMap((s) => s.rows.flatMap((r) => r.books));
 
     // -- state --
     // read: the path entries ticked. open: the book in the dialog, and the
@@ -463,13 +772,15 @@
       return el;
     }
     const slug = (s) => s.toLowerCase().replace(/\W+/g, '-');
-    const hash = (s) => [...s].reduce((n, c) => (n * 31 + c.codePointAt(0)) % 9973, 7);
+    const hash = (s) =>
+      [...s].reduce((n, c) => (n * 31 + c.codePointAt(0)) % 9973, 7);
 
     // a book always gets the same face and paper
     function dress(el, b) {
       el.dataset.face = hash(b.title) % 5;
       el.dataset.paper = hash(b.by || b.title) % 4;
-      el.dataset.fit = b.title.length <= 16 ? 's' : b.title.length <= 36 ? 'm' : 'l';
+      el.dataset.fit =
+        b.title.length <= 16 ? 's' : b.title.length <= 36 ? 'm' : 'l';
       el.querySelector('b').textContent = b.title;
       el.querySelector('span').textContent = b.by;
       return el;
@@ -478,24 +789,46 @@
       dress(
         h(
           'button',
-          { className: 'cover', type: 'button', title: b.title, onclick: () => show({ b }) },
+          {
+            className: 'cover',
+            type: 'button',
+            title: b.title,
+            onclick: () => show({ b }),
+          },
           h('b'),
           h('span'),
         ),
         b,
       );
-    const row = (r) => [
-      ...(r.name ? [h('h3', {}, r.name, h('small', {}, r.books.length))] : []),
-      h('div', { className: 'row' }, ...r.books.map(cover)),
-    ];
+    // a cover to look at, not to open
+    const plate = (b) =>
+      dress(h('div', { className: 'cover' }, h('b'), h('span')), b);
     const count = (s) => s.rows.reduce((n, r) => n + r.books.length, 0);
+    // what every right page starts with: its name, and a count if it has one
+    const caption = (text, n) =>
+      h('h3', {}, text, ...(n === undefined ? [] : [h('small', {}, n)]));
 
     // a path: a stage a numbered list, numbered through the path; a group
     // heads the entries under it, as in the .md
-    const tally = (es) => `${es.filter((e) => read.has(e)).length}/${es.length}`;
+    const tally = (es) =>
+      `${es.filter((e) => read.has(e)).length}/${es.length}`;
+    const entries = (s) =>
+      s.path.stages.reduce((n, st) => n + st.entries.length, 0);
     function entry(e, stage, n) {
-      const tick = h('input', { type: 'checkbox', checked: read.has(e), onchange: () => toggle(e) });
-      const title = h('button', { className: 'title', type: 'button', onclick: () => show({ b: e, stage }) }, e.title);
+      const tick = h('input', {
+        type: 'checkbox',
+        checked: read.has(e),
+        onchange: () => toggle(e),
+      });
+      const title = h(
+        'button',
+        {
+          className: 'title',
+          type: 'button',
+          onclick: () => show({ b: e, stage }),
+        },
+        e.title,
+      );
       return h(
         'li',
         { className: read.has(e) ? 'read' : '' },
@@ -509,33 +842,47 @@
       let n = 0;
       const list = (st) =>
         st.entries.flatMap((e, i) => [
-          ...(e.group && e.group !== st.entries[i - 1]?.group ? [h('li', { className: 'group' }, e.group)] : []),
+          ...(e.group && e.group !== st.entries[i - 1]?.group
+            ? [h('li', { className: 'group' }, e.group)]
+            : []),
           entry(e, st.name, ++n),
         ]);
       return [
-        h('h3', {}, s.name, h('small', {}, tally(stages.flatMap((st) => st.entries)))),
+        caption('Path', tally(stages.flatMap((st) => st.entries))),
         h(
           'div',
           { className: 'stages' },
           ...stages.map((st) =>
-            h('div', {}, h('h4', {}, st.name, h('small', {}, tally(st.entries))), h('ol', {}, ...list(st))),
+            h(
+              'div',
+              {},
+              h('h4', {}, st.name, h('small', {}, tally(st.entries))),
+              h('ol', {}, ...list(st)),
+            ),
           ),
         ),
         h('div', { className: 'notes' }, ...notes.map((t) => h('p', {}, t))),
       ];
     }
-    const drawPaths = () =>
-      $('#paths').replaceChildren(h('h2', {}, 'Paths'), ...shelves.filter((s) => s.path).flatMap(path));
+    const pathbox = (s) => `path-${slug(s.name)}`;
+    const drawPaths = () => {
+      for (const s of shelves.filter((s) => s.path))
+        $(`#${pathbox(s)}`).replaceChildren(...path(s));
+    };
 
-    // files: a file by its words, dashes to spaces, its extension a tag
+    // files: a name by its words, dashes to spaces, its extension apart
     const size = (n) => (n.kids ? n.kids.reduce((s, k) => s + size(k), 0) : 1);
+    function words(name) {
+      const [, stem, ext = ''] = name.match(/^(.+?)(?:\.(\w{2,4}))?$/);
+      const text = stem.replace(/[-_]+/g, ' ');
+      return [text[0].toUpperCase() + text.slice(1), ext];
+    }
     function file(n) {
-      const [, stem, ext = ''] = n.name.match(/^(.+?)(?:\.(\w{2,4}))?$/);
-      const words = stem.replace(/[-_]+/g, ' ');
+      const [text, ext] = words(n.name);
       return h(
         'span',
         { className: 'file', title: n.name },
-        words[0].toUpperCase() + words.slice(1),
+        text,
         ext && h('small', {}, ext),
       );
     }
@@ -553,34 +900,246 @@
             )
           : file(n),
       );
+    const tree = (s) => [
+      caption(`${s.files.name}/`, size(s.files)),
+      h('ul', { className: 'tree' }, ...s.files.kids.map(node)),
+    ];
 
-    const tab = (id, name) => h('a', { href: `#${id}` }, name);
-    $('header').append(
-      ...shelves.map((s) => tab(slug(s.name), s.name)),
-      h('i', {}, '·'),
-      tab('paths', 'Paths'),
-      tab('files', 'Files'),
-      tab('notes', 'Notes'),
-    );
-    $('main').append(
-      ...shelves.map((s) =>
-        h('section', { id: slug(s.name) }, h('h2', {}, s.name, h('small', {}, count(s))), ...s.rows.flatMap(row)),
+    // the notes' html is mkindex's, made from the repo's own markdown
+    const title = (n) => words(n.name.split('/').pop())[0];
+    const prose = (n) => [
+      caption(title(n)),
+      h('div', { className: 'prose', innerHTML: n.html }),
+    ];
+
+    // a row's covers a plank at a time, a page of planks at a time
+    const perplank = 4;
+    const perpage = 3;
+    const chunk = (a, n) =>
+      Array.from({ length: Math.ceil(a.length / n) }, (_, i) =>
+        a.slice(i * n, (i + 1) * n),
+      );
+    const planks = (s) =>
+      s.rows.flatMap((r) =>
+        chunk(r.books, perplank).map((bs, i) => ({
+          name: r.name || s.name,
+          row: r.name,
+          books: bs,
+          head: i === 0,
+        })),
+      );
+    const plank = ({ name, books, head }, n) =>
+      h(
+        'div',
+        { className: 'plank' },
+        caption(head ? name : n ? '' : `${name} (cont.)`),
+        h('div', {}, ...books.map(cover)),
+      );
+
+    // a left page: the part, its kind, and a list of the part's spreads, the
+    // ones on this page bold. each item is a name, where it starts, a count
+    const leaders = (items, here, className) =>
+      h(
+        'ul',
+        { className: `leaders ${className}` },
+        ...items.map(([name, to, n]) =>
+          h(
+            'li',
+            { className: here.has(name) ? 'here' : '' },
+            h(
+              'a',
+              { href: `#p${at.get(to)}` },
+              h('span', {}, name),
+              h('i'),
+              h('em', {}, n),
+            ),
+          ),
+        ),
+      );
+    const opener = (kick, name, items, here, className = '') => [
+      h('p', { className: 'kick' }, kick),
+      h('h2', {}, name),
+      ...(items.length ? [leaders(items, here, className)] : []),
+    ];
+    const items = (s) => [
+      ...(s.path ? [['Path', `${s.name}/path`, entries(s)]] : []),
+      ...s.rows
+        .filter((r) => r.name)
+        .map((r) => [r.name, `${s.name}/${r.name}`, r.books.length]),
+      ...(s.files ? [['Files', `${s.name}/files`, size(s.files)]] : []),
+    ];
+    const subject = (s, here) =>
+      opener(`${count(s)} books`, s.name, items(s), here);
+    const contents = () => [
+      ...shelves.map((s) => [s.name, s.name, count(s)]),
+      ...(notes.length ? [['Notes', 'Notes', notes.length]] : []),
+    ];
+    const keysheet = () => [
+      caption('Keys'),
+      h(
+        'dl',
+        { className: 'keys' },
+        ...keymap.flatMap(([, key, name]) => [
+          h('dt', {}, h('kbd', {}, key)),
+          h('dd', {}, name),
+        ]),
       ),
-      h('section', { id: 'paths' }),
-      h('section', { id: 'files' }, h('h2', {}, 'Files'), h('ul', { className: 'tree' }, ...files.map(node))),
-      // the notes' html is mkindex's, made from the repo's own markdown
+    ];
+
+    // -- layout --
+    // laid out first, drawn after: a page links to pages not yet laid out, so
+    // a spread holds its two pages as functions. a part is what a tab names;
+    // `at` is the spread a part, a row, a path, a shelf's files or a note
+    // starts on, the first to lay it winning
+    const short = {
+      'Computer Science': 'CS',
+      'Srinivasa Ramanujan': 'Ramanujan',
+    };
+    const parts = [
+      'Index',
+      ...shelves.map((s) => s.name),
+      ...(notes.length ? ['Notes'] : []),
+    ];
+    const spreads = [];
+    const at = new Map();
+    function lay(part, left, right, ...starts) {
+      spreads.push({ part, left, right });
+      for (const name of [part, ...starts])
+        if (!at.has(name)) at.set(name, spreads.length);
+    }
+
+    lay(
+      'Index',
+      () => opener('In this issue', 'Contents', contents(), new Set(), 'toc'),
+      keysheet,
+    );
+    for (const s of shelves) {
+      if (s.path) {
+        const box = () => [h('div', { id: pathbox(s) }, ...path(s))];
+        lay(
+          s.name,
+          () => subject(s, new Set(['Path'])),
+          box,
+          `${s.name}/path`,
+        );
+      }
+      for (const page of chunk(planks(s), perpage)) {
+        const rows = page.map((p) => p.row);
+        lay(
+          s.name,
+          () => subject(s, new Set(rows)),
+          () => page.map(plank),
+          ...rows.map((r) => `${s.name}/${r}`),
+        );
+      }
+      if (s.files)
+        lay(
+          s.name,
+          () => subject(s, new Set(['Files'])),
+          () => tree(s),
+          `${s.name}/files`,
+        );
+    }
+    for (const n of notes) {
+      const items = notes.map((m) => [title(m), m.name, '']);
+      lay(
+        'Notes',
+        () =>
+          opener(`${notes.length} notes`, 'Notes', items, new Set([title(n)])),
+        () => prose(n),
+        n.name,
+      );
+    }
+
+    // -- keys --
+    // what is pressed, how the page shows it, what it names, what it does
+    const now = () => +($('.leaf:target')?.id.slice(1) ?? 0);
+    const go = (k) => {
+      if (k <= spreads.length) location.hash = k > 0 ? `p${k}` : '';
+    };
+    const keymap = [
+      ['ArrowLeft', '←', 'turn back', () => go(now() - 1)],
+      ['ArrowRight', '→', 'turn on', () => go(now() + 1)],
+      ['Home', 'Home', 'the index', () => go(1)],
+      ['Escape', 'Esc', 'the jacket', () => go(0)],
+      ...parts.map((name, i) => [
+        `${i + 1}`,
+        `${i + 1}`,
+        name,
+        () => go(at.get(name)),
+      ]),
+    ];
+
+    // -- volume --
+    // a page: its body, its foot. a left page's way back is the jacket from
+    // the first spread; a right page has no way on from the last
+    const page = (side, body, ...foot) =>
+      h(
+        'div',
+        { className: `page ${side}` },
+        h('div', { className: 'body' }, ...body),
+        h('footer', {}, ...foot),
+      );
+    const lpage = (k, body) =>
+      page(
+        'left',
+        body,
+        h('a', { href: k > 1 ? `#p${k - 1}` : '#' }, '←'),
+        h('a', { className: 'home', href: '#' }, 'resources'),
+        h('span', {}, 2 * k),
+      );
+    const rpage = (k, body) =>
+      page(
+        'right',
+        body,
+        h('span', {}, 2 * k + 1),
+        ...(k < spreads.length ? [h('a', { href: `#p${k + 1}` }, '→')] : []),
+      );
+    const jacket = () =>
+      h(
+        'a',
+        { className: 'jacket', href: '#p1' },
+        h('h1', {}, 'resources'),
+        h('hr'),
+        h('ul', {}, ...shelves.map((s) => h('li', {}, s.name))),
+        h('div', { className: 'stand' }, ...books.slice(0, 3).map(plate)),
+        h('p', {}, `${books.length} books · open`),
+      );
+    const leaf = (j) =>
       h(
         'section',
-        { id: 'notes' },
-        h('h2', {}, 'Notes'),
-        ...notes.flatMap((n) => [h('h3', {}, n.name), h('div', { className: 'prose', innerHTML: n.html })]),
-      ),
+        { className: 'leaf', id: `p${j + 1}`, style: `--i:${j}` },
+        h(
+          'div',
+          { className: 'front' },
+          j ? rpage(j, spreads[j - 1].right()) : jacket(),
+        ),
+        h(
+          'div',
+          { className: 'back' },
+          j < spreads.length
+            ? lpage(j + 1, spreads[j].left())
+            : h('div', { className: 'page left' }),
+        ),
+      );
+    const tab = (name, i) =>
+      h(
+        'a',
+        { href: `#p${at.get(name)}` },
+        h('kbd', {}, i + 1),
+        short[name] ?? name,
+      );
+    $('.volume').style.setProperty('--n', spreads.length + 1);
+    $('.volume').append(
+      ...Array.from({ length: spreads.length + 1 }, (_, j) => leaf(j)),
+      h('nav', { className: 'tabs' }, ...parts.map(tab)),
     );
-    drawPaths();
 
-    // the dialog: one shape, filled with the book open
+    // -- dialog --
+    // one shape, filled with the book open
     function show(o) {
       const { b, stage } = o;
+      const where = [stage, b.group].filter(Boolean).join(' · ');
       const d = $('dialog');
       open = o;
       dress(d.querySelector('.cover'), b);
@@ -590,11 +1149,16 @@
       d.querySelector('.links').replaceChildren(
         ...b.links.flatMap(([label, url], i) => [
           ...(i ? [' · '] : []),
-          h('a', { href: url, target: '_blank', rel: 'noopener', textContent: label }),
+          h('a', {
+            href: url,
+            target: '_blank',
+            rel: 'noopener',
+            textContent: label,
+          }),
         ]),
       );
       d.querySelector('.stage').textContent = stage
-        ? `${[stage, b.group].filter(Boolean).join(' · ')} — ${read.has(b) ? '✓ read' : 'not read'} · x`
+        ? `${where} — ${read.has(b) ? '✓ read' : 'not read'} · x`
         : '';
       if (!d.open) d.showModal();
     }
@@ -604,19 +1168,34 @@
       if (open) show(open);
     }
 
-    // -- keys --
-    // a tab is the section the hash names: css shows it, this marks its link
+    // -- listen --
+    // a tab is the part the hash is in: css turns the leaves, this marks
+    // the tab
     function mark() {
-      const at = location.hash || `#${slug(shelves[0].name)}`;
-      for (const a of document.querySelectorAll('header a')) a.ariaCurrent = a.hash === at ? 'page' : null;
+      const here = spreads[now() - 1]?.part;
+      for (const [i, a] of document.querySelectorAll('.tabs a').entries())
+        a.ariaCurrent = parts[i] === here ? 'page' : null;
     }
     addEventListener('hashchange', mark);
     mark();
     // esc closes the dialog on its own; a click outside it closes it too
-    $('dialog').addEventListener('click', (e) => e.target === e.currentTarget && e.currentTarget.close());
+    $('dialog').addEventListener(
+      'click',
+      (e) => e.target === e.currentTarget && e.currentTarget.close(),
+    );
     $('dialog').addEventListener('close', () => (open = null));
+    // the dialog has the keys while it is open; the volume has them after
     addEventListener('keydown', (e) => {
-      if (e.key === 'x' && open?.stage && !e.ctrlKey && !e.metaKey) toggle(open.b);
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      if (open) {
+        if (e.key === 'x' && open.stage) toggle(open.b);
+        return;
+      }
+      const key = keymap.find(([k]) => k === e.key);
+      if (key) {
+        e.preventDefault();
+        key[3]();
+      }
     });
   </script>
 </html>

@@ -1,0 +1,7 @@
+line-length = 79
+
+[format]
+quote-style = "single"
+
+[lint]
+extend-select = ["E501"]

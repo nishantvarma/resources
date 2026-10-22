@@ -1,0 +1,159 @@
+#!/bin/sh
+
+# check — the repo, whole, stopping at the first that fails: the scripts
+# linted, the template formatted, nothing wider than 79, index.html as mkindex
+# would write it; then index.html in a headless browser. every link lands on
+# a leaf, every book stands on a plank once, no page scrolls sideways, a key
+# turns a leaf and stops under the dialog, a tick counts. a tool not
+# installed is a skip, said
+#
+#   ./check
+#   BROWSER=chromium PRETTIER=./node_modules/.bin/prettier ./check
+
+set -eu
+
+cd "$(dirname "$0")"
+
+step() {
+  label=$1
+  shift
+  if ! command -v "$1" >/dev/null; then
+    echo "skip $label: no $1"
+  elif out=$("$@" 2>&1); then
+    echo "ok   $label"
+  else
+    printf 'FAIL %s\n%s\n' "$label" "$out"
+    exit 1
+  fi
+}
+
+step 'ruff check mkindex' ruff check mkindex
+step 'ruff format mkindex' ruff format --check mkindex
+step 'shellcheck check' shellcheck check
+step 'prettier index.html.in' "${PRETTIER:-prettier}" --check index.html.in
+step 'index.html is current' python3 mkindex --check
+step 'lines over 79' sh -c \
+  '! LC_ALL=C.UTF-8 grep -n ".\{80,\}" index.html.in mkindex check ruff.toml'
+
+tmp=$(mktemp -d)
+trap 'rm -rf "$tmp"' EXIT
+
+# index.html with the assertions after it: they run once the volume is drawn,
+# and say what they found in the title, which the browser dumps
+{
+  cat index.html
+  cat <<'JS'
+<script type="module">
+  const $ = (q) => document.querySelector(q);
+  const $$ = (q) => [...document.querySelectorAll(q)];
+  const fails = [];
+  const ok = (cond, msg) => cond || fails.push(msg);
+  const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+  const press = (key) =>
+    dispatchEvent(new KeyboardEvent('keydown', { key, cancelable: true }));
+  const expect = async (key, want) => {
+    press(key);
+    await wait(50);
+    const at = location.hash;
+    ok(at === want, `${key}: at '${at}', want '${want}'`);
+  };
+  const turned = (id) => getComputedStyle($(`#${id}`)).transform !== 'none';
+  try {
+    // links and leaves
+    const ids = $$('.leaf').map((l) => l.id);
+    ok(
+      ids.length > 1 && ids.every((id, i) => id === `p${i + 1}`),
+      'leaves are not p1…pN in order',
+    );
+    const lost = $$('a[href^="#p"]')
+      .map((a) => a.hash)
+      .filter((h) => !ids.includes(h.slice(1)));
+    ok(!lost.length, `no leaf for ${[...new Set(lost)].join(' ')}`);
+
+    // every book on a plank, once; no page, no plank wider than itself
+    const lib = JSON.parse($('#library').textContent);
+    const books = lib.shelves
+      .flatMap((s) => s.rows.flatMap((r) => r.books.map((b) => b.title)))
+      .sort();
+    const shelved = $$('.plank .cover')
+      .map((c) => c.title)
+      .sort();
+    ok(
+      shelved.join('|') === books.join('|'),
+      `${shelved.length} covers on planks, ${books.length} books`,
+    );
+    ok(
+      !$$('.body, .plank div').some((e) => e.scrollWidth > e.clientWidth),
+      'a page scrolls sideways',
+    );
+
+    // keys: the jacket, a leaf turning, the spreads, the end, a tab, the
+    // index, the jacket again
+    const tabs = $$('.tabs a');
+    const hashes = (as) => as.map((a) => a.hash).join();
+    ok(
+      hashes($$('.toc a')) === hashes(tabs.slice(1)),
+      'contents and tabs disagree',
+    );
+    await expect('ArrowRight', '#p1');
+    await wait(1000);
+    ok(turned('p1') && !turned('p2'), 'a key did not turn the first leaf');
+    await expect('ArrowRight', '#p2');
+    await expect('ArrowLeft', '#p1');
+    await expect('3', tabs[2].hash);
+    ok(
+      $$('.tabs a[aria-current]').join() === tabs[2].toString(),
+      'tab 3 is not the one lit',
+    );
+    location.hash = `p${ids.length - 1}`;
+    await expect('ArrowRight', `#p${ids.length - 1}`);
+    await expect('Home', '#p1');
+    await expect('Escape', '');
+
+    // a tick counts, and x in the dialog takes it back
+    const tally = () =>
+      $('.stages').previousElementSibling.querySelector('small').textContent;
+    const before = tally();
+    $('.stages input').click();
+    ok(tally() !== before, `a tick left the tally at ${before}`);
+    $('.stages .title').click();
+    ok(
+      $('dialog .stage').textContent.includes('✓ read'),
+      'the dialog does not show the entry read',
+    );
+    press('x');
+    ok(
+      tally() === before &&
+        $('dialog .stage').textContent.includes('not read'),
+      'x did not take the tick back',
+    );
+    $('dialog').close();
+
+    // the dialog shows the book clicked and has the keys while it is open
+    const cover = $('.plank .cover');
+    cover.click();
+    ok(
+      $('dialog').open && $('dialog h2').textContent === cover.title,
+      'a cover did not open its book',
+    );
+    press('ArrowRight');
+    await wait(50);
+    ok(location.hash === '', 'a key turned the volume under the dialog');
+    $('dialog').close();
+    await expect('ArrowRight', '#p1');
+  } catch (e) {
+    fails.push(`threw ${e}`);
+  }
+  document.title = fails.length ? `FAIL: ${fails.join('; ')}` : 'ok';
+</script>
+JS
+} > "$tmp/index.html"
+
+browser=${BROWSER:-microsoft-edge}
+result=$(
+  "$browser" --headless --disable-gpu --virtual-time-budget=9000 \
+    --dump-dom "file://$tmp/index.html" 2>/dev/null |
+    sed -n 's#.*<title>\(.*\)</title>.*#\1#p'
+)
+echo "${result:-no title back: is $browser installed?}"
+[ "$result" = ok ]
