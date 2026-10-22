@@ -27,6 +27,8 @@
               one the hash is in is lifted. the Keys page lists the keys
      open     a title clicked lifts its book into a dialog: note, links,
               stage. x marks a path's book read, esc puts it back
+     compact  a phone, a tablet standing up: one column, the left page over
+              the right, tabs along the foot, no turning. css only
      library  { shelves, notes } — the shape is mkindex's header -->
 <html lang="en">
   <meta charset="utf-8" />
@@ -726,6 +728,153 @@
       dialog > div {
         grid-template-columns: 8rem;
         justify-content: center;
+      }
+    }
+
+    /* -- compact -- */
+    /* a phone, a tablet standing up, a short window: the volume zoomed to
+       fit would be read through a keyhole. a spread is one column instead,
+       its left page over its right, and no turning: the leaf the hash names
+       gives its back, the next its front, the jacket alone with no hash. the
+       tabs lie along the foot, a shelf's covers scroll sideways */
+    @media (max-aspect-ratio: 1/1), (width < 52rem), (height < 36rem) {
+      :root {
+        --cover: 7rem;
+        --margin: 1.25rem;
+      }
+      html {
+        overflow: auto;
+      }
+      body {
+        display: block;
+        place-items: normal;
+        block-size: auto;
+        padding-block-end: 3rem;
+      }
+      .desk {
+        zoom: 1;
+        perspective: none;
+      }
+      .volume,
+      .volume:has(.leaf:target) {
+        inline-size: auto;
+        block-size: auto;
+        max-inline-size: 40rem;
+        margin-inline: auto;
+        transform: none;
+      }
+      .volume::before {
+        display: none;
+      }
+      /* 3d would make the volume the tabs' box, not the window */
+      .volume,
+      .leaf {
+        transform-style: flat;
+      }
+      .leaf,
+      .leaf:target,
+      .leaf:has(~ .leaf:target) {
+        position: static;
+        inline-size: auto;
+        transform: none;
+        transition: none;
+      }
+      .leaf,
+      .front,
+      .back {
+        display: none;
+      }
+      .front,
+      .back {
+        position: static;
+        overflow: visible;
+        border-radius: 0;
+        transform: none;
+      }
+      .leaf:target,
+      .leaf:target + .leaf,
+      .leaf:target .back,
+      .leaf:target + .leaf .front,
+      .volume:not(:has(.leaf:target)) .leaf:first-child,
+      .volume:not(:has(.leaf:target)) .leaf:first-child .front {
+        display: block;
+      }
+
+      .page {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        padding-block: 1rem;
+        background: var(--page);
+      }
+      .left {
+        border-block-end: 1px solid var(--rule);
+      }
+      .page .body {
+        block-size: auto;
+        overflow: visible;
+      }
+      .page footer {
+        position: static;
+        margin-block: 0.5rem;
+      }
+      .left footer {
+        order: -1;
+      }
+      .page footer a {
+        padding: 0.5rem 0.75rem;
+        font-size: 1.5rem;
+      }
+      .page h2 {
+        font-size: 2.25rem;
+      }
+      .plank div {
+        overflow-x: auto;
+        scrollbar-width: none;
+      }
+      .cover:hover,
+      .cover:focus-visible {
+        transform: none;
+      }
+
+      .jacket {
+        position: static;
+        min-block-size: calc(100dvh - 3rem);
+        padding-block: 3rem 2rem;
+        border-radius: 0;
+      }
+      .jacket h1 {
+        font-size: clamp(3rem, 17vw, 5.25rem);
+      }
+      .jacket p {
+        margin-block-start: 2.5rem;
+      }
+      .stand {
+        --cover: 6.5rem;
+      }
+
+      .tabs {
+        position: fixed;
+        inset: auto 0 0;
+        flex-direction: row;
+        padding: 0.35rem 0.5rem 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        background: var(--wood);
+        z-index: 1;
+      }
+      .tabs a,
+      .tabs a:hover {
+        flex: none;
+        min-block-size: 2.5rem;
+        padding: 0 0.9rem;
+        border-radius: 0.35rem 0.35rem 0 0;
+        transform: none;
+        white-space: nowrap;
+        writing-mode: horizontal-tb;
+      }
+      .tabs kbd {
+        display: none;
       }
     }
   </style>

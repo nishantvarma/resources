@@ -57,6 +57,10 @@ trap 'rm -rf "$tmp"' EXIT
     const at = location.hash;
     ok(at === want, `${key}: at '${at}', want '${want}'`);
   };
+  const compact = matchMedia(
+    '(max-aspect-ratio: 1/1), (width < 52rem), (height < 36rem)',
+  ).matches;
+  const shown = (q) => $(q).offsetHeight > 0;
   const turned = (id) => getComputedStyle($(`#${id}`)).transform !== 'none';
   try {
     // links and leaves
@@ -83,8 +87,14 @@ trap 'rm -rf "$tmp"' EXIT
       `${shelved.length} covers on planks, ${books.length} books`,
     );
     ok(
-      !$$('.body, .plank div').some((e) => e.scrollWidth > e.clientWidth),
+      !$$(compact ? '.body' : '.body, .plank div').some(
+        (e) => e.scrollWidth > e.clientWidth,
+      ),
       'a page scrolls sideways',
+    );
+    ok(
+      document.documentElement.scrollWidth <= innerWidth,
+      'the window scrolls sideways',
     );
 
     // keys: the jacket, a leaf turning, the spreads, the end, a tab, the
@@ -97,7 +107,13 @@ trap 'rm -rf "$tmp"' EXIT
     );
     await expect('ArrowRight', '#p1');
     await wait(1000);
-    ok(turned('p1') && !turned('p2'), 'a key did not turn the first leaf');
+    if (compact)
+      ok(
+        shown('#p1 .back') && shown('#p2 .front') && !shown('#p1 .front'),
+        'a spread is not its left page over its right',
+      );
+    else
+      ok(turned('p1') && !turned('p2'), 'a key did not turn the first leaf');
     await expect('ArrowRight', '#p2');
     await expect('ArrowLeft', '#p1');
     await expect('3', tabs[2].hash);
@@ -149,11 +165,14 @@ trap 'rm -rf "$tmp"' EXIT
 JS
 } > "$tmp/index.html"
 
+# once as the book, once as the column a phone gets
 browser=${BROWSER:-microsoft-edge}
-result=$(
-  "$browser" --headless --disable-gpu --virtual-time-budget=9000 \
-    --dump-dom "file://$tmp/index.html" 2>/dev/null |
-    sed -n 's#.*<title>\(.*\)</title>.*#\1#p'
-)
-echo "${result:-no title back: is $browser installed?}"
-[ "$result" = ok ]
+for size in 900,650 500,900; do
+  result=$(
+    "$browser" --headless --disable-gpu --window-size=$size \
+      --virtual-time-budget=9000 --dump-dom "file://$tmp/index.html" \
+      2>/dev/null | sed -n 's#.*<title>\(.*\)</title>.*#\1#p'
+  )
+  echo "${result:-no title back: is $browser installed?} ($size)"
+  [ "$result" = ok ] || exit 1
+done
