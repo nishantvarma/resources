@@ -11,8 +11,9 @@
      jacket   the front: the masthead, the first three books on a shelf
      spread   a left page and a right page, each with a foot
      part     what a tab names: the index, a shelf, the notes. a shelf is its
-              path, its planks of covers, its files — those it has — a spread
-              or more of each
+              planks of covers, then its path and its files — those it has,
+              the path a way through the books, not where they start — a
+              spread or more of each
      opener   a left page: the part, its kind, and a list of its spreads with
               the ones on this page bold
      plank    a row's covers on a shelf: four to a plank, three planks a page
@@ -277,7 +278,7 @@
     }
 
     /* -- right -- */
-    /* in volume order: the keys, a shelf's path, its covers on planks, its
+    /* in volume order: the keys, a shelf's covers on planks, its path, its
        files, the notes */
     .keys {
       display: grid;
@@ -1110,10 +1111,10 @@
       ...(items.length ? [leaders(items, here, className)] : []),
     ];
     const items = (s) => [
-      ...(s.path ? [['Path', `${s.name}/path`, entries(s)]] : []),
       ...s.rows
         .filter((r) => r.name)
         .map((r) => [r.name, `${s.name}/${r.name}`, r.books.length]),
+      ...(s.path ? [['Path', `${s.name}/path`, entries(s)]] : []),
       ...(s.files ? [['Files', `${s.name}/files`, size(s.files)]] : []),
     ];
     const subject = (s, here) =>
@@ -1162,15 +1163,6 @@
       keysheet,
     );
     for (const s of shelves) {
-      if (s.path) {
-        const box = () => [h('div', { id: pathbox(s) }, ...path(s))];
-        lay(
-          s.name,
-          () => subject(s, new Set(['Path'])),
-          box,
-          `${s.name}/path`,
-        );
-      }
       for (const page of chunk(planks(s), perpage)) {
         const rows = page.map((p) => p.row);
         lay(
@@ -1178,6 +1170,15 @@
           () => subject(s, new Set(rows)),
           () => page.map(plank),
           ...rows.map((r) => `${s.name}/${r}`),
+        );
+      }
+      if (s.path) {
+        const box = () => [h('div', { id: pathbox(s) }, ...path(s))];
+        lay(
+          s.name,
+          () => subject(s, new Set(['Path'])),
+          box,
+          `${s.name}/path`,
         );
       }
       if (s.files)
